@@ -3,6 +3,7 @@
 """
 *********************************************************
 Programme : dolmenxls2kml.py
+Github : https://github.com/Thierry46/dolmenxls2kml
 Auteur : Thierry Maillard (TMD)
 Date : 27 - 30/10/2017
 
@@ -37,6 +38,7 @@ Modifications :
 v0.2 : utilisation package simplekml + champ description + picto dolmen.
 v0.3 : IHM tkinter
 v0.4 : Decodage colonne Etat du fichier .xls
+v0.5 : Add external links in KML Description tag
 
 Copyright 2017 Thierry Maillard
 This program is free software: you can redistribute it and/or modify
@@ -67,7 +69,7 @@ import re
 # main function
 ##################################################
 def main(argv=None):
-    VERSION = 'v0.4 - 30/10/2017'
+    VERSION = 'v0.5 - 30/10/2017'
     NOM_PROG = 'dolmenxls2kml.py'
     isVerbose = False
     title = NOM_PROG + ' - ' + VERSION + " sur " + platform.system() + " " + platform.release()
@@ -162,6 +164,7 @@ def readExcel(pathFicExcel, isVerbose):
         'Table' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
         'Classement' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
         'Détails' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
+        'URL' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
         'OSM' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None}
             }
 
@@ -235,11 +238,13 @@ def readExcel(pathFicExcel, isVerbose):
         # Construction du champ description
         description = "<h1>Informations</h1>" + '\n'
         for field in ('Commune', 'Lieu', 'Lat', 'Lon', 'Classement', 'Détails', 'Etat',
-                      'Tumulus', 'Table', 'OSM'):
+                      'Tumulus', 'Orthostats', 'Table', 'OSM', 'URL'):
             if ligneOK and dictData[field]['numCol'] != -1 and \
                 numLigne < len(dictData[field]['dataCol']) and \
                 len(dictData[field]['dataCol'][numLigne]) != 0 :
                 description += "<b>" + dictData[field]['nomCol'] + "</b> : "
+
+                # Champs particuliers
                 if field == 'Etat':
                     description += '\n<ul>\n'
                     codeEtat = dictData[field]['dataCol'][numLigne]
@@ -262,6 +267,17 @@ def readExcel(pathFicExcel, isVerbose):
                     if '?' in codeEtat :
                         description += '<li>* Indéterminé</li>\n'
                     description += '</ul>\n'
+
+                elif field == 'Commune':
+                    nomCommune = dictData[field]['dataCol'][numLigne]
+                    url = 'https://fr.wikipedia.org/wiki/' + nomCommune
+                    description += '<a href="' + url + '" target="_blank">' + nomCommune + \
+                                   '</href><br/>\n'
+
+                elif field == 'URL':
+                    url = dictData[field]['dataCol'][numLigne]
+                    description += '<a href="' + url + '" target="_blank">Infos WEB</href><br/>\n'
+
                 else:
                     description += dictData[field]['dataCol'][numLigne]
                     description += '<br/>\n'
