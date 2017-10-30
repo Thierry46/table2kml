@@ -4,7 +4,7 @@
 *********************************************************
 Programme : dolmenxls2kml.py
 Auteur : Thierry Maillard (TMD)
-Date : 27 - 29/10/2017
+Date : 27 - 30/10/2017
 
 Role:Convertir les coordonées informations de localisation contenues
 dans un fichier Excel au format KML importable dans Geoportail.
@@ -36,6 +36,7 @@ Sortie :
 Modifications :
 v0.2 : utilisation package simplekml + champ description + picto dolmen.
 v0.3 : IHM tkinter
+v0.4 : Decodage colonne Etat du fichier .xls
 
 Copyright 2017 Thierry Maillard
 This program is free software: you can redistribute it and/or modify
@@ -66,7 +67,7 @@ import re
 # main function
 ##################################################
 def main(argv=None):
-    VERSION = 'v0.3 - 29/10/2017'
+    VERSION = 'v0.4 - 30/10/2017'
     NOM_PROG = 'dolmenxls2kml.py'
     isVerbose = False
     title = NOM_PROG + ' - ' + VERSION + " sur " + platform.system() + " " + platform.release()
@@ -155,9 +156,10 @@ def readExcel(pathFicExcel, isVerbose):
         'Lon' : {'obligatoire':True, 'numCol':-1, 'nomCol':"", 'dataCol':None},
         'Lieu' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
         'Commune' : {'obligatoire':True, 'numCol':-1, 'nomCol':"", 'dataCol':None},
-        'IGN' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
         'Etat' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
-        'Vérif' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
+        'Tumulus' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
+        'Orthostats' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
+        'Table' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
         'Classement' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
         'Détails' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
         'OSM' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None}
@@ -232,13 +234,37 @@ def readExcel(pathFicExcel, isVerbose):
 
         # Construction du champ description
         description = "<h1>Informations</h1>" + '\n'
-        for field in ('Commune', 'Lieu', 'Lat', 'Lon', 'Classement', 'Vérif', 'Détails',
-                      'IGN', 'Etat', 'OSM'):
+        for field in ('Commune', 'Lieu', 'Lat', 'Lon', 'Classement', 'Détails', 'Etat',
+                      'Tumulus', 'Table', 'OSM'):
             if ligneOK and dictData[field]['numCol'] != -1 and \
                 numLigne < len(dictData[field]['dataCol']) and \
                 len(dictData[field]['dataCol'][numLigne]) != 0 :
-                description += "<b>" + dictData[field]['nomCol'] + \
-                           "</b> : " + dictData[field]['dataCol'][numLigne] + '<br/>\n'
+                description += "<b>" + dictData[field]['nomCol'] + "</b> : "
+                if field == 'Etat':
+                    description += '\n<ul>\n'
+                    codeEtat = dictData[field]['dataCol'][numLigne]
+                    if '(C)' in codeEtat:
+                        description += '<li>* Dalle de couverture présente, mais déplacée</li>\n'
+                    elif 'C' in codeEtat:
+                        description += '<li>* Dalle de couverture présente</li>\n'
+
+                    if '1O' in codeEtat:
+                        description += '<li>* Un seul orthostat</li>\n'
+                    elif 'O' in codeEtat:
+                        description += '<li>* Orthostats présents</li>\n'
+
+                    if 'T' in codeEtat:
+                        description += '<li>* Tumulus présent</li>\n'
+                    if 'ro' in codeEtat:
+                        description += "<li>* Restes d'orthostats</li>\n"
+                    if 't' in codeEtat or 'c' in codeEtat :
+                        description += '<li>* Restes de table</li>\n'
+                    if '?' in codeEtat :
+                        description += '<li>* Indéterminé</li>\n'
+                    description += '</ul>\n'
+                else:
+                    description += dictData[field]['dataCol'][numLigne]
+                    description += '<br/>\n'
 
         # Enregistrement des valeurs utiles dans la structure résultat
         if ligneOK:
@@ -294,7 +320,7 @@ def genKMLFiles(listDolmen, pathKMLFile, isVerbose):
 
     for dolmen in listDolmen:
         point = kml.newpoint(name=dolmen['nom'],
-                             description='<![CDATA[' + dolmen['description'] + ']]>',
+                             description='<![CDATA[' + dolmen['description'] + ']]>\n',
                              coords=[(str(dolmen['longitude']), str(dolmen['latitude']))])
         point.style = styleIconDolmen
 
