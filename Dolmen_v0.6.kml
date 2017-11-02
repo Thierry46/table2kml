@@ -1,0 +1,4435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="feat_1">
+        <Style id="stylesel_0">
+            <IconStyle id="substyle_1">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_0">
+                    <href>https://upload.wikimedia.org/wikipedia/commons/e/eb/PointDolmen.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="substyle_0">
+                <color>ffa09e5f</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+            </LabelStyle>
+        </Style>
+        <name>Dolmens Adrien 02/11/17</name>
+        <Placemark id="feat_2">
+            <name>D. Mons 3</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
+<b>Lat. N (°)</b> : 44.683730<br/>
+<b>Long. E (°)</b> : 1.858260<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_0">
+                <coordinates>1.85826,44.68373,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3">
+            <name>D. Mons 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
+<b>Lat. N (°)</b> : 44.6820<br/>
+<b>Long. E (°)</b> : 1.8560<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_1">
+                <coordinates>1.856,44.682,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_4">
+            <name>D. Les Vaysses</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
+<b>Lat. N (°)</b> : 44.67900<br/>
+<b>Long. E (°)</b> : 1.8670<br/>
+<b>Tumulus</b> : ?<br/>
+<b>Table</b> : ?<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_2">
+                <coordinates>1.867,44.679,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_5">
+            <name>D. Mons 1</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
+<b>Lieu, autres noms</b> : Champ de bel Air<br/>
+<b>Lat. N (°)</b> : 44.67890<br/>
+<b>Long. E (°)</b> : 1.86170<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_3">
+                <coordinates>1.8617,44.6789,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_6">
+            <name>D. du Bois des Bœufs</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
+<b>Lat. N (°)</b> : 44.67740<br/>
+<b>Long. E (°)</b> : 1.85620<br/>
+<b>Classement</b> : classé MH<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+<b>Pages Web</b> : <a href="https://www.lieux-insolites.fr/lot/garivals/garivals.htm" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_4">
+                <coordinates>1.8562,44.6774,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_7">
+            <name>D. de Garivals</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
+<b>Lieu, autres noms</b> : D. Chemin des combals<br/>
+<b>Lat. N (°)</b> : 44.67570<br/>
+<b>Long. E (°)</b> : 1.85440<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+<b>Pages Web</b> : <a href="https://www.lieux-insolites.fr/lot/garivals/garivals.htm" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_5">
+                <coordinates>1.8544,44.6757,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_8">
+            <name>D. la Table de Roux</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
+<b>Lat. N (°)</b> : 44.6690<br/>
+<b>Long. E (°)</b> : 1.8580<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+<b>Pages Web</b> : <a href="https://www.lieux-insolites.fr/lot/roux/roux.htm" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_6">
+                <coordinates>1.858,44.669,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_9">
+            <name>D. du Pech Roussel</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
+<b>Lat. N (°)</b> : 44.65436<br/>
+<b>Long. E (°)</b> : 1.88361<br/>
+<b>Remarques</b> : Jamais trouvé<br/>
+<b>Tumulus</b> : ?<br/>
+<b>Orthostats</b> : ?<br/>
+<b>Table</b> : ?<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_7">
+                <coordinates>1.88361,44.65436,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_10">
+            <name>D. du Causse de Magre</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
+<b>Lat. N (°)</b> : 44.65129<br/>
+<b>Long. E (°)</b> : 1.87756<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_8">
+                <coordinates>1.87756,44.65129,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_11">
+            <name>Tumulus</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Lat. N (°)</b> : 44.57996<br/>
+<b>Long. E (°)</b> : 1.911286<br/>
+<b>Tumulus</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_9">
+                <coordinates>1.911286,44.57996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_12">
+            <name>D. de Sabin</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Lieu, autres noms</b> : (Clottes n°12)<br/>
+<b>Lat. N (°)</b> : 44.56667<br/>
+<b>Long. E (°)</b> : 1.90268<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : 2.0<br/>
+<b>Table</b> : non<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_10">
+                <coordinates>1.90268,44.56667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_13">
+            <name>D. de Martignes</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Lieu, autres noms</b> : Martignes (Clottes n°9)<br/>
+<b>Lat. N (°)</b> : 44.56944<br/>
+<b>Long. E (°)</b> : 1.90865<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+<b>Pages Web</b> : <a href="http://www.lot-46.com/beduer-le-dolmen-de-martignes/" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_11">
+                <coordinates>1.90865,44.56944,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_14">
+            <name>D. combe Salgues</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Lieu, autres noms</b> : Peyro Grondo (Clottes n°4)<br/>
+<b>Lat. N (°)</b> : 44.56423<br/>
+<b>Long. E (°)</b> : 1.93496<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : 2.0<br/>
+<b>Table</b> : non<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_12">
+                <coordinates>1.93496,44.56423,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_15">
+            <name>D. les Justices 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Lieu, autres noms</b> : (Clottes n°7)<br/>
+<b>Lat. N (°)</b> : 44.56246<br/>
+<b>Long. E (°)</b> : 1.92939<br/>
+<b>Remarques</b> : Bord de chemin<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : 2 petits<br/>
+<b>Table</b> : non<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_13">
+                <coordinates>1.92939,44.56246,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_16">
+            <name>D. les Justices 3</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Lieu, autres noms</b> : (Clottes n°8)<br/>
+<b>Lat. N (°)</b> : 44.56233<br/>
+<b>Long. E (°)</b> : 1.92984<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : 2.0<br/>
+<b>Table</b> : non<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_14">
+                <coordinates>1.92984,44.56233,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_17">
+            <name>D. Cloup de Coutze</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Lieu, autres noms</b> : Peyres Grèzes (Clottes n°3)<br/>
+<b>Lat. N (°)</b> : 44.56220<br/>
+<b>Long. E (°)</b> : 1.92350<br/>
+<b>Tumulus</b> : restes<br/>
+<b>Orthostats</b> : 2.0<br/>
+<b>Table</b> : non<br/>
+<b>OSM</b> : +<br/>
+<b>Pages Web</b> : <a href="http://www.persee.fr/doc/bspf_0249-7638_1969_num_66_8_10417" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_15">
+                <coordinates>1.9235,44.5622,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_18">
+            <name>D. du Pech Roussille</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Lieu, autres noms</b> : (Clottes n°11)<br/>
+<b>Lat. N (°)</b> : 44.56175<br/>
+<b>Long. E (°)</b> : 1.91360<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_16">
+                <coordinates>1.9136,44.56175,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_19">
+            <name>Tumulus de Peyres Grèzes</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Lat. N (°)</b> : 44.56157<br/>
+<b>Long. E (°)</b> : 1.92116<br/>
+<b>Tumulus</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_17">
+                <coordinates>1.92116,44.56157,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_20">
+            <name>D. les Justices 1</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Lieu, autres noms</b> : (Clottes n°6)<br/>
+<b>Lat. N (°)</b> : 44.56141<br/>
+<b>Long. E (°)</b> : 1.92909<br/>
+<b>Remarques</b> : Bord de chemin<br/>
+<b>Tumulus</b> : restes<br/>
+<b>Orthostats</b> : 1.0<br/>
+<b>Table</b> : non<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_18">
+                <coordinates>1.92909,44.56141,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_21">
+            <name>D. Lei Barto</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Lieu, autres noms</b> : Lissard (Clottes n°2)<br/>
+<b>Lat. N (°)</b> : 44.56136<br/>
+<b>Long. E (°)</b> : 1.93342<br/>
+<b>Tumulus</b> : restes<br/>
+<b>Orthostats</b> : 2.0<br/>
+<b>Table</b> : non<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_19">
+                <coordinates>1.93342,44.56136,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_22">
+            <name>D. des Garrigues</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Lieu, autres noms</b> : Lissard (Clottes n°5)<br/>
+<b>Lat. N (°)</b> : 44.56089<br/>
+<b>Long. E (°)</b> : 1.94172<br/>
+<b>Remarques</b> : Petit dolmen<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_20">
+                <coordinates>1.94172,44.56089,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_23">
+            <name>D. mas Perdut</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Lieu, autres noms</b> : (Clottes n°10)<br/>
+<b>Lat. N (°)</b> : 44.55970<br/>
+<b>Long. E (°)</b> : 1.92718<br/>
+<b>Remarques</b> : Bord de route ?<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : ?<br/>
+<b>Table</b> : non<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_21">
+                <coordinates>1.92718,44.5597,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_24">
+            <name>D. des Baillères</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Lieu, autres noms</b> : La Bouillague (Clottes n°1)<br/>
+<b>Lat. N (°)</b> : 44.55142<br/>
+<b>Long. E (°)</b> : 1.93664<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_22">
+                <coordinates>1.93664,44.55142,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_25">
+            <name>D. du Pouget (Bullac 1)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Boussac" target="_blank">Boussac</href><br/>
+<b>Lieu, autres noms</b> : Les Pouzets<br/>
+<b>Lat. N (°)</b> : 44.59485<br/>
+<b>Long. E (°)</b> : 1.90322<br/>
+<b>Remarques</b> : Dans murette<br/>
+<b>Tumulus</b> : restes<br/>
+<b>Orthostats</b> : 2.0<br/>
+<b>Table</b> : non<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_23">
+                <coordinates>1.90322,44.59485,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_26">
+            <name>D. Mas Grézac (le noble)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Boussac" target="_blank">Boussac</href><br/>
+<b>Lieu, autres noms</b> : Champ de Palabre<br/>
+<b>Lat. N (°)</b> : 44.58150<br/>
+<b>Long. E (°)</b> : 1.91390<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_24">
+                <coordinates>1.9139,44.5815,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_27">
+            <name>D. Mas de Brézat</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Boussac" target="_blank">Boussac</href><br/>
+<b>Lat. N (°)</b> : 44.5845<br/>
+<b>Long. E (°)</b> : 1.9120<br/>
+<b>Remarques</b> : Table cassée ?<br/>
+<b>Tumulus</b> : restes<br/>
+<b>Orthostats</b> : 2 inégaux<br/>
+<b>Table</b> : déplacée ?<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_25">
+                <coordinates>1.912,44.5845,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_28">
+            <name>D. Fourques basses</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Brengues" target="_blank">Brengues</href><br/>
+<b>Lat. N (°)</b> : 44.60625<br/>
+<b>Long. E (°)</b> : 1.80985<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_26">
+                <coordinates>1.80985,44.60625,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_29">
+            <name>D. de Lapeyrière</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Brengues" target="_blank">Brengues</href><br/>
+<b>Lat. N (°)</b> : 44.60180<br/>
+<b>Long. E (°)</b> : 1.82180<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_27">
+                <coordinates>1.8218,44.6018,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_30">
+            <name>D. des Fourques hautes</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Brengues" target="_blank">Brengues</href><br/>
+<b>Lat. N (°)</b> : 44.592300<br/>
+<b>Long. E (°)</b> : 1.821800<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+<b>Pages Web</b> : <a href="http://www.persee.fr/doc/bspf_0249-7638_1963_num_60_7_3929" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_28">
+                <coordinates>1.8218,44.5923,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_31">
+            <name>D. du Cayrou Gros</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Brengues" target="_blank">Brengues</href><br/>
+<b>Lat. N (°)</b> : 44.55707<br/>
+<b>Long. E (°)</b> : 1.84286<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_29">
+                <coordinates>1.84286,44.55707,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_32">
+            <name>D. du Pré de Linar</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Brengues" target="_blank">Brengues</href><br/>
+<b>Lat. N (°)</b> : 44.55549<br/>
+<b>Long. E (°)</b> : 1.84233<br/>
+<b>Remarques</b> : Petit dolmen<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Table</b> : petite<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_30">
+                <coordinates>1.84233,44.55549,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_33">
+            <name>D. du Pech de la Barre</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cabrerets" target="_blank">Cabrerets</href><br/>
+<b>Lat. N (°)</b> : 44.50935<br/>
+<b>Long. E (°)</b> : 1.59104<br/>
+<b>Remarques</b> : 2 Dolmens<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_31">
+                <coordinates>1.59104,44.50935,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_34">
+            <name>D. du Pech de Tibouyé (C)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cabrerets" target="_blank">Cabrerets</href><br/>
+<b>Lat. N (°)</b> : 44.5069<br/>
+<b>Long. E (°)</b> : 1.65528<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_32">
+                <coordinates>1.65528,44.5069,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_35">
+            <name>D. du Mas d'Arjac n°1</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cabrerets" target="_blank">Cabrerets</href><br/>
+<b>Lieu, autres noms</b> : Montclar (pech d'Alcayre)<br/>
+<b>Lat. N (°)</b> : 44.50291<br/>
+<b>Long. E (°)</b> : 1.67474<br/>
+<b>Classement</b> : inscrit MH<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_33">
+                <coordinates>1.67474,44.50291,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_36">
+            <name>D. du communal</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cadrieu" target="_blank">Cadrieu</href><br/>
+<b>Lat. N (°)</b> : 44.51063<br/>
+<b>Long. E (°)</b> : 1.88027<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_34">
+                <coordinates>1.88027,44.51063,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_37">
+            <name>D. du mas de Gentou</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cadrieu" target="_blank">Cadrieu</href><br/>
+<b>Lat. N (°)</b> : 44.50344<br/>
+<b>Long. E (°)</b> : 1.88166<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : non<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_35">
+                <coordinates>1.88166,44.50344,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_38">
+            <name>D. des Pradines</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cadrieu" target="_blank">Cadrieu</href><br/>
+<b>Lat. N (°)</b> : 44.4928<br/>
+<b>Long. E (°)</b> : 1.88056<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_36">
+                <coordinates>1.88056,44.4928,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_39">
+            <name>D. du Camp de Bouyssou</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
+<b>Lat. N (°)</b> : 44.5249<br/>
+<b>Long. E (°)</b> : 1.87057<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_37">
+                <coordinates>1.87057,44.5249,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_40">
+            <name>Verdier 1</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
+<b>Lieu, autres noms</b> : Verdier bas<br/>
+<b>Lat. N (°)</b> : 44.517501<br/>
+<b>Long. E (°)</b> : 1.853208<br/>
+<b>Remarques</b> : Douteux<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_38">
+                <coordinates>1.853208,44.517501,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_41">
+            <name>Menhir du Verdier</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
+<b>Lat. N (°)</b> : 44.51701<br/>
+<b>Long. E (°)</b> : 1.86186<br/>
+<b>Remarques</b> : Pilier de grange<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_39">
+                <coordinates>1.86186,44.51701,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_42">
+            <name>D. du Verdier (A)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
+<b>Lieu, autres noms</b> : Mas de Tardieu<br/>
+<b>Lat. N (°)</b> : 44.516643<br/>
+<b>Long. E (°)</b> : 1.864426<br/>
+<b>Remarques</b> : 2 chambres<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : 1 couché<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_40">
+                <coordinates>1.864426,44.516643,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_43">
+            <name>D. du Verdier (C)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
+<b>Lat. N (°)</b> : 44.51457<br/>
+<b>Long. E (°)</b> : 1.85194<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_41">
+                <coordinates>1.85194,44.51457,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_44">
+            <name>D.de pech Perdit</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
+<b>Lat. N (°)</b> : 44.51385<br/>
+<b>Long. E (°)</b> : 1.86863<br/>
+<b>Remarques</b> : couverture cassée<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_42">
+                <coordinates>1.86863,44.51385,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_45">
+            <name>D. du Verdier (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
+<b>Lat. N (°)</b> : 44.51039<br/>
+<b>Long. E (°)</b> : 1.85152<br/>
+<b>Pages Web</b> : <a href="http://www.persee.fr/doc/bspf_0249-7638_1968_hos_65_2_4167" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_43">
+                <coordinates>1.85152,44.51039,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_46">
+            <name>D. de la Peyro lebado</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
+<b>Lieu, autres noms</b> : La Deille<br/>
+<b>Lat. N (°)</b> : 44.50330<br/>
+<b>Long. E (°)</b> : 1.831789<br/>
+<b>Remarques</b> : ruine<br/>
+<b>Tumulus</b> : restes<br/>
+<b>Orthostats</b> : 1 ?<br/>
+<b>Table</b> : déplacée<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_44">
+                <coordinates>1.831789,44.5033,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_47">
+            <name>Camp d'Inou Tou 1</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
+<b>Lieu, autres noms</b> : D. de Bourriou 1<br/>
+<b>Lat. N (°)</b> : 44.50169<br/>
+<b>Long. E (°)</b> : 1.86308<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : non<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_45">
+                <coordinates>1.86308,44.50169,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_48">
+            <name>Camp d'Inou Tou 3</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
+<b>Lieu, autres noms</b> : D. de Bourriou 4<br/>
+<b>Lat. N (°)</b> : 44.50103<br/>
+<b>Long. E (°)</b> : 1.86383<br/>
+<b>Remarques</b> : ruine<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : 1.0<br/>
+<b>Table</b> : non<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_46">
+                <coordinates>1.86383,44.50103,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_49">
+            <name>Camp d'Inou Tou 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
+<b>Lieu, autres noms</b> : D. de Bourriou 2<br/>
+<b>Lat. N (°)</b> : 44.50078<br/>
+<b>Long. E (°)</b> : 1.86531<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_47">
+                <coordinates>1.86531,44.50078,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_50">
+            <name>D. des Escabasses</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
+<b>Lat. N (°)</b> : 44.4974<br/>
+<b>Long. E (°)</b> : 1.83978<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_48">
+                <coordinates>1.83978,44.4974,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_51">
+            <name>D.du Pech Boule</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
+<b>Lat. N (°)</b> : 44.49508<br/>
+<b>Long. E (°)</b> : 1.80462<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_49">
+                <coordinates>1.80462,44.49508,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_52">
+            <name>D. de la Plogne</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
+<b>Lat. N (°)</b> : 44.48763<br/>
+<b>Long. E (°)</b> : 1.83040<br/>
+<b>Remarques</b> : gariotte<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_50">
+                <coordinates>1.8304,44.48763,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_53">
+            <name>D. de Ruscou</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cambes" target="_blank">Cambes</href><br/>
+<b>Lieu, autres noms</b> : Ruscou<br/>
+<b>Lat. N (°)</b> : 44.62903<br/>
+<b>Long. E (°)</b> : 1.89858<br/>
+<b>Remarques</b> : Au milieu du pré<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : 2, 1 visible<br/>
+<b>Table</b> : non<br/>
+<b>OSM</b> : +<br/>
+<b>Pages Web</b> : <a href="https://www.puyblanc.info/categories/patrimoine/archeologie" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_51">
+                <coordinates>1.89858,44.62903,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_54">
+            <name>D. Le communal</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cambes" target="_blank">Cambes</href><br/>
+<b>Lieu, autres noms</b> : Ruscou<br/>
+<b>Lat. N (°)</b> : 44.62770<br/>
+<b>Long. E (°)</b> : 1.90291<br/>
+<b>Remarques</b> : Murette au chevet<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : 1 visible<br/>
+<b>Table</b> : non<br/>
+<b>OSM</b> : +<br/>
+<b>Pages Web</b> : <a href="https://www.puyblanc.info/categories/patrimoine/archeologie" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_52">
+                <coordinates>1.90291,44.6277,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_55">
+            <name>D. du Pournel</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cambes" target="_blank">Cambes</href><br/>
+<b>Lieu, autres noms</b> : Causse de la gare<br/>
+<b>Lat. N (°)</b> : 44.62616<br/>
+<b>Long. E (°)</b> : 1.91077<br/>
+<b>Tumulus</b> : restes<br/>
+<b>Orthostats</b> : 2.0<br/>
+<b>Table</b> : non<br/>
+<b>OSM</b> : +<br/>
+<b>Pages Web</b> : <a href="https://www.puyblanc.info/categories/patrimoine/archeologie" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_53">
+                <coordinates>1.91077,44.62616,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_56">
+            <name>D. de Pierre Levée</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cambes" target="_blank">Cambes</href><br/>
+<b>Lieu, autres noms</b> : Causse de la gare<br/>
+<b>Lat. N (°)</b> : 44.62565<br/>
+<b>Long. E (°)</b> : 1.90668<br/>
+<b>Classement</b> : inscrit MH<br/>
+<b>Remarques</b> : Gros tumulus<br/>
+<b>Tumulus</b> : gros<br/>
+<b>Orthostats</b> : 1 visible<br/>
+<b>Table</b> : non<br/>
+<b>OSM</b> : +<br/>
+<b>Pages Web</b> : <a href="https://www.puyblanc.info/categories/patrimoine/archeologie" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_54">
+                <coordinates>1.90668,44.62565,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_57">
+            <name>Tumulus</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cambes" target="_blank">Cambes</href><br/>
+<b>Lat. N (°)</b> : 44.62463<br/>
+<b>Long. E (°)</b> : 1.90657<br/>
+<b>Tumulus</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_55">
+                <coordinates>1.90657,44.62463,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_58">
+            <name>D. Igue de Planagrèze</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Caniac" target="_blank">Caniac</href><br/>
+<b>Lieu, autres noms</b> : Pana Grèze<br/>
+<b>Lat. N (°)</b> : 44.63551<br/>
+<b>Long. E (°)</b> : 1.66296<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_56">
+                <coordinates>1.66296,44.63551,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_59">
+            <name>D. de Cavarroc</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Carayac" target="_blank">Carayac</href><br/>
+<b>Lat. N (°)</b> : 44.54192<br/>
+<b>Long. E (°)</b> : 1.91595<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : 2.0<br/>
+<b>Table</b> : non<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_57">
+                <coordinates>1.91595,44.54192,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_60">
+            <name>D. du Pech de la Curado</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Carayac" target="_blank">Carayac</href><br/>
+<b>Lieu, autres noms</b> : Bourrou<br/>
+<b>Lat. N (°)</b> : 44.53033<br/>
+<b>Long. E (°)</b> : 1.92425<br/>
+<b>Tumulus</b> : restes<br/>
+<b>Orthostats</b> : 2, un écroulé<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_58">
+                <coordinates>1.92425,44.53033,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_61">
+            <name>D. des Igues de Magnagues</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Carennac" target="_blank">Carennac</href><br/>
+<b>Lat. N (°)</b> : 44.88722<br/>
+<b>Long. E (°)</b> : 1.748056<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_59">
+                <coordinates>1.748056,44.88722,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_62">
+            <name>Dolmens du Noutary</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Carennac" target="_blank">Carennac</href><br/>
+<b>Lat. N (°)</b> : 44.9025<br/>
+<b>Long. E (°)</b> : 1.708611<br/>
+<b>Remarques</b> : 8 dolmens<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_60">
+                <coordinates>1.708611,44.9025,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_63">
+            <name>Dolmens du Noutary</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Carennac" target="_blank">Carennac</href><br/>
+<b>Lat. N (°)</b> : 44.90639<br/>
+<b>Long. E (°)</b> : 1.706389<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_61">
+                <coordinates>1.706389,44.90639,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_64">
+            <name>D. du Mas de Labat</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cénevières" target="_blank">Cénevières</href><br/>
+<b>Lat. N (°)</b> : 44.44472<br/>
+<b>Long. E (°)</b> : 1.73253<br/>
+<b>Tumulus</b> : restes<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_62">
+                <coordinates>1.73253,44.44472,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_65">
+            <name>D. du Mas de Labat (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cénevières" target="_blank">Cénevières</href><br/>
+<b>Lat. N (°)</b> : 44.44354<br/>
+<b>Long. E (°)</b> : 1.73119<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : non<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_63">
+                <coordinates>1.73119,44.44354,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_66">
+            <name>D. de Peyrelongue</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Corn" target="_blank">Corn</href><br/>
+<b>Lieu, autres noms</b> : Fourgous<br/>
+<b>Lat. N (°)</b> : 44.61705<br/>
+<b>Long. E (°)</b> : 1.89965<br/>
+<b>Remarques</b> : Sous chemin communal<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+<b>Pages Web</b> : <a href="http://www.persee.fr/doc/bspf_0249-7638_1963_num_60_7_3929" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_64">
+                <coordinates>1.89965,44.61705,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_67">
+            <name>D. du Pech d'Arsou</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Corn" target="_blank">Corn</href><br/>
+<b>Lat. N (°)</b> : 44.61100<br/>
+<b>Long. E (°)</b> : 1.87867<br/>
+<b>Remarques</b> : ruine<br/>
+<b>Tumulus</b> : petit<br/>
+<b>Orthostats</b> : dégradés<br/>
+<b>Table</b> : non<br/>
+<b>OSM</b> : +<br/>
+<b>Pages Web</b> : <a href="http://www.persee.fr/doc/galip_0016-4127_1966_num_9_2_1266" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_65">
+                <coordinates>1.87867,44.611,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_68">
+            <name>D. de Bullac 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Corn" target="_blank">Corn</href><br/>
+<b>Lat. N (°)</b> : 44.59857<br/>
+<b>Long. E (°)</b> : 1.90189<br/>
+<b>Remarques</b> : Tumulus + cayrou<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : 2.0<br/>
+<b>Table</b> : non<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_66">
+                <coordinates>1.90189,44.59857,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_69">
+            <name>D. d'Auriac 1</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Corn" target="_blank">Corn</href><br/>
+<b>Lat. N (°)</b> : 44.59350<br/>
+<b>Long. E (°)</b> : 1.88498<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_67">
+                <coordinates>1.88498,44.5935,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_70">
+            <name>D. d'Auriac 3</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Corn" target="_blank">Corn</href><br/>
+<b>Lat. N (°)</b> : 44.59319<br/>
+<b>Long. E (°)</b> : 1.88199<br/>
+<b>Remarques</b> : ruine<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_68">
+                <coordinates>1.88199,44.59319,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_71">
+            <name>D.d'Auriac 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Corn" target="_blank">Corn</href><br/>
+<b>Lat. N (°)</b> : 44.59167<br/>
+<b>Long. E (°)</b> : 1.88123<br/>
+<b>Remarques</b> : arbre au milieu<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : non<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_69">
+                <coordinates>1.88123,44.59167,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_72">
+            <name>D. des Combarols</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Durbans" target="_blank">Durbans</href><br/>
+<b>Lieu, autres noms</b> : Peyre de l'Homme<br/>
+<b>Lat. N (°)</b> : 44.69175<br/>
+<b>Long. E (°)</b> : 1.78795<br/>
+<b>Classement</b> : inscrit MH<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_70">
+                <coordinates>1.78795,44.69175,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_73">
+            <name>D. des Roques (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Durbans" target="_blank">Durbans</href><br/>
+<b>Lat. N (°)</b> : 44.68939<br/>
+<b>Long. E (°)</b> : 1.79848<br/>
+<b>Classement</b> : inscrit MH<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_71">
+                <coordinates>1.79848,44.68939,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_74">
+            <name>D. de la Borie Grande</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Durbans" target="_blank">Durbans</href><br/>
+<b>Lat. N (°)</b> : 44.68433<br/>
+<b>Long. E (°)</b> : 1.74444<br/>
+<b>Remarques</b> : double<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_72">
+                <coordinates>1.74444,44.68433,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_75">
+            <name>D. du Verdier Petit</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Durbans" target="_blank">Durbans</href><br/>
+<b>Lieu, autres noms</b> : D. de Ladignac<br/>
+<b>Lat. N (°)</b> : 44.67695<br/>
+<b>Long. E (°)</b> : 1.78272<br/>
+<b>Remarques</b> : Pierres sur couverture<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+<b>Pages Web</b> : <a href="http://www.persee.fr/doc/bspf_0249-7638_1963_num_60_7_3929" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_73">
+                <coordinates>1.78272,44.67695,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_76">
+            <name>D. d'Escasals</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Durbans" target="_blank">Durbans</href><br/>
+<b>Lat. N (°)</b> : 44.65972<br/>
+<b>Long. E (°)</b> : 1.76303<br/>
+<b>Remarques</b> : Double<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_74">
+                <coordinates>1.76303,44.65972,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_77">
+            <name>Dolmen</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Espagnac" target="_blank">Espagnac</href><br/>
+<b>Lieu, autres noms</b> : Le Suquet<br/>
+<b>Lat. N (°)</b> : 44.604871<br/>
+<b>Long. E (°)</b> : 1.865027<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_75">
+                <coordinates>1.865027,44.604871,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_78">
+            <name>D. de Coste Pialade</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Espagnac" target="_blank">Espagnac</href><br/>
+<b>Lieu, autres noms</b> : Ste Eulalie (Tombe de César)<br/>
+<b>Lat. N (°)</b> : 44.596625<br/>
+<b>Long. E (°)</b> : 1.867459<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : 2.0<br/>
+<b>Table</b> : non<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_76">
+                <coordinates>1.867459,44.596625,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_79">
+            <name>D. de Vichelle</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Espédaillac" target="_blank">Espédaillac</href><br/>
+<b>Lieu, autres noms</b> : Cabanes<br/>
+<b>Lat. N (°)</b> : 44.64510<br/>
+<b>Long. E (°)</b> : 1.81170<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_77">
+                <coordinates>1.8117,44.6451,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_80">
+            <name>D. de Place del Sol</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Espédaillac" target="_blank">Espédaillac</href><br/>
+<b>Lieu, autres noms</b> : Pierre Levée<br/>
+<b>Lat. N (°)</b> : 44.64466<br/>
+<b>Long. E (°)</b> : 1.78073<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+<b>Pages Web</b> : <a href="http://www.persee.fr/doc/bspf_0249-7638_1963_num_60_7_3929" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_78">
+                <coordinates>1.78073,44.64466,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_81">
+            <name>D. du Pech Ventoux</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Espédaillac" target="_blank">Espédaillac</href><br/>
+<b>Lat. N (°)</b> : 44.63640<br/>
+<b>Long. E (°)</b> : 1.80090<br/>
+<b>Remarques</b> : Dolmen double<br/>
+<b>Orthostats</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_79">
+                <coordinates>1.8009,44.6364,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_82">
+            <name>D. de Peyrefit</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Espédaillac" target="_blank">Espédaillac</href><br/>
+<b>Lat. N (°)</b> : 44.62180<br/>
+<b>Long. E (°)</b> : 1.79110<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+<b>Pages Web</b> : <a href="http://www.persee.fr/doc/bspf_0249-7638_1963_num_60_7_3929" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_80">
+                <coordinates>1.7911,44.6218,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_83">
+            <name>Mas de l'Artou 1</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Espédaillac" target="_blank">Espédaillac</href><br/>
+<b>Lat. N (°)</b> : 44.6210<br/>
+<b>Long. E (°)</b> : 1.79100<br/>
+<b>Remarques</b> : ?<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_81">
+                <coordinates>1.791,44.621,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_84">
+            <name>Mas de l'Artou 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Espédaillac" target="_blank">Espédaillac</href><br/>
+<b>Lat. N (°)</b> : 44.6160<br/>
+<b>Long. E (°)</b> : 1.7870<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_82">
+                <coordinates>1.787,44.616,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_85">
+            <name>D. de l'Artillou</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Espédaillac" target="_blank">Espédaillac</href><br/>
+<b>Lat. N (°)</b> : 44.61562<br/>
+<b>Long. E (°)</b> : 1.78681<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_83">
+                <coordinates>1.78681,44.61562,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_86">
+            <name>D. de Ginouillac</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Espédaillac" target="_blank">Espédaillac</href><br/>
+<b>Lat. N (°)</b> : 44.60203<br/>
+<b>Long. E (°)</b> : 1.77669<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_84">
+                <coordinates>1.77669,44.60203,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_87">
+            <name>D. de Ferrières</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Faycelles" target="_blank">Faycelles</href><br/>
+<b>Lat. N (°)</b> : 44.57381<br/>
+<b>Long. E (°)</b> : 1.99367<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : non<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_85">
+                <coordinates>1.99367,44.57381,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_88">
+            <name>D. du mas de Bessières</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Faycelles" target="_blank">Faycelles</href><br/>
+<b>Lat. N (°)</b> : 44.55649<br/>
+<b>Long. E (°)</b> : 1.97005<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_86">
+                <coordinates>1.97005,44.55649,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_89">
+            <name>D. la Pierre Levée</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Faycelles" target="_blank">Faycelles</href><br/>
+<b>Lat. N (°)</b> : 44.5542<br/>
+<b>Long. E (°)</b> : 1.98057<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_87">
+                <coordinates>1.98057,44.5542,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_90">
+            <name>D. des Escabasses</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Flaujac" target="_blank">Flaujac</href><br/>
+<b>Lieu, autres noms</b> : Presbytère<br/>
+<b>Lat. N (°)</b> : 44.71713<br/>
+<b>Long. E (°)</b> : 1.79549<br/>
+<b>Remarques</b> : Bord de route<br/>
+<b>Tumulus</b> : restes<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_88">
+                <coordinates>1.79549,44.71713,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_91">
+            <name>D. de Sadouilles</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Flaujac" target="_blank">Flaujac</href><br/>
+<b>Lat. N (°)</b> : 44.70887<br/>
+<b>Long. E (°)</b> : 1.75233<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_89">
+                <coordinates>1.75233,44.70887,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_92">
+            <name>D. des Mazuquarts</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Flaujac" target="_blank">Flaujac</href><br/>
+<b>Lat. N (°)</b> : 44.69874<br/>
+<b>Long. E (°)</b> : 1.75445<br/>
+<b>Remarques</b> : 2 Dol.<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_90">
+                <coordinates>1.75445,44.69874,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_93">
+            <name>D. d'Uffande</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac" target="_blank">Floirac</href><br/>
+<b>Lat. N (°)</b> : 44°55'03"<br/>
+<b>Long. E (°)</b> : 1°40'52"<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_91">
+                <coordinates>1.681111111111111,44.9175,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_94">
+            <name>D. de camp del Prieu</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac" target="_blank">Floirac</href><br/>
+<b>Lieu, autres noms</b> : Peyrelevade<br/>
+<b>Lat. N (°)</b> : 44.91305<br/>
+<b>Long. E (°)</b> : 1.68159<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_92">
+                <coordinates>1.68159,44.91305,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_95">
+            <name>D. de la combe de Xey</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac" target="_blank">Floirac</href><br/>
+<b>Lat. N (°)</b> : 44°54'25"<br/>
+<b>Long. E (°)</b> : 1°41'02"<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_93">
+                <coordinates>1.683888888888889,44.90694444444444,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_96">
+            <name>D. du Pech-Cayrou</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac" target="_blank">Floirac</href><br/>
+<b>Lat. N (°)</b> : 44.90484<br/>
+<b>Long. E (°)</b> : 1.67337<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_94">
+                <coordinates>1.67337,44.90484,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_97">
+            <name>D. de Ressegayre</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac" target="_blank">Floirac</href><br/>
+<b>Lieu, autres noms</b> : Cloup de Verny<br/>
+<b>Lat. N (°)</b> : 44.90161<br/>
+<b>Long. E (°)</b> : 1.67226<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_95">
+                <coordinates>1.67226,44.90161,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_98">
+            <name>D. des Barthes</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac" target="_blank">Floirac</href><br/>
+<b>Lat. N (°)</b> : 44°53'45"<br/>
+<b>Long. E (°)</b> : 1°40'25"<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_96">
+                <coordinates>1.673611111111111,44.895833333333336,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_99">
+            <name>D. des Barthes</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac" target="_blank">Floirac</href><br/>
+<b>Lat. N (°)</b> : 44°53'36"<br/>
+<b>Long. E (°)</b> : 1°40'31"<br/>
+<b>Remarques</b> : 2 Dol.<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_97">
+                <coordinates>1.6752777777777776,44.89333333333333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_100">
+            <name>D. de cloup de Roual</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac" target="_blank">Floirac</href><br/>
+<b>Lat. N (°)</b> : 44°53'33"<br/>
+<b>Long. E (°)</b> : 1°41'47"<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_98">
+                <coordinates>1.696388888888889,44.8925,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_101">
+            <name>D. de Candare</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac" target="_blank">Floirac</href><br/>
+<b>Lat. N (°)</b> : 44.89172<br/>
+<b>Long. E (°)</b> : 1.68279<br/>
+<b>Remarques</b> : 2 Dol.<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_99">
+                <coordinates>1.68279,44.89172,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_102">
+            <name>D. le Douyounet</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Fontanes" target="_blank">Fontanes</href><br/>
+<b>Lieu, autres noms</b> : Combescure<br/>
+<b>Lat. N (°)</b> : 44.67142<br/>
+<b>Long. E (°)</b> : 1.63968<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_100">
+                <coordinates>1.63968,44.67142,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_103">
+            <name>D. de Nougayrac</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Fontanes" target="_blank">Fontanes</href><br/>
+<b>Lat. N (°)</b> : 44.6625<br/>
+<b>Long. E (°)</b> : 1.697<br/>
+<b>Classement</b> : classé MH<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_101">
+                <coordinates>1.697,44.6625,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_104">
+            <name>D. des Cloups</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Ginouillac" target="_blank">Ginouillac</href><br/>
+<b>Lat. N (°)</b> : 44.72388<br/>
+<b>Long. E (°)</b> : 1.53668<br/>
+<b>Classement</b> : classé MH<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_102">
+                <coordinates>1.53668,44.72388,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_105">
+            <name>D. du Pech de Grammont</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gramat" target="_blank">Gramat</href><br/>
+<b>Lat. N (°)</b> : 44.78479<br/>
+<b>Long. E (°)</b> : 1.67273<br/>
+<b>Classement</b> : inscrit MH<br/>
+<b>Remarques</b> : Dolmen double<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_103">
+                <coordinates>1.67273,44.78479,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_106">
+            <name>D. du Terrou</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gramat" target="_blank">Gramat</href><br/>
+<b>Lat. N (°)</b> : 44.77567<br/>
+<b>Long. E (°)</b> : 1.76235<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_104">
+                <coordinates>1.76235,44.77567,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_107">
+            <name>D. des  Plassous</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gramat" target="_blank">Gramat</href><br/>
+<b>Lieu, autres noms</b> : Las Aspes<br/>
+<b>Lat. N (°)</b> : 44.77297<br/>
+<b>Long. E (°)</b> : 1.68947<br/>
+<b>Classement</b> : classé MH<br/>
+<b>Tumulus</b> : petit<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : non<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_105">
+                <coordinates>1.68947,44.77297,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_108">
+            <name>D. de Bouyé</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gramat" target="_blank">Gramat</href><br/>
+<b>Lieu, autres noms</b> : D. des Rougières<br/>
+<b>Lat. N (°)</b> : 44.77244<br/>
+<b>Long. E (°)</b> : 1.74592<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_106">
+                <coordinates>1.74592,44.77244,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_109">
+            <name>D. de Saint Chignes</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gramat" target="_blank">Gramat</href><br/>
+<b>Lieu, autres noms</b> : cayrou gros<br/>
+<b>Lat. N (°)</b> : 44.75012<br/>
+<b>Long. E (°)</b> : 1.76020<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_107">
+                <coordinates>1.7602,44.75012,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_110">
+            <name>Tumulus</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gréalou" target="_blank">Gréalou</href><br/>
+<b>Lieu, autres noms</b> : Borderie<br/>
+<b>Lat. N (°)</b> : 44.55522<br/>
+<b>Long. E (°)</b> : 1.89846<br/>
+<b>Remarques</b> : Ronces<br/>
+<b>Tumulus</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_108">
+                <coordinates>1.89846,44.55522,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_111">
+            <name>Dolmen</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gréalou" target="_blank">Gréalou</href><br/>
+<b>Lieu, autres noms</b> : le Clos<br/>
+<b>Lat. N (°)</b> : 44.55044<br/>
+<b>Long. E (°)</b> : 1.88202<br/>
+<b>Remarques</b> : pas trouvé<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_109">
+                <coordinates>1.88202,44.55044,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_112">
+            <name>D. du puy Manau</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gréalou" target="_blank">Gréalou</href><br/>
+<b>Lieu, autres noms</b> : Puy Manon<br/>
+<b>Lat. N (°)</b> : 44.54674<br/>
+<b>Long. E (°)</b> : 1.89003<br/>
+<b>Remarques</b> : pas trouvé (détruit)<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_110">
+                <coordinates>1.89003,44.54674,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_113">
+            <name>D. du Moulin</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gréalou" target="_blank">Gréalou</href><br/>
+<b>Lieu, autres noms</b> : Le moulin<br/>
+<b>Lat. N (°)</b> : 44.54101<br/>
+<b>Long. E (°)</b> : 1.87762<br/>
+<b>Remarques</b> : Restes en bord de route<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : 1.0<br/>
+<b>Table</b> : non<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_111">
+                <coordinates>1.87762,44.54101,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_114">
+            <name>D. de Ganil</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gréalou" target="_blank">Gréalou</href><br/>
+<b>Lieu, autres noms</b> : Tessonières<br/>
+<b>Lat. N (°)</b> : 44.53527<br/>
+<b>Long. E (°)</b> : 1.90265<br/>
+<b>Classement</b> : inscrit MH<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_112">
+                <coordinates>1.90265,44.53527,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_115">
+            <name>D. du Pech Laglaire 1</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gréalou" target="_blank">Gréalou</href><br/>
+<b>Lat. N (°)</b> : 44.53485<br/>
+<b>Long. E (°)</b> : 1.86264<br/>
+<b>Classement</b> : classé MH<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+<b>Pages Web</b> : <a href="http://www.lot-46.com/grealou-les-3-dolmens-du-pech-laglayre/" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_113">
+                <coordinates>1.86264,44.53485,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_116">
+            <name>D. du Pech Laglaire 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gréalou" target="_blank">Gréalou</href><br/>
+<b>Lat. N (°)</b> : 44.53461<br/>
+<b>Long. E (°)</b> : 1.86549<br/>
+<b>Classement</b> : classé MH<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+<b>Pages Web</b> : <a href="http://www.lot-46.com/grealou-les-3-dolmens-du-pech-laglayre/" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_114">
+                <coordinates>1.86549,44.53461,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_117">
+            <name>D.  Champs Cayrous</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gréalou" target="_blank">Gréalou</href><br/>
+<b>Lieu, autres noms</b> : Tessonières<br/>
+<b>Lat. N (°)</b> : 44.53327<br/>
+<b>Long. E (°)</b> : 1.90537<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : 1 visible<br/>
+<b>Table</b> : déplacée<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_115">
+                <coordinates>1.90537,44.53327,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_118">
+            <name>D. du Pech Laglaire 3</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gréalou" target="_blank">Gréalou</href><br/>
+<b>Lat. N (°)</b> : 44.53288<br/>
+<b>Long. E (°)</b> : 1.86665<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : 2.0<br/>
+<b>Table</b> : morceau<br/>
+<b>OSM</b> : +<br/>
+<b>Pages Web</b> : <a href="http://www.lot-46.com/grealou-les-3-dolmens-du-pech-laglayre/" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_116">
+                <coordinates>1.86665,44.53288,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_119">
+            <name>Pech Laglaire 4</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gréalou" target="_blank">Gréalou</href><br/>
+<b>Lat. N (°)</b> : 44.53215<br/>
+<b>Long. E (°)</b> : 1.85933<br/>
+<b>Tumulus</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_117">
+                <coordinates>1.85933,44.53215,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_120">
+            <name>Pech Laglaire 5</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gréalou" target="_blank">Gréalou</href><br/>
+<b>Lat. N (°)</b> : 44.53191<br/>
+<b>Long. E (°)</b> : 1.86739<br/>
+<b>Tumulus</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_118">
+                <coordinates>1.86739,44.53191,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_121">
+            <name>D. de Sénil</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gréalou" target="_blank">Gréalou</href><br/>
+<b>Lat. N (°)</b> : 44.52972<br/>
+<b>Long. E (°)</b> : 1.85544<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : non<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_119">
+                <coordinates>1.85544,44.52972,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_122">
+            <name>D. des Aguals</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gréalou" target="_blank">Gréalou</href><br/>
+<b>Lieu, autres noms</b> : Combe de l'ours<br/>
+<b>Lat. N (°)</b> : 44.52869<br/>
+<b>Long. E (°)</b> : 1.89447<br/>
+<b>Classement</b> : inscrit MH<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_120">
+                <coordinates>1.89447,44.52869,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_123">
+            <name>D. de Vandourgues</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gréalou" target="_blank">Gréalou</href><br/>
+<b>Lieu, autres noms</b> : Mas Mondieu<br/>
+<b>Lat. N (°)</b> : 44.52777<br/>
+<b>Long. E (°)</b> : 1.85406<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_121">
+                <coordinates>1.85406,44.52777,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_124">
+            <name>D. du Custalou</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Grèzes" target="_blank">Grèzes</href><br/>
+<b>Lat. N (°)</b> : 44.6250<br/>
+<b>Long. E (°)</b> : 1.8140<br/>
+<b>Classement</b> : classé MH<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_122">
+                <coordinates>1.814,44.625,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_125">
+            <name>D. du Cloup de Périès</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Grèzes" target="_blank">Grèzes</href><br/>
+<b>Lieu, autres noms</b> : D. des Ramades<br/>
+<b>Lat. N (°)</b> : 44.61690<br/>
+<b>Long. E (°)</b> : 1.82770<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>Pages Web</b> : <a href="http://www.persee.fr/doc/bspf_0249-7638_1963_num_60_7_3929" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_123">
+                <coordinates>1.8277,44.6169,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_126">
+            <name>Tumulus</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Grèzes" target="_blank">Grèzes</href><br/>
+<b>Lieu, autres noms</b> : Ligoussou<br/>
+<b>Lat. N (°)</b> : 44.61000<br/>
+<b>Long. E (°)</b> : 1.84883<br/>
+<b>Tumulus</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_124">
+                <coordinates>1.84883,44.61,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_127">
+            <name>D. du Ligoussou</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Grèzes" target="_blank">Grèzes</href><br/>
+<b>Lieu, autres noms</b> : champ des Granges<br/>
+<b>Lat. N (°)</b> : 44.60994<br/>
+<b>Long. E (°)</b> : 1.85070<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_125">
+                <coordinates>1.8507,44.60994,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_128">
+            <name>Tumulus</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Grèzes" target="_blank">Grèzes</href><br/>
+<b>Lieu, autres noms</b> : Ligoussou<br/>
+<b>Lat. N (°)</b> : 44.60990<br/>
+<b>Long. E (°)</b> : 1.85490<br/>
+<b>Tumulus</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_126">
+                <coordinates>1.8549,44.6099,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_129">
+            <name>D. des Fourques Basses</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Grèzes" target="_blank">Grèzes</href><br/>
+<b>Lat. N (°)</b> : 44°36'22"<br/>
+<b>Long. E (°)</b> : 1°48'35"<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_127">
+                <coordinates>1.8097222222222222,44.60611111111111,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_130">
+            <name>D. de Lacoste ou des Girbes</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Issendolus" target="_blank">Issendolus</href><br/>
+<b>Lieu, autres noms</b> : Gary<br/>
+<b>Lat. N (°)</b> : 44.75126<br/>
+<b>Long. E (°)</b> : 1.76424<br/>
+<b>Remarques</b> : 1 orthostat couché<br/>
+<b>Tumulus</b> : restes<br/>
+<b>Orthostats</b> : 2.0<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_128">
+                <coordinates>1.76424,44.75126,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_131">
+            <name>D. de Gary</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Issendolus" target="_blank">Issendolus</href><br/>
+<b>Lieu, autres noms</b> : D. des Combes<br/>
+<b>Lat. N (°)</b> : 44.74756<br/>
+<b>Long. E (°)</b> : 1.76743<br/>
+<b>Remarques</b> : table 3 morceaux<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : 2.0<br/>
+<b>Table</b> : déplacée<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_129">
+                <coordinates>1.76743,44.74756,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_132">
+            <name>D. de la Pierre Levée</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Issendolus" target="_blank">Issendolus</href><br/>
+<b>Lieu, autres noms</b> : D. de la Baume (Clottes)<br/>
+<b>Lat. N (°)</b> : 44.74152<br/>
+<b>Long. E (°)</b> : 1.80471<br/>
+<b>Classement</b> : classé MH<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+<b>Pages Web</b> : <a href="http://thierry.maillard.pagesperso-orange.fr/fr/services/issendolus/dolmen_des_combes/dolmen_des_combes.html" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_130">
+                <coordinates>1.80471,44.74152,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_133">
+            <name>D. de Beaupendu</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Issendolus" target="_blank">Issendolus</href><br/>
+<b>Lieu, autres noms</b> : D. du Causse<br/>
+<b>Lat. N (°)</b> : 44.74100<br/>
+<b>Long. E (°)</b> : 1.76125<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : 1.0<br/>
+<b>Table</b> : non<br/>
+<b>Pages Web</b> : <a href="http://thierry.maillard.pagesperso-orange.fr/fr/services/issendolus/dolmen_du_causse/dolmen_du_Causse_Beaupendu.html" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_131">
+                <coordinates>1.76125,44.741,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_134">
+            <name>D. de Souilhol</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Issendolus" target="_blank">Issendolus</href><br/>
+<b>Lat. N (°)</b> : 44.7410<br/>
+<b>Long. E (°)</b> : 1.7645<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : 1 au Sud<br/>
+<b>Table</b> : non<br/>
+<b>Pages Web</b> : <a href="http://thierry.maillard.pagesperso-orange.fr/fr/services/issendolus/dolmen_souilhol/dolmen_Souilhol.html" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_132">
+                <coordinates>1.7645,44.741,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_135">
+            <name>D. de Gabaudet 1</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Issendolus" target="_blank">Issendolus</href><br/>
+<b>Lieu, autres noms</b> : Devèze<br/>
+<b>Lat. N (°)</b> : 44.714836<br/>
+<b>Long. E (°)</b> : 1.75159<br/>
+<b>Classement</b> : classé MH<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_133">
+                <coordinates>1.75159,44.714836,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_136">
+            <name>D. de Gabaudet 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Issendolus" target="_blank">Issendolus</href><br/>
+<b>Lat. N (°)</b> : 44.71415<br/>
+<b>Long. E (°)</b> : 1.751164<br/>
+<b>Classement</b> : classé MH<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_134">
+                <coordinates>1.751164,44.71415,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_137">
+            <name>D. dit la Pierre-Levée</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Lalbenque" target="_blank">Lalbenque</href><br/>
+<b>Lieu, autres noms</b> : Pélissié<br/>
+<b>Lat. N (°)</b> : 44.32524<br/>
+<b>Long. E (°)</b> : 1.57635<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_135">
+                <coordinates>1.57635,44.32524,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_138">
+            <name>D. de Cargoulet</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Larnagol" target="_blank">Larnagol</href><br/>
+<b>Lieu, autres noms</b> : Cun<br/>
+<b>Lat. N (°)</b> : 44.51115<br/>
+<b>Long. E (°)</b> : 1.77506<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : non<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_136">
+                <coordinates>1.77506,44.51115,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_139">
+            <name>D. du pech des Agars</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Larnagol" target="_blank">Larnagol</href><br/>
+<b>Lieu, autres noms</b> : peyro cotado<br/>
+<b>Lat. N (°)</b> : 44.49237<br/>
+<b>Long. E (°)</b> : 1.7532<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_137">
+                <coordinates>1.7532,44.49237,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_140">
+            <name>D. du Mas de Jantou 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Larnagol" target="_blank">Larnagol</href><br/>
+<b>Lieu, autres noms</b> : Peyro Levado<br/>
+<b>Lat. N (°)</b> : 44.49232<br/>
+<b>Long. E (°)</b> : 1.75146<br/>
+<b>Classement</b> : classé MH<br/>
+<b>Tumulus</b> : restes<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : petite<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_138">
+                <coordinates>1.75146,44.49232,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_141">
+            <name>D. du mas de Jantou</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Larnagol" target="_blank">Larnagol</href><br/>
+<b>Lieu, autres noms</b> : Peyro Clabado<br/>
+<b>Lat. N (°)</b> : 44.488<br/>
+<b>Long. E (°)</b> : 1.753<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_139">
+                <coordinates>1.753,44.488,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_142">
+            <name>D. du pech de Bourrou</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Laroque-Toirac" target="_blank">Laroque-Toirac</href><br/>
+<b>Lat. N (°)</b> : 44.52636<br/>
+<b>Long. E (°)</b> : 1.92401<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : non<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_140">
+                <coordinates>1.92401,44.52636,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_143">
+            <name>D. Pech de Molinié 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Larroque-Toirac" target="_blank">Larroque-Toirac</href><br/>
+<b>Lat. N (°)</b> : 44.5225<br/>
+<b>Long. E (°)</b> : 1.9425<br/>
+<b>Remarques</b> : Position douteuse<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_141">
+                <coordinates>1.9425,44.5225,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_144">
+            <name>D. de la Fumade</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Larroque-Toirac" target="_blank">Larroque-Toirac</href><br/>
+<b>Lat. N (°)</b> : 44.52098<br/>
+<b>Long. E (°)</b> : 1.92663<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : petite<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_142">
+                <coordinates>1.92663,44.52098,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_145">
+            <name>D. dit la Pierre-Levée</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Lentillac" target="_blank">Lentillac</href><br/>
+<b>Lat. N (°)</b> : 44.55318<br/>
+<b>Long. E (°)</b> : 1.6477<br/>
+<b>Classement</b> : classé MH<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_143">
+                <coordinates>1.6477,44.55318,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_146">
+            <name>D.  Des Bouygues</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Lentillac" target="_blank">Lentillac</href><br/>
+<b>Lat. N (°)</b> : 44.549<br/>
+<b>Long. E (°)</b> : 1.641<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_144">
+                <coordinates>1.641,44.549,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_147">
+            <name>D. d'Agranel</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Limogne" target="_blank">Limogne</href><br/>
+<b>Lieu, autres noms</b> : Bosgarnel, Bosc<br/>
+<b>Lat. N (°)</b> : 44.41602<br/>
+<b>Long. E (°)</b> : 1.78491<br/>
+<b>Classement</b> : classé MH<br/>
+<b>Tumulus</b> : restes<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_145">
+                <coordinates>1.78491,44.41602,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_148">
+            <name>D. de Pech-Lapeyre</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Limogne" target="_blank">Limogne</href><br/>
+<b>Lieu, autres noms</b> : Lac-d'Aurié; Fourès<br/>
+<b>Lat. N (°)</b> : 44.40169<br/>
+<b>Long. E (°)</b> : 1.7527<br/>
+<b>Classement</b> : classé MH<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_146">
+                <coordinates>1.7527,44.40169,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_149">
+            <name>D. dit de Joncas</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Limogne" target="_blank">Limogne</href><br/>
+<b>Lat. N (°)</b> : 44.39016<br/>
+<b>Long. E (°)</b> : 1.75237<br/>
+<b>Classement</b> : inscrit MH<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>Pages Web</b> : <a href="https://www.lieux-insolites.fr/lot/joncas/joncas.htm" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_147">
+                <coordinates>1.75237,44.39016,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_150">
+            <name>D. de Pajot</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Limogne" target="_blank">Limogne</href><br/>
+<b>Lat. N (°)</b> : 44°23'16"<br/>
+<b>Long. E (°)</b> : 1°46'48"<br/>
+<b>Classement</b> : classé MH<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_148">
+                <coordinates>1.78,44.38777777777778,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_151">
+            <name>D. de Ferrières-Haut</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Limogne" target="_blank">Limogne</href><br/>
+<b>Lat. N (°)</b> : 44.38157<br/>
+<b>Long. E (°)</b> : 1.74064<br/>
+<b>Classement</b> : classé MH<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>Pages Web</b> : <a href="https://www.lieux-insolites.fr/lot/joncas/joncas.htm" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_149">
+                <coordinates>1.74064,44.38157,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_152">
+            <name>D. Mas Rolland</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Limogne" target="_blank">Limogne</href><br/>
+<b>Lat. N (°)</b> : 44.38774<br/>
+<b>Long. E (°)</b> : 1.77988<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_150">
+                <coordinates>1.77988,44.38774,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_153">
+            <name>D. de Rougié</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Lat. N (°)</b> : 44.66149<br/>
+<b>Long. E (°)</b> : 1.82055<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_151">
+                <coordinates>1.82055,44.66149,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_154">
+            <name>D. de la Pierre-Martine</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Lieu, autres noms</b> : Boyne<br/>
+<b>Lat. N (°)</b> : 44.66081<br/>
+<b>Long. E (°)</b> : 1.82086<br/>
+<b>Classement</b> : inscrit MH<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+<b>Pages Web</b> : <a href="http://www.lot-46.com/livernon-dolmen-de-la-pierre-martine/" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_152">
+                <coordinates>1.82086,44.66081,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_155">
+            <name>D. de la terre 1</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Lieu, autres noms</b> : La Balmette<br/>
+<b>Lat. N (°)</b> : 44.64257<br/>
+<b>Long. E (°)</b> : 1.88951<br/>
+<b>Remarques</b> : Orthostats couchés<br/>
+<b>Tumulus</b> : restes<br/>
+<b>Orthostats</b> : 2.0<br/>
+<b>Table</b> : non<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_153">
+                <coordinates>1.88951,44.64257,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_156">
+            <name>D. de la Terre 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Lieu, autres noms</b> : La cournayral<br/>
+<b>Lat. N (°)</b> : 44.63789<br/>
+<b>Long. E (°)</b> : 1.88962<br/>
+<b>Remarques</b> : Couverture déplacée<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : 2.0<br/>
+<b>Table</b> : déplacée<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_154">
+                <coordinates>1.88962,44.63789,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_157">
+            <name>D. le Cun</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Lieu, autres noms</b> : Bélinac<br/>
+<b>Lat. N (°)</b> : 44.63568<br/>
+<b>Long. E (°)</b> : 1.87687<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : 2.0<br/>
+<b>Table</b> : non<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_155">
+                <coordinates>1.87687,44.63568,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_158">
+            <name>Menhir de Bélinac</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Lat. N (°)</b> : 44.63529<br/>
+<b>Long. E (°)</b> : 1.85888<br/>
+<b>Classement</b> : classé MH<br/>
+<b>OSM</b> : +<br/>
+<b>Pages Web</b> : <a href="https://www.lieux-insolites.fr/lot/belinac/belinac.htm" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_156">
+                <coordinates>1.85888,44.63529,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_159">
+            <name>D. de la Croze</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Lieu, autres noms</b> : Pech Mage, le Cun<br/>
+<b>Lat. N (°)</b> : 44.63457<br/>
+<b>Long. E (°)</b> : 1.86998<br/>
+<b>Remarques</b> : Couverture fendue<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_157">
+                <coordinates>1.86998,44.63457,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_160">
+            <name>D. du Cloup Caoud 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Lieu, autres noms</b> : Le Cun<br/>
+<b>Lat. N (°)</b> : 44.63433<br/>
+<b>Long. E (°)</b> : 1.87750<br/>
+<b>Remarques</b> : Dans murette<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : 2.0<br/>
+<b>Table</b> : non<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_158">
+                <coordinates>1.8775,44.63433,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_161">
+            <name>D. du Cloup Caoud 1</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Lieu, autres noms</b> : Le Cun<br/>
+<b>Lat. N (°)</b> : 44.63373<br/>
+<b>Long. E (°)</b> : 1.87792<br/>
+<b>Remarques</b> : Murette au chevet<br/>
+<b>Tumulus</b> : restes<br/>
+<b>Orthostats</b> : 2.0<br/>
+<b>Table</b> : non<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_159">
+                <coordinates>1.87792,44.63373,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_162">
+            <name>Tumulus</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Lieu, autres noms</b> : Bois bas<br/>
+<b>Lat. N (°)</b> : 44.63161<br/>
+<b>Long. E (°)</b> : 1.88816<br/>
+<b>Tumulus</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_160">
+                <coordinates>1.88816,44.63161,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_163">
+            <name>D. du Mas de Tourel</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Lat. N (°)</b> : 44.62885<br/>
+<b>Long. E (°)</b> : 1.85263<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_161">
+                <coordinates>1.85263,44.62885,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_164">
+            <name>D. du Pouzat</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Lieu, autres noms</b> : Pech Peyrou<br/>
+<b>Lat. N (°)</b> : 44.62110<br/>
+<b>Long. E (°)</b> : 1.87010<br/>
+<b>Classement</b> : inscrit MH<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_162">
+                <coordinates>1.8701,44.6211,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_165">
+            <name>D. du Pech Plumet (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Loubressac" target="_blank">Loubressac</href><br/>
+<b>Lat. N (°)</b> : 44.85461<br/>
+<b>Long. E (°)</b> : 1.77495<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_163">
+                <coordinates>1.77495,44.85461,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_166">
+            <name>D. du Pech Plumet (A)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Loubressac" target="_blank">Loubressac</href><br/>
+<b>Lat. N (°)</b> : 44.85413<br/>
+<b>Long. E (°)</b> : 1.76968<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_164">
+                <coordinates>1.76968,44.85413,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_167">
+            <name>D. d'Auraste</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Loubressac" target="_blank">Loubressac</href><br/>
+<b>Lat. N (°)</b> : 44.85192<br/>
+<b>Long. E (°)</b> : 1.80392<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_165">
+                <coordinates>1.80392,44.85192,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_168">
+            <name>D. de Croix Hélène</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Loubressac" target="_blank">Loubressac</href><br/>
+<b>Lieu, autres noms</b> : D. des Breilles<br/>
+<b>Lat. N (°)</b> : 44.86028<br/>
+<b>Long. E (°)</b> : 1.765833<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_166">
+                <coordinates>1.765833,44.86028,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_169">
+            <name>D. de Combes-Hautes</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac" target="_blank">Marcilhac</href><br/>
+<b>Lieu, autres noms</b> : Pailhes Nord<br/>
+<b>Lat. N (°)</b> : 44.56738<br/>
+<b>Long. E (°)</b> : 1.76238<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_167">
+                <coordinates>1.76238,44.56738,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_170">
+            <name>D. de Pourquayré</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac" target="_blank">Marcilhac</href><br/>
+<b>Lat. N (°)</b> : 44.55428<br/>
+<b>Long. E (°)</b> : 1.79511<br/>
+<b>Remarques</b> : 2 dolmens<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Table</b> : non<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_168">
+                <coordinates>1.79511,44.55428,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_171">
+            <name>D. du mas de Jean Blanc</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac" target="_blank">Marcilhac</href><br/>
+<b>Lieu, autres noms</b> : Métaierie haute<br/>
+<b>Lat. N (°)</b> : 44.55155<br/>
+<b>Long. E (°)</b> : 1.80261<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_169">
+                <coordinates>1.80261,44.55155,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_172">
+            <name>D. de Péchaud</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac" target="_blank">Marcilhac</href><br/>
+<b>Lieu, autres noms</b> : Borie-Haute Sud<br/>
+<b>Lat. N (°)</b> : 44.54799<br/>
+<b>Long. E (°)</b> : 1.80078<br/>
+<b>Tumulus</b> : restes<br/>
+<b>Orthostats</b> : 2.0<br/>
+<b>Table</b> : non<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_170">
+                <coordinates>1.80078,44.54799,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_173">
+            <name>D. du cloup de Payrol</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac" target="_blank">Marcilhac</href><br/>
+<b>Lat. N (°)</b> : 44.54775<br/>
+<b>Long. E (°)</b> : 1.79427<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : non<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_171">
+                <coordinates>1.79427,44.54775,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_174">
+            <name>D. de la Devèze-sud</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac" target="_blank">Marcilhac</href><br/>
+<b>Lat. N (°)</b> : 44.54648<br/>
+<b>Long. E (°)</b> : 1.75537<br/>
+<b>Classement</b> : inscrit MH<br/>
+<b>OSM</b> : +<br/>
+<b>Pages Web</b> : <a href="http://www.persee.fr/doc/bspf_0249-7638_1964_hos_61_2_3991" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_172">
+                <coordinates>1.75537,44.54648,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_175">
+            <name>D. de la Combe de Sole 3</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac" target="_blank">Marcilhac</href><br/>
+<b>Lieu, autres noms</b> : n°1 ?<br/>
+<b>Lat. N (°)</b> : 44.54187<br/>
+<b>Long. E (°)</b> : 1.81352<br/>
+<b>Remarques</b> : petit dolmen<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_173">
+                <coordinates>1.81352,44.54187,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_176">
+            <name>D. de la Combe de Sole 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac" target="_blank">Marcilhac</href><br/>
+<b>Lat. N (°)</b> : 44.54031<br/>
+<b>Long. E (°)</b> : 1.81450<br/>
+<b>Classement</b> : inscrit MH<br/>
+<b>Remarques</b> : grand dolmen<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_174">
+                <coordinates>1.8145,44.54031,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_177">
+            <name>D. de la Combe de Sole 1</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac" target="_blank">Marcilhac</href><br/>
+<b>Lieu, autres noms</b> : n°3 ?<br/>
+<b>Lat. N (°)</b> : 44.53856<br/>
+<b>Long. E (°)</b> : 1.81511<br/>
+<b>Remarques</b> : Dolmen écroulé<br/>
+<b>Tumulus</b> : restes<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_175">
+                <coordinates>1.81511,44.53856,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_178">
+            <name>D, de Cune</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac" target="_blank">Marcilhac</href><br/>
+<b>Lat. N (°)</b> : 44.53694<br/>
+<b>Long. E (°)</b> : 1.81336<br/>
+<b>Remarques</b> : carrefour D17<br/>
+<b>Tumulus</b> : restes<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_176">
+                <coordinates>1.81336,44.53694,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_179">
+            <name>D. de Majourals</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac" target="_blank">Marcilhac</href><br/>
+<b>Lat. N (°)</b> : 44°32'12"<br/>
+<b>Long. E (°)</b> : 1°48'47"<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_177">
+                <coordinates>1.8130555555555556,44.53666666666666,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_180">
+            <name>D. dit Peyrebru</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Miers" target="_blank">Miers</href><br/>
+<b>Lat. N (°)</b> : 44.8835<br/>
+<b>Long. E (°)</b> : 1.69624<br/>
+<b>Tumulus</b> : restes<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_178">
+                <coordinates>1.69624,44.8835,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_181">
+            <name>D. de Fieux</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Miers" target="_blank">Miers</href><br/>
+<b>Lat. N (°)</b> : 44.87967<br/>
+<b>Long. E (°)</b> : 1.69364<br/>
+<b>Remarques</b> : 2 dol.<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_179">
+                <coordinates>1.69364,44.87967,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_182">
+            <name>D. de Gniars</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Miers" target="_blank">Miers</href><br/>
+<b>Lieu, autres noms</b> : D. de Ferrières<br/>
+<b>Lat. N (°)</b> : 44.87693<br/>
+<b>Long. E (°)</b> : 1.70341<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : non<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_180">
+                <coordinates>1.70341,44.87693,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_183">
+            <name>D. du Pech des Auques</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Miers" target="_blank">Miers</href><br/>
+<b>Lat. N (°)</b> : 44°52'26"<br/>
+<b>Long. E (°)</b> : 1°40'20"<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_181">
+                <coordinates>1.672222222222222,44.87388888888889,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_184">
+            <name>D. de Barrières (A)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Miers" target="_blank">Miers</href><br/>
+<b>Lat. N (°)</b> : 44.87132<br/>
+<b>Long. E (°)</b> : 1.69316<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_182">
+                <coordinates>1.69316,44.87132,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_185">
+            <name>D. dit la Pierre-Levée</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Miers" target="_blank">Miers</href><br/>
+<b>Lieu, autres noms</b> : Barrières (C)<br/>
+<b>Lat. N (°)</b> : 44.8688<br/>
+<b>Long. E (°)</b> : 1.68375<br/>
+<b>Classement</b> : inscrit MH<br/>
+<b>Tumulus</b> : restes<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_183">
+                <coordinates>1.68375,44.8688,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_186">
+            <name>D. de la Carture</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Miers" target="_blank">Miers</href><br/>
+<b>Lat. N (°)</b> : 44.86377<br/>
+<b>Long. E (°)</b> : 1.68221<br/>
+<b>Tumulus</b> : restes<br/>
+<b>Table</b> : non<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_184">
+                <coordinates>1.68221,44.86377,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_187">
+            <name>D. de Sabadel</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Miers" target="_blank">Miers</href><br/>
+<b>Lat. N (°)</b> : 44.86193<br/>
+<b>Long. E (°)</b> : 1.68729<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Table</b> : non<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_185">
+                <coordinates>1.68729,44.86193,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_188">
+            <name>D. de Moussié Haut</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Miers" target="_blank">Miers</href><br/>
+<b>Lat. N (°)</b> : 44.85846<br/>
+<b>Long. E (°)</b> : 1.73416<br/>
+<b>Remarques</b> : Dolmen double<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : non<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_186">
+                <coordinates>1.73416,44.85846,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_189">
+            <name>Combe de l'ours 1</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montbrun" target="_blank">Montbrun</href><br/>
+<b>Lat. N (°)</b> : 44.52953<br/>
+<b>Long. E (°)</b> : 1.89889<br/>
+<b>Tumulus</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_187">
+                <coordinates>1.89889,44.52953,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_190">
+            <name>D. Combe de l'ours 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montbrun" target="_blank">Montbrun</href><br/>
+<b>Lat. N (°)</b> : 44.52625<br/>
+<b>Long. E (°)</b> : 1.89967<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : petite<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_188">
+                <coordinates>1.89967,44.52625,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_191">
+            <name>D. du pech de Montbrun</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montbrun" target="_blank">Montbrun</href><br/>
+<b>Lat. N (°)</b> : 44.52260<br/>
+<b>Long. E (°)</b> : 1.90772<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_189">
+                <coordinates>1.90772,44.5226,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_192">
+            <name>D. de pech Joli</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montbrun" target="_blank">Montbrun</href><br/>
+<b>Lat. N (°)</b> : 44.51715<br/>
+<b>Long. E (°)</b> : 1.90279<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_190">
+                <coordinates>1.90279,44.51715,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_193">
+            <name>D. du pech Roubert</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montbrun" target="_blank">Montbrun</href><br/>
+<b>Lat. N (°)</b> : 44.51679<br/>
+<b>Long. E (°)</b> : 1.88455<br/>
+<b>Remarques</b> : Gariotte<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : non<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_191">
+                <coordinates>1.88455,44.51679,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_194">
+            <name>D. du mas de Gabat</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montbrun" target="_blank">Montbrun</href><br/>
+<b>Lat. N (°)</b> : 44.51390<br/>
+<b>Long. E (°)</b> : 1.89006<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : 4.0<br/>
+<b>Table</b> : déplacée<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_192">
+                <coordinates>1.89006,44.5139,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_195">
+            <name>D de Péchette</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montfaucon" target="_blank">Montfaucon</href><br/>
+<b>Lat. N (°)</b> : 44.685<br/>
+<b>Long. E (°)</b> : 1.5608<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_193">
+                <coordinates>1.5608,44.685,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_196">
+            <name>D. de Pierre Basse</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montfaucon" target="_blank">Montfaucon</href><br/>
+<b>Lat. N (°)</b> : 44.6744<br/>
+<b>Long. E (°)</b> : 1.6072<br/>
+<b>Remarques</b> : Arbre au milieu<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_194">
+                <coordinates>1.6072,44.6744,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_197">
+            <name>D. de Cambajou</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montfaucon" target="_blank">Montfaucon</href><br/>
+<b>Lat. N (°)</b> : 44.6716<br/>
+<b>Long. E (°)</b> : 1.6194<br/>
+<b>Tumulus</b> : restes<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_195">
+                <coordinates>1.6194,44.6716,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_198">
+            <name>D. de Bougoulat</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Padirac" target="_blank">Padirac</href><br/>
+<b>Lat. N (°)</b> : 44.86533<br/>
+<b>Long. E (°)</b> : 1.75865<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_196">
+                <coordinates>1.75865,44.86533,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_199">
+            <name>D. de la croix d'Hélène</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Padirac" target="_blank">Padirac</href><br/>
+<b>Lat. N (°)</b> : 44.86098<br/>
+<b>Long. E (°)</b> : 1.76465<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : petite<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_197">
+                <coordinates>1.76465,44.86098,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_200">
+            <name>D. d'Andrieu</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Padirac" target="_blank">Padirac</href><br/>
+<b>Lieu, autres noms</b> : Champ de Monsieur<br/>
+<b>Lat. N (°)</b> : 44.85634<br/>
+<b>Long. E (°)</b> : 1.74142<br/>
+<b>Remarques</b> : Dolmen double<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_198">
+                <coordinates>1.74142,44.85634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_201">
+            <name>D. dit des Pendus (C)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Padirac" target="_blank">Padirac</href><br/>
+<b>Lieu, autres noms</b> : Bouygue Longue (C)<br/>
+<b>Lat. N (°)</b> : 44.85581<br/>
+<b>Long. E (°)</b> : 1.75675<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Table</b> : non<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_199">
+                <coordinates>1.75675,44.85581,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_202">
+            <name>D. des Escurettes</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Padirac" target="_blank">Padirac</href><br/>
+<b>Lieu, autres noms</b> : Salvage (B)<br/>
+<b>Lat. N (°)</b> : 44.85507<br/>
+<b>Long. E (°)</b> : 1.74405<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_200">
+                <coordinates>1.74405,44.85507,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_203">
+            <name>D. dit des Pendus</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Padirac" target="_blank">Padirac</href><br/>
+<b>Lieu, autres noms</b> : Bouygue Longue (A)<br/>
+<b>Lat. N (°)</b> : 44.85442<br/>
+<b>Long. E (°)</b> : 1.75539<br/>
+<b>Tumulus</b> : restes<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : petite<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_201">
+                <coordinates>1.75539,44.85442,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_204">
+            <name>D. des Calcas</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Padirac" target="_blank">Padirac</href><br/>
+<b>Lieu, autres noms</b> : D. de Penot<br/>
+<b>Lat. N (°)</b> : 44.85122<br/>
+<b>Long. E (°)</b> : 1.75941<br/>
+<b>Remarques</b> : 2 dol<br/>
+<b>Tumulus</b> : restes<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : petite<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_202">
+                <coordinates>1.75941,44.85122,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_205">
+            <name>D. des Claouzelles</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Padirac" target="_blank">Padirac</href><br/>
+<b>Lat. N (°)</b> : 44.84194<br/>
+<b>Long. E (°)</b> : 1.752778<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_203">
+                <coordinates>1.752778,44.84194,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_206">
+            <name>D. du Moulin (A)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Reilhac" target="_blank">Reilhac</href><br/>
+<b>Lat. N (°)</b> : 44.7011<br/>
+<b>Long. E (°)</b> : 1.72<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_204">
+                <coordinates>1.72,44.7011,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_207">
+            <name>D. des Causses hauts 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Reyrevignes" target="_blank">Reyrevignes</href><br/>
+<b>Lat. N (°)</b> : 44.65430<br/>
+<b>Long. E (°)</b> : 1.90040<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_205">
+                <coordinates>1.9004,44.6543,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_208">
+            <name>D. des Causses hauts 1</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Reyrevignes" target="_blank">Reyrevignes</href><br/>
+<b>Lat. N (°)</b> : 44.65100<br/>
+<b>Long. E (°)</b> : 1.89580<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_206">
+                <coordinates>1.8958,44.651,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_209">
+            <name>D. du Champ de Cuzer</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Reyrevignes" target="_blank">Reyrevignes</href><br/>
+<b>Lieu, autres noms</b> : Imbarcous<br/>
+<b>Lat. N (°)</b> : 44.63602<br/>
+<b>Long. E (°)</b> : 1.89837<br/>
+<b>Remarques</b> : Table cassée<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_207">
+                <coordinates>1.89837,44.63602,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_210">
+            <name>D. de Lacam</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Rocamadour" target="_blank">Rocamadour</href><br/>
+<b>Lat. N (°)</b> : 44°50'54"<br/>
+<b>Long. E (°)</b> : 1°39'14"<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_208">
+                <coordinates>1.6538888888888887,44.848333333333336,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_211">
+            <name>D. de la Rue</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Rocamadour" target="_blank">Rocamadour</href><br/>
+<b>Lat. N (°)</b> : 44.83704<br/>
+<b>Long. E (°)</b> : 1.64104<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_209">
+                <coordinates>1.64104,44.83704,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_212">
+            <name>D. du Pech de Gourbières (B</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Rocamadour" target="_blank">Rocamadour</href><br/>
+<b>Lat. N (°)</b> : 44.83194<br/>
+<b>Long. E (°)</b> : 1.59265<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_210">
+                <coordinates>1.59265,44.83194,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_213">
+            <name>D. du Pech de Gourbières (A)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Rocamadour" target="_blank">Rocamadour</href><br/>
+<b>Lat. N (°)</b> : 44.83174<br/>
+<b>Long. E (°)</b> : 1.59272<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_211">
+                <coordinates>1.59272,44.83174,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_214">
+            <name>D. des Plantoux</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Rocamadour" target="_blank">Rocamadour</href><br/>
+<b>Lieu, autres noms</b> : D. de la Rue<br/>
+<b>Lat. N (°)</b> : 44.82925<br/>
+<b>Long. E (°)</b> : 1.65128<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_212">
+                <coordinates>1.65128,44.82925,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_215">
+            <name>D. du Pouget</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Rocamadour" target="_blank">Rocamadour</href><br/>
+<b>Lat. N (°)</b> : 44°49'41"<br/>
+<b>Long. E (°)</b> : 1°37'35"<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_213">
+                <coordinates>1.6263888888888889,44.82805555555556,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_216">
+            <name>D. d'En Caminou</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Rocamadour" target="_blank">Rocamadour</href><br/>
+<b>Lat. N (°)</b> : 44°47'58"<br/>
+<b>Long. E (°)</b> : 1°39'55"<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_214">
+                <coordinates>1.6652777777777776,44.79944444444444,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_217">
+            <name>P. Levée de la Pannonie</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Rocamadour" target="_blank">Rocamadour</href><br/>
+<b>Lieu, autres noms</b> : D. de Magès (les Places)<br/>
+<b>Lat. N (°)</b> : 44.78678<br/>
+<b>Long. E (°)</b> : 1.6133<br/>
+<b>Classement</b> : classé MH<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_215">
+                <coordinates>1.6133,44.78678,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_218">
+            <name>D. des Agars</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint Chels" target="_blank">Saint Chels</href><br/>
+<b>Lat. N (°)</b> : 44.547350<br/>
+<b>Long. E (°)</b> : 1.817690<br/>
+<b>Classement</b> : classé MH<br/>
+<b>Tumulus</b> : non<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_216">
+                <coordinates>1.81769,44.54735,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_219">
+            <name>D. d'Aubin</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint Chels" target="_blank">Saint Chels</href><br/>
+<b>Lat. N (°)</b> : 44.54669<br/>
+<b>Long. E (°)</b> : 1.81323<br/>
+<b>Classement</b> : classé MH<br/>
+<b>Tumulus</b> : non<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_217">
+                <coordinates>1.81323,44.54669,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_220">
+            <name>D. du Pech d'Agaïo</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint Chels" target="_blank">Saint Chels</href><br/>
+<b>Lieu, autres noms</b> : Pech de Fourès<br/>
+<b>Lat. N (°)</b> : 44.54421<br/>
+<b>Long. E (°)</b> : 1.81669<br/>
+<b>Classement</b> : classé MH<br/>
+<b>Remarques</b> : écroulé<br/>
+<b>Tumulus</b> : non<br/>
+<b>Orthostats</b> : oui<br/>
+<b>Table</b> : cassée<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_218">
+                <coordinates>1.81669,44.54421,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_221">
+            <name>D. de la Peyrière</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint Chels" target="_blank">Saint Chels</href><br/>
+<b>Lat. N (°)</b> : 44.52018<br/>
+<b>Long. E (°)</b> : 1.84485<br/>
+<b>Tumulus</b> : non<br/>
+<b>Table</b> : petite<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_219">
+                <coordinates>1.84485,44.52018,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_222">
+            <name>D. des Strabols</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint Chels" target="_blank">Saint Chels</href><br/>
+<b>Lat. N (°)</b> : 44.51949<br/>
+<b>Long. E (°)</b> : 1.83499<br/>
+<b>Remarques</b> : Couverture déplacée<br/>
+<b>Tumulus</b> : restes<br/>
+<b>Table</b> : déplacée<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_220">
+                <coordinates>1.83499,44.51949,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_223">
+            <name>D. du Mas-de-Pezet</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint Chels" target="_blank">Saint Chels</href><br/>
+<b>Lieu, autres noms</b> : Gaubert<br/>
+<b>Lat. N (°)</b> : 44.50927<br/>
+<b>Long. E (°)</b> : 1.80221<br/>
+<b>Classement</b> : inscrit MH<br/>
+<b>Tumulus</b> : non<br/>
+<b>Table</b> : oui<br/>
+<b>Pages Web</b> : <a href="http://www.lot-46.com/saint-chels-le-dolmen-du-mas-des-pezet/" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_221">
+                <coordinates>1.80221,44.50927,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_224">
+            <name>D. de Cabrone</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint Chels" target="_blank">Saint Chels</href><br/>
+<b>Lat. N (°)</b> : 44.50784<br/>
+<b>Long. E (°)</b> : 1.78345<br/>
+<b>Tumulus</b> : non<br/>
+<b>Table</b> : non<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_222">
+                <coordinates>1.78345,44.50784,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_225">
+            <name>D. de Rigou</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Projet" target="_blank">Saint-Projet</href><br/>
+<b>Lat. N (°)</b> : 44.75806<br/>
+<b>Long. E (°)</b> : 1.49786<br/>
+<b>Tumulus</b> : non<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_223">
+                <coordinates>1.49786,44.75806,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_226">
+            <name>Cromlech de Peyrebrune</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Projet" target="_blank">Saint-Projet</href><br/>
+<b>Lat. N (°)</b> : 44°43'55"<br/>
+<b>Long. E (°)</b> : 1°29'55"<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_224">
+                <coordinates>1.4986111111111111,44.731944444444444,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_227">
+            <name>D. de Roucous</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Simon" target="_blank">Saint-Simon</href><br/>
+<b>Lat. N (°)</b> : 44.71056<br/>
+<b>Long. E (°)</b> : 1.83035<br/>
+<b>Remarques</b> : Accès interdit par le propr.<br/>
+<b>Tumulus</b> : ?<br/>
+<b>Table</b> : cassée<br/>
+<b>OSM</b> : +<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_225">
+                <coordinates>1.83035,44.71056,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_228">
+            <name>D. de Pech-Curet</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Salviac" target="_blank">Salviac</href><br/>
+<b>Lat. N (°)</b> : 44.69584<br/>
+<b>Long. E (°)</b> : 1.28697<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_226">
+                <coordinates>1.28697,44.69584,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_229">
+            <name>D. du Pech de Gadal</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Sauliac" target="_blank">Sauliac</href><br/>
+<b>Lat. N (°)</b> : 44.52822<br/>
+<b>Long. E (°)</b> : 1.7241<br/>
+<b>Tumulus</b> : non<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_227">
+                <coordinates>1.7241,44.52822,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_230">
+            <name>D. dit la Pierre Levée</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Sauliac" target="_blank">Sauliac</href><br/>
+<b>Lat. N (°)</b> : 44.51632<br/>
+<b>Long. E (°)</b> : 1.74146<br/>
+<b>Tumulus</b> : restes<br/>
+<b>Table</b> : petite<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_228">
+                <coordinates>1.74146,44.51632,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_231">
+            <name>D. du Cloup del Prioun</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Sauliac" target="_blank">Sauliac</href><br/>
+<b>Lieu, autres noms</b> : Pech Grand<br/>
+<b>Lat. N (°)</b> : 44.50461<br/>
+<b>Long. E (°)</b> : 1.6878<br/>
+<b>Classement</b> : inscrit MH<br/>
+<b>Tumulus</b> : non<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_229">
+                <coordinates>1.6878,44.50461,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_232">
+            <name>D. du Mas de Galdot</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Sauliac" target="_blank">Sauliac</href><br/>
+<b>Lat. N (°)</b> : 44.52806<br/>
+<b>Long. E (°)</b> : 1.724167<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_230">
+                <coordinates>1.724167,44.52806,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_233">
+            <name>D. de Nougayrac</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/St Martin Labouval" target="_blank">St Martin Labouval</href><br/>
+<b>Lat. N (°)</b> : 44.4827<br/>
+<b>Long. E (°)</b> : 1.7155<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_231">
+                <coordinates>1.7155,44.4827,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_234">
+            <name>D. des Cazelles Longues</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/St Pierre Toirac" target="_blank">St Pierre Toirac</href><br/>
+<b>Lat. N (°)</b> : 44.54436<br/>
+<b>Long. E (°)</b> : 1.93492<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_232">
+                <coordinates>1.93492,44.54436,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_235">
+            <name>D. de Pierre Grosse</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/St Pierre Toirac" target="_blank">St Pierre Toirac</href><br/>
+<b>Lat. N (°)</b> : 44.53903<br/>
+<b>Long. E (°)</b> : 1.95461<br/>
+<b>Tumulus</b> : restes<br/>
+<b>Table</b> : non<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_233">
+                <coordinates>1.95461,44.53903,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_236">
+            <name>D. du Rat</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/St Sulpice" target="_blank">St Sulpice</href><br/>
+<b>Lat. N (°)</b> : 44.58118<br/>
+<b>Long. E (°)</b> : 1.78234<br/>
+<b>Classement</b> : inscrit MH<br/>
+<b>Tumulus</b> : oui<br/>
+<b>Table</b> : oui<br/>
+<b>OSM</b> : +<br/>
+<b>Pages Web</b> : <a href="http://www.persee.fr/doc/galip_0016-4127_1966_num_9_2_1266" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_234">
+                <coordinates>1.78234,44.58118,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_237">
+            <name>D. de Salers</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Théminettes" target="_blank">Théminettes</href><br/>
+<b>Lieu, autres noms</b> : D. des Places<br/>
+<b>Lat. N (°)</b> : 44.72146<br/>
+<b>Long. E (°)</b> : 1.84203<br/>
+<b>Pages Web</b> : <a href="http://www.persee.fr/doc/bspf_0249-7638_1959_num_56_7_3597" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_235">
+                <coordinates>1.84203,44.72146,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_238">
+            <name>Tumulus de Salers 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Théminettes" target="_blank">Théminettes</href><br/>
+<b>Lat. N (°)</b> : 44.72140<br/>
+<b>Long. E (°)</b> : 1.84096<br/>
+<b>Tumulus</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_236">
+                <coordinates>1.84096,44.7214,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_239">
+            <name>Tumulus de Salers 1</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Théminettes" target="_blank">Théminettes</href><br/>
+<b>Lat. N (°)</b> : 44.72116<br/>
+<b>Long. E (°)</b> : 1.84170<br/>
+<b>Tumulus</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_237">
+                <coordinates>1.8417,44.72116,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_240">
+            <name>D. des Carbonnières</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Tour-de-Faure" target="_blank">Tour-de-Faure</href><br/>
+<b>Lat. N (°)</b> : 44.47905<br/>
+<b>Long. E (°)</b> : 1.67981<br/>
+<b>Tumulus</b> : non<br/>
+<b>Table</b> : oui<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_238">
+                <coordinates>1.67981,44.47905,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>
