@@ -8,7 +8,7 @@ Auteur : Thierry Maillard (TMD)
 Date : 27 - 3/11/2017
 
 Role : Convertir les coordonées informations de localisation contenues
-        dans un fichier Excel au format KML importable dans Geoportail.
+        dans un fichier de donnees (Excel) au format KML importable dans Geoportail.
 
 Prerequis :
 - Python v3.xxx : a télécharger depuis : https://www.python.org/downloads/
@@ -22,16 +22,19 @@ Environnement :
     Ce programme teste son environnement (modules python disponibles)
     et s'y adaptera.
     tkinter : pour IHM : facultatif (mode batch alors seul)
-    xlrd : pour lire le fichier  Excel (obligatoire)
+    xlrd : pour lire le fichier Excel (obligatoire pour traiter fichier en entrée)
     simplekml : pour ecrire le fichier resultat kml (obligatoire)
 
 Parametres :
     -h ou --help : affiche cette aide.
     -v ou --verbose : mode bavard
-    Nom d'un fichier de configuration Excel .xls (mode batch)
+    Nom d'un fichier de données Excel .xls (mode batch)
+    Titre du calque codé dans le fichier KML : Ex.: "Dolmen Adrien" (mode batch)
+    URL du picto : (mode batch)
+    Ex.: https://upload.wikimedia.org/wikipedia/commons/e/eb/PointDolmen.png
 
 Sortie :
-    - Fichier de même nom que .xls mais avec extension .kml
+    - Fichier de même nom que fichier d'entrée mais avec extension .kml
 
 Modifications : voir https://github.com/Thierry46/table2kml
 
@@ -57,7 +60,6 @@ import imp
 import os
 import os.path
 import platform
-import threading
 import re
 import time
 
@@ -65,7 +67,7 @@ import time
 # main function
 ##################################################
 def main(argv=None):
-    VERSION = 'v1.0 - 3/11/2017'
+    VERSION = 'v1.1 - 3/11/2017'
     NOM_PROG = 'table2kml.py'
     isVerbose = False
     title = NOM_PROG + ' - ' + VERSION + " sur " + platform.system() + " " + platform.release()
@@ -74,23 +76,23 @@ def main(argv=None):
     # Test environnement
     # Test presence des modules tkinter, numpy et matplotlib
     canUseGUI = True
+    canUseXLS = True
     try :
         imp.find_module('tkinter')
         import tkinter
-        print("Module tkinter OK.")
+        print("Module tkinter OK : GUI allowed")
     except ImportError as exc:
         print("Warning ! module tkinter pas disponible -> utiliser mode batch :", exc)
         canUseGUI = False
     try :
         imp.find_module('xlrd')
-        print("Module xlrd OK.")
+        print("Module xlrd OK : .xls files supported")
     except ImportError as exc:
-        print(__doc__)
-        print("Erreur ! module xlrd pas disponible :", exc)
-        sys.exit(1)
+        print("Warning ! module xlrd pas disponible -> fichiers .xls non autorisé :", exc)
+        canUseXLS = False
     try :
         imp.find_module('simplekml')
-        print("Module simplekml OK.")
+        print("Module simplekml OK : export en KML autorisé")
     except ImportError as exc:
         print(__doc__)
         print("Erreur ! module simplekml pas disponible :", exc)
@@ -122,28 +124,39 @@ def main(argv=None):
             import tkinter
             print("Lancement de l'IHM...")
             root = tkinter.Tk()
-            table2kmlGUI(root, dirProject, title, isVerbose)
+            table2kmlGUI(root, dirProject, title, canUseXLS, isVerbose)
             root.mainloop()
         else:
             print(__doc__)
             print("IHM non disponible : tkinter pas installe !")
-            print("Utilisez le mode batch et passez le fichier Excel au programme")
+            print("Utilisez le mode batch et passez le fichier à traiter au programme")
             sys.exit(2)
 
     else: # Batch
-        processFile(args[0], isVerbose)
+        if len(args) == 3:
+            processFile(canUseXLS, args[0], args[1], args[2], isVerbose)
+        else:
+            print(__doc__)
+            print("Nombre de paramètre invalide : 3 nécessaires : fichier titre picto")
+            sys.exit(1)
 
     print('End table2kml.py', VERSION)
     sys.exit(0)
 
-def processFile(pathFicExcel, isVerbose):
-    """ Convertit un fichier Excel passé en paramètre en un fichier KML """
-    listMessage, listDolmen = readExcel(pathFicExcel, isVerbose)
-    pathKMLFile = pathFicExcel.replace(".xls", ".kml")
-    genKMLFiles(listDolmen, pathKMLFile, isVerbose)
-    return listMessage, listDolmen
+def processFile(canUseXLS, pathFicTable, titleKML, URLPicto, isVerbose):
+    listInfoRead = []
+    """ Convertit un fichier passé en paramètre en un fichier KML """
+    if canUseXLS:
+        listMessage, listInfoRead = readExcel(pathFicTable, isVerbose)
+    else:
+        raise ValueError("Extension du fichier non supporté :" +
+                          os.path.basename(pathFicTable) +
+                          " extension supportées : .xls")
+    pathKMLFile = pathFicTable.replace(".xls", ".kml")
+    genKMLFiles(listInfoRead, titleKML, URLPicto, pathKMLFile, isVerbose)
+    return listMessage, listInfoRead
 
-def readExcel(pathFicExcel, isVerbose):
+def readExcel(pathFicTable, isVerbose):
     """ Recupère les infos de localisation dans le fichier Excel"""
     import xlrd
     EXT_FIC_OK = ".xls"
@@ -163,14 +176,17 @@ def readExcel(pathFicExcel, isVerbose):
         'OSM' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None}
             }
 
-    if not pathFicExcel.endswith(EXT_FIC_OK):
-        raise ValueError("Nom configuration incorrect:" +
-                          os.path.basename(pathFicExcel) +
-                          ":devrait finir par l'extension .xls")
+    if len(pathFicTable) == 0:
+        raise ValueError("Nom fichier vide !" )
 
-    print("Lecture de", pathFicExcel, "...")
+    if not pathFicTable.endswith(EXT_FIC_OK):
+        raise ValueError("Nom fichier incorrect : " +
+                          os.path.basename(pathFicTable) +
+                          " : devrait finir par l'extension .xls")
+
+    print("Lecture de", pathFicTable, "...")
     # ouverture du fichier Excel 
-    workbook = xlrd.open_workbook(filename= pathFicExcel, on_demand=True)
+    workbook = xlrd.open_workbook(filename= pathFicTable, on_demand=True)
     if isVerbose:
         print("Liste des feuilles du classeur :", workbook.sheet_names())
 
@@ -207,7 +223,7 @@ def readExcel(pathFicExcel, isVerbose):
             dictData['Pages Web']['dataCol'][numLigne] = url
  
     # Formatage et contrôle des donnees utiles
-    listDolmen = []
+    listInfoRead = []
     listMessage = []
     for numLigne, nomDolmen in enumerate(dictData['Nom']['dataCol']):
         ligneOK = True
@@ -263,7 +279,7 @@ def readExcel(pathFicExcel, isVerbose):
 
         # Enregistrement des valeurs utiles dans la structure résultat
         if ligneOK:
-            listDolmen.append({'numLigne':numLigne+1, 'nom':nomDolmen,
+            listInfoRead.append({'numLigne':numLigne+1, 'nom':nomDolmen,
                               'Commune' : dictData['Commune']['dataCol'][numLigne],
                               'latitude':coordValue['Lat'],
                               'longitude':coordValue['Lon'],
@@ -272,13 +288,13 @@ def readExcel(pathFicExcel, isVerbose):
         else:
             listMessage.append(messageInfos)
 
-    print(len(listDolmen), "dolmens enregistrés,", len(listMessage), "lignes ignorées.")
+    print(len(listInfoRead), "dolmens enregistrés,", len(listMessage), "lignes ignorées.")
 
     if isVerbose:
         for message in listMessage:
             print("Ligne numéro", message['numLigne'], message['texte'])
 
-    return listMessage, listDolmen
+    return listMessage, listInfoRead
 
 def convertCoord(coord):
     """ Convertit une chaine de coordonnées d'angle en un réel
@@ -297,38 +313,42 @@ def convertCoord(coord):
             raise
     return valFloat
 
-def genKMLFiles(listDolmen, pathKMLFile, isVerbose):
+def genKMLFiles(listInfoRead, titleKML, URLPicto, pathKMLFile, isVerbose):
     """ genere les fichiers de sortie KML"""
 
     import simplekml
     # Ref simplekml:http://www.simplekml.com/en/latest/reference.html
-    ICONE_FILE_URL = "https://upload.wikimedia.org/wikipedia/commons/e/eb/PointDolmen.png"
+
+    if not URLPicto.startswith("http"):
+        raise ValueError("URL du picto incorrecte :" +
+                         URLPicto +
+                         " : devrait commencé par http")
 
     print("Ecriture des résultats dans", pathKMLFile, "...")
-    titleKML = 'Dolmens Adrien ' + time.strftime("%d/%m/%y")
+    titleKML = titleKML + " " + time.strftime("%d/%m/%y")
     kml = simplekml.Kml(name=titleKML)
 
     # Style icone et couleur du texte pour tous les dolmens
     # Ref couleur:http://www.simplekml.com/en/latest/constants.html#color
     styleIconDolmen = simplekml.Style()
     styleIconDolmen.labelstyle.color = simplekml.Color.cadetblue
-    styleIconDolmen.iconstyle.icon.href = ICONE_FILE_URL
+    styleIconDolmen.iconstyle.icon.href = URLPicto
 
-    for dolmen in listDolmen:
+    for dolmen in listInfoRead:
         point = kml.newpoint(name=dolmen['nom'],
                              description='<![CDATA[' + dolmen['description'] + ']]>\n',
                              coords=[(str(dolmen['longitude']), str(dolmen['latitude']))])
         point.style = styleIconDolmen
 
     kml.save(pathKMLFile)
-    print(str(len(listDolmen)), "dolmens écrits dans", pathKMLFile)
+    print(str(len(listInfoRead)), "dolmens écrits dans", pathKMLFile)
 
 ############
 class table2kmlGUI():
     """
     A GUI for table2kml script.
     """
-    def __init__(self, root, dirProject, title, isVerbose):
+    def __init__(self, root, dirProject, title, canUseXLS, isVerbose):
         """
         Constructor
         Define all GUIs widgets
@@ -341,26 +361,37 @@ class table2kmlGUI():
         self.root = root
         mainFrame = tkinter.Frame(self.root)
         self.dirProject = dirProject
+        self.canUseXLS = canUseXLS
         self.isVerbose = isVerbose
         self.listMessage = []
-        self.listDolmen = []
+        self.listInfoRead = []
 
         self.root.title(title)
 
         # Frame des paramètres de configuration
         inputFrame = tkinter.LabelFrame(mainFrame, text="Parametres")
         self.readConfigButton = tkinter.Button(inputFrame,
-            text="Fichier Excel ...",
-            command=self.fileChooserExcelCallback,
-            bg='green')
+                                               text="Fichier ...",
+                                               command=self.fileChooserCallback,
+                                               bg='green')
         self.readConfigButton.grid(row=0, column=0)
-        self.pathExcelVar = tkinter.StringVar()
-        pathConfigurationExcel = tkinter.Entry(inputFrame,
-                                          textvariable=self.pathExcelVar,
+        self.pathInputFilelVar = tkinter.StringVar()
+        pathInputFileEntry = tkinter.Entry(inputFrame,
+                                          textvariable=self.pathInputFilelVar,
                                           width=60)
-        pathConfigurationExcel.grid(row=0, column=1, sticky=tkinter.W)
-        pathConfigurationExcel.bind('<Return>', self.launchInputFileReader)
-        pathConfigurationExcel.bind('<KP_Enter>', self.launchInputFileReader)
+        pathInputFileEntry.grid(row=0, column=1, sticky=tkinter.W)
+
+        tkinter.Label(inputFrame, text="Titre KML :").grid(row=1, column=0)
+        self.titleKMLEntry = tkinter.Entry(inputFrame, width=60)
+        self.titleKMLEntry.grid(row=1, column=1)
+
+        tkinter.Label(inputFrame, text="URL picto :").grid(row=2, column=0)
+        self.urlPictoEntry = tkinter.Entry(inputFrame, width=60)
+        self.urlPictoEntry.grid(row=2, column=1)
+
+        tkinter.Button(inputFrame, text="Traiter le fichier",
+                       command=self.launchInputFileReader,
+                       fg='red').grid(row=3, column=0, columnspan=2)
         inputFrame.pack(side = tkinter.TOP, fill="both", expand="yes")
 
         # Pour affichage des messages de lecture
@@ -380,7 +411,7 @@ class table2kmlGUI():
         messageFrame.pack(side = tkinter.TOP, fill="both", expand="yes")
 
         # Pour affichage des dolmens lus
-        dolmensFrame = tkinter.LabelFrame(mainFrame, text="Dolmen trouvés dans le fichier Excel")
+        dolmensFrame = tkinter.LabelFrame(mainFrame, text="Dolmens trouvés dans le fichier")
         self.dolmensListbox = tkinter.Listbox(dolmensFrame,
                                        background="light blue",
                                        height=10, width=70)
@@ -405,9 +436,9 @@ class table2kmlGUI():
     # Callbacks
     ################
         
-    def fileChooserExcelCallback(self) :
+    def fileChooserCallback(self) :
         """
-        Callback for button that launch file chooser for Excel file.
+        Callback for button that launch file chooser for input file.
         """
         from tkinter import filedialog
 
@@ -434,21 +465,22 @@ class table2kmlGUI():
                     hDirFile.close()      
             except IOError:
                 self.setMessageLabel(str(exc), True)
-            self.pathExcelVar.set(fileName)
-            self.launchInputFileReader()
+            self.pathInputFilelVar.set(fileName)
 
     def launchInputFileReader(self, event=None):
         """ Update list according input files
             v2.0:Thread use"""
-        self.setMessageLabel("Lecture du fichier Excel en cours, veuillez patienter...")
+        self.setMessageLabel("Lecture du fichier en cours, veuillez patienter...")
         import tkinter
 
-        pathFicExcel = self.pathExcelVar.get()
+        pathFicTable = self.pathInputFilelVar.get()
         try :
-            self.listMessage, self.listDolmen = \
-                processFile(pathFicExcel, self.isVerbose)
-            if len(self.listDolmen) == 0:
-                raise ValueError("Aucun dolmen trouvé dans le fichier Excel !")
+            self.listMessage, self.listInfoRead = \
+                processFile(self.canUseXLS, pathFicTable,
+                            self.titleKMLEntry.get(), self.urlPictoEntry.get(),
+                            self.isVerbose)
+            if len(self.listInfoRead) == 0:
+                raise ValueError("Aucun dolmen trouvé dans le fichier !")
 
             # Update message list
             self.messagesListbox.delete(0, tkinter.END)
@@ -458,14 +490,14 @@ class table2kmlGUI():
                                             " : " + message['texte'])
             # Update dolmen list
             self.dolmensListbox.delete(0, tkinter.END)
-            for dolmen in self.listDolmen:
+            for dolmen in self.listInfoRead:
                 self.dolmensListbox.insert(tkinter.END,
                                            dolmen['Commune'] + " : " + dolmen['nom'])
 
             self.setMessageLabel("Fichier converti : " + str(len(self.listMessage)) +
-                                        " messages, " + str(len(self.listDolmen)) +
+                                        " messages, " + str(len(self.listInfoRead)) +
                                         " dolmens dans : " +
-                                        os.path.basename(pathFicExcel).replace('.xls', '.kml'))
+                                        os.path.basename(pathFicTable).replace('.xls', '.kml'))
         except IOError as exc:
             self.setMessageLabel(str(exc), isError=True)
         except OSError as exc:
@@ -476,7 +508,7 @@ class table2kmlGUI():
     def setMessageLabel(self, message, isError=False) :
         """ set a message for user. """
         if isError:
-            message = "Probleme:" + message
+            message = "Probleme : " + message
         self.messageLabel['text'] =  message
         if isError:
             print(message)
