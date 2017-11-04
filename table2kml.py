@@ -8,7 +8,8 @@ Auteur : Thierry Maillard (TMD)
 Date : 27 - 3/11/2017
 
 Role : Convertir les coordonées informations de localisation contenues
-        dans un fichier de donnees (Excel) au format KML importable dans Geoportail.
+        dans un fichier de donnees (Excel97 ou CSV)
+        au format KML importable dans Geoportail.
 
 Prerequis :
 - Python v3.xxx : a télécharger depuis : https://www.python.org/downloads/
@@ -22,13 +23,13 @@ Environnement :
     Ce programme teste son environnement (modules python disponibles)
     et s'y adaptera.
     tkinter : pour IHM : facultatif (mode batch alors seul)
-    xlrd : pour lire le fichier Excel (obligatoire pour traiter fichier en entrée)
+    xlrd : pour lire le fichier Excel (obligatoire pour traiter fichier .xls en entrée)
     simplekml : pour ecrire le fichier resultat kml (obligatoire)
 
 Parametres :
     -h ou --help : affiche cette aide.
     -v ou --verbose : mode bavard
-    Nom d'un fichier de données Excel .xls (mode batch)
+    Nom d'un fichier de données Excel .xls ou .csv (mode batch)
     Titre du calque codé dans le fichier KML : Ex.: "Dolmen Adrien" (mode batch)
     URL du picto : (mode batch)
     Ex.: https://upload.wikimedia.org/wikipedia/commons/e/eb/PointDolmen.png
@@ -67,7 +68,7 @@ import time
 # main function
 ##################################################
 def main(argv=None):
-    VERSION = 'v1.1 - 3/11/2017'
+    VERSION = 'v1.2 - 4/11/2017'
     NOM_PROG = 'table2kml.py'
     isVerbose = False
     title = NOM_PROG + ' - ' + VERSION + " sur " + platform.system() + " " + platform.release()
@@ -145,14 +146,19 @@ def main(argv=None):
 
 def processFile(canUseXLS, pathFicTable, titleKML, URLPicto, isVerbose):
     listInfoRead = []
+    pathKMLFile = ""
     """ Convertit un fichier passé en paramètre en un fichier KML """
-    if canUseXLS:
+    if canUseXLS and pathFicTable.endswith(".xls"):
         listMessage, listInfoRead = readExcel(pathFicTable, isVerbose)
+        pathKMLFile = pathFicTable.replace(".xls", ".kml")
+    elif pathFicTable.endswith(".csv"):
+        listMessage, listInfoRead = readCSV(pathFicTable, isVerbose)
+        pathKMLFile = pathFicTable.replace(".csv", ".kml")
     else:
         raise ValueError("Extension du fichier non supporté :" +
                           os.path.basename(pathFicTable) +
                           " extension supportées : .xls")
-    pathKMLFile = pathFicTable.replace(".xls", ".kml")
+
     genKMLFiles(listInfoRead, titleKML, URLPicto, pathKMLFile, isVerbose)
     return listMessage, listInfoRead
 
@@ -269,6 +275,10 @@ def readExcel(pathFicTable, isVerbose):
                     description += '<a href="' + url + '" target="_blank">' + nomCommune + \
                                    '</href><br/>\n'
 
+                elif field == 'Lat' or field == 'Lon':
+                    # Ecrit dans le champ description les coordonnées converties
+                    description += str(coordValue[field]) + '<br/>\n'
+
                 elif field == 'Pages Web':
                     url = dictData[field]['dataCol'][numLigne]
                     description += '<a href="' + url + '" target="_blank">Infos WEB</href><br/>\n'
@@ -296,6 +306,147 @@ def readExcel(pathFicTable, isVerbose):
 
     return listMessage, listInfoRead
 
+def readCSV(pathFicTable, isVerbose):
+    """ Recupère les infos de localisation dans le fichier Excel"""
+    import csv
+    EXT_FIC_OK = ".csv"
+    LIGNE_START = 2
+    dictData = {
+        'Nom' : {'obligatoire':True, 'numCol':-1, 'nomCol':"", 'dataCol':None},
+        'Lat' : {'obligatoire':True, 'numCol':-1, 'nomCol':"", 'dataCol':None},
+        'Lon' : {'obligatoire':True, 'numCol':-1, 'nomCol':"", 'dataCol':None},
+        'Lieu' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
+        'Commune' : {'obligatoire':True, 'numCol':-1, 'nomCol':"", 'dataCol':None},
+        'Tumulus' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
+        'Orthostats' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
+        'Table' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
+        'Classement' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
+        'Remarques' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
+        'Pages Web' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
+        'OSM' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None}
+        }
+
+    listInfoRead = []
+    listMessage = []
+
+    if len(pathFicTable) == 0:
+        raise ValueError("Nom fichier vide !")
+
+    if not pathFicTable.endswith(EXT_FIC_OK):
+        raise ValueError("Nom fichier incorrect : " +
+                         os.path.basename(pathFicTable) +
+                         " : devrait finir par l'extension .xls")
+
+    print("Lecture de", pathFicTable, "...")
+    # Analyse du fichier CSV
+    with open(pathFicTable, newline='') as csvfile:
+        sample = csvfile.read(1024)
+        sniffer = csv.Sniffer()
+        if not sniffer.has_header(sample):
+            raise ValueError("Impossible de trouver une entête dans le fichier !")
+        elif isVerbose:
+            print("Ligne d'entête détectée.")
+
+        dialect = sniffer.sniff(sample)
+        if dialect is  None:
+            raise ValueError("Impossible de trouver le dialecte CSV du fichier !")
+        elif isVerbose:
+            print("Dialect CSV détecté")
+        csvfile.seek(0)
+
+        # Lecture du fichier dans dictionnaire
+        reader = csv.DictReader(csvfile, dialect=dialect)
+
+        # Analyse ligne de titre
+        titleRow = reader.fieldnames
+        if isVerbose:
+            print("Titres des colonnes :", titleRow)
+            for numCol, title in enumerate(titleRow):
+                for startColumn in dictData:
+                    if title.startswith(startColumn):
+                        dictData[startColumn]['numCol'] = numCol
+                        dictData[startColumn]['nomCol'] = title
+
+        # test présence colonnes obligatoires et lecture des colonnes présentes
+        for startColumn in dictData:
+            if dictData[startColumn]['obligatoire'] and dictData[startColumn]['numCol'] == -1:
+                raise ValueError("Aucune colonne commençant par " + startColumn + " trouvée !")
+            if isVerbose and dictData[startColumn]['numCol'] != -1:
+                print("Num colonne Nom :", dictData[startColumn]['numCol'], ": ",
+                      dictData[startColumn]['nomCol'].strip())
+
+        # Analyse et enregistrement valeurs
+        for row in reader:
+            ligneOK = True
+            messageInfos = {'numLigne':reader.line_num}
+
+            if ligneOK and len(row[dictData['Nom']['nomCol']]) == 0:
+                ligneOK = False
+                messageInfos['texte'] = "ignorée car champ " + row['Nom'] + " vide"
+
+            # Verif et conversion champs Longitude et Latitude
+            coordValue = {}
+            for field in ('Lon', 'Lat'):
+                if len(row[dictData[field]['nomCol']]) == 0 :
+                    ligneOK = False
+                    messageInfos['texte'] = "ignorée car champ " + dictData[field]['nomCol'] + \
+                                            " vide"
+                if ligneOK:
+                    try:
+                       coordValue[field] = convertCoord(row[dictData[field]['nomCol']])
+                    except ValueError:
+                        ligneOK = False
+                        messageInfos['texte'] = "ignorée car champ " + \
+                                    dictData[field]['nomCol'] + " incorrect : " + \
+                                    row[dictData[field]['nomCol']]
+
+            # Construction du champ description
+            description = "<h1>Informations</h1>" + '\n'
+            for field in ('Commune', 'Lieu', 'Lat', 'Lon', 'Classement', 'Remarques',
+                           'Tumulus', 'Orthostats', 'Table', 'OSM', 'Pages Web'):
+                if ligneOK and dictData[field]['numCol'] != -1 and \
+                    len(row[dictData[field]['nomCol']]) != 0 :
+                    description += "<b>" + dictData[field]['nomCol'].strip() + "</b> : "
+                    # Champs particuliers
+                    if field == 'Commune':
+                        nomCommune = row[dictData[field]['nomCol']]
+                        url = 'https://fr.wikipedia.org/wiki/' + nomCommune
+                        description += '<a href="' + url + '" target="_blank">' + nomCommune + \
+                                        '</href><br/>\n'
+
+                    elif field == 'Lat' or field == 'Lon':
+                        # Ecrit dans le champ description les coordonnées converties
+                        description += str(coordValue[field]) + '<br/>\n'
+
+                    elif field == 'Pages Web':
+                        url = row[dictData[field]['nomCol']]
+                        description += '<a href="' + url + \
+                                        '" target="_blank">Infos WEB</href><br/>\n'
+
+                    else:
+                        description += row[dictData[field]['nomCol']]
+                        description += '<br/>\n'
+
+            # Enregistrement des valeurs utiles dans la structure résultat
+            if ligneOK:
+                listInfoRead.append({'numLigne':reader.line_num,
+                                    'nom':row[dictData['Nom']['nomCol']],
+                                    'Commune' : row[dictData['Commune']['nomCol']],
+                                    'latitude':coordValue['Lat'],
+                                    'longitude':coordValue['Lon'],
+                                    'description':description
+                                    })
+            else:
+                listMessage.append(messageInfos)
+
+    print(len(listInfoRead), "dolmens enregistrés,", len(listMessage), "lignes ignorées.")
+
+    if isVerbose:
+        for message in listMessage:
+            print("Ligne numéro", message['numLigne'], message['texte'])
+
+    return listMessage, listInfoRead
+
 def convertCoord(coord):
     """ Convertit une chaine de coordonnées d'angle en un réel
         La chaine d'entrée peut contenir une valeur sexagésimale """
@@ -303,8 +454,8 @@ def convertCoord(coord):
     try:
         valFloat = float(coord)
     except ValueError:
-        # re OK pour expression du type 44°51'37" ou 1°51'37"
-        m = re.search(r'(?P<degres>[\d]{1,2})°(?P<minutes>[\d]{2})\'(?P<secondes>[\d]{2})"$',
+        # re OK pour expression du type 44°51'37" ou 1°51'37" ou 1°51'37"" ou 1°51'37" "
+        m = re.search(r'(?P<degres>[\d]{1,2})°(?P<minutes>[\d]{2})\'(?P<secondes>[\d]{2})"',
                       coord)
         if m:
             valFloat = float(m.group('degres')) + float(m.group('minutes')) / 60. + \
