@@ -1,5 +1,9 @@
 # table2kml
 A tool to convert a table containing geographical information in KML Format.
+Input file format : .xls (Excel97) and .csv
+Input file have to contain at least fields starting with : Nom, Commune, Lat, Lon
+This field are displayed in description field :
+"Lieu, autres noms",Commune ,IGN,OSM,Lat. N (°),Long. E (°),UVérif.,Classement,Tumulus,Orthostats,Table,Remarques,Pages Web
 
 This simple tool is written in Python and uses tkinter, xlrd and simplekml packages.
 
@@ -17,7 +21,7 @@ Installation
 * Install Pre-Requisites
 * Lauch the python file :
 ** With GUI : python3 table2kml.py
-** In batch mode : python3 table2kml.py YOUR_FILE.xls
+** In batch mode : python3 table2kml.py YOUR_FILE.xls ou YOUR_FILE.csv
 
 Example of output
 ------------------
