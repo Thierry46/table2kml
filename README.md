@@ -5,11 +5,13 @@ Input file format : .xls (Excel97) and .csv
 
 Input file have to contain at least fields starting with : Nom, Commune, Lat, Lon
 
-This field are displayed in description field :
+This fields are displayed in description field :
 
-Lieu,Commune ,IGN,OSM,Lat. N (°),Long. E (°),UVérif.,Classement,Tumulus,Orthostats,Table,Remarques,Pages Web
+Lieu, Commune, IGN, OSM, Lat. N (°), Long. E (°), Vérif., Classement, Tumulus, Orthostats, Table, Remarques, Pages Web
 
 This simple tool is written in Python and uses tkinter, xlrd and simplekml packages.
+
+It works in batch mode or with a GUI.
 
 Pre-Requisites
 -----------------
@@ -26,6 +28,12 @@ Installation
 * Lauch the python file :
     * With GUI : python3 table2kml.py
     * In batch mode : python3 table2kml.py YOUR_FILE.xls ou YOUR_FILE.csv
+
+Usage
+-------
+Launch *table2kml.py* with *-h* or *--help* option to get help or read comments at the beginning of the source file.
+
+**./table2kml.py --help**
 
 Example of output
 ------------------

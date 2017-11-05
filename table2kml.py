@@ -5,7 +5,7 @@
 Programme : table2kml.py
 Github : https://github.com/Thierry46/table2kml
 Auteur : Thierry Maillard (TMD)
-Date : 27 - 3/11/2017
+Date : 27 - 5/11/2017
 
 Role : Convertir les coordonées informations de localisation contenues
         dans un fichier de donnees (Excel97 ou CSV)
@@ -37,6 +37,23 @@ Parametres :
 Sortie :
     - Fichier de même nom que fichier d'entrée mais avec extension .kml
 
+Exemples de lancement par ligne de commande sous Mac :
+=====================
+Conversion batch d'un fichier CSV
+cd dossier application
+./table2kml.py Dolmen_csv_v0.6.csv "Dolmens Adrien" https://upload.wikimedia.org/wikipedia/commons/e/eb/PointDolmen.png
+Conversion batch d'un fichier Excel 97 :
+./table2kml.py Dolmen_v0.6.xls "Dolmens Adrien" https://upload.wikimedia.org/wikipedia/commons/e/eb/PointDolmen.png
+Lancement IHM :
+./table2kml.py
+
+Sous Windows :
+Lancement IHM : double-cliquer sur table2kml.py
+lancement Batch :
+Ouvrir une fenêtre de commande : Windows + E, commande cmd
+cd dossier appli
+commandes identiques à celles au dessus sans ./
+
 Modifications : voir https://github.com/Thierry46/table2kml
 
 Copyright 2017 Thierry Maillard
@@ -63,12 +80,13 @@ import os.path
 import platform
 import re
 import time
+import getpass
 
 ##################################################
 # main function
 ##################################################
 def main(argv=None):
-    VERSION = 'v1.2 - 4/11/2017'
+    VERSION = 'v1.3 - 5/11/2017'
     NOM_PROG = 'table2kml.py'
     isVerbose = False
     title = NOM_PROG + ' - ' + VERSION + " sur " + platform.system() + " " + platform.release()
@@ -118,7 +136,7 @@ def main(argv=None):
 
         if o in ("-v", "--verbose"):
             isVerbose = True
-            print("Mode verbose :b avard pour debug")
+            print("Mode verbose : bavard pour debug")
 
     if len(args) < 1:
         if canUseGUI:
@@ -361,11 +379,11 @@ def readCSV(pathFicTable, isVerbose):
         titleRow = reader.fieldnames
         if isVerbose:
             print("Titres des colonnes :", titleRow)
-            for numCol, title in enumerate(titleRow):
-                for startColumn in dictData:
-                    if title.startswith(startColumn):
-                        dictData[startColumn]['numCol'] = numCol
-                        dictData[startColumn]['nomCol'] = title
+        for numCol, title in enumerate(titleRow):
+            for startColumn in dictData:
+                if title.startswith(startColumn):
+                    dictData[startColumn]['numCol'] = numCol
+                    dictData[startColumn]['nomCol'] = title
 
         # test présence colonnes obligatoires et lecture des colonnes présentes
         for startColumn in dictData:
@@ -509,6 +527,9 @@ class table2kmlGUI():
             - isVerbose : If true, environment is OK for plotting
         """
         import tkinter
+
+        self.URL_DOLMEN = "https://upload.wikimedia.org/wikipedia/commons/e/eb/PointDolmen.png"
+
         self.root = root
         mainFrame = tkinter.Frame(self.root)
         self.dirProject = dirProject
@@ -521,23 +542,33 @@ class table2kmlGUI():
 
         # Frame des paramètres de configuration
         inputFrame = tkinter.LabelFrame(mainFrame, text="Parametres")
-        self.readConfigButton = tkinter.Button(inputFrame,
+        readConfigButton = tkinter.Button(inputFrame,
                                                text="Fichier ...",
                                                command=self.fileChooserCallback,
                                                bg='green')
-        self.readConfigButton.grid(row=0, column=0)
-        self.pathInputFilelVar = tkinter.StringVar()
+        readConfigButton.grid(row=0, column=0)
+        self.pathInputFileVar = tkinter.StringVar()
         pathInputFileEntry = tkinter.Entry(inputFrame,
-                                          textvariable=self.pathInputFilelVar,
+                                          textvariable=self.pathInputFileVar,
                                           width=60)
         pathInputFileEntry.grid(row=0, column=1, sticky=tkinter.W)
 
-        tkinter.Label(inputFrame, text="Titre KML :").grid(row=1, column=0)
-        self.titleKMLEntry = tkinter.Entry(inputFrame, width=60)
+        titleKMLButton = tkinter.Button(inputFrame, text="Titre KML :",
+                                  command=self.initTitleKMLCallback)
+        titleKMLButton.grid(row=1, column=0)
+        self.titleKMLVar = tkinter.StringVar()
+        self.titleKMLEntry = tkinter.Entry(inputFrame,
+                                           textvariable=self.titleKMLVar,
+                                           width=60)
         self.titleKMLEntry.grid(row=1, column=1)
 
-        tkinter.Label(inputFrame, text="URL picto :").grid(row=2, column=0)
-        self.urlPictoEntry = tkinter.Entry(inputFrame, width=60)
+        titlePictoButton = tkinter.Button(inputFrame, text="URL picto :",
+                                          command=self.initPictoCallback)
+        titlePictoButton.grid(row=2, column=0)
+        self.urlPictoVar = tkinter.StringVar()
+        self.urlPictoEntry = tkinter.Entry(inputFrame,
+                                           textvariable=self.urlPictoVar,
+                                           width=60)
         self.urlPictoEntry.grid(row=2, column=1)
 
         tkinter.Button(inputFrame, text="Traiter le fichier",
@@ -605,7 +636,7 @@ class table2kmlGUI():
         fileName = filedialog.askopenfilename(
                         parent=self.root,
                         initialdir=lastDir,
-                        filetypes = [("Fichier Excel","*.xls"), ("All", "*")],
+                        filetypes = [("Fichier CSV","*.csv"), ("Fichier Excel","*.xls"), ("All", "*")],
                         title="Selectionnez un fichier de configuration")
         if fileName != "":
             # Le dernier répertoire du fichier de travail est stocké pour
@@ -616,7 +647,19 @@ class table2kmlGUI():
                     hDirFile.close()      
             except IOError:
                 self.setMessageLabel(str(exc), True)
-            self.pathInputFilelVar.set(fileName)
+            self.pathInputFileVar.set(fileName)
+
+    def initTitleKMLCallback(self) :
+        """
+        Callback for setting default value for KML title.
+        """
+        self.titleKMLVar.set("Calque de " + getpass.getuser())
+
+    def initPictoCallback(self) :
+        """
+        Callback for setting default value for KML title.
+        """
+        self.urlPictoVar.set(self.URL_DOLMEN)
 
     def launchInputFileReader(self, event=None):
         """ Update list according input files
@@ -624,7 +667,7 @@ class table2kmlGUI():
         self.setMessageLabel("Lecture du fichier en cours, veuillez patienter...")
         import tkinter
 
-        pathFicTable = self.pathInputFilelVar.get()
+        pathFicTable = self.pathInputFileVar.get()
         try :
             self.listMessage, self.listInfoRead = \
                 processFile(self.canUseXLS, pathFicTable,
