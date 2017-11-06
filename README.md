@@ -13,6 +13,8 @@ This simple tool is written in Python and uses tkinter, xlrd and simplekml packa
 
 It works in batch mode or with a GUI.
 
+A program **getDolmenWKPLot.py** extracts datas from article Wikipedia [https://fr.wikipedia.org/wiki/Sites mégalithiques du Lot].  Output is in CSV format and can be converted with table2kml.
+
 Pre-Requisites
 -----------------
 
@@ -34,6 +36,8 @@ Usage
 Launch *table2kml.py* with *-h* or *--help* option to get help or read comments at the beginning of the source file.
 
 **./table2kml.py --help**
+
+**./getDolmenWKPLot.py --help**
 
 Example of output
 ------------------
