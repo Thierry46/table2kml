@@ -32,7 +32,10 @@ Parametres :
     Nom d'un fichier de données Excel .xls ou .csv (mode batch)
     Titre du calque codé dans le fichier KML : Ex.: "Dolmen Adrien" (mode batch)
     URL du picto : (mode batch)
-    Ex.: https://upload.wikimedia.org/wikipedia/commons/e/eb/PointDolmen.png
+    Ex.:
+    https://upload.wikimedia.org/wikipedia/commons/e/eb/PointDolmen.png (Base Adrien)
+    https://upload.wikimedia.org/wikipedia/commons/2/2b/1_dfs.png (carte Wkp)
+    https://upload.wikimedia.org/wikipedia/commons/c/c5/3_slmb.png (Article Wkp)
 
 Sortie :
     - Fichier de même nom que fichier d'entrée mais avec extension .kml
@@ -89,7 +92,8 @@ def main(argv=None):
     VERSION = 'v1.3 - 5/11/2017'
     NOM_PROG = 'table2kml.py'
     isVerbose = False
-    title = NOM_PROG + ' - ' + VERSION + " sur " + platform.system() + " " + platform.release()
+    title = NOM_PROG + ' - ' + VERSION + " sur " + platform.system() + " " + platform.release() + \
+        " - Python : " + platform.python_version()
     print(title)
 
     # Test environnement
