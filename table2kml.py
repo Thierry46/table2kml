@@ -5,27 +5,35 @@
 Programme : table2kml.py
 Github : https://github.com/Thierry46/table2kml
 Auteur : Thierry Maillard (TMD)
-Date : 27 - 5/11/2017
+Date : 27 - 15/11/2017
 
-Role : Convertir les coordonées informations de localisation contenues
-        dans un fichier de donnees (Excel97 ou CSV)
+Role : Convertir les coordonnées et informations contenues dans un fichier
         au format KML importable dans Geoportail.
+        Deux formats pour le fichier d'entrée sont supportés :
+        - Excel 97 (1ère feuille) spécifique aux dolmens
+        - format CSV de format plus souple à utiliser de préférence.
+
+        Le fichier d'entrée doit contenir des colonnes commençant par :
+        - Nom : nom à afficher dans le picto
+        - Lat : latitude en degré sexagésimal ou décimal
+        - Lon : longitude en degré sexagésimal ou décimal
+        Les autres colonnes seront affichées dans la bulle d'info.
+        Les colonnes dont les titres commencent par - seront ignorées.
 
 Prerequis :
 - Python v3.xxx : a télécharger depuis : https://www.python.org/downloads/
 - module simplekml : sudo python3 -m pip install simplekml
-- module xlrd : sudo python3 -m pip install xlrd
-
-Usage : table2kml.py [-h] [-v] [Chemin xls]
-Sans paramètre, lance une IHM, sinon fonctionne en batch avec 1 parametre.
+- module xlrd (pour fichier Excel) : sudo python3 -m pip install xlrd
 
 Environnement :
-    Ce programme teste son environnement (modules python disponibles)
-    et s'y adaptera.
-    tkinter : pour IHM : facultatif (mode batch alors seul)
-    xlrd : pour lire le fichier Excel (obligatoire pour traiter fichier .xls en entrée)
-    simplekml : pour ecrire le fichier resultat kml (obligatoire)
+Ce programme teste son environnement (modules python disponibles)
+et s'y adaptera.
+tkinter : pour IHM : facultatif (mode batch alors seul)
+xlrd : pour lire le fichier Excel (obligatoire pour traiter fichier .xls en entrée)
+simplekml : pour ecrire le fichier resultat kml (obligatoire)
 
+Usage : table2kml.py [-h] [-v] [Chemin_fichier Nom_calque url_picto]
+Sans paramètre, lance une IHM, sinon fonctionne en batch avec 1 parametre.
 Parametres :
     -h ou --help : affiche cette aide.
     -v ou --verbose : mode bavard
@@ -36,6 +44,7 @@ Parametres :
     https://upload.wikimedia.org/wikipedia/commons/e/eb/PointDolmen.png (Base Adrien)
     https://upload.wikimedia.org/wikipedia/commons/2/2b/1_dfs.png (carte Wkp)
     https://upload.wikimedia.org/wikipedia/commons/c/c5/3_slmb.png (Article Wkp)
+    https://upload.wikimedia.org/wikipedia/commons/c/cc/5_ldf.png (T4T35)
 
 Sortie :
     - Fichier de même nom que fichier d'entrée mais avec extension .kml
@@ -89,7 +98,7 @@ import getpass
 # main function
 ##################################################
 def main(argv=None):
-    VERSION = 'v1.3 - 5/11/2017'
+    VERSION = 'v2.0 - 15/11/2017'
     NOM_PROG = 'table2kml.py'
     isVerbose = False
     title = NOM_PROG + ' - ' + VERSION + " sur " + platform.system() + " " + platform.release() + \
@@ -222,9 +231,10 @@ def readExcel(pathFicTable, isVerbose):
     sheetData = workbook.sheet_by_index(0)
 
     # Recherche des noms de colonnes à extraire
-    titleRow = [title.strip() for title in sheetData.row_values(0)]
+    titleRow = [title.strip() for title in sheetData.row_values(0) if not title.startswith('-')]
     if isVerbose:
         print("Titres des colonnes :", titleRow)
+
     for numCol, title in enumerate(titleRow):
         for startColumn in dictData:
             if title.startswith(startColumn):
@@ -333,21 +343,7 @@ def readCSV(pathFicTable, isVerbose):
     import csv
     EXT_FIC_OK = ".csv"
     LIGNE_START = 2
-    dictData = {
-        'Nom' : {'obligatoire':True, 'numCol':-1, 'nomCol':"", 'dataCol':None},
-        'Lat' : {'obligatoire':True, 'numCol':-1, 'nomCol':"", 'dataCol':None},
-        'Lon' : {'obligatoire':True, 'numCol':-1, 'nomCol':"", 'dataCol':None},
-        'Lieu' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
-        'Commune' : {'obligatoire':True, 'numCol':-1, 'nomCol':"", 'dataCol':None},
-        'Tumulus' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
-        'Orthostats' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
-        'Table' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
-        'Classement' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
-        'Remarques' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
-        'Pages Web' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
-        'OSM' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None}
-        }
-
+    neededColumns = ['Nom', 'Lat', 'Lon']
     listInfoRead = []
     listMessage = []
 
@@ -379,95 +375,95 @@ def readCSV(pathFicTable, isVerbose):
         # Lecture du fichier dans dictionnaire
         reader = csv.DictReader(csvfile, dialect=dialect)
 
-        # Analyse ligne de titre
-        titleRow = reader.fieldnames
+        # Analyse ligne de titre : les colonnes dont les titres commencent par - sont ignorées
+        titleRow = [title for title in reader.fieldnames if not title.startswith('-')]
         if isVerbose:
             print("Titres des colonnes :", titleRow)
-        for numCol, title in enumerate(titleRow):
-            for startColumn in dictData:
-                if title.startswith(startColumn):
-                    dictData[startColumn]['numCol'] = numCol
-                    dictData[startColumn]['nomCol'] = title
 
-        # test présence colonnes obligatoires et lecture des colonnes présentes
-        for startColumn in dictData:
-            if dictData[startColumn]['obligatoire'] and dictData[startColumn]['numCol'] == -1:
+        # Verif présence colonnes obligatoires dans titres
+        for startColumn in neededColumns:
+            colFound = False
+            for colName in titleRow:
+                if colName.startswith(colName):
+                    colFound = True
+                    break
+            if not colFound:
                 raise ValueError("Aucune colonne commençant par " + startColumn + " trouvée !")
-            if isVerbose and dictData[startColumn]['numCol'] != -1:
-                print("Num colonne Nom :", dictData[startColumn]['numCol'], ": ",
-                      dictData[startColumn]['nomCol'].strip())
+        if isVerbose:
+            print("Titres des colonnes obligatoires OK :", neededColumns)
+
 
         # Analyse et enregistrement valeurs
         for row in reader:
             ligneOK = True
             messageInfos = {'numLigne':reader.line_num}
-
-            if ligneOK and len(row[dictData['Nom']['nomCol']]) == 0:
-                ligneOK = False
-                messageInfos['texte'] = "ignorée car champ " + row['Nom'] + " vide"
-
-            # Verif et conversion champs Longitude et Latitude
-            coordValue = {}
-            for field in ('Lon', 'Lat'):
-                if len(row[dictData[field]['nomCol']]) == 0 :
-                    ligneOK = False
-                    messageInfos['texte'] = "ignorée car champ " + dictData[field]['nomCol'] + \
-                                            " vide"
-                if ligneOK:
-                    try:
-                       coordValue[field] = convertCoord(row[dictData[field]['nomCol']])
-                    except ValueError:
-                        ligneOK = False
-                        messageInfos['texte'] = "ignorée car champ " + \
-                                    dictData[field]['nomCol'] + " incorrect : " + \
-                                    row[dictData[field]['nomCol']]
-
-            # Construction du champ description
             description = "<h1>Informations</h1>" + '\n'
-            for field in ('Commune', 'Lieu', 'Lat', 'Lon', 'Classement', 'Remarques',
-                           'Tumulus', 'Orthostats', 'Table', 'OSM', 'Pages Web'):
-                if ligneOK and dictData[field]['numCol'] != -1 and \
-                    len(row[dictData[field]['nomCol']]) != 0 :
-                    description += "<b>" + dictData[field]['nomCol'].strip() + "</b> : "
-                    # Champs particuliers
-                    if field == 'Commune':
-                        nomCommune = row[dictData[field]['nomCol']]
-                        url = 'https://fr.wikipedia.org/wiki/' + nomCommune
-                        description += '<a href="' + url + '" target="_blank">' + nomCommune + \
-                                        '</href><br/>\n'
+            for numCol, field in enumerate(titleRow):
+                # Verif champs obligatoire présent dans la ligne
+                for startColumn in neededColumns:
+                    if ligneOK and field.startswith(startColumn) and len(row[field]) == 0:
+                        ligneOK = False
+                        messageInfos['texte'] = "ignorée car champ " + row[field] + " vide"
+                        break
 
-                    elif field == 'Lat' or field == 'Lon':
-                        # Ecrit dans le champ description les coordonnées converties
-                        description += str(coordValue[field]) + '<br/>\n'
+                # Verif et conversion champs Longitude et Latitude
+                if ligneOK :
+                    for fieldCoord in (neededColumns[1], neededColumns[2]):
+                        if field.startswith(fieldCoord):
+                            try:
+                                row[field] = str(convertCoord(row[field]))
+                            except ValueError:
+                                ligneOK = False
+                                messageInfos['texte'] = "ignorée car champ " + \
+                                        field + " incorrect : " +  row[field]
+                                break
 
-                    elif field == 'Pages Web':
-                        url = row[dictData[field]['nomCol']]
-                        description += '<a href="' + url + \
-                                        '" target="_blank">Infos WEB</href><br/>\n'
+                # Ajout lien wikipedia pour le champ Commune
+                if ligneOK and field.startswith("Commune") and len(row[field]) != 0:
+                    row[field] ='https://fr.wikipedia.org/wiki/' + row[field].strip()
 
-                    else:
-                        description += row[dictData[field]['nomCol']]
+                # Construction du champ description
+                if ligneOK and not field.startswith("Nom"):
+                    if len(row[field]) != 0 :
+                        description += "<b>" + field.strip() + "</b> : "
+                        # Champs url
+                        if row[field].startswith("http"):
+                            description += '<a href="' + row[field].strip() + \
+                                        '" target="_blank">' + \
+                                        os.path.basename(row[field].strip()) + '</href>'
+                        else:
+                            description += row[field].strip()
                         description += '<br/>\n'
 
             # Enregistrement des valeurs utiles dans la structure résultat
             if ligneOK:
                 listInfoRead.append({'numLigne':reader.line_num,
-                                    'nom':row[dictData['Nom']['nomCol']],
-                                    'Commune' : row[dictData['Commune']['nomCol']],
-                                    'latitude':coordValue['Lat'],
-                                    'longitude':coordValue['Lon'],
+                                    'nom':getValue(row, neededColumns[0]),
+                                    'Commune':getValue(row, 'Commune'),
+                                    'latitude':getValue(row, neededColumns[1]),
+                                    'longitude':getValue(row, neededColumns[2]),
                                     'description':description
                                     })
             else:
                 listMessage.append(messageInfos)
 
-    print(len(listInfoRead), "dolmens enregistrés,", len(listMessage), "lignes ignorées.")
+    print(len(listInfoRead), "lieus enregistrés,", len(listMessage), "lignes ignorées.")
 
     if isVerbose:
         for message in listMessage:
             print("Ligne numéro", message['numLigne'], message['texte'])
 
     return listMessage, listInfoRead
+
+def getValue(row, startName):
+    """ in the dictionary row, get value of the first field starting with name """
+    value = "?"
+    for fieldName in row.keys():
+        if fieldName.startswith(startName):
+            found = True
+            value = row[fieldName]
+            break
+    return value
 
 def convertCoord(coord):
     """ Convertit une chaine de coordonnées d'angle en un réel

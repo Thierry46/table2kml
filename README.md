@@ -5,9 +5,11 @@ Input file format : .xls (Excel97) and .csv
 
 Input file have to contain at least fields starting with : Nom, Commune, Lat, Lon
 
-This fields are displayed in description field :
+For xls file : The following fields are displayed in description field :
 
 Lieu, Commune, IGN, OSM, Lat. N (°), Long. E (°), Vérif., Classement, Tumulus, Orthostats, Table, Remarques, Pages Web
+
+For CSV file (prefered), all column are displayed in description field except if title begins with -
 
 This simple tool is written in Python and uses tkinter, xlrd and simplekml packages.
 
