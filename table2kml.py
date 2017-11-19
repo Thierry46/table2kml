@@ -430,7 +430,7 @@ def readCSV(pathFicTable, isVerbose):
                         if row[field].startswith("http"):
                             description += '<a href="' + row[field].strip() + \
                                         '" target="_blank">' + \
-                                        os.path.basename(row[field].strip()) + '</href>'
+                                        os.path.basename(row[field].strip()) + '</a>'
                         else:
                             description += row[field].strip()
                         description += '<br/>\n'
