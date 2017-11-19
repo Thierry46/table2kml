@@ -5,7 +5,7 @@
 Programme : table2kml.py
 Github : https://github.com/Thierry46/table2kml
 Auteur : Thierry Maillard (TMD)
-Date : 27 - 15/11/2017
+Date : 27 - 19/11/2017
 
 Role : Convertir les coordonnées et informations contenues dans un fichier
         au format KML importable dans Geoportail.
@@ -98,7 +98,7 @@ import getpass
 # main function
 ##################################################
 def main(argv=None):
-    VERSION = 'v2.0 - 15/11/2017'
+    VERSION = 'v2.1 - 19/11/2017'
     NOM_PROG = 'table2kml.py'
     isVerbose = False
     title = NOM_PROG + ' - ' + VERSION + " sur " + platform.system() + " " + platform.release() + \
@@ -305,7 +305,7 @@ def readExcel(pathFicTable, isVerbose):
                     nomCommune = dictData[field]['dataCol'][numLigne]
                     url = 'https://fr.wikipedia.org/wiki/' + nomCommune
                     description += '<a href="' + url + '" target="_blank">' + nomCommune + \
-                                   '</href><br/>\n'
+                                   '</a><br/>\n'
 
                 elif field == 'Lat' or field == 'Lon':
                     # Ecrit dans le champ description les coordonnées converties

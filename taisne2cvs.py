@@ -59,7 +59,7 @@ _PREC_COORD_DEC_ = 6
 # main function
 ##################################################
 def main(argv=None):
-    VERSION = 'v1.3a - 14/11/2017'
+    VERSION = 'v1.4 - 18/11/2017'
     NOM_PROG = 'taisne2cvs.py'
     isVerbose = False
     title = NOM_PROG + ' - ' + VERSION + " sur " + platform.system() + " " + platform.release() + \
@@ -109,9 +109,6 @@ def processFile(pathFicTaisne, isVerbose):
     """ Extrait les infos du fichier taisne passé en paramètre
         et produit un fichier .csv
         """
-    listInfoRead = []
-    pathKMLFile = ""
-    """ Convertit un fichier passé en paramètre en un fichier KML """
     if not pathFicTaisne.endswith(".txt"):
         raise ValueError("Extension du fichier non supporté :" +
                          os.path.basename(pathFicTaisne) +
@@ -119,36 +116,43 @@ def processFile(pathFicTaisne, isVerbose):
 
     print("Conversion du fichier", pathFicTaisne, "...")
     pathFicTaisneCSV = pathFicTaisne.replace(".txt", ".csv")
+    nbCaviteOK = 0
     with open(pathFicTaisneCSV, 'w', newline='') as hFicCSV:
         writer = csv.writer(hFicCSV, delimiter=';', quoting=csv.QUOTE_ALL)
         columnTitle = ['Nom cavité', 'Alias', 'Commune', 'IGN',
                        'X Lambert3', 'Y Lambert3', 'Latitude', 'Longitude',
-                       'Altitude', 'Page Taisne']
+                       'Altitude', 'Description', 'Page Taisne', 'Plan']
         writer.writerow(columnTitle)
 
         # Regexp to analyse parts
         regexpTitle = re.compile(r'^(?P<titre>INVENTAIRE ALPHABÉTIQUE)$')
         regexpPage = re.compile(r'^(?P<page>[\d]+)$')
-        quote = "'"
-        regexpCaveName = re.compile(r'^(?P<caveName>[A-Z ÏÉÈÔÛ\?]+?), ' +
-                                    r'(?P<startCaveName>[\w ()°\-' + quote +
-                                    r']+)Commune d.(?P<commune>.*)')
+        regexpCaveName = re.compile(r"^(?P<caveName>[A-Z0-9 \-°ÏÑÉÂÈÇËÈÊÜÔÛŒô\?\(\)\'\’]+?), " +
+                                    r'(?P<startCaveName>.+)Commune d.(?P<commune>.*)')
         regexpVoirA =  re.compile(r'- voir à')
         regexpCoord = re.compile(r'^(?P<Xe>\d{3}),(?P<Xd>\d{2}) - (?P<Ye>\d{3}),(?P<Yd>\d{2})' +
                                  r' - (?P<altitude>\d{3})m[\( \)]*IGN (?P<IGN>\d{4} [ETOW]{1,2})\)$')
+        regexpCoordMult = re.compile(r'(?P<sousGrotte>.*?)[: ]?' +
+                                     r'(?P<Xe>\d{3}),(?P<Xd>\d{2}) - (?P<Ye>\d{3}),(?P<Yd>\d{2})' +
+                                     r' - (?P<altitude>\d{3})m[ \)]?$')
+        regexpCoordMultIGN = re.compile(r'(?P<sousGrotte>.*?)[: ]?' +
+                                        r'(?P<Xe>\d{3}),(?P<Xd>\d{2}) - (?P<Ye>\d{3}),(?P<Yd>\d{2})' +
+                                        r' - (?P<altitude>\d{3})m \) ' +
+                                        r'\(IGN (?P<IGN>\d{4} [ETOW]{1,2})\)$')
+        regexpPlan = re.compile(r'Plan (?P<plan>\d{1,3}).')
+        regexpIGNSeul = re.compile(r'^[\) \(]?IGN (?P<IGN>\d{4} [ETOW]{1,2})\)$')
 
         caveOk = False
         wait4Coord = False
+        wait4Description = False
         numPage = 0
         caveName = ""
         startCaveName = ""
         alias = ""
-        xLambert3 = 0.0
-        yLambert3 = 0.0
-        longitude = 0.0
-        latitude = 0.0
-        altitude = 0.0
         IGN = ""
+        description = ""
+        plan = ""
+        listeCoordEntree = []
         with open(pathFicTaisne, 'r') as hFicTaisne:
             for numLine, line in enumerate(hFicTaisne.read().splitlines()):
                 ignoreLine = False
@@ -158,7 +162,7 @@ def processFile(pathFicTaisne, isVerbose):
                 match = regexpTitle.search(line)
                 if match and numLine == 0:
                     if isVerbose:
-                        print('ligne ', numLine, ' : titre OK : ', match.group('titre'))
+                        print('ligne ', numLine+1, ' : titre OK : ', match.group('titre'))
                 elif match and numLine != 0:
                     message = 'titre sur mauvaise ligne : ' + match.group('titre')
                     error = True
@@ -175,32 +179,25 @@ def processFile(pathFicTaisne, isVerbose):
                         if numPageLu > numPage : #Pb chaine CO2 mal lue par pdfminer
                             numPage = numPageLu
                             if isVerbose:
-                                print(numLine, 'Page : ', numPage)
+                                print(numLine+1, ': Page : ', numPage)
 
                 # ligne nom cavité
                 if not match and not error:
                     match = regexpCaveName.search(line)
                     if match:
                         if caveOk:
-                            # Ecrit la cavite précedente
-                            nom = startCaveName
-                            if not startCaveName.endswith("'"):
-                                nom += " "
-                            nom += caveName
-                            writer.writerow([nom, alias, commune, IGN,
-                                             xLambert3, yLambert3,
-                                             latitude, longitude, altitude,
-                                             numPage])
+                            writeCave(writer, caveName, startCaveName, alias, commune, IGN,
+                                      listeCoordEntree, description, numPage, plan, isVerbose)
+                            nbCaviteOK += 1
                             caveOk = False
+                            wait4Description = False
                             caveName = ""
                             startCaveName = ""
                             alias = ""
-                            xLambert3 = 0.0
-                            yLambert3 = 0.0
-                            longitude = 0.0
-                            latitude = 0.0
-                            altitude = 0.0
+                            listeCoordEntree = []
                             IGN = ""
+                            description = ""
+                            plan = ""
 
                         caveName = match.group('caveName')
                         startCaveName = match.group('startCaveName')
@@ -218,11 +215,11 @@ def processFile(pathFicTaisne, isVerbose):
                             commune = commune[1:]
                         wait4Coord = True
                         if isVerbose:
-                            print(numLine, 'st :', startCaveName, 'nom :', caveName,
+                            print(numLine+1, ': qualif :', startCaveName, 'nom :', caveName,
                                   'alias :', alias,
                                   'commune :', commune)
 
-                # Ligne coordonnées
+                # Ligne coordonnées complete
                 if not match and not error:
                     match = regexpCoord.search(line)
                     if match:
@@ -230,24 +227,132 @@ def processFile(pathFicTaisne, isVerbose):
                             message = 'coordonnée sur mauvaise ligne : '
                             error = True
                         else:
-                            xLambert3 = float(match.group('Xe')) + float(match.group('Xd')) / 100.
-                            yLambert3 = 3000. + float(match.group('Ye')) + float(match.group('Yd')) / 100.
-                            longitude, latitude = lambert3ToWGS84(xLambert3 * 1000.,
-                                                              yLambert3 * 1000.)
-                            altitude = float(match.group('altitude'))
+                            xLambert3, yLambert3, longitude, latitude = \
+                                    parseCoordinates(match, numLine, isVerbose)
+                            listeCoordEntree = [{'nom':"",
+                                                'xLambert3':xLambert3,
+                                                'yLambert3':yLambert3,
+                                                'longitude':longitude,
+                                                'latitude':latitude,
+                                                'altitude':match.group('altitude')
+                                                }]
+
                             IGN = match.group('IGN')
-                            caveOk = True
-                            wait4Coord = False
+                            wait4Coord = True
+                            wait4Description = True
                             if isVerbose:
-                                print(numLine,
-                                      'Lambert3', xLambert3, yLambert3,
-                                      'WGS', longitude, latitude)
-                                print('Altitude', altitude)
-                                print('IGN', IGN)
+                                print('IGN :', IGN)
+
+                # Ligne coordonnes sous grotte
+                if not match and not error:
+                    match = regexpCoordMult.search(line)
+                    if match:
+                        if not wait4Coord:
+                            message = 'coordonnée sous grotte sur mauvaise ligne : '
+                            error = True
+                        else:
+                            xLambert3, yLambert3, longitude, latitude = \
+                                parseCoordinates(match, numLine, isVerbose)
+                            listeCoordEntree.append({'nom':match.group('sousGrotte'),
+                                                'xLambert3':xLambert3,
+                                                'yLambert3':yLambert3,
+                                                'longitude':longitude,
+                                                'latitude':latitude,
+                                                'altitude':match.group('altitude')
+                                                })
+
+                            wait4Coord = True
+                            wait4Description = True
+
+                # Ligne coordonnes sous grotte
+                if not match and not error:
+                    match = regexpCoordMultIGN.search(line)
+                    if match:
+                        if not wait4Coord:
+                            message = 'coordonnée sous grotte sur mauvaise ligne : '
+                            error = True
+                        else:
+                            xLambert3, yLambert3, longitude, latitude = \
+                                parseCoordinates(match, numLine, isVerbose)
+                            listeCoordEntree.append({'nom':match.group('sousGrotte'),
+                                                    'xLambert3':xLambert3,
+                                                    'yLambert3':yLambert3,
+                                                    'longitude':longitude,
+                                                    'latitude':latitude,
+                                                    'altitude':match.group('altitude')
+                                                    })
+                            IGN = match.group('IGN')
+                            if isVerbose:
+                                print('IGN :', IGN)
+                            wait4Coord = True
+                            wait4Description = True
+
+                # Ligne IGN isolée
+                if not match and not error:
+                    match = regexpIGNSeul.search(line)
+                    if match:
+                        IGN = match.group('IGN')
+                        wait4Coord = False
+                        wait4Description = True
+                        if isVerbose:
+                            print('IGN seul :', IGN)
+
+                # Lignes description
+                if not match and not error and wait4Description:
+                    if line.strip() != "":
+                        description += line.strip() + '<br/>\n'
+                        caveOk = True
+                        wait4Coord = False
+                        matchPlan = regexpPlan.search(line)
+                        if matchPlan:
+                            plan = matchPlan.group('plan')
+                            if isVerbose:
+                                print(numLine+1, ': Plan : ', plan)
 
                 if error:
-                    print('ligne ', numLine, ' : Erreur : ', message)
+                    print('ligne ', numLine+1, ' : Erreur : ', message, ' :', line)
                     error = False
+
+            if caveOk:
+                writeCave(writer, caveName, startCaveName, alias, commune, IGN,
+                          listeCoordEntree, description, numPage, plan, isVerbose)
+                nbCaviteOK += 1
+            print("Nombre de cavité extraites :", nbCaviteOK)
+
+def parseCoordinates(match, numLine, isVerbose):
+    xLambert3 = float(match.group('Xe')) + float(match.group('Xd')) / 100.
+    yLambert3 = 3000. + float(match.group('Ye')) + float(match.group('Yd')) / 100.
+    longitude, latitude = lambert3ToWGS84(xLambert3 * 1000., yLambert3 * 1000.)
+    altitude = float(match.group('altitude'))
+    if isVerbose:
+        print(numLine+1,
+              'Lambert3 :', xLambert3, yLambert3,
+              'WGS84 :', longitude, latitude)
+        print('Altitude :', altitude)
+    return xLambert3, yLambert3, longitude, latitude
+
+def writeCave(writer, caveName, startCaveName, alias, commune, IGN,
+              listeCoordEntree, description, numPage, plan, isVerbose):
+    # Ecrit la cavite précedente
+    nom = startCaveName
+    if not startCaveName.endswith("'"):
+        nom += " "
+    nom += caveName
+
+    if description.endswith('<br/>\n'):
+        description = description[:-1*len('<br/>\n')]
+        if isVerbose:
+            print('Description : ', description)
+
+    for entree in listeCoordEntree:
+        nomEntree = nom
+        if entree['nom'] != "":
+            nomEntree += ' : ' + entree['nom']
+        writer.writerow([nomEntree, alias, commune, IGN,
+                     entree['xLambert3'], entree['yLambert3'],
+                     entree['latitude'], entree['longitude'],
+                     entree['altitude'], description, numPage, plan])
+
 
 def lambert3ToWGS84(xLambert3, yLambert3):
     """ Convertit des coordonnées Lambert3 : X (m), Y (m)
