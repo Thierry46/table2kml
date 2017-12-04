@@ -5,7 +5,7 @@
 Programme : table2kml.py
 Github : https://github.com/Thierry46/table2kml
 Auteur : Thierry Maillard (TMD)
-Date : 27 - 19/11/2017
+Date : 27/11 - 4/12/2017
 
 Role : Convertir les coordonnées et informations contenues dans un fichier
         au format KML importable dans Geoportail.
@@ -98,7 +98,7 @@ import getpass
 # main function
 ##################################################
 def main(argv=None):
-    VERSION = 'v2.1 - 19/11/2017'
+    VERSION = 'v2.2 - 3/12/2017'
     NOM_PROG = 'table2kml.py'
     isVerbose = False
     title = NOM_PROG + ' - ' + VERSION + " sur " + platform.system() + " " + platform.release() + \
@@ -208,6 +208,8 @@ def readExcel(pathFicTable, isVerbose):
         'Orthostats' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
         'Table' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
         'Classement' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
+        'T4T35' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
+        'Mahenc' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
         'Remarques' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
         'Pages Web' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
         'OSM' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None}
@@ -259,7 +261,13 @@ def readExcel(pathFicTable, isVerbose):
             link = sheetData.hyperlink_map.get((numLigne, dictData['Pages Web']['numCol']))
             url = '' if link is None else link.url_or_path
             dictData['Pages Web']['dataCol'][numLigne] = url
- 
+
+    for numLigne, urlString in enumerate(dictData['T4T35']['dataCol']):
+        if "http" not in urlString:
+            link = sheetData.hyperlink_map.get((numLigne, dictData['T4T35']['numCol']))
+            url = '' if link is None else link.url_or_path
+            dictData['T4T35']['dataCol'][numLigne] = url
+
     # Formatage et contrôle des donnees utiles
     listInfoRead = []
     listMessage = []
@@ -294,6 +302,7 @@ def readExcel(pathFicTable, isVerbose):
         # Construction du champ description
         description = "<h1>Informations</h1>" + '\n'
         for field in ('Commune', 'Lieu', 'Lat', 'Lon', 'Classement', 'Remarques',
+                      'T4T35', 'Mahenc',
                       'Tumulus', 'Orthostats', 'Table', 'OSM', 'Pages Web'):
             if ligneOK and dictData[field]['numCol'] != -1 and \
                 numLigne < len(dictData[field]['dataCol']) and \
@@ -311,9 +320,9 @@ def readExcel(pathFicTable, isVerbose):
                     # Ecrit dans le champ description les coordonnées converties
                     description += str(coordValue[field]) + '<br/>\n'
 
-                elif field == 'Pages Web':
+                elif field == 'Pages Web' or field == 'T4T35':
                     url = dictData[field]['dataCol'][numLigne]
-                    description += '<a href="' + url + '" target="_blank">Infos WEB</href><br/>\n'
+                    description += '<a href="' + url + '" target="_blank">Infos WEB</a><br/>\n'
 
                 else:
                     description += dictData[field]['dataCol'][numLigne]
@@ -360,19 +369,29 @@ def readCSV(pathFicTable, isVerbose):
     with open(pathFicTable, newline='') as csvfile:
         sample = csvfile.read(1024)
         sniffer = csv.Sniffer()
-        if not sniffer.has_header(sample):
-            raise ValueError("Impossible de trouver une entête dans le fichier !")
-        elif isVerbose:
-            print("Ligne d'entête détectée.")
 
-        dialect = sniffer.sniff(sample)
-        if dialect is  None:
-            raise ValueError("Impossible de trouver le dialecte CSV du fichier !")
-        elif isVerbose:
-            print("Dialect CSV détecté")
-        csvfile.seek(0)
+        try:
+            if not sniffer.has_header(sample):
+                raise ValueError("Impossible de trouver une entête dans le fichier !")
+            elif isVerbose:
+                print("Ligne d'entête détectée.")
+
+            dialect = sniffer.sniff(sample)
+            if dialect is  None:
+                raise ValueError("Impossible de trouver le dialecte CSV du fichier !")
+            elif isVerbose:
+                print("Dialect CSV détecté")
+        except csv.Error as exc:
+            print("Erreur : ", str(exc))
+            print("Essai dialect Excel avec séparateur de champ ;")
+            listMessage.append({'numLigne':0, 'texte':str(exc)})
+            listMessage.append({'numLigne':0, 'texte':"Essai dialect Excel avec séparateur de champ ;"})
+            # Enregistre ce dialecte auprès du module csv
+            csv.register_dialect('excel-fr', delimiter=';')
+            dialect = 'excel-fr'
 
         # Lecture du fichier dans dictionnaire
+        csvfile.seek(0)
         reader = csv.DictReader(csvfile, dialect=dialect)
 
         # Analyse ligne de titre : les colonnes dont les titres commencent par - sont ignorées
@@ -391,7 +410,6 @@ def readCSV(pathFicTable, isVerbose):
                 raise ValueError("Aucune colonne commençant par " + startColumn + " trouvée !")
         if isVerbose:
             print("Titres des colonnes obligatoires OK :", neededColumns)
-
 
         # Analyse et enregistrement valeurs
         for row in reader:
@@ -688,10 +706,10 @@ class table2kmlGUI():
                 self.dolmensListbox.insert(tkinter.END,
                                            dolmen['Commune'] + " : " + dolmen['nom'])
 
-            self.setMessageLabel("Fichier converti : " + str(len(self.listMessage)) +
+            self.setMessageLabel("Fichier converti en .kml : " + str(len(self.listMessage)) +
                                         " messages, " + str(len(self.listInfoRead)) +
-                                        " dolmens dans : " +
-                                        os.path.basename(pathFicTable).replace('.xls', '.kml'))
+                                        " dolmens lus dans : " +
+                                        os.path.basename(pathFicTable))
         except IOError as exc:
             self.setMessageLabel(str(exc), isError=True)
         except OSError as exc:
