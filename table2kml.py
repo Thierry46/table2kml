@@ -5,12 +5,12 @@
 Programme : table2kml.py
 Github : https://github.com/Thierry46/table2kml
 Auteur : Thierry Maillard (TMD)
-Date : 27/11 - 4/12/2017
+Date : 27/11/2017 - 7/12/2017
 
 Role : Convertir les coordonnées et informations contenues dans un fichier
         au format KML importable dans Geoportail.
         Deux formats pour le fichier d'entrée sont supportés :
-        - Excel 97 (1ère feuille) spécifique aux dolmens
+        - Excel 97 (1ère feuille du classeur)
         - format CSV de format plus souple à utiliser de préférence.
 
         Le fichier d'entrée doit contenir des colonnes commençant par :
@@ -98,7 +98,7 @@ import getpass
 # main function
 ##################################################
 def main(argv=None):
-    VERSION = 'v2.2 - 3/12/2017'
+    VERSION = 'v3.0 - 7/12/2017'
     NOM_PROG = 'table2kml.py'
     isVerbose = False
     title = NOM_PROG + ' - ' + VERSION + " sur " + platform.system() + " " + platform.release() + \
@@ -176,20 +176,24 @@ def main(argv=None):
     sys.exit(0)
 
 def processFile(canUseXLS, pathFicTable, titleKML, URLPicto, isVerbose):
-    listInfoRead = []
-    pathKMLFile = ""
     """ Convertit un fichier passé en paramètre en un fichier KML """
+    listInfoRead = []
+    titleRow = []
+    rowData = []
+    neededColumns = ['Nom', 'Lat', 'Lon']
+    pathKMLFile = ""
     if canUseXLS and pathFicTable.endswith(".xls"):
-        listMessage, listInfoRead = readExcel(pathFicTable, isVerbose)
+        titleRow, rowData = readExcel(pathFicTable, isVerbose)
         pathKMLFile = pathFicTable.replace(".xls", ".kml")
     elif pathFicTable.endswith(".csv"):
-        listMessage, listInfoRead = readCSV(pathFicTable, isVerbose)
+        titleRow, rowData = readCSV(pathFicTable, isVerbose)
         pathKMLFile = pathFicTable.replace(".csv", ".kml")
     else:
         raise ValueError("Extension du fichier non supporté :" +
                           os.path.basename(pathFicTable) +
                           " extension supportées : .xls")
 
+    listMessage, listInfoRead = formatData(titleRow, rowData, neededColumns, isVerbose)
     genKMLFiles(listInfoRead, titleKML, URLPicto, pathKMLFile, isVerbose)
     return listMessage, listInfoRead
 
@@ -197,23 +201,9 @@ def readExcel(pathFicTable, isVerbose):
     """ Recupère les infos de localisation dans le fichier Excel"""
     import xlrd
     EXT_FIC_OK = ".xls"
-    LIGNE_START = 2
-    dictData = {
-        'Nom' : {'obligatoire':True, 'numCol':-1, 'nomCol':"", 'dataCol':None},
-        'Lat' : {'obligatoire':True, 'numCol':-1, 'nomCol':"", 'dataCol':None},
-        'Lon' : {'obligatoire':True, 'numCol':-1, 'nomCol':"", 'dataCol':None},
-        'Lieu' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
-        'Commune' : {'obligatoire':True, 'numCol':-1, 'nomCol':"", 'dataCol':None},
-        'Tumulus' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
-        'Orthostats' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
-        'Table' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
-        'Classement' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
-        'T4T35' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
-        'Mahenc' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
-        'Remarques' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
-        'Pages Web' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None},
-        'OSM' : {'obligatoire':False, 'numCol':-1, 'nomCol':"", 'dataCol':None}
-            }
+    neededColumns = ['Nom', 'Lat', 'Lon']
+    titleRow = []
+    rowData = []
 
     if len(pathFicTable) == 0:
         raise ValueError("Nom fichier vide !" )
@@ -231,130 +221,30 @@ def readExcel(pathFicTable, isVerbose):
 
     # ouverture des données dans la 1ere feuille
     sheetData = workbook.sheet_by_index(0)
-
-    # Recherche des noms de colonnes à extraire
-    titleRow = [title.strip() for title in sheetData.row_values(0) if not title.startswith('-')]
     if isVerbose:
-        print("Titres des colonnes :", titleRow)
+        print("Analyse de la feuille 0  :", sheetData.name)
 
-    for numCol, title in enumerate(titleRow):
-        for startColumn in dictData:
-            if title.startswith(startColumn):
-                dictData[startColumn]['numCol'] = numCol
-                dictData[startColumn]['nomCol'] = title
+    # Enregistrement contenu de la table dans la structure rowData
+    titleRow = sheetData.row_values(0)
+    rowData = []
+    for numRow in range(1, sheetData.nrows):
+        rowCols = {}
+        for numCol in range(sheetData.ncols):
+            rowCols[sheetData.cell_value(0, numCol)] = sheetData.cell_value(numRow, numCol)
+            # Extraction des liens WEB
+            link = sheetData.hyperlink_map.get((numRow, numCol))
+            if link is not None:
+                rowCols[sheetData.cell_value(0, numCol)] = link.url_or_path
+        rowData.append(rowCols)
 
-    # test présence colonnes obligatoires et lecture des colonnes présentes
-    for startColumn in dictData:
-        if dictData[startColumn]['obligatoire'] and dictData[startColumn]['numCol'] == -1:
-            raise ValueError("Aucune colonne commençant par " + startColumn + " trouvée !")
-        if isVerbose:
-            if dictData[startColumn]['numCol'] != -1:
-                print("Num colonne Nom :", dictData[startColumn]['numCol'], ": ",
-                      dictData[startColumn]['nomCol'])
-        if dictData[startColumn]['numCol'] != -1:
-            dictData[startColumn]['dataCol'] = [
-                str(value).strip() for value in sheetData.col_values(dictData[startColumn]['numCol'])]
-
-    #Extraction des liens WEB
-    for numLigne, urlString in enumerate(dictData['Pages Web']['dataCol']):
-        if "http" not in urlString:
-            link = sheetData.hyperlink_map.get((numLigne, dictData['Pages Web']['numCol']))
-            url = '' if link is None else link.url_or_path
-            dictData['Pages Web']['dataCol'][numLigne] = url
-
-    for numLigne, urlString in enumerate(dictData['T4T35']['dataCol']):
-        if "http" not in urlString:
-            link = sheetData.hyperlink_map.get((numLigne, dictData['T4T35']['numCol']))
-            url = '' if link is None else link.url_or_path
-            dictData['T4T35']['dataCol'][numLigne] = url
-
-    # Formatage et contrôle des donnees utiles
-    listInfoRead = []
-    listMessage = []
-    for numLigne, nomDolmen in enumerate(dictData['Nom']['dataCol']):
-        ligneOK = True
-        messageInfos = {'numLigne':numLigne+1}
-
-        if numLigne < LIGNE_START - 1:
-            ligneOK = False
-            messageInfos['texte'] = "ignorée car ligne de titre"
-
-        if ligneOK and len(nomDolmen) == 0 :
-            ligneOK = False
-            messageInfos['texte'] = "ignorée car champ " + dictData['Nom']['nomCol'] + " vide"
-
-        # Verif et conversion champs Longitude et Latitude
-        coordValue = {}
-        for field in ('Lon', 'Lat'):
-            if ligneOK and (numLigne >= len(dictData[field]['dataCol']) or
-                             len(dictData[field]['dataCol'][numLigne]) == 0) :
-                  ligneOK = False
-                  messageInfos['texte'] = "ignorée car champ " + dictData[field]['nomCol'] + " vide"
-            if ligneOK:
-                  try:
-                      coordValue[field] = convertCoord(dictData[field]['dataCol'][numLigne])
-                  except ValueError:
-                      ligneOK = False
-                      messageInfos['texte'] = "ignorée car champ " + \
-                                        dictData[field]['nomCol'][numLigne] + \
-                                        " incorrect : " + dictData[field]['dataCol'][numLigne]
-
-        # Construction du champ description
-        description = "<h1>Informations</h1>" + '\n'
-        for field in ('Commune', 'Lieu', 'Lat', 'Lon', 'Classement', 'Remarques',
-                      'T4T35', 'Mahenc',
-                      'Tumulus', 'Orthostats', 'Table', 'OSM', 'Pages Web'):
-            if ligneOK and dictData[field]['numCol'] != -1 and \
-                numLigne < len(dictData[field]['dataCol']) and \
-                len(dictData[field]['dataCol'][numLigne]) != 0 :
-                description += "<b>" + dictData[field]['nomCol'] + "</b> : "
-
-                # Champs particuliers
-                if field == 'Commune':
-                    nomCommune = dictData[field]['dataCol'][numLigne]
-                    url = 'https://fr.wikipedia.org/wiki/' + nomCommune
-                    description += '<a href="' + url + '" target="_blank">' + nomCommune + \
-                                   '</a><br/>\n'
-
-                elif field == 'Lat' or field == 'Lon':
-                    # Ecrit dans le champ description les coordonnées converties
-                    description += str(coordValue[field]) + '<br/>\n'
-
-                elif field == 'Pages Web' or field == 'T4T35':
-                    url = dictData[field]['dataCol'][numLigne]
-                    description += '<a href="' + url + '" target="_blank">Infos WEB</a><br/>\n'
-
-                else:
-                    description += dictData[field]['dataCol'][numLigne]
-                    description += '<br/>\n'
-
-        # Enregistrement des valeurs utiles dans la structure résultat
-        if ligneOK:
-            listInfoRead.append({'numLigne':numLigne+1, 'nom':nomDolmen,
-                              'Commune' : dictData['Commune']['dataCol'][numLigne],
-                              'latitude':coordValue['Lat'],
-                              'longitude':coordValue['Lon'],
-                              'description':description
-                              })
-        else:
-            listMessage.append(messageInfos)
-
-    print(len(listInfoRead), "dolmens enregistrés,", len(listMessage), "lignes ignorées.")
-
-    if isVerbose:
-        for message in listMessage:
-            print("Ligne numéro", message['numLigne'], message['texte'])
-
-    return listMessage, listInfoRead
+    return titleRow, rowData
 
 def readCSV(pathFicTable, isVerbose):
     """ Recupère les infos de localisation dans le fichier Excel"""
     import csv
     EXT_FIC_OK = ".csv"
-    LIGNE_START = 2
-    neededColumns = ['Nom', 'Lat', 'Lon']
-    listInfoRead = []
-    listMessage = []
+    titleRow = []
+    rowData = []
 
     if len(pathFicTable) == 0:
         raise ValueError("Nom fichier vide !")
@@ -375,7 +265,6 @@ def readCSV(pathFicTable, isVerbose):
                 raise ValueError("Impossible de trouver une entête dans le fichier !")
             elif isVerbose:
                 print("Ligne d'entête détectée.")
-
             dialect = sniffer.sniff(sample)
             if dialect is  None:
                 raise ValueError("Impossible de trouver le dialecte CSV du fichier !")
@@ -394,94 +283,126 @@ def readCSV(pathFicTable, isVerbose):
         csvfile.seek(0)
         reader = csv.DictReader(csvfile, dialect=dialect)
 
-        # Analyse ligne de titre : les colonnes dont les titres commencent par - sont ignorées
-        titleRow = [title for title in reader.fieldnames if not title.startswith('-')]
-        if isVerbose:
-            print("Titres des colonnes :", titleRow)
-
-        # Verif présence colonnes obligatoires dans titres
-        for startColumn in neededColumns:
-            colFound = False
-            for colName in titleRow:
-                if colName.startswith(colName):
-                    colFound = True
-                    break
-            if not colFound:
-                raise ValueError("Aucune colonne commençant par " + startColumn + " trouvée !")
-        if isVerbose:
-            print("Titres des colonnes obligatoires OK :", neededColumns)
-
-        # Analyse et enregistrement valeurs
+        # Enregistrement contenu de la table dans la structure rowData
+        titleRow = reader.fieldnames
         for row in reader:
-            ligneOK = True
-            messageInfos = {'numLigne':reader.line_num}
-            description = "<h1>Informations</h1>" + '\n'
-            for numCol, field in enumerate(titleRow):
-                # Verif champs obligatoire présent dans la ligne
-                for startColumn in neededColumns:
-                    if ligneOK and field.startswith(startColumn) and len(row[field]) == 0:
-                        ligneOK = False
-                        messageInfos['texte'] = "ignorée car champ " + row[field] + " vide"
-                        break
+            rowData.append(row)
+    return titleRow, rowData
 
-                # Verif et conversion champs Longitude et Latitude
-                if ligneOK :
-                    for fieldCoord in (neededColumns[1], neededColumns[2]):
-                        if field.startswith(fieldCoord):
-                            try:
-                                row[field] = str(convertCoord(row[field]))
-                            except ValueError:
-                                ligneOK = False
-                                messageInfos['texte'] = "ignorée car champ " + \
-                                        field + " incorrect : " +  row[field]
-                                break
+def formatData(titleRow, rowData, neededColumns, isVerbose):
+    """ Formatage et contrôle des donnees utiles """
+    listInfoRead = []
+    listMessage = []
+    regexpSite = re.compile(r'^http[s]?://(?P<siteName>.+?)/.*?(?P<id>[\w=. ]+)$')
 
-                # Ajout lien wikipedia pour le champ Commune
-                if ligneOK and field.startswith("Commune") and len(row[field]) != 0:
-                    row[field] ='https://fr.wikipedia.org/wiki/' + row[field].strip()
+    # Détermination colonnes utiles
+    titleRowUsed = checkNeededColumns(titleRow, neededColumns, isVerbose)
 
-                # Construction du champ description
-                if ligneOK and not field.startswith("Nom"):
-                    if len(row[field]) != 0 :
-                        description += "<b>" + field.strip() + "</b> : "
-                        # Champs url
-                        if row[field].startswith("http"):
-                            description += '<a href="' + row[field].strip() + \
-                                        '" target="_blank">' + \
-                                        os.path.basename(row[field].strip()) + '</a>'
-                        else:
-                            description += row[field].strip()
-                        description += '<br/>\n'
+    for numLigne, row in enumerate(rowData):
+        ligneOK = True
+        messageInfos = {'numLigne':numLigne+1}
 
-            # Enregistrement des valeurs utiles dans la structure résultat
+        # Check neededColumns[0]
+        fieldName, nomElement = getFirstFieldStartingBy(row, neededColumns[0])
+        if ligneOK and len(nomElement) == 0 :
+            ligneOK = False
+            messageInfos['texte'] = "ignorée car champ " + fieldName + " vide"
+
+        # Verif et conversion champs Longitude et Latitude
+        coordValue = {}
+        for field in (neededColumns[1], neededColumns[2]):
+            fieldName, value = getFirstFieldStartingBy(row, field)
+            if ligneOK and len(value) == 0 :
+                  ligneOK = False
+                  messageInfos['texte'] = "ignorée car champ " + fieldName + " vide"
             if ligneOK:
-                listInfoRead.append({'numLigne':reader.line_num,
-                                    'nom':getValue(row, neededColumns[0]),
-                                    'Commune':getValue(row, 'Commune'),
-                                    'latitude':getValue(row, neededColumns[1]),
-                                    'longitude':getValue(row, neededColumns[2]),
-                                    'description':description
-                                    })
-            else:
-                listMessage.append(messageInfos)
+                  try:
+                      coordValue[fieldName] = convertCoord(value)
+                  except ValueError:
+                      ligneOK = False
+                      messageInfos['texte'] = "ignorée car champ " + fieldName + \
+                                              " incorrect : " + value
 
-    print(len(listInfoRead), "lieus enregistrés,", len(listMessage), "lignes ignorées.")
+        # Construction du champ description
+        description = "<h1>Informations</h1>" + '\n'
+        fieldCommune = ""
+        for field in titleRowUsed:
+            # Place name is not written in description info balloon
+            if ligneOK and not field.startswith(neededColumns[0]):
+                value = str(row[field]).strip()
+                if len(value) != 0 :
+                    description += "<b>" + field.strip() + "</b> : "
+
+                    # Champs particuliers
+                    if field.startswith('Commune'):
+                        fieldCommune = value
+                        value = 'https://fr.wikipedia.org/wiki/' + value
+                    elif field == getFirstFieldStartingBy(row, neededColumns[1])[0] or \
+                        field == getFirstFieldStartingBy(row, neededColumns[2])[0]:
+                        # Ecrit dans le champ description les coordonnées converties
+                        value = str(coordValue[field])
+
+                    if value.startswith("http"):
+                        value = formateURL(value, regexpSite)
+                    description += value + '<br/>\n'
+
+        # Enregistrement des valeurs utiles dans la structure résultat
+        if ligneOK:
+            listInfoRead.append({'numLigne':numLigne+1,
+                                'nom':nomElement.strip(),
+                                'Commune':fieldCommune,
+                                'latitude':coordValue[getFirstFieldStartingBy(row, neededColumns[1])[0]],
+                                'longitude':coordValue[getFirstFieldStartingBy(row, neededColumns[2])[0]],
+                                'description':description
+                                })
+        else:
+            listMessage.append(messageInfos)
 
     if isVerbose:
         for message in listMessage:
             print("Ligne numéro", message['numLigne'], message['texte'])
+    print(len(listInfoRead), "éléments enregistrés,", len(listMessage), "lignes ignorées.")
 
     return listMessage, listInfoRead
 
-def getValue(row, startName):
-    """ in the dictionary row, get value of the first field starting with name """
+def  checkNeededColumns(allColumnNames, neededColumns, isVerbose):
+    """ Verif présence colonnes obligatoires dans titres
+        Suppression colonne commençant par -
+        Retourne la liste des titres et les noms complets des colonnes obligatoires """
+
+    # Elimination des colonnes commençant par -
+    titleRow = [title for title in allColumnNames if not title.startswith('-')]
+    if isVerbose:
+        print("Titres des colonnes :", titleRow)
+
+    # Test nombre de colonnes
+    if len(titleRow) < len(neededColumns):
+        raise ValueError("Au moins " + len(neededColumns) + " nécessaires !")
+
+    for startColumn in neededColumns:
+        colFound = False
+        for colName in titleRow:
+            if colName.startswith(startColumn):
+                colFound = True
+                break
+        if not colFound:
+            raise ValueError("Aucune colonne commençant par " + startColumn + " trouvée !")
+
+    if isVerbose:
+        print("Titres des colonnes obligatoires OK :", neededColumns)
+    return titleRow
+
+def getFirstFieldStartingBy(row, startName):
+    """ in the dictionary row, get first field name starting with startName
+        and its value """
     value = "?"
     for fieldName in row.keys():
         if fieldName.startswith(startName):
-            found = True
             value = row[fieldName]
             break
-    return value
+    if value == "?":
+        fieldName = startName
+    return fieldName, value
 
 def convertCoord(coord):
     """ Convertit une chaine de coordonnées d'angle en un réel
@@ -500,6 +421,17 @@ def convertCoord(coord):
             raise
     return valFloat
 
+def formateURL(url, regexpSite):
+    """ Formate une URL en HTML """
+    url = url.strip()
+    tagA = url
+    match = regexpSite.search(url)
+    if match:
+        tagA = '<a href="' + url + '" target="_blank">'
+        tagA += match.group('id') + ' (' + match.group('siteName') + ')'
+        tagA += '</a>'
+    return tagA
+
 def genKMLFiles(listInfoRead, titleKML, URLPicto, pathKMLFile, isVerbose):
     """ genere les fichiers de sortie KML"""
 
@@ -515,20 +447,20 @@ def genKMLFiles(listInfoRead, titleKML, URLPicto, pathKMLFile, isVerbose):
     titleKML = titleKML + " " + time.strftime("%d/%m/%y")
     kml = simplekml.Kml(name=titleKML)
 
-    # Style icone et couleur du texte pour tous les dolmens
-    # Ref couleur:http://www.simplekml.com/en/latest/constants.html#color
-    styleIconDolmen = simplekml.Style()
-    styleIconDolmen.labelstyle.color = simplekml.Color.cadetblue
-    styleIconDolmen.iconstyle.icon.href = URLPicto
+    # Style icone et couleur du texte pour tous les éléments
+    # Ref couleur : http://www.simplekml.com/en/latest/constants.html#color
+    styleIcon = simplekml.Style()
+    styleIcon.labelstyle.color = simplekml.Color.cadetblue
+    styleIcon.iconstyle.icon.href = URLPicto
 
-    for dolmen in listInfoRead:
-        point = kml.newpoint(name=dolmen['nom'],
-                             description='<![CDATA[' + dolmen['description'] + ']]>\n',
-                             coords=[(str(dolmen['longitude']), str(dolmen['latitude']))])
-        point.style = styleIconDolmen
+    for element in listInfoRead:
+        point = kml.newpoint(name=element['nom'],
+                             description='<![CDATA[' + element['description'] + ']]>\n',
+                             coords=[(str(element['longitude']), str(element['latitude']))])
+        point.style = styleIcon
 
     kml.save(pathKMLFile)
-    print(str(len(listInfoRead)), "dolmens écrits dans", pathKMLFile)
+    print(str(len(listInfoRead)), "éléments écrits dans", pathKMLFile)
 
 ############
 class table2kmlGUI():
@@ -546,7 +478,7 @@ class table2kmlGUI():
         """
         import tkinter
 
-        self.URL_DOLMEN = "https://upload.wikimedia.org/wikipedia/commons/e/eb/PointDolmen.png"
+        self.URL_PICTO_DEFAULT = "https://upload.wikimedia.org/wikipedia/commons/e/eb/PointDolmen.png"
 
         self.root = root
         mainFrame = tkinter.Frame(self.root)
@@ -610,21 +542,21 @@ class table2kmlGUI():
         self.messagesListbox.config(xscrollcommand=scrollbarBottomMessages.set)
         messageFrame.pack(side = tkinter.TOP, fill="both", expand="yes")
 
-        # Pour affichage des dolmens lus
-        dolmensFrame = tkinter.LabelFrame(mainFrame, text="Dolmens trouvés dans le fichier")
-        self.dolmensListbox = tkinter.Listbox(dolmensFrame,
+        # Pour affichage des éléments lus
+        elementsFrame = tkinter.LabelFrame(mainFrame, text="elements trouvés dans le fichier")
+        self.elementsListbox = tkinter.Listbox(elementsFrame,
                                        background="light blue",
                                        height=10, width=70)
-        self.dolmensListbox.grid(row=0, columnspan=2)
-        scrollbarRightDolmens = tkinter.Scrollbar(dolmensFrame, orient=tkinter.VERTICAL,
-                                                  command=self.dolmensListbox.yview)
-        scrollbarRightDolmens.grid(row=0, column=2, sticky=tkinter.W+tkinter.N+tkinter.S)
-        self.dolmensListbox.config(yscrollcommand=scrollbarRightDolmens.set)
-        scrollbarBottomDolmens = tkinter.Scrollbar(dolmensFrame, orient=tkinter.HORIZONTAL,
-                                                   command=self.dolmensListbox.xview)
-        scrollbarBottomDolmens.grid(row=1, columnspan=2, sticky=tkinter.N+tkinter.E+tkinter.W)
-        self.dolmensListbox.config(xscrollcommand=scrollbarBottomDolmens.set)
-        dolmensFrame.pack(side = tkinter.TOP, fill="both", expand="yes")
+        self.elementsListbox.grid(row=0, columnspan=2)
+        scrollbarRightelements = tkinter.Scrollbar(elementsFrame, orient=tkinter.VERTICAL,
+                                                  command=self.elementsListbox.yview)
+        scrollbarRightelements.grid(row=0, column=2, sticky=tkinter.W+tkinter.N+tkinter.S)
+        self.elementsListbox.config(yscrollcommand=scrollbarRightelements.set)
+        scrollbarBottomelements = tkinter.Scrollbar(elementsFrame, orient=tkinter.HORIZONTAL,
+                                                   command=self.elementsListbox.xview)
+        scrollbarBottomelements.grid(row=1, columnspan=2, sticky=tkinter.N+tkinter.E+tkinter.W)
+        self.elementsListbox.config(xscrollcommand=scrollbarBottomelements.set)
+        elementsFrame.pack(side = tkinter.TOP, fill="both", expand="yes")
 
         statusFrame = tkinter.LabelFrame(mainFrame, text="Messages")
         self.messageLabel = tkinter.Label(statusFrame, text="Pret !")
@@ -677,7 +609,7 @@ class table2kmlGUI():
         """
         Callback for setting default value for KML title.
         """
-        self.urlPictoVar.set(self.URL_DOLMEN)
+        self.urlPictoVar.set(self.URL_PICTO_DEFAULT)
 
     def launchInputFileReader(self, event=None):
         """ Update list according input files
@@ -692,7 +624,7 @@ class table2kmlGUI():
                             self.titleKMLEntry.get(), self.urlPictoEntry.get(),
                             self.isVerbose)
             if len(self.listInfoRead) == 0:
-                raise ValueError("Aucun dolmen trouvé dans le fichier !")
+                raise ValueError("Aucun élément trouvé dans le fichier !")
 
             # Update message list
             self.messagesListbox.delete(0, tkinter.END)
@@ -700,15 +632,15 @@ class table2kmlGUI():
                 self.messagesListbox.insert(tkinter.END,
                                             "Ligne " + str(message['numLigne']) +
                                             " : " + message['texte'])
-            # Update dolmen list
-            self.dolmensListbox.delete(0, tkinter.END)
-            for dolmen in self.listInfoRead:
-                self.dolmensListbox.insert(tkinter.END,
-                                           dolmen['Commune'] + " : " + dolmen['nom'])
+            # Update élément list
+            self.elementsListbox.delete(0, tkinter.END)
+            for element in self.listInfoRead:
+                self.elementsListbox.insert(tkinter.END,
+                                           element['Commune'] + " : " + element['nom'])
 
             self.setMessageLabel("Fichier converti en .kml : " + str(len(self.listMessage)) +
                                         " messages, " + str(len(self.listInfoRead)) +
-                                        " dolmens lus dans : " +
+                                        " elements lus dans : " +
                                         os.path.basename(pathFicTable))
         except IOError as exc:
             self.setMessageLabel(str(exc), isError=True)
