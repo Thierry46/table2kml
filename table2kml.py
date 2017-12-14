@@ -32,14 +32,14 @@ tkinter : pour IHM : facultatif (mode batch alors seul)
 xlrd : pour lire le fichier Excel (obligatoire pour traiter fichier .xls en entrée)
 simplekml : pour ecrire le fichier resultat kml (obligatoire)
 
-Usage : table2kml.py [-h] [-v] [Chemin_fichier Nom_calque url_picto]
+Usage : table2kml.py [-h] [-v] [Chemin_fichier Nom_calque [url_picto]]
 Sans paramètre, lance une IHM, sinon fonctionne en batch avec 1 parametre.
 Parametres :
     -h ou --help : affiche cette aide.
     -v ou --verbose : mode bavard
     Nom d'un fichier de données Excel .xls ou .csv (mode batch)
     Titre du calque codé dans le fichier KML : Ex.: "Dolmen Adrien" (mode batch)
-    URL du picto : (mode batch)
+    URL du picto : (facultatif en mode batch)
     Ex.:
     https://upload.wikimedia.org/wikipedia/commons/e/eb/PointDolmen.png (Base Adrien)
     https://upload.wikimedia.org/wikipedia/commons/2/2b/1_dfs.png (carte Wkp)
@@ -98,7 +98,7 @@ import getpass
 # main function
 ##################################################
 def main(argv=None):
-    VERSION = 'v3.0 - 7/12/2017'
+    VERSION = 'v3.1 - 14/12/2017'
     NOM_PROG = 'table2kml.py'
     isVerbose = False
     title = NOM_PROG + ' - ' + VERSION + " sur " + platform.system() + " " + platform.release() + \
@@ -165,11 +165,15 @@ def main(argv=None):
             sys.exit(2)
 
     else: # Batch
-        if len(args) == 3:
-            processFile(canUseXLS, args[0], args[1], args[2], isVerbose)
+        if len(args) >=2 and len(args) <= 3:
+            URLPicto = ""
+            if len(args) == 3:
+                URLPicto = args[2]
+            processFile(canUseXLS, args[0], args[1], URLPicto, isVerbose)
         else:
             print(__doc__)
-            print("Nombre de paramètre invalide : 3 nécessaires : fichier titre picto")
+            print("Nombre de paramètre invalide : 2 nécessaires et 1 facultatif :")
+            print("fichier titre [URLpicto]")
             sys.exit(1)
 
     print('End table2kml.py', VERSION)
@@ -273,8 +277,6 @@ def readCSV(pathFicTable, isVerbose):
         except csv.Error as exc:
             print("Erreur : ", str(exc))
             print("Essai dialect Excel avec séparateur de champ ;")
-            listMessage.append({'numLigne':0, 'texte':str(exc)})
-            listMessage.append({'numLigne':0, 'texte':"Essai dialect Excel avec séparateur de champ ;"})
             # Enregistre ce dialecte auprès du module csv
             csv.register_dialect('excel-fr', delimiter=';')
             dialect = 'excel-fr'
@@ -435,10 +437,12 @@ def formateURL(url, regexpSite):
 def genKMLFiles(listInfoRead, titleKML, URLPicto, pathKMLFile, isVerbose):
     """ genere les fichiers de sortie KML"""
 
+    # Ref simplekml : http://www.simplekml.com/en/latest/reference.html
     import simplekml
-    # Ref simplekml:http://www.simplekml.com/en/latest/reference.html
 
-    if not URLPicto.startswith("http"):
+    withPicto = (len(URLPicto) > 0)
+
+    if withPicto and not URLPicto.startswith("http"):
         raise ValueError("URL du picto incorrecte :" +
                          URLPicto +
                          " : devrait commencé par http")
@@ -451,7 +455,8 @@ def genKMLFiles(listInfoRead, titleKML, URLPicto, pathKMLFile, isVerbose):
     # Ref couleur : http://www.simplekml.com/en/latest/constants.html#color
     styleIcon = simplekml.Style()
     styleIcon.labelstyle.color = simplekml.Color.cadetblue
-    styleIcon.iconstyle.icon.href = URLPicto
+    if withPicto:
+        styleIcon.iconstyle.icon.href = URLPicto
 
     for element in listInfoRead:
         point = kml.newpoint(name=element['nom'],
