@@ -5,7 +5,7 @@
 Programme : table2kml.py
 Github : https://github.com/Thierry46/table2kml
 Auteur : Thierry Maillard (TMD)
-Date : 27/11/2017 - 7/12/2017
+Date : 27/11/2017 - 17/12/2017
 
 Role : Convertir les coordonnées et informations contenues dans un fichier
         au format KML importable dans Geoportail.
@@ -32,14 +32,16 @@ tkinter : pour IHM : facultatif (mode batch alors seul)
 xlrd : pour lire le fichier Excel (obligatoire pour traiter fichier .xls en entrée)
 simplekml : pour ecrire le fichier resultat kml (obligatoire)
 
-Usage : table2kml.py [-h] [-v] [Chemin_fichier Nom_calque [url_picto]]
+Usage : table2kml.py [-h] [-v] [-i] [Chemin_fichier Nom_calque [url_picto]]
 Sans paramètre, lance une IHM, sinon fonctionne en batch avec 1 parametre.
 Parametres :
     -h ou --help : affiche cette aide.
     -v ou --verbose : mode bavard
+    -i : Le fichier picto désigné par une URL (http...) est téléchargé et inclus dans le fichier KML
+         Les fichier locaux sont toujoursencodés en base64  et inclus dans le fichier KML.
     Nom d'un fichier de données Excel .xls ou .csv (mode batch)
     Titre du calque codé dans le fichier KML : Ex.: "Dolmen Adrien" (mode batch)
-    URL du picto : (facultatif en mode batch)
+    URL ou nom local du fichier pictogramme qui apparaîtra sur chaque lieu : (facultatif)
     Ex.:
     https://upload.wikimedia.org/wikipedia/commons/e/eb/PointDolmen.png (Base Adrien)
     https://upload.wikimedia.org/wikipedia/commons/2/2b/1_dfs.png (carte Wkp)
@@ -98,15 +100,16 @@ import getpass
 # main function
 ##################################################
 def main(argv=None):
-    VERSION = 'v3.1 - 14/12/2017'
+    VERSION = 'v3.2 - 17/12/2017'
     NOM_PROG = 'table2kml.py'
     isVerbose = False
+    includePicto = False
     title = NOM_PROG + ' - ' + VERSION + " sur " + platform.system() + " " + platform.release() + \
         " - Python : " + platform.python_version()
     print(title)
 
     # Test environnement
-    # Test presence des modules tkinter, numpy et matplotlib
+    # Test presence des modules tkinter, xlrd, simplekml
     canUseGUI = True
     canUseXLS = True
     try :
@@ -136,7 +139,7 @@ def main(argv=None):
     # parse command line options
     dirProject = os.path.dirname(os.path.abspath(sys.argv[0]))
     try:
-        opts, args = getopt.getopt(argv[1:], "hv", ["help", "verbose"])
+        opts, args = getopt.getopt(argv[1:], "hvi", ["help", "verbose", "include"])
     except getopt.error as msg:
         print(msg)
         print("To get help use --help ou -h")
@@ -151,12 +154,16 @@ def main(argv=None):
             isVerbose = True
             print("Mode verbose : bavard pour debug")
 
+        if o in ("-i", "--include"):
+            includePicto = True
+            print("Inclus le picto dans le fichier KML")
+
     if len(args) < 1:
         if canUseGUI:
             import tkinter
             print("Lancement de l'IHM...")
             root = tkinter.Tk()
-            table2kmlGUI(root, dirProject, title, canUseXLS, isVerbose)
+            table2kmlGUI(root, dirProject, title, canUseXLS, includePicto, isVerbose)
             root.mainloop()
         else:
             print(__doc__)
@@ -165,11 +172,11 @@ def main(argv=None):
             sys.exit(2)
 
     else: # Batch
-        if len(args) >=2 and len(args) <= 3:
+        if len(args) >= 2 and len(args) <= 3:
             URLPicto = ""
             if len(args) == 3:
                 URLPicto = args[2]
-            processFile(canUseXLS, args[0], args[1], URLPicto, isVerbose)
+            processFile(canUseXLS, args[0], args[1], URLPicto, includePicto, isVerbose)
         else:
             print(__doc__)
             print("Nombre de paramètre invalide : 2 nécessaires et 1 facultatif :")
@@ -179,7 +186,7 @@ def main(argv=None):
     print('End table2kml.py', VERSION)
     sys.exit(0)
 
-def processFile(canUseXLS, pathFicTable, titleKML, URLPicto, isVerbose):
+def processFile(canUseXLS, pathFicTable, titleKML, URLPicto, includePicto, isVerbose):
     """ Convertit un fichier passé en paramètre en un fichier KML """
     listInfoRead = []
     titleRow = []
@@ -198,7 +205,7 @@ def processFile(canUseXLS, pathFicTable, titleKML, URLPicto, isVerbose):
                           " extension supportées : .xls")
 
     listMessage, listInfoRead = formatData(titleRow, rowData, neededColumns, isVerbose)
-    genKMLFiles(listInfoRead, titleKML, URLPicto, pathKMLFile, isVerbose)
+    genKMLFiles(listInfoRead, titleKML, URLPicto, pathKMLFile, includePicto, isVerbose)
     return listMessage, listInfoRead
 
 def readExcel(pathFicTable, isVerbose):
@@ -434,18 +441,13 @@ def formateURL(url, regexpSite):
         tagA += '</a>'
     return tagA
 
-def genKMLFiles(listInfoRead, titleKML, URLPicto, pathKMLFile, isVerbose):
-    """ genere les fichiers de sortie KML"""
+def genKMLFiles(listInfoRead, titleKML, pictoName, pathKMLFile, includePicto, isVerbose):
+    """ genere un fichier de sortie KML"""
 
     # Ref simplekml : http://www.simplekml.com/en/latest/reference.html
     import simplekml
 
-    withPicto = (len(URLPicto) > 0)
-
-    if withPicto and not URLPicto.startswith("http"):
-        raise ValueError("URL du picto incorrecte :" +
-                         URLPicto +
-                         " : devrait commencé par http")
+    dataPicto = convertFile2Base64(pictoName, includePicto, isVerbose)
 
     print("Ecriture des résultats dans", pathKMLFile, "...")
     titleKML = titleKML + " " + time.strftime("%d/%m/%y")
@@ -455,8 +457,8 @@ def genKMLFiles(listInfoRead, titleKML, URLPicto, pathKMLFile, isVerbose):
     # Ref couleur : http://www.simplekml.com/en/latest/constants.html#color
     styleIcon = simplekml.Style()
     styleIcon.labelstyle.color = simplekml.Color.cadetblue
-    if withPicto:
-        styleIcon.iconstyle.icon.href = URLPicto
+    if dataPicto is not None:
+        styleIcon.iconstyle.icon.href = dataPicto
 
     for element in listInfoRead:
         point = kml.newpoint(name=element['nom'],
@@ -467,12 +469,65 @@ def genKMLFiles(listInfoRead, titleKML, URLPicto, pathKMLFile, isVerbose):
     kml.save(pathKMLFile)
     print(str(len(listInfoRead)), "éléments écrits dans", pathKMLFile)
 
+def convertFile2Base64(pictoName, includePicto, isVerbose):
+    """ Return None if pictoName is empty
+        Return pictoName if pictoName is an URL and includePicto == False
+        else encode image content in base64 """
+    import urllib.request
+    import base64
+
+    encodeBase64 = False
+    strPicto = None
+
+    # If the picto name contains something
+    if len(pictoName) > 0:
+        if pictoName.startswith("http") and includePicto:
+            # Pour ressembler à un navigateur Mozilla/5.0
+            opener = urllib.request.build_opener()
+            opener.addheaders = [('User-agent', 'Mozilla/5.0')]
+            if isVerbose:
+                print("get URL content :", pictoName)
+            # Envoi requete, lecture de la page
+            with opener.open(pictoName) as infile:
+                strPicto = infile.read()
+                encodeBase64 = True
+                if isVerbose:
+                    print("Nombre de caracteres lus :", len(strPicto))
+
+        elif pictoName.startswith("http") and not includePicto:
+            strPicto = pictoName
+            if isVerbose:
+                print("URL picto :", pictoName)
+
+        else: # Read local file
+            if isVerbose:
+                print("get local file content :", pictoName)
+            # Lecrure du fichier local : mode binaire
+            with open(pictoName, 'rb') as hPicto:
+                strPicto = hPicto.read()
+                encodeBase64 = True
+                if isVerbose:
+                    print("Nombre de caracteres lus :", len(strPicto))
+
+    if encodeBase64 :
+        if isVerbose:
+            print("Encodage en base64 de l'image", os.path.basename(pictoName))
+        resultStr = "data:image/png;base64,"
+        resultStr += base64.b64encode(strPicto).decode('utf8')
+        if isVerbose:
+            print("Nombre de caracteres base64 :", len(resultStr))
+    else:
+        resultStr = strPicto
+
+    return resultStr
+
+
 ############
 class table2kmlGUI():
     """
     A GUI for table2kml script.
     """
-    def __init__(self, root, dirProject, title, canUseXLS, isVerbose):
+    def __init__(self, root, dirProject, title, canUseXLS, includePicto, isVerbose):
         """
         Constructor
         Define all GUIs widgets
@@ -489,6 +544,7 @@ class table2kmlGUI():
         mainFrame = tkinter.Frame(self.root)
         self.dirProject = dirProject
         self.canUseXLS = canUseXLS
+        self.includePicto = includePicto
         self.isVerbose = isVerbose
         self.listMessage = []
         self.listInfoRead = []
@@ -526,9 +582,22 @@ class table2kmlGUI():
                                            width=60)
         self.urlPictoEntry.grid(row=2, column=1)
 
+        # optionscheckboxes
+        valueVerbose = 1 if self.isVerbose else 0
+        self.isVerboseVar = tkinter.IntVar(value=valueVerbose)
+        tkinter.Checkbutton(inputFrame, text="Mode bavard",
+                            variable=self.isVerboseVar,
+                            command=self.verboseChange).grid(row=3, column=0)
+
+        valueIncludePicto = 1 if self.includePicto else 0
+        self.includePictoVar = tkinter.IntVar(value=valueIncludePicto)
+        tkinter.Checkbutton(inputFrame, text="Picto inclus dans KML",
+                            variable=self.includePictoVar,
+                            command=self.includePictoChange).grid(row=3, column=1)
+
         tkinter.Button(inputFrame, text="Traiter le fichier",
                        command=self.launchInputFileReader,
-                       fg='red').grid(row=3, column=0, columnspan=2)
+                       fg='red').grid(row=4, column=0, columnspan=2)
         inputFrame.pack(side = tkinter.TOP, fill="both", expand="yes")
 
         # Pour affichage des messages de lecture
@@ -572,7 +641,14 @@ class table2kmlGUI():
     ################
     # Callbacks
     ################
-        
+    def verboseChange(self, *args):
+        self.isVerbose = self.isVerboseVar.get() != 0
+        print("Mode bavard :", self.isVerbose)
+    def includePictoChange(self, *args):
+        self.includePicto = self.includePictoVar.get() != 0
+        if self.isVerbose:
+            print("Picto inclus :", self.includePicto)
+
     def fileChooserCallback(self) :
         """
         Callback for button that launch file chooser for input file.
@@ -627,7 +703,7 @@ class table2kmlGUI():
             self.listMessage, self.listInfoRead = \
                 processFile(self.canUseXLS, pathFicTable,
                             self.titleKMLEntry.get(), self.urlPictoEntry.get(),
-                            self.isVerbose)
+                            self.includePicto, self.isVerbose)
             if len(self.listInfoRead) == 0:
                 raise ValueError("Aucun élément trouvé dans le fichier !")
 
