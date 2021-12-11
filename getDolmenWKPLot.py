@@ -5,7 +5,7 @@
 Programme : getDolmenWKPLot.py
 Github : https://github.com/Thierry46/table2kml
 Auteur : Thierry Maillard (TMD)
-Date : 5 - 8/11/2017
+Date : 5/11/2017 - 10/12/2021
 
 Role : Extrait de Wikipedia la liste des dolmens du Lot et
         leurs coordonnées.
@@ -22,6 +22,13 @@ Parametres :
 
 Sortie :
 - Fichier .csv compatible avec le programme de conversion csv -> kml : table2kml
+
+Qualité :
+Pylint :
+Ref : https://pylint.org
+Install : python3 -m pip install -U pylint
+Usage : python3 -m pylint --disable=invalid-name getDolmenWKPLot.py > \
+        qualite/resu_pylint_getDolmenWKPLot.txt
 
 Modifications : voir https://github.com/Thierry46/table2kml
 
@@ -41,39 +48,49 @@ Contact me at thierry.maillard500n@orange.fr
 """
 import sys
 import getopt
-import math
 import time
-import imp
-import os
-import os.path
 import platform
 import re
-import time
-import getpass
-
-import urllib.request, urllib.error, urllib.parse
+import csv
+import urllib.request
+import urllib.error
+import urllib.parse
 
 # For performance : calculated once
+# Syntaxe des expressions régulières utilisées :
+# \x : caractère x qui est normalement un caractère spécial
+# \d* : plusieurs chiffres
+# ^ : Début de ligne
 # Regexp for [[lien|text]] or [[lien]]
 __REGEXP_LINK_SIMPLE__ = re.compile(r'[\[]{2}(?P<link>.*?)[\]]{2}')
 __REGEXP_LINK_ALIAS__ = re.compile(r'[\[]{2}(?P<link>.*?)\|.*?[\]]{2}')
 # Regexp for before<ref>texte reference</ref>after
 __REGEXP_REF_SIMPLE__ = re.compile(r'(?P<before>.*?)<ref>(?P<ref>.*?)</ref>(?P<after>.*)')
-__REGEXP_REF_NAMED_DEF__ = re.compile(r'(?P<before>.*?)<ref name=.*?>(?P<ref>.*?)</ref>(?P<after>.*)')
-__REGEXP_REF_NAMED_USED__ = re.compile(r'(?P<before>.*?)<ref name=(?P<ref>.*?)[ ]*/>(?P<after>.*)')
+__REGEXP_REF_NAMED_DEF__ = \
+        re.compile(r'(?P<before>.*?)<ref name=.*?>(?P<ref>.*?)</ref>(?P<after>.*)')
+__REGEXP_REF_NAMED_USED__ = \
+        re.compile(r'(?P<before>.*?)<ref name=(?P<ref>.*?)[ ]*/>(?P<after>.*)')
 # regexp d'extraction des coordonnées
-__REGEXP_COORD_DECIMAL__ = re.compile(r'[\{]{2}[ ]*[Cc]oord\|[ ]*(?P<Lat>\d*\.\d*)[ ]*\|' + \
+__REGEXP_COORD_DECIMAL__ = re.compile(r'[\{]{2}[ ]*[Cc]oord\|[ ]*(?P<Lat>\d*\.\d*)[ ]*\|' +
                                   r'[ ]*(?P<Lon>\d*\.\d*)')
-__REGEXP_COORD_SEXAGESIMAL__ = re.compile(r'[\{]{2}[ ]*[Cc]oord\|[ ]*(?P<Lat>\d*°' + \
-                                          r"\d*'" + r'\d*")[ ]*N\|' + \
-                                          r'[ ]*(?P<Lon>\d*°\d*'+ \
+__REGEXP_COORD_SEXAGESIMAL__ = re.compile(r'[\{]{2}[ ]*[Cc]oord\|[ ]*(?P<Lat>\d*°' +
+                                          r"\d*'" + r'\d*")[ ]*N\|' +
+                                          r'[ ]*(?P<Lon>\d*°\d*'+
                                           r"\d*'" + r'\d*")[ ]*E')
+# pour recherche chaine du genre :
+#'{{G|Lot|44.84015|1.68073|Dolmen de Viroulou {{n°|1}}|Grotte sans toponyme}}'
+__REGEXP_COORD_DECIMAL2__ =\
+        re.compile(r'^[ ]*\{\{G\|Lot\|[ ]*(?P<Lat>\d*\.\d*)[ ]*\|' +
+                   r'[ ]*(?P<Lon>\d*\.\d*)[ ]*' +
+                   r'\|(?P<Nom>.*)\|.*sans toponyme\}\}')
+
 
 ##################################################
 # main function
 ##################################################
 def main(argv=None):
-    VERSION = 'v2.0 - 8/11/2017'
+    """ Fonction principale """
+    VERSION = 'v2.2 - 11/12/2021'
     NOM_PROG = 'getDolmenWKPLot.py'
     NOM_ARTICLE_WIKIPEDIA = 'Sites mégalithiques du Lot'
     isVerbose = False
@@ -85,7 +102,6 @@ def main(argv=None):
         argv = sys.argv
 
     # parse command line options
-    dirProject = os.path.dirname(os.path.abspath(sys.argv[0]))
     try:
         opts, args = getopt.getopt(argv[1:], "hv", ["help", "isVerbose"])
     except getopt.error as msg:
@@ -93,12 +109,12 @@ def main(argv=None):
         print("To get help use --help ou -h")
         sys.exit(1)
     # process options
-    for o, a in opts:
-        if o in ("-h", "--help"):
+    for options in opts:
+        if options[0] in ("-h", "--help"):
             print(__doc__)
             sys.exit(0)
 
-        if o in ("-v", "--isVerbose"):
+        if options[0] in ("-v", "--isVerbose"):
             isVerbose = True
             print("Mode isVerbose : bavard pour debug")
 
@@ -122,20 +138,9 @@ def main(argv=None):
 def getInfoFromWikipedia(nomArticleWikipedia, isVerbose):
     """ Extrait les info sur les dolmens de la page Wikipedia du Lot """
 
-    # Syntaxe des expressions régulières utilisées :
-    # \x : caractère x qui est normalement un caractère spécial
-    # \d* : plusieurs chiffres
-    # ^ : Début de ligne
-
     print("Recup des dolmens de l'article :", nomArticleWikipedia, "...")
     nomArticleUrl = urllib.request.pathname2url(nomArticleWikipedia)
     page = getPageWikipediaFr(nomArticleUrl, isVerbose)
-
-    # Lecture des dolmens de la carte
-    # pour recherche chaine du genre :
-    #'{{G|Lot|44.84015|1.68073|Dolmen de Viroulou {{n°|1}}|Grotte sans toponyme}}'
-    regexpMap = re.compile(r'^[ ]*\{\{G\|Lot\|[ ]*(?P<Lat>\d*\.\d*)[ ]*\|[ ]*(?P<Lon>\d*\.\d*)[ ]*' +
-                           r'\|(?P<Nom>.*)\|.*sans toponyme\}\}')
 
     listInfoReadMap = []
     listMessage = []
@@ -147,7 +152,7 @@ def getInfoFromWikipedia(nomArticleWikipedia, isVerbose):
         elif inCarte and '{{Fin de carte}}' in line:
             inCarte = False
         elif inCarte:
-            match = regexpMap.search(line)
+            match = __REGEXP_COORD_DECIMAL2__.search(line)
             if match:
                 nom = remove_chars(match.group('Nom'), "{}|")
                 listInfoReadMap.append([nom, match.group('Lat'), match.group('Lon'), "?"])
@@ -175,7 +180,7 @@ def getInfoFromWikipedia(nomArticleWikipedia, isVerbose):
     for numRow, line in enumerate(page.splitlines()):
         line = line.strip()
         errorRow = False
-        if not inListe and '=== Liste non exhaustive ===' in line:
+        if not inListe and '== Liste non exhaustive ==' in line:
             inListe = True
         elif inListe and line.startswith('|}'):
             # Enregistre rowContent dans la liste
@@ -211,6 +216,7 @@ def getInfoFromWikipedia(nomArticleWikipedia, isVerbose):
     for numRow, line in enumerate(listRowContent[1:]):
         errorRow = False
         url = ""
+        commune = ""
         ref = ""
         lieu = ""
         classement = ""
@@ -271,9 +277,6 @@ def getInfoFromWikipedia(nomArticleWikipedia, isVerbose):
             listMessage.append({'numLigne':numRow, 'texte':messageInfos})
 
     print(len(listInfoReadArticle), "dolmens lus dans la section Liste et enregistrés")
-    for grpDolmen in listInfoReadArticle:
-        if 'Peyrelevade' in grpDolmen[0]:
-            print(grpDolmen)
     if isVerbose:
         print("------------------------------------------")
         print(len(listMessage), "Anomalies détectées dans la section Liste :")
@@ -284,6 +287,7 @@ def getInfoFromWikipedia(nomArticleWikipedia, isVerbose):
     return columnTitleMap, listInfoReadMap, columnTitleArticle, listInfoReadArticle
 
 def parseCoord(coordTxt):
+    """ Analyse une chaine contenant des coordonnées GPS """
     listCoordDolmen = []
     if len(coordTxt) == 0:
         raise ValueError("Champ coordonnées vide")
@@ -376,17 +380,22 @@ def extractLink(linkWkp):
     return islink, resultStr
 
 def remove_chars(subj, chars):
+    """
+    Enleve dans la chaine subj tous les caracteres
+    contenu dans la chaine chars
+    """
     sc = set(chars)
     return ''.join([c for c in subj if c not in sc])
 
 def cleanField(field):
+    """ Enleve certains caracteres dans la chaine field """
     field = remove_chars(field, '{}"')
     field = field.replace('|', ' ')
     field = field.replace("'",'')
     field = field.replace('harvsp ', '')
     field = field.replace('<br>', '<br/>')
     field = field.replace('opcit', '')
-    field = field.replace('<ref name=', '')
+    field = field.replace('<ref name=', ' ')
     field = field.replace(' >', '')
     field = field.replace('</ref>', '')
     field = field.replace('/>', '')
@@ -397,16 +406,15 @@ def cleanField(field):
     return field
 
 
-def writeCSV(columnTitle, listInfoRead, type):
+def writeCSV(columnTitle, listInfoRead, typeOutput):
     """ Ecrit les informations dans le fichier CSV dans un format compatible avec table2kml """
-    import csv
     if len(listInfoRead) == 0:
         raise ValueError("Aucun dolmen à écrire !")
 
-    titleCSVFile = "wikipedia_fr_" + type + "_" + time.strftime("%Y_%m_%d") + ".csv"
+    titleCSVFile = "wikipedia_fr_" + typeOutput + "_" + time.strftime("%Y_%m_%d") + ".csv"
     print("Ecriture des résultats dans", titleCSVFile, "...")
-    with open(titleCSVFile, 'w', newline='') as hFicCSV:
-        writer = csv.writer(hFicCSV)
+    with open(titleCSVFile, 'w', newline='', encoding='utf-8') as hFicCSV:
+        writer = csv.writer(hFicCSV, delimiter=',', quoting=csv.QUOTE_ALL)
         writer.writerow(columnTitle)
         for dolmen in listInfoRead:
             writer.writerow(dolmen)
@@ -415,8 +423,8 @@ def getPageWikipediaFr(nomArticleUrl, isVerbose):
     """
         Ouvre une page de Wikipedia et retourne le texte brut de la page
         if problem with urllib ssl.SSLError :
-        Launch "Install Certificates.command" located in Python installation directory :
-        sudo /Applications/Python\ 3.6/Install\ Certificates.command
+        Launch "Install Certificates.command" located in Python installation directory
+        <PYTHON_INSTALL_DIR>/Certificates.command
     """
     if isVerbose:
         print("Entrée dans getPageWikipediaFr")

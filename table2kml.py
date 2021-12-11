@@ -1,11 +1,11 @@
-#! /usr/bin/env python3.6
+#! /usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 *********************************************************
 Programme : table2kml.py
 Github : https://github.com/Thierry46/table2kml
 Auteur : Thierry Maillard (TMD)
-Date : 27/11/2017 - 17/12/2017
+Date : 27/11/2017 - 11/12/2021
 
 Role : Convertir les coordonnées et informations contenues dans un fichier
         au format KML importable dans Geoportail.
@@ -23,7 +23,8 @@ Role : Convertir les coordonnées et informations contenues dans un fichier
 Prerequis :
 - Python v3.xxx : a télécharger depuis : https://www.python.org/downloads/
 - module simplekml : sudo python3 -m pip install simplekml
-- module xlrd (pour fichier Excel) : sudo python3 -m pip install xlrd
+- module xlrd (facultatif pour fichier Excel) :
+        sudo python3 -m pip install xlrd
 
 Environnement :
 Ce programme teste son environnement (modules python disponibles)
@@ -41,7 +42,8 @@ Parametres :
          Les fichier locaux sont toujoursencodés en base64  et inclus dans le fichier KML.
     Nom d'un fichier de données Excel .xls ou .csv (mode batch)
     Titre du calque codé dans le fichier KML : Ex.: "Dolmen Adrien" (mode batch)
-    URL ou nom local du fichier pictogramme qui apparaîtra sur chaque lieu : (facultatif)
+    URL ou nom local du fichier pictogramme qui apparaîtra sur chaque lieu : (déconseillé)
+    Geoportail ne supporte plus les pictogrammes dans le KML depuis 2021.
     Ex.:
     https://upload.wikimedia.org/wikipedia/commons/e/eb/PointDolmen.png (Base Adrien)
     https://upload.wikimedia.org/wikipedia/commons/2/2b/1_dfs.png (carte Wkp)
@@ -51,13 +53,13 @@ Parametres :
 Sortie :
     - Fichier de même nom que fichier d'entrée mais avec extension .kml
 
-Exemples de lancement par ligne de commande sous Mac :
+Exemples de lancement par ligne de commande sous Linux et Mac :
 =====================
 Conversion batch d'un fichier CSV
 cd dossier application
-./table2kml.py Dolmen_csv_v0.6.csv "Dolmens Adrien" https://upload.wikimedia.org/wikipedia/commons/e/eb/PointDolmen.png
+./table2kml.py Dolmen_csv_v0.6.csv "Dolmens Adrien"
 Conversion batch d'un fichier Excel 97 :
-./table2kml.py Dolmen_v0.6.xls "Dolmens Adrien" https://upload.wikimedia.org/wikipedia/commons/e/eb/PointDolmen.png
+./table2kml.py Dolmen_v0.6.xls "Dolmens Adrien"
 Lancement IHM :
 ./table2kml.py
 
@@ -68,9 +70,15 @@ Ouvrir une fenêtre de commande : Windows + E, commande cmd
 cd dossier appli
 commandes identiques à celles au dessus sans ./
 
+Qualité :
+Pylint :
+Ref : https://pylint.org
+Install : python3 -m pip install -U pylint
+Usage : python3 -m pylint --disable=invalid-name table2kml.py > qualite/resu_pylint_table2kml.txt
+
 Modifications : voir https://github.com/Thierry46/table2kml
 
-Copyright 2017 Thierry Maillard
+Copyright 2021 Thierry Maillard
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
@@ -86,51 +94,36 @@ Contact me at thierry.maillard500n@orange.fr
 """
 import sys
 import getopt
-import math
 import time
-import imp
+import importlib
 import os
 import os.path
 import platform
 import re
-import time
 import getpass
+import urllib.request
+import base64
 
 ##################################################
 # main function
 ##################################################
 def main(argv=None):
-    VERSION = 'v3.2 - 17/12/2017'
+    """ Methode principale """
+    VERSION = 'v3.3 - 11/12/2021'
     NOM_PROG = 'table2kml.py'
     isVerbose = False
     includePicto = False
-    title = NOM_PROG + ' - ' + VERSION + " sur " + platform.system() + " " + platform.release() + \
-        " - Python : " + platform.python_version()
+    title = (NOM_PROG + ' - ' + VERSION + " sur " +
+             platform.system() + " " + platform.release() +
+             " - Python : " + platform.python_version())
     print(title)
 
     # Test environnement
     # Test presence des modules tkinter, xlrd, simplekml
-    canUseGUI = True
-    canUseXLS = True
-    try :
-        imp.find_module('tkinter')
-        import tkinter
-        print("Module tkinter OK : GUI allowed")
-    except ImportError as exc:
-        print("Warning ! module tkinter pas disponible -> utiliser mode batch :", exc)
-        canUseGUI = False
-    try :
-        imp.find_module('xlrd')
-        print("Module xlrd OK : .xls files supported")
-    except ImportError as exc:
-        print("Warning ! module xlrd pas disponible -> fichiers .xls non autorisé :", exc)
-        canUseXLS = False
-    try :
-        imp.find_module('simplekml')
-        print("Module simplekml OK : export en KML autorisé")
-    except ImportError as exc:
-        print(__doc__)
-        print("Erreur ! module simplekml pas disponible :", exc)
+    canUseGUI = importlib.util.find_spec("tkinter") is not None
+    canUseXLS = importlib.util.find_spec("xlrd") is not None
+    if not importlib.util.find_spec("simplekml"):
+        print("Erreur : Module simplekml OK : export en KML autorisé")
         sys.exit(1)
 
     if argv is None:
@@ -145,16 +138,16 @@ def main(argv=None):
         print("To get help use --help ou -h")
         sys.exit(1)
     # process options
-    for o, a in opts:
-        if o in ("-h", "--help"):
+    for options in opts:
+        if options[0] in ("-h", "--help"):
             print(__doc__)
             sys.exit(0)
 
-        if o in ("-v", "--verbose"):
+        if options[0] in ("-v", "--verbose"):
             isVerbose = True
             print("Mode verbose : bavard pour debug")
 
-        if o in ("-i", "--include"):
+        if options[0] in ("-i", "--include"):
             includePicto = True
             print("Inclus le picto dans le fichier KML")
 
@@ -212,7 +205,6 @@ def readExcel(pathFicTable, isVerbose):
     """ Recupère les infos de localisation dans le fichier Excel"""
     import xlrd
     EXT_FIC_OK = ".xls"
-    neededColumns = ['Nom', 'Lat', 'Lon']
     titleRow = []
     rowData = []
 
@@ -225,7 +217,7 @@ def readExcel(pathFicTable, isVerbose):
                           " : devrait finir par l'extension .xls")
 
     print("Lecture de", pathFicTable, "...")
-    # ouverture du fichier Excel 
+    # ouverture du fichier Excel
     workbook = xlrd.open_workbook(filename= pathFicTable, on_demand=True)
     if isVerbose:
         print("Liste des feuilles du classeur :", workbook.sheet_names())
@@ -267,22 +259,22 @@ def readCSV(pathFicTable, isVerbose):
 
     print("Lecture de", pathFicTable, "...")
     # Analyse du fichier CSV
-    with open(pathFicTable, newline='') as csvfile:
+    with open(pathFicTable, newline='', encoding='utf-8') as csvfile:
         sample = csvfile.read(1024)
         sniffer = csv.Sniffer()
 
         try:
             if not sniffer.has_header(sample):
                 raise ValueError("Impossible de trouver une entête dans le fichier !")
-            elif isVerbose:
+            if isVerbose:
                 print("Ligne d'entête détectée.")
             dialect = sniffer.sniff(sample)
             if dialect is  None:
                 raise ValueError("Impossible de trouver le dialecte CSV du fichier !")
-            elif isVerbose:
+            if isVerbose:
                 print("Dialect CSV détecté")
         except csv.Error as exc:
-            print("Erreur : ", str(exc))
+            print("Erreur cvs.Sniffer (détecteur de délimiteur de champ) : \n", str(exc))
             print("Essai dialect Excel avec séparateur de champ ;")
             # Enregistre ce dialecte auprès du module csv
             csv.register_dialect('excel-fr', delimiter=';')
@@ -322,15 +314,15 @@ def formatData(titleRow, rowData, neededColumns, isVerbose):
         for field in (neededColumns[1], neededColumns[2]):
             fieldName, value = getFirstFieldStartingBy(row, field)
             if ligneOK and len(value) == 0 :
-                  ligneOK = False
-                  messageInfos['texte'] = "ignorée car champ " + fieldName + " vide"
+                ligneOK = False
+                messageInfos['texte'] = "ignorée car champ " + fieldName + " vide"
             if ligneOK:
-                  try:
-                      coordValue[fieldName] = convertCoord(value)
-                  except ValueError:
-                      ligneOK = False
-                      messageInfos['texte'] = "ignorée car champ " + fieldName + \
-                                              " incorrect : " + value
+                try:
+                    coordValue[fieldName] = convertCoord(value)
+                except ValueError:
+                    ligneOK = False
+                    messageInfos['texte'] = "ignorée car champ " + fieldName + \
+                                            " incorrect : " + value
 
         # Construction du champ description
         description = "<h1>Informations</h1>" + '\n'
@@ -339,15 +331,14 @@ def formatData(titleRow, rowData, neededColumns, isVerbose):
             # Place name is not written in description info balloon
             if ligneOK and not field.startswith(neededColumns[0]):
                 value = str(row[field]).strip()
-                if len(value) != 0 :
+                if value and value != '?' :
                     description += "<b>" + field.strip() + "</b> : "
 
                     # Champs particuliers
                     if field.startswith('Commune'):
-                        fieldCommune = value
                         value = 'https://fr.wikipedia.org/wiki/' + value
-                    elif field == getFirstFieldStartingBy(row, neededColumns[1])[0] or \
-                        field == getFirstFieldStartingBy(row, neededColumns[2])[0]:
+                    elif field in (getFirstFieldStartingBy(row, neededColumns[1])[0],
+                                   getFirstFieldStartingBy(row, neededColumns[2])[0]):
                         # Ecrit dans le champ description les coordonnées converties
                         value = str(coordValue[field])
 
@@ -358,11 +349,11 @@ def formatData(titleRow, rowData, neededColumns, isVerbose):
         # Enregistrement des valeurs utiles dans la structure résultat
         if ligneOK:
             listInfoRead.append({'numLigne':numLigne+1,
-                                'nom':nomElement.strip(),
-                                'Commune':fieldCommune,
-                                'latitude':coordValue[getFirstFieldStartingBy(row, neededColumns[1])[0]],
-                                'longitude':coordValue[getFirstFieldStartingBy(row, neededColumns[2])[0]],
-                                'description':description
+                'nom':nomElement.strip(),
+                'Commune':fieldCommune,
+                'latitude':coordValue[getFirstFieldStartingBy(row, neededColumns[1])[0]],
+                'longitude':coordValue[getFirstFieldStartingBy(row, neededColumns[2])[0]],
+                'description':description
                                 })
         else:
             listMessage.append(messageInfos)
@@ -386,7 +377,8 @@ def  checkNeededColumns(allColumnNames, neededColumns, isVerbose):
 
     # Test nombre de colonnes
     if len(titleRow) < len(neededColumns):
-        raise ValueError("Au moins " + len(neededColumns) + " nécessaires !")
+        raise ValueError("Au moins " + str(len(neededColumns)) + " colonnes nécessaires dans :\n" +
+                         str(titleRow))
 
     for startColumn in neededColumns:
         colFound = False
@@ -444,7 +436,7 @@ def formateURL(url, regexpSite):
 def genKMLFiles(listInfoRead, titleKML, pictoName, pathKMLFile, includePicto, isVerbose):
     """ genere un fichier de sortie KML"""
 
-    # Ref simplekml : http://www.simplekml.com/en/latest/reference.html
+    # Ref simplekml : https://simplekml.readthedocs.io/en/latest
     import simplekml
 
     dataPicto = convertFile2Base64(pictoName, includePicto, isVerbose)
@@ -473,8 +465,6 @@ def convertFile2Base64(pictoName, includePicto, isVerbose):
     """ Return None if pictoName is empty
         Return pictoName if pictoName is an URL and includePicto == False
         else encode image content in base64 """
-    import urllib.request
-    import base64
 
     encodeBase64 = False
     strPicto = None
@@ -538,7 +528,8 @@ class table2kmlGUI():
         """
         import tkinter
 
-        self.URL_PICTO_DEFAULT = "https://upload.wikimedia.org/wikipedia/commons/e/eb/PointDolmen.png"
+        self.URL_PICTO_DEFAULT = \
+                "https://upload.wikimedia.org/wikipedia/commons/e/eb/PointDolmen.png"
 
         self.root = root
         mainFrame = tkinter.Frame(self.root)
@@ -642,9 +633,13 @@ class table2kmlGUI():
     # Callbacks
     ################
     def verboseChange(self, *args):
+        """ Callback checkbox verbose pour debug """
+        # pylint: disable=W0613
         self.isVerbose = self.isVerboseVar.get() != 0
         print("Mode bavard :", self.isVerbose)
     def includePictoChange(self, *args):
+        """ Callback pour checkbox inclure picto dans le fichier KML """
+        # pylint: disable=W0613
         self.includePicto = self.includePictoVar.get() != 0
         if self.isVerbose:
             print("Picto inclus :", self.includePicto)
@@ -659,24 +654,28 @@ class table2kmlGUI():
         #        faciliter les traitements répétitifs.
         lastDir = "."
         try :
-            with open(os.path.join(self.dirProject, "table2kmlDir.txt"), 'r') as hDirFile:
+            with open(os.path.join(self.dirProject, "table2kmlDir.txt"),
+                      'r', encoding='utf-8') as hDirFile:
                 lastDir = hDirFile.readline().strip()
-                hDirFile.close()      
+                hDirFile.close()
         except IOError:
             pass
         fileName = filedialog.askopenfilename(
                         parent=self.root,
                         initialdir=lastDir,
-                        filetypes = [("Fichier CSV","*.csv"), ("Fichier Excel","*.xls"), ("All", "*")],
+                        filetypes = [("Fichier CSV","*.csv"),
+                                     ("Fichier Excel","*.xls"),
+                                     ("All", "*")],
                         title="Selectionnez un fichier de configuration")
-        if fileName != "":
+        if fileName:
             # Le dernier répertoire du fichier de travail est stocké pour
             #        faciliter les traitements répétitifs.
             try :
-                with open(os.path.join(self.dirProject, "table2kmlDir.txt"), 'w') as hDirFile:
+                with open(os.path.join(self.dirProject, "table2kmlDir.txt"),
+                                       'w', encoding='utf-8') as hDirFile:
                     hDirFile.write(os.path.dirname(fileName) + "\n")
-                    hDirFile.close()      
-            except IOError:
+                    hDirFile.close()
+            except IOError as exc:
                 self.setMessageLabel(str(exc), True)
             self.pathInputFileVar.set(fileName)
 
@@ -695,6 +694,7 @@ class table2kmlGUI():
     def launchInputFileReader(self, event=None):
         """ Update list according input files
             v2.0:Thread use"""
+        # pylint: disable=W0613
         self.setMessageLabel("Lecture du fichier en cours, veuillez patienter...")
         import tkinter
 
@@ -719,13 +719,12 @@ class table2kmlGUI():
                 self.elementsListbox.insert(tkinter.END,
                                            element['Commune'] + " : " + element['nom'])
 
-            self.setMessageLabel("Fichier converti en .kml : " + str(len(self.listMessage)) +
-                                        " messages, " + str(len(self.listInfoRead)) +
-                                        " elements lus dans : " +
-                                        os.path.basename(pathFicTable))
+            self.setMessageLabel("Fichier converti en .kml : " +
+                                 str(len(self.listMessage)) +
+                                 " messages, " + str(len(self.listInfoRead)) +
+                                 " elements lus dans : " +
+                                 os.path.basename(pathFicTable))
         except IOError as exc:
-            self.setMessageLabel(str(exc), isError=True)
-        except OSError as exc:
             self.setMessageLabel(str(exc), isError=True)
         except ValueError as exc:
             self.setMessageLabel(str(exc), isError=True)
