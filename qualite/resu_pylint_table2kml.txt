@@ -1,0 +1,24 @@
+************* Module table2kml
+table2kml.py:110:0: R0914: Too many local variables (16/15) (too-many-locals)
+table2kml.py:156:12: C0415: Import outside toplevel (tkinter) (import-outside-toplevel)
+table2kml.py:110:0: R0912: Too many branches (13/12) (too-many-branches)
+table2kml.py:110:0: R0915: Too many statements (54/50) (too-many-statements)
+table2kml.py:182:0: R0913: Too many arguments (6/5) (too-many-arguments)
+table2kml.py:206:4: C0415: Import outside toplevel (xlrd) (import-outside-toplevel)
+table2kml.py:247:4: C0415: Import outside toplevel (csv) (import-outside-toplevel)
+table2kml.py:293:0: R0914: Too many local variables (20/15) (too-many-locals)
+table2kml.py:293:0: R0912: Too many branches (16/12) (too-many-branches)
+table2kml.py:436:0: R0913: Too many arguments (6/5) (too-many-arguments)
+table2kml.py:440:4: C0415: Import outside toplevel (simplekml) (import-outside-toplevel)
+table2kml.py:464:0: R0912: Too many branches (13/12) (too-many-branches)
+table2kml.py:516:0: R0902: Too many instance attributes (18/7) (too-many-instance-attributes)
+table2kml.py:520:4: R0913: Too many arguments (7/5) (too-many-arguments)
+table2kml.py:520:4: R0914: Too many local variables (23/15) (too-many-locals)
+table2kml.py:529:8: C0415: Import outside toplevel (tkinter) (import-outside-toplevel)
+table2kml.py:520:4: R0915: Too many statements (61/50) (too-many-statements)
+table2kml.py:651:8: C0415: Import outside toplevel (tkinter.filedialog) (import-outside-toplevel)
+table2kml.py:699:8: C0415: Import outside toplevel (tkinter) (import-outside-toplevel)
+
+------------------------------------------------------------------
+Your code has been rated at 9.52/10 (previous run: 9.52/10, +0.00)
+

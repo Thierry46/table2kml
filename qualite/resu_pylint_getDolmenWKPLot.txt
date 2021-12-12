@@ -1,0 +1,8 @@
+************* Module getDolmenWKPLot
+getDolmenWKPLot.py:138:0: R0914: Too many local variables (33/15) (too-many-locals)
+getDolmenWKPLot.py:138:0: R0912: Too many branches (31/12) (too-many-branches)
+getDolmenWKPLot.py:138:0: R0915: Too many statements (104/50) (too-many-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 9.89/10 (previous run: 9.86/10, +0.04)
+

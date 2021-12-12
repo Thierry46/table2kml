@@ -1,0 +1,3366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="feat_226">
+        <Style id="stylesel_2">
+            <IconStyle id="substyle_5">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_2">
+                    <href>https://upload.wikimedia.org/wikipedia/commons/c/cc/5_ldf.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="substyle_4">
+                <color>ffa09e5f</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+            </LabelStyle>
+        </Style>
+        <name>Extraction site T4T35 08/11/2017</name>
+        <Placemark id="feat_227">
+            <name>Dolmen des Agars</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Chels" target="_blank">Saint-Chels</href><br/>
+<b>Latitude</b> : 44.54735<br/>
+<b>Longitude</b> : 1.81769<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_223">
+                <coordinates>1.81769,44.54735,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_228">
+            <name>Dolmen des Aguals</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gréalou" target="_blank">Gréalou</href><br/>
+<b>Latitude</b> : 44.528723<br/>
+<b>Longitude</b> : 1.894444<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_224">
+                <coordinates>1.894444,44.528723,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_229">
+            <name>Dolmen des Baillères</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Latitude</b> : 44.5514167<br/>
+<b>Longitude</b> : 1.9366389<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_225">
+                <coordinates>1.9366389,44.5514167,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_230">
+            <name>Dolmen de Barthe Soubronne</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montvalent" target="_blank">Montvalent</href><br/>
+<b>Latitude</b> : 44.8632891<br/>
+<b>Longitude</b> : 1.6588219<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_226">
+                <coordinates>1.6588219,44.8632891,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_231">
+            <name>Dolmen de Barrières (A)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Miers" target="_blank">Miers</href><br/>
+<b>Latitude</b> : 44.8713201<br/>
+<b>Longitude</b> : 1.6931624<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_227">
+                <coordinates>1.6931624,44.8713201,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_232">
+            <name>Dolmen de Bartassou</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Sérignac" target="_blank">Sérignac</href><br/>
+<b>Latitude</b> : 44.446151<br/>
+<b>Longitude</b> : 1.075747<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_228">
+                <coordinates>1.075747,44.446151,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_233">
+            <name>Dolmen des Barthès (A)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac" target="_blank">Floirac</href><br/>
+<b>Latitude</b> : 44.8977275<br/>
+<b>Longitude</b> : 1.6641936<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_229">
+                <coordinates>1.6641936,44.8977275,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_234">
+            <name>Dolmen des Barthès (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac" target="_blank">Floirac</href><br/>
+<b>Latitude</b> : 44.895669<br/>
+<b>Longitude</b> : 1.673376<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_230">
+                <coordinates>1.673376,44.895669,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_235">
+            <name>Dolmen de Barrade</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montvalent" target="_blank">Montvalent</href><br/>
+<b>Latitude</b> : 44.880177<br/>
+<b>Longitude</b> : 1.652167<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_231">
+                <coordinates>1.652167,44.880177,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_236">
+            <name>Dolmen des Barrières (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Miers" target="_blank">Miers</href><br/>
+<b>Latitude</b> : 44.87002<br/>
+<b>Longitude</b> : 1.68995<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_232">
+                <coordinates>1.68995,44.87002,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_237">
+            <name>Dolmen de la Baune</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Junies" target="_blank">Junies</href><br/>
+<b>Latitude</b> : 44.5392<br/>
+<b>Longitude</b> : 1.23556<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_233">
+                <coordinates>1.23556,44.5392,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_238">
+            <name>Dolmen de la Bertrandoune</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Prayssac" target="_blank">Prayssac</href><br/>
+<b>Latitude</b> : 44.52842<br/>
+<b>Longitude</b> : 1.21846<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_234">
+                <coordinates>1.21846,44.52842,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_239">
+            <name>Dolmen du Bois des Boeufs</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
+<b>Latitude</b> : 44.67734<br/>
+<b>Longitude</b> : 1.85625<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_235">
+                <coordinates>1.85625,44.67734,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_240">
+            <name>Dolmen de Bouyé</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gramat" target="_blank">Gramat</href><br/>
+<b>Latitude</b> : 44.77244<br/>
+<b>Longitude</b> : 1.74592<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_236">
+                <coordinates>1.74592,44.77244,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_241">
+            <name>Dolmen du Bois des Escures (A)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Beauregard" target="_blank">Beauregard</href><br/>
+<b>Latitude</b> : 44.3639297<br/>
+<b>Longitude</b> : 1.7678936<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_237">
+                <coordinates>1.7678936,44.3639297,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_242">
+            <name>Dolmen du Bois des Escures (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Beauregard" target="_blank">Beauregard</href><br/>
+<b>Latitude</b> : 44.365103<br/>
+<b>Longitude</b> : 1.7662342<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_238">
+                <coordinates>1.7662342,44.365103,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_243">
+            <name>Dolmen de la Métairie haute</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac-sur-Célé" target="_blank">Marcilhac-sur-Célé</href><br/>
+<b>Latitude</b> : 44.55157<br/>
+<b>Longitude</b> : 1.80261<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_239">
+                <coordinates>1.80261,44.55157,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_244">
+            <name>Dolmen des Bories (A)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Jean-de-Laur" target="_blank">Saint-Jean-de-Laur</href><br/>
+<b>Latitude</b> : 44.4193611<br/>
+<b>Longitude</b> : 1.8047222<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_240">
+                <coordinates>1.8047222,44.4193611,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_245">
+            <name>Dolmen de la Borie du Bois (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Laramière" target="_blank">Laramière</href><br/>
+<b>Latitude</b> : 44.357<br/>
+<b>Longitude</b> : 1.875<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_241">
+                <coordinates>1.875,44.357,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_246">
+            <name>Dolmen de la Borie Grande</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Durbans" target="_blank">Durbans</href><br/>
+<b>Latitude</b> : 44.684333<br/>
+<b>Longitude</b> : 1.744437<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_242">
+                <coordinates>1.744437,44.684333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_247">
+            <name>Dolmen des Bories (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Jean-de-Laur" target="_blank">Saint-Jean-de-Laur</href><br/>
+<b>Latitude</b> : 44.4219722<br/>
+<b>Longitude</b> : 1.8065833<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_243">
+                <coordinates>1.8065833,44.4219722,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_248">
+            <name>Dolmen de Bougoulat</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Padirac" target="_blank">Padirac</href><br/>
+<b>Latitude</b> : 44.865328<br/>
+<b>Longitude</b> : 1.7586526<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_244">
+                <coordinates>1.7586526,44.865328,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_249">
+            <name>Dolmen de Boygues Basse</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Carlucet" target="_blank">Carlucet</href><br/>
+<b>Latitude</b> : 44.7225<br/>
+<b>Longitude</b> : 1.615<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_245">
+                <coordinates>1.615,44.7225,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_250">
+            <name>Dolmen de la Butte de Saint-Simon</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Belfort-du-Quercy" target="_blank">Belfort-du-Quercy</href><br/>
+<b>Latitude</b> : 44.2692<br/>
+<b>Longitude</b> : 1.5425<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_246">
+                <coordinates>1.5425,44.2692,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_251">
+            <name>Dolmen des Calcas</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Padirac" target="_blank">Padirac</href><br/>
+<b>Latitude</b> : 44.85122<br/>
+<b>Longitude</b> : 1.75941<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_247">
+                <coordinates>1.75941,44.85122,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_252">
+            <name>Dolmen de Cambajou</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montfaucon" target="_blank">Montfaucon</href><br/>
+<b>Latitude</b> : 44.67174<br/>
+<b>Longitude</b> : 1.61977<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_248">
+                <coordinates>1.61977,44.67174,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_253">
+            <name>Dolmen de Candare</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac" target="_blank">Floirac</href><br/>
+<b>Latitude</b> : 44.89172<br/>
+<b>Longitude</b> : 1.68279<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_249">
+                <coordinates>1.68279,44.89172,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_254">
+            <name>Dolmen de Carriol</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Concorès" target="_blank">Concorès</href><br/>
+<b>Latitude</b> : 44.65593<br/>
+<b>Longitude</b> : 1.38666<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_250">
+                <coordinates>1.38666,44.65593,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_255">
+            <name>Dolmen des Carbonnières</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Tour-de-Faure" target="_blank">Tour-de-Faure</href><br/>
+<b>Latitude</b> : 44.4790542<br/>
+<b>Longitude</b> : 1.6798106<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_251">
+                <coordinates>1.6798106,44.4790542,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_256">
+            <name>Dolmen de la Carture</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Miers" target="_blank">Miers</href><br/>
+<b>Latitude</b> : 44.8637675<br/>
+<b>Longitude</b> : 1.6822143<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_252">
+                <coordinates>1.6822143,44.8637675,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_257">
+            <name>Dolmen de Cieurac</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Lanzac" target="_blank">Lanzac</href><br/>
+<b>Latitude</b> : 44.8865228<br/>
+<b>Longitude</b> : 1.4582837<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_253">
+                <coordinates>1.4582837,44.8865228,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_258">
+            <name>Dolmen dit los Tres Peyres</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Castelfranc" target="_blank">Castelfranc</href><br/>
+<b>Latitude</b> : 44.51129<br/>
+<b>Longitude</b> : 1.21549<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_254">
+                <coordinates>1.21549,44.51129,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_259">
+            <name>Dolmen de Quetty</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Junies" target="_blank">Junies</href><br/>
+<b>Latitude</b> : 44.5323<br/>
+<b>Longitude</b> : 1.21751<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_255">
+                <coordinates>1.21751,44.5323,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_260">
+            <name>Dolmen de Ganil</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gréalou" target="_blank">Gréalou</href><br/>
+<b>Latitude</b> : 44.53527<br/>
+<b>Longitude</b> : 1.90307<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_256">
+                <coordinates>1.90307,44.53527,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_261">
+            <name>Dolmen des Cazelles Longues</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Pierre-Toirac" target="_blank">Saint-Pierre-Toirac</href><br/>
+<b>Latitude</b> : 44.5443611<br/>
+<b>Longitude</b> : 1.9349167<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_257">
+                <coordinates>1.9349167,44.5443611,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_262">
+            <name>Dolmen du Champ de Belair (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
+<b>Latitude</b> : 44.68207<br/>
+<b>Longitude</b> : 1.85553<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_258">
+                <coordinates>1.85553,44.68207,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_263">
+            <name>Dolmen du Champ de Belair (C)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
+<b>Latitude</b> : 44.67888<br/>
+<b>Longitude</b> : 1.86171<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_259">
+                <coordinates>1.86171,44.67888,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_264">
+            <name>Dolmen du Champ de Belair (A)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
+<b>Latitude</b> : 44.6836<br/>
+<b>Longitude</b> : 1.85822<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_260">
+                <coordinates>1.85822,44.6836,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_265">
+            <name>Dolmen de Saint Chignes</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gramat" target="_blank">Gramat</href><br/>
+<b>Latitude</b> : 44.75087<br/>
+<b>Longitude</b> : 1.7613<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_261">
+                <coordinates>1.7613,44.75087,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_266">
+            <name>Dolmen des Claouzelles</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Padirac" target="_blank">Padirac</href><br/>
+<b>Latitude</b> : 44.8425<br/>
+<b>Longitude</b> : 1.75417<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_262">
+                <coordinates>1.75417,44.8425,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_267">
+            <name>Dolmen des Cloups</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Ginouillac" target="_blank">Ginouillac</href><br/>
+<b>Latitude</b> : 44.723883<br/>
+<b>Longitude</b> : 1.536683<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_263">
+                <coordinates>1.536683,44.723883,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_268">
+            <name>Dolmen dit les Clos Grands</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saillac" target="_blank">Saillac</href><br/>
+<b>Latitude</b> : 44.32382<br/>
+<b>Longitude</b> : 1.70173<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_264">
+                <coordinates>1.70173,44.32382,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_269">
+            <name>Dolmen du Cloup des Périès</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Grèzes" target="_blank">Grèzes</href><br/>
+<b>Latitude</b> : 44.61697<br/>
+<b>Longitude</b> : 1.82769<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_265">
+                <coordinates>1.82769,44.61697,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_270">
+            <name>Dolmen dit la Pierre Levée</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Sauliac-sur-Célé" target="_blank">Sauliac-sur-Célé</href><br/>
+<b>Latitude</b> : 44.516316<br/>
+<b>Longitude</b> : 1.7414618<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_266">
+                <coordinates>1.7414618,44.516316,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_271">
+            <name>Dolmen du Cloup de Coutze</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Latitude</b> : 44.5814<br/>
+<b>Longitude</b> : 1.94694<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_267">
+                <coordinates>1.94694,44.5814,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_272">
+            <name>Dolmen de Combescure</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Fontanes-du-Causse" target="_blank">Fontanes-du-Causse</href><br/>
+<b>Latitude</b> : 44.67142<br/>
+<b>Longitude</b> : 1.63968<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_268">
+                <coordinates>1.63968,44.67142,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_273">
+            <name>Dolmen de Costeraste</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gourdon" target="_blank">Gourdon</href><br/>
+<b>Latitude</b> : 44.70599<br/>
+<b>Longitude</b> : 1.34376<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_269">
+                <coordinates>1.34376,44.70599,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_274">
+            <name>Dolmen de la Combe de Saule (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac-sur-Célé" target="_blank">Marcilhac-sur-Célé</href><br/>
+<b>Latitude</b> : 44.54027<br/>
+<b>Longitude</b> : 1.81453<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_270">
+                <coordinates>1.81453,44.54027,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_275">
+            <name>Dolmen de la Combe de Saule (A)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac-sur-Célé" target="_blank">Marcilhac-sur-Célé</href><br/>
+<b>Latitude</b> : 44.5418453<br/>
+<b>Longitude</b> : 1.8133511<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_271">
+                <coordinates>1.8133511,44.5418453,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_276">
+            <name>Dolmen de la Combe du Cornier</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Beauregard" target="_blank">Beauregard</href><br/>
+<b>Latitude</b> : 44.36862<br/>
+<b>Longitude</b> : 1.77382<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_272">
+                <coordinates>1.77382,44.36862,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_277">
+            <name>Dolmen de la Combe de Saule (C)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac-sur-Célé" target="_blank">Marcilhac-sur-Célé</href><br/>
+<b>Latitude</b> : 44.53853<br/>
+<b>Longitude</b> : 1.81512<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_273">
+                <coordinates>1.81512,44.53853,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_278">
+            <name>Dolmen de Combe Nègre</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Lugagnac" target="_blank">Lugagnac</href><br/>
+<b>Latitude</b> : 44.4124952<br/>
+<b>Longitude</b> : 1.7076466<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_274">
+                <coordinates>1.7076466,44.4124952,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_279">
+            <name>Dolmen de la Combe de Pary</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Beauregard" target="_blank">Beauregard</href><br/>
+<b>Latitude</b> : 44.3672138<br/>
+<b>Longitude</b> : 1.7620938<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_275">
+                <coordinates>1.7620938,44.3672138,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_280">
+            <name>Dolmen des Combarols</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Durbans" target="_blank">Durbans</href><br/>
+<b>Latitude</b> : 44.691754<br/>
+<b>Longitude</b> : 1.787947<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_276">
+                <coordinates>1.787947,44.691754,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_281">
+            <name>Dolmen de la Combe de l'Ours (A)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montbrun" target="_blank">Montbrun</href><br/>
+<b>Latitude</b> : 44.5295278<br/>
+<b>Longitude</b> : 1.8988889<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_277">
+                <coordinates>1.8988889,44.5295278,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_282">
+            <name>Dolmen de la Combe de l'Ours (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montbrun" target="_blank">Montbrun</href><br/>
+<b>Latitude</b> : 44.52625<br/>
+<b>Longitude</b> : 1.8996667<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_278">
+                <coordinates>1.8996667,44.52625,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_283">
+            <name>Dolmen du Coustalou</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Grèzes" target="_blank">Grèzes</href><br/>
+<b>Latitude</b> : 44.62496<br/>
+<b>Longitude</b> : 1.81366<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_279">
+                <coordinates>1.81366,44.62496,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_284">
+            <name>Dolmen dit de Crouzeilles</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saillac" target="_blank">Saillac</href><br/>
+<b>Latitude</b> : 44.33747<br/>
+<b>Longitude</b> : 1.72537<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_280">
+                <coordinates>1.72537,44.33747,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_285">
+            <name>Dolmen du Cune</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac-sur-Célé" target="_blank">Marcilhac-sur-Célé</href><br/>
+<b>Latitude</b> : 44.53694<br/>
+<b>Longitude</b> : 1.813359<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_281">
+                <coordinates>1.813359,44.53694,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_286">
+            <name>Dolmen du Cuzoul (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Lalbenque" target="_blank">Lalbenque</href><br/>
+<b>Latitude</b> : 44.3068<br/>
+<b>Longitude</b> : 1.60863<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_282">
+                <coordinates>1.60863,44.3068,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_287">
+            <name>Dolmen du Cuzoul (A)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Lalbenque" target="_blank">Lalbenque</href><br/>
+<b>Latitude</b> : 44.30726<br/>
+<b>Longitude</b> : 1.60553<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_283">
+                <coordinates>1.60553,44.30726,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_288">
+            <name>Dolmen d'Agranel</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Limogne-en-Quercy" target="_blank">Limogne-en-Quercy</href><br/>
+<b>Latitude</b> : 44.41602<br/>
+<b>Longitude</b> : 1.78491<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_284">
+                <coordinates>1.78491,44.41602,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_289">
+            <name>Dolmen d'Aubiac</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Calvignac" target="_blank">Calvignac</href><br/>
+<b>Latitude</b> : 44.43555<br/>
+<b>Longitude</b> : 1.80829<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_285">
+                <coordinates>1.80829,44.43555,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_290">
+            <name>Dolmen d'Auraste</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Loubressac" target="_blank">Loubressac</href><br/>
+<b>Latitude</b> : 44.8519178<br/>
+<b>Longitude</b> : 1.8039192<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_286">
+                <coordinates>1.8039192,44.8519178,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_291">
+            <name>Dolmen d'Aubiac (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Jean-de-Laur" target="_blank">Saint-Jean-de-Laur</href><br/>
+<b>Latitude</b> : 44.4336688<br/>
+<b>Longitude</b> : 1.8103174<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_287">
+                <coordinates>1.8103174,44.4336688,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_292">
+            <name>Dolmen d'Aubin</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Chels" target="_blank">Saint-Chels</href><br/>
+<b>Latitude</b> : 44.5468496<br/>
+<b>Longitude</b> : 1.8132368<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_288">
+                <coordinates>1.8132368,44.5468496,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_293">
+            <name>Dolmen du Camp d'Inou Tou (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
+<b>Latitude</b> : 44.5007778<br/>
+<b>Longitude</b> : 1.8653056<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_289">
+                <coordinates>1.8653056,44.5007778,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_294">
+            <name>Dolmen du Camp d'Inou Tou (C)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
+<b>Latitude</b> : 44.5010278<br/>
+<b>Longitude</b> : 1.8638333<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_290">
+                <coordinates>1.8638333,44.5010278,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_295">
+            <name>Dolmen du Camp d'Inou Tou (A)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
+<b>Latitude</b> : 44.5016944<br/>
+<b>Longitude</b> : 1.8630833<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_291">
+                <coordinates>1.8630833,44.5016944,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_296">
+            <name>Dolmen de Dirau (A)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Varaire" target="_blank">Varaire</href><br/>
+<b>Latitude</b> : 44.3444267<br/>
+<b>Longitude</b> : 1.7339341<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_292">
+                <coordinates>1.7339341,44.3444267,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_297">
+            <name>Dolmen des Sanguinades</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saillac" target="_blank">Saillac</href><br/>
+<b>Latitude</b> : 44.3417162<br/>
+<b>Longitude</b> : 1.7409802<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_293">
+                <coordinates>1.7409802,44.3417162,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_298">
+            <name>Dolmen du Cun</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Larnagol" target="_blank">Larnagol</href><br/>
+<b>Latitude</b> : 44.51115<br/>
+<b>Longitude</b> : 1.77506<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_294">
+                <coordinates>1.77506,44.51115,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_299">
+            <name>Dolmens du Mas de Labat</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cénevières" target="_blank">Cénevières</href><br/>
+<b>Latitude</b> : 44.44472<br/>
+<b>Longitude</b> : 1.73253<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_295">
+                <coordinates>1.73253,44.44472,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_300">
+            <name>Dolmens de Gabaudet</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Issendolus" target="_blank">Issendolus</href><br/>
+<b>Latitude</b> : 44.7148336<br/>
+<b>Longitude</b> : 1.7516284<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_296">
+                <coordinates>1.7516284,44.7148336,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_301">
+            <name>Dolmen de la Rue</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Rocamadour" target="_blank">Rocamadour</href><br/>
+<b>Latitude</b> : 44.83704<br/>
+<b>Longitude</b> : 1.64104<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_297">
+                <coordinates>1.64104,44.83704,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_302">
+            <name>Dolmen du Rat</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Sulpice" target="_blank">Saint-Sulpice</href><br/>
+<b>Latitude</b> : 44.5811758<br/>
+<b>Longitude</b> : 1.7823353<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_298">
+                <coordinates>1.7823353,44.5811758,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_303">
+            <name>Dolmen des Escabasses (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Flaujac-Gare" target="_blank">Flaujac-Gare</href><br/>
+<b>Latitude</b> : 44.71713<br/>
+<b>Longitude</b> : 1.79549<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_299">
+                <coordinates>1.79549,44.71713,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_304">
+            <name>Dolmen des Escazals</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Durbans" target="_blank">Durbans</href><br/>
+<b>Latitude</b> : 44.659724<br/>
+<b>Longitude</b> : 1.763032<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_300">
+                <coordinates>1.763032,44.659724,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_305">
+            <name>Dolmen de Ferrières-Haut</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Limogne-en-Quercy" target="_blank">Limogne-en-Quercy</href><br/>
+<b>Latitude</b> : 44.38157<br/>
+<b>Longitude</b> : 1.74064<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_301">
+                <coordinates>1.74064,44.38157,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_306">
+            <name>Dolmen de Fieux</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Miers" target="_blank">Miers</href><br/>
+<b>Latitude</b> : 44.87967<br/>
+<b>Longitude</b> : 1.69364<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_302">
+                <coordinates>1.69364,44.87967,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_307">
+            <name>Dolmen des Fosses</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Soucirac" target="_blank">Soucirac</href><br/>
+<b>Latitude</b> : 44.7028056<br/>
+<b>Longitude</b> : 1.4933333<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_303">
+                <coordinates>1.4933333,44.7028056,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_308">
+            <name>Dolmen de Fourques Basses</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Brengues" target="_blank">Brengues</href><br/>
+<b>Latitude</b> : 44.60625<br/>
+<b>Longitude</b> : 1.80985<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_304">
+                <coordinates>1.80985,44.60625,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_309">
+            <name>Dolmens de Gabaudet (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Issendolus" target="_blank">Issendolus</href><br/>
+<b>Latitude</b> : 44.7141129<br/>
+<b>Longitude</b> : 1.7511825<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_305">
+                <coordinates>1.7511825,44.7141129,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_310">
+            <name>Dolmen du Gagnoulat</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Goujounac" target="_blank">Goujounac</href><br/>
+<b>Latitude</b> : 44.5744<br/>
+<b>Longitude</b> : 1.21267<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_306">
+                <coordinates>1.21267,44.5744,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_311">
+            <name>Dolmen de Garivals</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
+<b>Latitude</b> : 44.67565<br/>
+<b>Longitude</b> : 1.85447<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_307">
+                <coordinates>1.85447,44.67565,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_312">
+            <name>Dolmen du bois des Garroustes</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Sérignac" target="_blank">Sérignac</href><br/>
+<b>Latitude</b> : 44.4388611<br/>
+<b>Longitude</b> : 1.1067222<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_308">
+                <coordinates>1.1067222,44.4388611,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_313">
+            <name>Dolmen de Ginouillac</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Espédaillac" target="_blank">Espédaillac</href><br/>
+<b>Latitude</b> : 44.6020273<br/>
+<b>Longitude</b> : 1.7766854<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_309">
+                <coordinates>1.7766854,44.6020273,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_314">
+            <name>Dolmen de Grezelade (C)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Lanzac" target="_blank">Lanzac</href><br/>
+<b>Latitude</b> : 44.859879<br/>
+<b>Longitude</b> : 1.471917<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_310">
+                <coordinates>1.471917,44.859879,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_315">
+            <name>Dolmen dit la Pierre Grosse</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Pierre-Toirac" target="_blank">Saint-Pierre-Toirac</href><br/>
+<b>Latitude</b> : 44.5390278<br/>
+<b>Longitude</b> : 1.9546111<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_311">
+                <coordinates>1.9546111,44.5390278,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_316">
+            <name>Dolmen des Igues de Magnagues</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Carennac" target="_blank">Carennac</href><br/>
+<b>Latitude</b> : 44.8873462<br/>
+<b>Longitude</b> : 1.731664<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_312">
+                <coordinates>1.731664,44.8873462,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_317">
+            <name>Dolmen des Imbarcous</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Reyrevignes" target="_blank">Reyrevignes</href><br/>
+<b>Latitude</b> : 44.63602<br/>
+<b>Longitude</b> : 1.89837<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_313">
+                <coordinates>1.89837,44.63602,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_318">
+            <name>Dolmen des Jasses</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Labastide-Marnhac" target="_blank">Labastide-Marnhac</href><br/>
+<b>Latitude</b> : 44.37814<br/>
+<b>Longitude</b> : 1.36107<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_314">
+                <coordinates>1.36107,44.37814,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_319">
+            <name>Dolmen dit de Joncas</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Limogne-en-Quercy" target="_blank">Limogne-en-Quercy</href><br/>
+<b>Latitude</b> : 44.39016<br/>
+<b>Longitude</b> : 1.75237<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_315">
+                <coordinates>1.75237,44.39016,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_320">
+            <name>Dolmen de Ladeneau</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Sérignac" target="_blank">Sérignac</href><br/>
+<b>Latitude</b> : 44.4087468<br/>
+<b>Longitude</b> : 1.0906533<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_316">
+                <coordinates>1.0906533,44.4087468,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_321">
+            <name>Dolmen de Lalbrade</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Larnagol" target="_blank">Larnagol</href><br/>
+<b>Latitude</b> : 44.4921957<br/>
+<b>Longitude</b> : 1.7492033<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_317">
+                <coordinates>1.7492033,44.4921957,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_322">
+            <name>Dolmen de l'Artillou</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Espédaillac" target="_blank">Espédaillac</href><br/>
+<b>Latitude</b> : 44.61562<br/>
+<b>Longitude</b> : 1.78681<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_318">
+                <coordinates>1.78681,44.61562,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_323">
+            <name>Dolmen de Laval</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Souillac" target="_blank">Souillac</href><br/>
+<b>Latitude</b> : 44.91559<br/>
+<b>Longitude</b> : 1.45421<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_319">
+                <coordinates>1.45421,44.91559,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_324">
+            <name>Dolmen dit Pierre Levée de Nougayrac</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Fontanes-du-Causse" target="_blank">Fontanes-du-Causse</href><br/>
+<b>Latitude</b> : 44.66259<br/>
+<b>Longitude</b> : 1.69686<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_320">
+                <coordinates>1.69686,44.66259,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_325">
+            <name>Dolmen dit Pierre Levée</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Issendolus" target="_blank">Issendolus</href><br/>
+<b>Latitude</b> : 44.74158<br/>
+<b>Longitude</b> : 1.80502<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_321">
+                <coordinates>1.80502,44.74158,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_326">
+            <name>Dolmen du Cloup del Prioun</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Sauliac-sur-Célé" target="_blank">Sauliac-sur-Célé</href><br/>
+<b>Latitude</b> : 44.50461<br/>
+<b>Longitude</b> : 1.6878<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_322">
+                <coordinates>1.6878,44.50461,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_327">
+            <name>Dolmen dit Lei Barto</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Latitude</b> : 44.5814<br/>
+<b>Longitude</b> : 1.94694<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_323">
+                <coordinates>1.94694,44.5814,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_328">
+            <name>Dolmen dit la Pierre Levée de Lacoste</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Issendolus" target="_blank">Issendolus</href><br/>
+<b>Latitude</b> : 44.7513454<br/>
+<b>Longitude</b> : 1.7642401<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_324">
+                <coordinates>1.7642401,44.7513454,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_329">
+            <name>Dolmen dit la Pierre Levée</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Faycelles" target="_blank">Faycelles</href><br/>
+<b>Latitude</b> : 44.5542025<br/>
+<b>Longitude</b> : 1.9805728<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_325">
+                <coordinates>1.9805728,44.5542025,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_330">
+            <name>Dolmen du Pech de Gadal</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Sauliac-sur-Célé" target="_blank">Sauliac-sur-Célé</href><br/>
+<b>Latitude</b> : 44.5282191<br/>
+<b>Longitude</b> : 1.7241014<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_326">
+                <coordinates>1.7241014,44.5282191,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_331">
+            <name>Dolmen de Pierre Levée</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cambes" target="_blank">Cambes</href><br/>
+<b>Latitude</b> : 44.6247508<br/>
+<b>Longitude</b> : 1.9018663<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_327">
+                <coordinates>1.9018663,44.6247508,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_332">
+            <name>Dolmen de Liade</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montvalent" target="_blank">Montvalent</href><br/>
+<b>Latitude</b> : 44.8723622<br/>
+<b>Longitude</b> : 1.642457<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_328">
+                <coordinates>1.642457,44.8723622,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_333">
+            <name>Dolmen de Ligoussou</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Grèzes" target="_blank">Grèzes</href><br/>
+<b>Latitude</b> : 44.60985<br/>
+<b>Longitude</b> : 1.8507<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_329">
+                <coordinates>1.8507,44.60985,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_334">
+            <name>Dolmen de l'Igue de Planagrèze</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Caniac-du-Causse" target="_blank">Caniac-du-Causse</href><br/>
+<b>Latitude</b> : 44.63551<br/>
+<b>Longitude</b> : 1.66296<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_330">
+                <coordinates>1.66296,44.63551,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_335">
+            <name>Dolmen dit les Pierres du Loup</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Caprais" target="_blank">Saint-Caprais</href><br/>
+<b>Latitude</b> : 44.6078<br/>
+<b>Longitude</b> : 1.15889<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_331">
+                <coordinates>1.15889,44.6078,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_336">
+            <name>Dolmen du Mas Grézac</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Boussac" target="_blank">Boussac</href><br/>
+<b>Latitude</b> : 44.5815<br/>
+<b>Longitude</b> : 1.9139<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_332">
+                <coordinates>1.9139,44.5815,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_337">
+            <name>Dolmen de Marcigaliet (A)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Laramière" target="_blank">Laramière</href><br/>
+<b>Latitude</b> : 44.36425<br/>
+<b>Longitude</b> : 1.8529167<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_333">
+                <coordinates>1.8529167,44.36425,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_338">
+            <name>Dolmen dit la Pierre-Martine</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Latitude</b> : 44.66081<br/>
+<b>Longitude</b> : 1.82086<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_334">
+                <coordinates>1.82086,44.66081,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_339">
+            <name>Dolmen de Marcigaliet (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Laramière" target="_blank">Laramière</href><br/>
+<b>Latitude</b> : 44.3618333<br/>
+<b>Longitude</b> : 1.84825<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_335">
+                <coordinates>1.84825,44.3618333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_340">
+            <name>Dolmen de Martigues</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Latitude</b> : 44.56944<br/>
+<b>Longitude</b> : 1.90865<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_336">
+                <coordinates>1.90865,44.56944,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_341">
+            <name>Dolmen de Marcilhac</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Lamothe-Fénelon" target="_blank">Lamothe-Fénelon</href><br/>
+<b>Latitude</b> : 44.8363177<br/>
+<b>Longitude</b> : 1.4595378<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_337">
+                <coordinates>1.4595378,44.8363177,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_342">
+            <name>Dolmen du Mas-de-Pezet</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Chels" target="_blank">Saint-Chels</href><br/>
+<b>Latitude</b> : 44.50927<br/>
+<b>Longitude</b> : 1.80221<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_338">
+                <coordinates>1.80221,44.50927,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_343">
+            <name>Dolmen du Mas de Labat (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cénevières" target="_blank">Cénevières</href><br/>
+<b>Latitude</b> : 44.44354<br/>
+<b>Longitude</b> : 1.73119<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_339">
+                <coordinates>1.73119,44.44354,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_344">
+            <name>Dolmen du Mas de Parra</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Crégols" target="_blank">Crégols</href><br/>
+<b>Latitude</b> : 44.43181<br/>
+<b>Longitude</b> : 1.70833<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_340">
+                <coordinates>1.70833,44.43181,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_345">
+            <name>Dolmen du Mas d'Arjac</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cabrerets" target="_blank">Cabrerets</href><br/>
+<b>Latitude</b> : 44.50291<br/>
+<b>Longitude</b> : 1.67474<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_341">
+                <coordinates>1.67474,44.50291,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_346">
+            <name>Dolmen du Mas de Jantou (C)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Larnagol" target="_blank">Larnagol</href><br/>
+<b>Latitude</b> : 44.49237<br/>
+<b>Longitude</b> : 1.7532<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_342">
+                <coordinates>1.7532,44.49237,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_347">
+            <name>Dolmen du Mas de Jantou (E)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Larnagol" target="_blank">Larnagol</href><br/>
+<b>Latitude</b> : 44.49237<br/>
+<b>Longitude</b> : 1.7532<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_343">
+                <coordinates>1.7532,44.49237,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_348">
+            <name>Dolmen des Mazuquarts</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Flaujac-Gare" target="_blank">Flaujac-Gare</href><br/>
+<b>Latitude</b> : 44.698741<br/>
+<b>Longitude</b> : 1.754448<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_344">
+                <coordinates>1.754448,44.698741,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_349">
+            <name>Dolmen de Moussié Haut</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Miers" target="_blank">Miers</href><br/>
+<b>Latitude</b> : 44.8584639<br/>
+<b>Longitude</b> : 1.7341584<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_345">
+                <coordinates>1.7341584,44.8584639,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_350">
+            <name>Dolmen du Moulin (A)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Reilhac" target="_blank">Reilhac</href><br/>
+<b>Latitude</b> : 44.7011<br/>
+<b>Longitude</b> : 1.72<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_346">
+                <coordinates>1.72,44.7011,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_351">
+            <name>Dolmen de Niars</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Miers" target="_blank">Miers</href><br/>
+<b>Latitude</b> : 44.8769336<br/>
+<b>Longitude</b> : 1.7034079<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_347">
+                <coordinates>1.7034079,44.8769336,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_352">
+            <name>Dolmen de Nougayrac</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Martin-Labouval" target="_blank">Saint-Martin-Labouval</href><br/>
+<b>Latitude</b> : 44.4827006<br/>
+<b>Longitude</b> : 1.7155001<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_348">
+                <coordinates>1.7155001,44.4827006,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_353">
+            <name>Dolmen de Noutary (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Carennac" target="_blank">Carennac</href><br/>
+<b>Latitude</b> : 44.9066827<br/>
+<b>Longitude</b> : 1.7064675<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_349">
+                <coordinates>1.7064675,44.9066827,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_354">
+            <name>Dolmen de Noutary (A)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Carennac" target="_blank">Carennac</href><br/>
+<b>Latitude</b> : 44.9025856<br/>
+<b>Longitude</b> : 1.7086959<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_350">
+                <coordinates>1.7086959,44.9025856,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_355">
+            <name>Dolmen de Combes-Hautes</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac-sur-Célé" target="_blank">Marcilhac-sur-Célé</href><br/>
+<b>Latitude</b> : 44.567377<br/>
+<b>Longitude</b> : 1.762384<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_351">
+                <coordinates>1.762384,44.567377,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_356">
+            <name>Dolmen dit de Pajot</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Limogne-en-Quercy" target="_blank">Limogne-en-Quercy</href><br/>
+<b>Latitude</b> : 44.38772<br/>
+<b>Longitude</b> : 1.77982<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_352">
+                <coordinates>1.77982,44.38772,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_357">
+            <name>Dolmen dit la Pierre Levée de la Pannonie</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Rocamadour" target="_blank">Rocamadour</href><br/>
+<b>Latitude</b> : 44.77736<br/>
+<b>Longitude</b> : 1.65363<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_353">
+                <coordinates>1.65363,44.77736,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_358">
+            <name>Dolmen de Péchaud</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac-sur-Célé" target="_blank">Marcilhac-sur-Célé</href><br/>
+<b>Latitude</b> : 44.5475<br/>
+<b>Longitude</b> : 1.80079<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_354">
+                <coordinates>1.80079,44.5475,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_359">
+            <name>Dolmen de Peyrefit</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Espédaillac" target="_blank">Espédaillac</href><br/>
+<b>Latitude</b> : 44.62167<br/>
+<b>Longitude</b> : 1.79118<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_355">
+                <coordinates>1.79118,44.62167,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_360">
+            <name>Dolmen dit Peyro Cotado</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Larnagol" target="_blank">Larnagol</href><br/>
+<b>Latitude</b> : 44.49237<br/>
+<b>Longitude</b> : 1.7532<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_356">
+                <coordinates>1.7532,44.49237,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_361">
+            <name>Dolmen dit Peych Peyroux</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Latitude</b> : 44.62106<br/>
+<b>Longitude</b> : 1.86995<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_357">
+                <coordinates>1.86995,44.62106,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_362">
+            <name>Dolmen du Peyre Gages</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Calvignac" target="_blank">Calvignac</href><br/>
+<b>Latitude</b> : 44.44356<br/>
+<b>Longitude</b> : 1.77791<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_358">
+                <coordinates>1.77791,44.44356,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_363">
+            <name>Dolmen de Pech Linar (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Calvignac" target="_blank">Calvignac</href><br/>
+<b>Latitude</b> : 44.43765<br/>
+<b>Longitude</b> : 1.7949<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_359">
+                <coordinates>1.7949,44.43765,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_364">
+            <name>Dolmen dit Peyrelevade</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Lalbenque" target="_blank">Lalbenque</href><br/>
+<b>Latitude</b> : 44.35104<br/>
+<b>Longitude</b> : 1.54306<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_360">
+                <coordinates>1.54306,44.35104,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_365">
+            <name>Dolmen dit Peyrebru</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Miers" target="_blank">Miers</href><br/>
+<b>Latitude</b> : 44.8835<br/>
+<b>Longitude</b> : 1.69624<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_361">
+                <coordinates>1.69624,44.8835,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_366">
+            <name>Dolmen de Pech-Curet</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Salviac" target="_blank">Salviac</href><br/>
+<b>Latitude</b> : 44.69584<br/>
+<b>Longitude</b> : 1.28697<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_362">
+                <coordinates>1.28697,44.69584,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_367">
+            <name>Dolmen de Peyrebrune</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Projet" target="_blank">Saint-Projet</href><br/>
+<b>Latitude</b> : 44.7285<br/>
+<b>Longitude</b> : 1.50036<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_363">
+                <coordinates>1.50036,44.7285,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_368">
+            <name>Dolmen de Pech-Lapeyre</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Limogne-en-Quercy" target="_blank">Limogne-en-Quercy</href><br/>
+<b>Latitude</b> : 44.40169<br/>
+<b>Longitude</b> : 1.7527<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_364">
+                <coordinates>1.7527,44.40169,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_369">
+            <name>Dolmen du Pech d'Agaïo</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Chels" target="_blank">Saint-Chels</href><br/>
+<b>Latitude</b> : 44.54421<br/>
+<b>Longitude</b> : 1.81669<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_365">
+                <coordinates>1.81669,44.54421,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_370">
+            <name>Dolmen du Pech Laglayre (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gréalou" target="_blank">Gréalou</href><br/>
+<b>Latitude</b> : 44.5347<br/>
+<b>Longitude</b> : 1.86547<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_366">
+                <coordinates>1.86547,44.5347,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_371">
+            <name>Dolmen de Igue</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Calvignac" target="_blank">Calvignac</href><br/>
+<b>Latitude</b> : 44.43266<br/>
+<b>Longitude</b> : 1.77767<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_367">
+                <coordinates>1.77767,44.43266,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_372">
+            <name>Dolmen du Pech-Cayrou</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac" target="_blank">Floirac</href><br/>
+<b>Latitude</b> : 44.90484<br/>
+<b>Longitude</b> : 1.67337<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_368">
+                <coordinates>1.67337,44.90484,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_373">
+            <name>Dolmen du Pech Ventoux</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Espédaillac" target="_blank">Espédaillac</href><br/>
+<b>Latitude</b> : 44.63651<br/>
+<b>Longitude</b> : 1.80134<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_369">
+                <coordinates>1.80134,44.63651,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_374">
+            <name>Dolmlens du Pech de Grammont</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gramat" target="_blank">Gramat</href><br/>
+<b>Latitude</b> : 44.78479<br/>
+<b>Longitude</b> : 1.67273<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_370">
+                <coordinates>1.67273,44.78479,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_375">
+            <name>Dolmen du Pech Plumet (A)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Loubressac" target="_blank">Loubressac</href><br/>
+<b>Latitude</b> : 44.8541322<br/>
+<b>Longitude</b> : 1.7696754<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_371">
+                <coordinates>1.7696754,44.8541322,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_376">
+            <name>Dolmen du Pech Plumet (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Loubressac" target="_blank">Loubressac</href><br/>
+<b>Latitude</b> : 44.8546089<br/>
+<b>Longitude</b> : 1.7749501<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_372">
+                <coordinates>1.7749501,44.8546089,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_377">
+            <name>Dolmen du Pech Gayral</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Calvignac" target="_blank">Calvignac</href><br/>
+<b>Latitude</b> : 44.4223027<br/>
+<b>Longitude</b> : 1.7849117<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_373">
+                <coordinates>1.7849117,44.4223027,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_378">
+            <name>Dolmen du Pech Laglayre</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gréalou" target="_blank">Gréalou</href><br/>
+<b>Latitude</b> : 44.53502<br/>
+<b>Longitude</b> : 1.86278<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_374">
+                <coordinates>1.86278,44.53502,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_379">
+            <name>Dolmen du Pech Nadal</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montcuq" target="_blank">Montcuq</href><br/>
+<b>Latitude</b> : 44.3162778<br/>
+<b>Longitude</b> : 1.2519444<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_375">
+                <coordinates>1.2519444,44.3162778,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_380">
+            <name>Dolmen du Pech Bayssou</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Varaire" target="_blank">Varaire</href><br/>
+<b>Latitude</b> : 44.3448702<br/>
+<b>Longitude</b> : 1.7623326<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_376">
+                <coordinates>1.7623326,44.3448702,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_381">
+            <name>Dolmen du Pech (A)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Alvignac" target="_blank">Alvignac</href><br/>
+<b>Latitude</b> : 44.8404294<br/>
+<b>Longitude</b> : 1.6813488<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_377">
+                <coordinates>1.6813488,44.8404294,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_382">
+            <name>Dolmen du Pech (D)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Alvignac" target="_blank">Alvignac</href><br/>
+<b>Latitude</b> : 44.8409088<br/>
+<b>Longitude</b> : 1.6785095<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_378">
+                <coordinates>1.6785095,44.8409088,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_383">
+            <name>Dolmen du Pech de Tibouyé (C)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cabrerets" target="_blank">Cabrerets</href><br/>
+<b>Latitude</b> : 44.5069<br/>
+<b>Longitude</b> : 1.65528<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_379">
+                <coordinates>1.65528,44.5069,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_384">
+            <name>Dolmen du Pech de Gourbières (A)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Rocamadour" target="_blank">Rocamadour</href><br/>
+<b>Latitude</b> : 44.8317414<br/>
+<b>Longitude</b> : 1.5927248<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_380">
+                <coordinates>1.5927248,44.8317414,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_385">
+            <name>Dolmen du Pech de Gourbières (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Rocamadour" target="_blank">Rocamadour</href><br/>
+<b>Latitude</b> : 44.8319433<br/>
+<b>Longitude</b> : 1.5926497<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_381">
+                <coordinates>1.5926497,44.8319433,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_386">
+            <name>Dolmen du Pech de Molinié (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Larroque-Toirac" target="_blank">Larroque-Toirac</href><br/>
+<b>Latitude</b> : 44.5225<br/>
+<b>Longitude</b> : 1.9425<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_382">
+                <coordinates>1.9425,44.5225,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_387">
+            <name>Dolmen du Pech de la Barre</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cabrerets" target="_blank">Cabrerets</href><br/>
+<b>Latitude</b> : 44.50935<br/>
+<b>Longitude</b> : 1.591041<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_383">
+                <coordinates>1.591041,44.50935,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_388">
+            <name>Dolmen du Pech de la Curado</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Carayac" target="_blank">Carayac</href><br/>
+<b>Latitude</b> : 44.5303333<br/>
+<b>Longitude</b> : 1.92425<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_384">
+                <coordinates>1.92425,44.5303333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_389">
+            <name>Dolmen de la Péchette</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montfaucon" target="_blank">Montfaucon</href><br/>
+<b>Latitude</b> : 44.6889<br/>
+<b>Longitude</b> : 1.56167<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_385">
+                <coordinates>1.56167,44.6889,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_390">
+            <name>Dolmen dit des Pendus (C)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Padirac" target="_blank">Padirac</href><br/>
+<b>Latitude</b> : 44.8558056<br/>
+<b>Longitude</b> : 1.75675<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_386">
+                <coordinates>1.75675,44.8558056,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_391">
+            <name>Dolmen dit des Pendus</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Padirac" target="_blank">Padirac</href><br/>
+<b>Latitude</b> : 44.8544167<br/>
+<b>Longitude</b> : 1.7553889<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_387">
+                <coordinates>1.7553889,44.8544167,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_392">
+            <name>Dolmen de Peyco Levado</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Laramière" target="_blank">Laramière</href><br/>
+<b>Latitude</b> : 44.35024<br/>
+<b>Longitude</b> : 1.84437<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_388">
+                <coordinates>1.84437,44.35024,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_393">
+            <name>Dolmen dit Peyro Lebado</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Larnagol" target="_blank">Larnagol</href><br/>
+<b>Latitude</b> : 44.4923202<br/>
+<b>Longitude</b> : 1.7514636<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_389">
+                <coordinates>1.7514636,44.4923202,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_394">
+            <name>Dolmen dit la Peyre Levade</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Calvignac" target="_blank">Calvignac</href><br/>
+<b>Latitude</b> : 44.4231733<br/>
+<b>Longitude</b> : 1.7836797<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_390">
+                <coordinates>1.7836797,44.4231733,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_395">
+            <name>Dolmen dit la Pierre-Levée</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Lentillac-du-Causse" target="_blank">Lentillac-du-Causse</href><br/>
+<b>Latitude</b> : 44.55318<br/>
+<b>Longitude</b> : 1.6477<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_391">
+                <coordinates>1.6477,44.55318,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_396">
+            <name>Dolmen dit la Pierre-Levée</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Lalbenque" target="_blank">Lalbenque</href><br/>
+<b>Latitude</b> : 44.32524<br/>
+<b>Longitude</b> : 1.57635<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_392">
+                <coordinates>1.57635,44.32524,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_397">
+            <name>Dolmen dit la Pierre-Levée</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Miers" target="_blank">Miers</href><br/>
+<b>Latitude</b> : 44.8688<br/>
+<b>Longitude</b> : 1.68375<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_393">
+                <coordinates>1.68375,44.8688,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_398">
+            <name>Dolmen de Mages</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Rocamadour" target="_blank">Rocamadour</href><br/>
+<b>Latitude</b> : 44.78678<br/>
+<b>Longitude</b> : 1.6133<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_394">
+                <coordinates>1.6133,44.78678,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_399">
+            <name>Dolmen de Place del Sol</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Espédaillac" target="_blank">Espédaillac</href><br/>
+<b>Latitude</b> : 44.64466<br/>
+<b>Longitude</b> : 1.78073<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_395">
+                <coordinates>1.78073,44.64466,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_400">
+            <name>Dolmen des Placels</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montvalent" target="_blank">Montvalent</href><br/>
+<b>Latitude</b> : 44.8507862<br/>
+<b>Longitude</b> : 1.6443057<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_396">
+                <coordinates>1.6443057,44.8507862,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_401">
+            <name>Dolmen des Plassous</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gramat" target="_blank">Gramat</href><br/>
+<b>Latitude</b> : 44.7729722<br/>
+<b>Longitude</b> : 1.6894722<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_397">
+                <coordinates>1.6894722,44.7729722,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_402">
+            <name>Dolmen des Plantoux</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Rocamadour" target="_blank">Rocamadour</href><br/>
+<b>Latitude</b> : 44.82925<br/>
+<b>Longitude</b> : 1.6512778<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_398">
+                <coordinates>1.6512778,44.82925,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_403">
+            <name>Dolmen de Pélasse</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montvalent" target="_blank">Montvalent</href><br/>
+<b>Latitude</b> : 44.861129<br/>
+<b>Longitude</b> : 1.630039<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_399">
+                <coordinates>1.630039,44.861129,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_404">
+            <name>Dolmen de Pourquayré</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac-sur-Célé" target="_blank">Marcilhac-sur-Célé</href><br/>
+<b>Latitude</b> : 44.5542778<br/>
+<b>Longitude</b> : 1.7951111<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_400">
+                <coordinates>1.7951111,44.5542778,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_405">
+            <name>Dolmen du Pouget</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Boussac" target="_blank">Boussac</href><br/>
+<b>Latitude</b> : 44.5948619<br/>
+<b>Longitude</b> : 1.9022491<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_401">
+                <coordinates>1.9022491,44.5948619,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_406">
+            <name>Dolmen des Pradines</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cadrieu" target="_blank">Cadrieu</href><br/>
+<b>Latitude</b> : 44.4928<br/>
+<b>Longitude</b> : 1.88056<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_402">
+                <coordinates>1.88056,44.4928,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_407">
+            <name>Dolmen du Pré de Linar</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Brengues" target="_blank">Brengues</href><br/>
+<b>Latitude</b> : 44.55549<br/>
+<b>Longitude</b> : 1.84233<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_403">
+                <coordinates>1.84233,44.55549,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_408">
+            <name>Dolmen du Puech d'Arsou</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Corn" target="_blank">Corn</href><br/>
+<b>Latitude</b> : 44.6096602<br/>
+<b>Longitude</b> : 1.8786875<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_404">
+                <coordinates>1.8786875,44.6096602,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_409">
+            <name>Dolmen du Puech Roussille</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Latitude</b> : 44.562782<br/>
+<b>Longitude</b> : 1.9184798<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_405">
+                <coordinates>1.9184798,44.562782,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_410">
+            <name>Dolmen du Puech de Récobert</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Castelfranc" target="_blank">Castelfranc</href><br/>
+<b>Latitude</b> : 44.51418<br/>
+<b>Longitude</b> : 1.21889<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_406">
+                <coordinates>1.21889,44.51418,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_411">
+            <name>Dolmen du Puech Roussel</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
+<b>Latitude</b> : 44.65436<br/>
+<b>Longitude</b> : 1.88361<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_407">
+                <coordinates>1.88361,44.65436,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_412">
+            <name>Dolmen de Pech Linar</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Jean-de-Laur" target="_blank">Saint-Jean-de-Laur</href><br/>
+<b>Latitude</b> : 44.43036<br/>
+<b>Longitude</b> : 1.81417<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_408">
+                <coordinates>1.81417,44.43036,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_413">
+            <name>Dolmen du Mas Rastouillet</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Lugagnac" target="_blank">Lugagnac</href><br/>
+<b>Latitude</b> : 44.4225631<br/>
+<b>Longitude</b> : 1.7377456<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_409">
+                <coordinates>1.7377456,44.4225631,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_414">
+            <name>Dolmen de Ressegayre</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac" target="_blank">Floirac</href><br/>
+<b>Latitude</b> : 44.90161<br/>
+<b>Longitude</b> : 1.67226<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_410">
+                <coordinates>1.67226,44.90161,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_415">
+            <name>Dolmen de Rigou</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Projet" target="_blank">Saint-Projet</href><br/>
+<b>Latitude</b> : 44.7580556<br/>
+<b>Longitude</b> : 1.4978611<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_411">
+                <coordinates>1.4978611,44.7580556,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_416">
+            <name>Dolmen de Roland</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montcuq" target="_blank">Montcuq</href><br/>
+<b>Latitude</b> : 44.36747<br/>
+<b>Longitude</b> : 1.18969<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_412">
+                <coordinates>1.18969,44.36747,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_417">
+            <name>Dolmen des Roques (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Durbans" target="_blank">Durbans</href><br/>
+<b>Latitude</b> : 44.6893868<br/>
+<b>Longitude</b> : 1.7984821<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_413">
+                <coordinates>1.7984821,44.6893868,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_418">
+            <name>Dolmen de la Rougié</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Latitude</b> : 44.66149<br/>
+<b>Longitude</b> : 1.82055<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_414">
+                <coordinates>1.82055,44.66149,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_419">
+            <name>Dolmen de Roucous</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Simon" target="_blank">Saint-Simon</href><br/>
+<b>Latitude</b> : 44.71056<br/>
+<b>Longitude</b> : 1.83035<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_415">
+                <coordinates>1.83035,44.71056,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_420">
+            <name>Dolmen de Sabadel</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Miers" target="_blank">Miers</href><br/>
+<b>Latitude</b> : 44.8619311<br/>
+<b>Longitude</b> : 1.6872947<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_416">
+                <coordinates>1.6872947,44.8619311,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_421">
+            <name>Dolmen de Sadouilles</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Flaujac-Gare" target="_blank">Flaujac-Gare</href><br/>
+<b>Latitude</b> : 44.7088735<br/>
+<b>Longitude</b> : 1.7523303<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_417">
+                <coordinates>1.7523303,44.7088735,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_422">
+            <name>Dolmen d'Escurettes</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Padirac" target="_blank">Padirac</href><br/>
+<b>Latitude</b> : 44.85507<br/>
+<b>Longitude</b> : 1.74405<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_418">
+                <coordinates>1.74405,44.85507,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_423">
+            <name>Dolmen d'Andrieu</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Padirac" target="_blank">Padirac</href><br/>
+<b>Latitude</b> : 44.85634<br/>
+<b>Longitude</b> : 1.74142<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_419">
+                <coordinates>1.74142,44.85634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_424">
+            <name>Dolmen dit la Table de Roux</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
+<b>Latitude</b> : 44.66933<br/>
+<b>Longitude</b> : 1.85849<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_420">
+                <coordinates>1.85849,44.66933,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_425">
+            <name>Dolmen du Terrou</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gramat" target="_blank">Gramat</href><br/>
+<b>Latitude</b> : 44.775666<br/>
+<b>Longitude</b> : 1.762347<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_421">
+                <coordinates>1.762347,44.775666,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_426">
+            <name>Dolmen dit le Tombeau du Gaulois</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Sozy" target="_blank">Saint-Sozy</href><br/>
+<b>Latitude</b> : 44.8851389<br/>
+<b>Longitude</b> : 1.5605<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_422">
+                <coordinates>1.5605,44.8851389,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_427">
+            <name>Dolmen de Touron</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Lavercantière" target="_blank">Lavercantière</href><br/>
+<b>Latitude</b> : 44.621022<br/>
+<b>Longitude</b> : 1.298861<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_423">
+                <coordinates>1.298861,44.621022,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_428">
+            <name>Dolmen de Trégantou</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Vers" target="_blank">Vers</href><br/>
+<b>Latitude</b> : 44.50442<br/>
+<b>Longitude</b> : 1.56696<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_424">
+                <coordinates>1.56696,44.50442,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_429">
+            <name>Dolmen de Vandourgues</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gréalou" target="_blank">Gréalou</href><br/>
+<b>Latitude</b> : 44.52777<br/>
+<b>Longitude</b> : 1.85413<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_425">
+                <coordinates>1.85413,44.52777,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_430">
+            <name>Dolmen de Vavaire</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Varaire" target="_blank">Varaire</href><br/>
+<b>Latitude</b> : 44.35872<br/>
+<b>Longitude</b> : 1.73214<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_426">
+                <coordinates>1.73214,44.35872,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_431">
+            <name>Dolmen des Vayssières</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saillac" target="_blank">Saillac</href><br/>
+<b>Latitude</b> : 44.342114<br/>
+<b>Longitude</b> : 1.7385415<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_427">
+                <coordinates>1.7385415,44.342114,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_432">
+            <name>Dolmen du Verdier (A)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
+<b>Latitude</b> : 44.5166111<br/>
+<b>Longitude</b> : 1.8643889<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_428">
+                <coordinates>1.8643889,44.5166111,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_433">
+            <name>Dolmen du Verdier</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Durbans" target="_blank">Durbans</href><br/>
+<b>Latitude</b> : 44.67695<br/>
+<b>Longitude</b> : 1.78272<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_429">
+                <coordinates>1.78272,44.67695,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_434">
+            <name>Dolmen du Verdier (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
+<b>Latitude</b> : 44.51305<br/>
+<b>Longitude</b> : 1.85129<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_430">
+                <coordinates>1.85129,44.51305,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_435">
+            <name>Dolmen du Verdier (C)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
+<b>Latitude</b> : 44.5148858<br/>
+<b>Longitude</b> : 1.8518178<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_431">
+                <coordinates>1.8518178,44.5148858,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_436">
+            <name>Cromlech de Peyrebrune</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Projet" target="_blank">Saint-Projet</href><br/>
+<b>Latitude</b> : 44.7318<br/>
+<b>Longitude</b> : 1.4986<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_432">
+                <coordinates>1.4986,44.7318,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_437">
+            <name>Cromlech de Roquebert</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Junies" target="_blank">Junies</href><br/>
+<b>Latitude</b> : 44.52212<br/>
+<b>Longitude</b> : 1.2219<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_433">
+                <coordinates>1.2219,44.52212,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_438">
+            <name>Menhirs de Lasplanes</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Castelnau-Montratier" target="_blank">Castelnau-Montratier</href><br/>
+<b>Latitude</b> : 44.2697<br/>
+<b>Longitude</b> : 1.35389<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_434">
+                <coordinates>1.35389,44.2697,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_439">
+            <name>Menhir de Mons</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
+<b>Latitude</b> : 44.68232<br/>
+<b>Longitude</b> : 1.85885<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_435">
+                <coordinates>1.85885,44.68232,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_440">
+            <name>Menhir dit la Pierre Levée</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Vincent-Rive-d'Olt" target="_blank">Saint-Vincent-Rive-d'Olt</href><br/>
+<b>Latitude</b> : 44.45002<br/>
+<b>Longitude</b> : 1.27984<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_436">
+                <coordinates>1.27984,44.45002,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_441">
+            <name>Menhir dit Pierre Levée</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Latitude</b> : 44.63531<br/>
+<b>Longitude</b> : 1.85885<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_437">
+                <coordinates>1.85885,44.63531,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_442">
+            <name>Menhir de Mayrac (B)</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Mayrac" target="_blank">Mayrac</href><br/>
+<b>Latitude</b> : 44.9057369<br/>
+<b>Longitude</b> : 1.5233629<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_438">
+                <coordinates>1.5233629,44.9057369,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_443">
+            <name>Menhir de Mayrac</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Mayrac" target="_blank">Mayrac</href><br/>
+<b>Latitude</b> : 44.8907792<br/>
+<b>Longitude</b> : 1.5194373<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_439">
+                <coordinates>1.5194373,44.8907792,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_444">
+            <name>Menhir de Montgesty</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montgesty" target="_blank">Montgesty</href><br/>
+<b>Latitude</b> : 44.56912<br/>
+<b>Longitude</b> : 1.3031212<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_440">
+                <coordinates>1.3031212,44.56912,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_445">
+            <name>Menhir de Saillac</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saillac" target="_blank">Saillac</href><br/>
+<b>Latitude</b> : 44.33183<br/>
+<b>Longitude</b> : 1.75731<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_441">
+                <coordinates>1.75731,44.33183,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_446">
+            <name>Menhir du Suquet</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Corn" target="_blank">Corn</href><br/>
+<b>Latitude</b> : 44.60445<br/>
+<b>Longitude</b> : 1.87219<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_442">
+                <coordinates>1.87219,44.60445,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_447">
+            <name>Dolmen de la Devèze-sud</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac-sur-Célé" target="_blank">Marcilhac-sur-Célé</href><br/>
+<b>Latitude</b> : 44.54648<br/>
+<b>Longitude</b> : 1.75537<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_443">
+                <coordinates>1.75537,44.54648,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_448">
+            <name>Tumulus dit l'Etron de Gargantua</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gramat" target="_blank">Gramat</href><br/>
+<b>Latitude</b> : 44.78076<br/>
+<b>Longitude</b> : 1.75368<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_444">
+                <coordinates>1.75368,44.78076,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_449">
+            <name>Tumulus de Lathaillade</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Castelnau-Montratier" target="_blank">Castelnau-Montratier</href><br/>
+<b>Latitude</b> : 44.28461<br/>
+<b>Longitude</b> : 1.35037<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_445">
+                <coordinates>1.35037,44.28461,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

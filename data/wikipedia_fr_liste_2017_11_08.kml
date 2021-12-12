@@ -1,0 +1,3645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="feat_664">
+        <Style id="stylesel_3">
+            <IconStyle id="substyle_7">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_3">
+                    <href>https://upload.wikimedia.org/wikipedia/commons/c/c5/3_slmb.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="substyle_6">
+                <color>ffa09e5f</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+            </LabelStyle>
+        </Style>
+        <name>Wikipedia - article 08/11/17</name>
+        <Placemark id="feat_665">
+            <name>Dolmens de Viroulou Dolmen du Pech 1</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Alvignac" target="_blank">Alvignac</href><br/>
+<b>Lieu</b> : 6 dolmens<br/>
+<b>Lat</b> : 44.84015<br/>
+<b>Lon</b> : 1.68073<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_660">
+                <coordinates>1.68073,44.84015,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_666">
+            <name>Dolmens de Viroulou Pech 2 ou Causse Haut B</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Alvignac" target="_blank">Alvignac</href><br/>
+<b>Lieu</b> : 6 dolmens<br/>
+<b>Lat</b> : 44.83974<br/>
+<b>Lon</b> : 1.67525<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_661">
+                <coordinates>1.67525,44.83974,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_667">
+            <name>Dolmens de Viroulou Pech 3 ou Causse Bas B</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Alvignac" target="_blank">Alvignac</href><br/>
+<b>Lieu</b> : 6 dolmens<br/>
+<b>Lat</b> : 44.84073<br/>
+<b>Lon</b> : 1.67337<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_662">
+                <coordinates>1.67337,44.84073,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_668">
+            <name>Dolmens de Viroulou Pech 4 ou Causse Bas C</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Alvignac" target="_blank">Alvignac</href><br/>
+<b>Lieu</b> : 6 dolmens<br/>
+<b>Lat</b> : 44.84029<br/>
+<b>Lon</b> : 1.67095<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_663">
+                <coordinates>1.67095,44.84029,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_669">
+            <name>Dolmens de Viroulou Pech 5 ou Causse Bas A</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Alvignac" target="_blank">Alvignac</href><br/>
+<b>Lieu</b> : 6 dolmens<br/>
+<b>Lat</b> : 44.84211<br/>
+<b>Lon</b> : 1.67334<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_664">
+                <coordinates>1.67334,44.84211,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_670">
+            <name>Dolmens de Viroulou Pech 6 ou Causse Haut A</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Alvignac" target="_blank">Alvignac</href><br/>
+<b>Lieu</b> : 6 dolmens<br/>
+<b>Lat</b> : 44.84164<br/>
+<b>Lon</b> : 1.67612<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_665">
+                <coordinates>1.67612,44.84164,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_671">
+            <name>Dolmen de Garivals </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
+<b>Lieu</b> : autre nom Dolmen du Chemin des CombalsClottes p47 .<br/>
+<b>Lat</b> : 44.67556<br/>
+<b>Lon</b> : 1.85444<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen de Garivals" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_666">
+                <coordinates>1.85444,44.67556,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_672">
+            <name>Dolmen de la Table de Roux </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
+<b>Lat</b> : 44.66861<br/>
+<b>Lon</b> : 1.85806<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_667">
+                <coordinates>1.85806,44.66861,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_673">
+            <name>Dolmens de Mons Dolmen n° 1</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
+<b>Lieu</b> : 3 dolmens<br autre nom Dolmens du Champ de Belair<br/>
+<b>Lat</b> : 44.67861<br/>
+<b>Lon</b> : 1.86167<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmens de Mons" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_668">
+                <coordinates>1.86167,44.67861,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_674">
+            <name>Dolmens de Mons Dolmen n° 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
+<b>Lieu</b> : 3 dolmens<br autre nom Dolmens du Champ de Belair<br/>
+<b>Lat</b> : 44.68194<br/>
+<b>Lon</b> : 1.8556<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmens de Mons" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_669">
+                <coordinates>1.8556,44.68194,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_675">
+            <name>Dolmens de Mons Dolmen n° 3</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
+<b>Lieu</b> : 3 dolmens<br autre nom Dolmens du Champ de Belair<br/>
+<b>Lat</b> : 44.68361<br/>
+<b>Lon</b> : 1.85806<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmens de Mons" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_670">
+                <coordinates>1.85806,44.68361,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_676">
+            <name>Dolmen du Bois-des-Bœufs </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
+<b>Lat</b> : 44.677175<br/>
+<b>Lon</b> : 1.855942<br/>
+<b>Classement</b> : Classé MH 1889<br/>
+<b>Remarques</b> : Base Mérimée PA00094968<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen du Bois-des-Bœufs" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_671">
+                <coordinates>1.855942,44.677175,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_677">
+            <name>Dolmen du Causse de Magre </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
+<b>Lat</b> : 44.65111<br/>
+<b>Lon</b> : 1.8775<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_672">
+                <coordinates>1.8775,44.65111,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_678">
+            <name>Dolmen du Pech Roussel </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
+<b>Lat</b> : 44.65444<br/>
+<b>Lon</b> : 1.88389<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_673">
+                <coordinates>1.88389,44.65444,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_679">
+            <name>Dolmen de la Combe du Cornier </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Beauregard_(Lot)" target="_blank">Beauregard_(Lot)</href><br/>
+<b>Lat</b> : 44.36861<br/>
+<b>Lon</b> : 1.77333<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_674">
+                <coordinates>1.77333,44.36861,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_680">
+            <name>Dolmen de Combes-Salgue </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Lieu</b> : autre nom La Peyro GrondoClottes p53 Clottes 1977 p=53 <br/>
+<b>Lat</b> : 44.564166666666665<br/>
+<b>Lon</b> : 1.935<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_675">
+                <coordinates>1.935,44.564166666666665,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_681">
+            <name>Dolmen de Leï Barto </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Lat</b> : 44.5611<br/>
+<b>Lon</b> : 1.93333<br/>
+<b>Remarques</b> : Clottes p53 ;  - <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_676">
+                <coordinates>1.93333,44.5611,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_682">
+            <name>Dolmen de Martignes </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Lat</b> : 44.5694<br/>
+<b>Lon</b> : 1.90861<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_677">
+                <coordinates>1.90861,44.5694,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_683">
+            <name>Dolmen de Sabin </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Lat</b> : 44.56667<br/>
+<b>Lon</b> : 1.9025<br/>
+<b>Remarques</b> : Clottes 1977 p=57 ;  - <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_678">
+                <coordinates>1.9025,44.56667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_684">
+            <name>Dolmen des Baillères </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Lat</b> : 44.55139<br/>
+<b>Lon</b> : 1.93639<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_679">
+                <coordinates>1.93639,44.55139,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_685">
+            <name>Dolmen des Garrigues </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Lat</b> : 44.56083333333333<br/>
+<b>Lon</b> : 1.9416666666666667<br/>
+<b>Remarques</b> : Clottes p53 ;  - <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_680">
+                <coordinates>1.9416666666666667,44.56083333333333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_686">
+            <name>Dolmens des Justices Dolmen n° 1</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Lieu</b> : 3 dolmensClottes p55 Clottes 1977 p=55 <br/>
+<b>Lat</b> : 44.561388888888885<br/>
+<b>Lon</b> : 1.9291666666666665<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_681">
+                <coordinates>1.9291666666666665,44.561388888888885,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_687">
+            <name>Dolmens des Justices Dolmen n° 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Lieu</b> : 3 dolmensClottes p55 Clottes 1977 p=55 <br/>
+<b>Lat</b> : 44.5625<br/>
+<b>Lon</b> : 1.9294444444444443<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_682">
+                <coordinates>1.9294444444444443,44.5625,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_688">
+            <name>Dolmens des Justices Dolmen n° 3</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Lieu</b> : 3 dolmensClottes p55 Clottes 1977 p=55 <br/>
+<b>Lat</b> : 44.56222222222222<br/>
+<b>Lon</b> : 1.9297222222222221<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_683">
+                <coordinates>1.9297222222222221,44.56222222222222,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_689">
+            <name>Dolmen du Cloup de Coutze </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Lat</b> : 44.56228<br/>
+<b>Lon</b> : 1.92353<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen du Cloup de Coutze" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_684">
+                <coordinates>1.92353,44.56228,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_690">
+            <name>Dolmen du Pech de la Roussille </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
+<b>Lat</b> : 44.56278<br/>
+<b>Lon</b> : 1.91778<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_685">
+                <coordinates>1.91778,44.56278,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_691">
+            <name>Dolmen de Noble </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Boussac (Lot)" target="_blank">Boussac (Lot)</href><br/>
+<b>Lat</b> : 44.5809<br/>
+<b>Lon</b> : 1.91394<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_686">
+                <coordinates>1.91394,44.5809,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_692">
+            <name>Dolmens du Causse de Bullac </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Boussac (Lot)" target="_blank">Boussac (Lot)</href><br/>
+<b>Lieu</b> : 2 dolmensClottes <br/>
+<b>Lat</b> : 44.59478<br/>
+<b>Lon</b> : 1.90327<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_687">
+                <coordinates>1.90327,44.59478,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_693">
+            <name>Dolmens du Mas de Brézac </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Boussac (Lot)" target="_blank">Boussac (Lot)</href><br/>
+<b>Lieu</b> : 3 dolmens<br/>
+<b>Lat</b> : 44.58446<br/>
+<b>Lon</b> : 1.91262<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_688">
+                <coordinates>1.91262,44.58446,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_694">
+            <name>Cayrou Gros </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Brengues" target="_blank">Brengues</href><br/>
+<b>Lieu</b> : dolmen<br/>
+<b>Lat</b> : 44.55807<br/>
+<b>Lon</b> : 1.84209<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_689">
+                <coordinates>1.84209,44.55807,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_695">
+            <name>Dolmen de Lapeyrière </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Brengues" target="_blank">Brengues</href><br/>
+<b>Lat</b> : 44.60167<br/>
+<b>Lon</b> : 1.82167<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen de Lapeyrière" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_690">
+                <coordinates>1.82167,44.60167,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_696">
+            <name>Dolmen des Fourques Basses </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Brengues" target="_blank">Brengues</href><br/>
+<b>Lat</b> : 44.60609<br/>
+<b>Lon</b> : 1.80993<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_691">
+                <coordinates>1.80993,44.60609,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_697">
+            <name>Dolmen des Fourques Hautes </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Brengues" target="_blank">Brengues</href><br/>
+<b>Lat</b> : 44.592396<br/>
+<b>Lon</b> : 1.821795<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_692">
+                <coordinates>1.821795,44.592396,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_698">
+            <name>Dolmen du Pré de Linars </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Brengues" target="_blank">Brengues</href><br/>
+<b>Lat</b> : 44.55541<br/>
+<b>Lon</b> : 1.84257<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_693">
+                <coordinates>1.84257,44.55541,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_699">
+            <name>Dolmens du Mas dArjac   Dolmen n° 1</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cabrerets" target="_blank">Cabrerets</href><br/>
+<b>Lieu</b> : 3 dolmens autre nom Dolmen du Pech dAlcayre (dolmen n° 1)<br/>
+<b>Lat</b> : 44.5029<br/>
+<b>Lon</b> : 1.6747<br/>
+<b>Classement</b> :   Dolmen n° 1 <brInscrit MH 1966<brDolmen n° 3 détruit<br/>
+<b>Remarques</b> : Base Mérimée PA00094993<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmens du Mas d'Arjac" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_694">
+                <coordinates>1.6747,44.5029,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_700">
+            <name>Dolmens du Mas dArjac Dolmen n° 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cabrerets" target="_blank">Cabrerets</href><br/>
+<b>Lieu</b> : 3 dolmens autre nom Dolmen du Pech dAlcayre (dolmen n° 1)<br/>
+<b>Lat</b> : 44.50192<br/>
+<b>Lon</b> : 1.67379<br/>
+<b>Classement</b> :   Dolmen n° 1 <brInscrit MH 1966<brDolmen n° 3 détruit<br/>
+<b>Remarques</b> : Base Mérimée PA00094993<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmens du Mas d'Arjac" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_695">
+                <coordinates>1.67379,44.50192,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_701">
+            <name>Dolmens de Bouriou </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
+<b>Lieu</b> : 2 dolmens : le n° 1 sur Cajarc correspond au dolmen dInou Tou n° 3<br/>
+<b>Lat</b> : 44.50171<br/>
+<b>Lon</b> : 1.8631<br/>
+<b>Classement</b> : le n° 2 sur Cadrieu est détruit<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_696">
+                <coordinates>1.8631,44.50171,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_702">
+            <name>Dolmens du Verdier Dolmen n° 1</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
+<b>Lieu</b> : 3 dolmens<br/>
+<b>Lat</b> : 44.516611<br/>
+<b>Lon</b> : 1.864389<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmens du Verdier" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_697">
+                <coordinates>1.864389,44.516611,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_703">
+            <name>Dolmens du Verdier Dolmen n° 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
+<b>Lieu</b> : 3 dolmens<br/>
+<b>Lat</b> : 44.51305<br/>
+<b>Lon</b> : 1.85129<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmens du Verdier" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_698">
+                <coordinates>1.85129,44.51305,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_704">
+            <name>Dolmens du Verdier Dolmen n° 3</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
+<b>Lieu</b> : 3 dolmens<br/>
+<b>Lat</b> : 44.514886<br/>
+<b>Lon</b> : 1.851818<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmens du Verdier" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_699">
+                <coordinates>1.851818,44.514886,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_705">
+            <name>Dolmens dAubiac </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Calvignac" target="_blank">Calvignac</href><br/>
+<b>Lieu</b> : 2 dolmens<brautre nom Dolmen des Quatre-Routes (dolmen n° 1)<br/>
+<b>Lat</b> : 44.43028<br/>
+<b>Lon</b> : 1.81417<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_700">
+                <coordinates>1.81417,44.43028,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_706">
+            <name>Dolmen de Commun </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Calvignac" target="_blank">Calvignac</href><br/>
+<b>Lieu</b> : autre nom Dolmen du Pech Grillé<br/>
+<b>Lat</b> : 44.43275<br/>
+<b>Lon</b> : 1.777528<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_701">
+                <coordinates>1.777528,44.43275,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_707">
+            <name>Dolmen de la Pièce Grande </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Calvignac" target="_blank">Calvignac</href><br/>
+<b>Lat</b> : 44.43778<br/>
+<b>Lon</b> : 1.79472<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_702">
+                <coordinates>1.79472,44.43778,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_708">
+            <name>Dolmen de Peyre Gagès </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Calvignac" target="_blank">Calvignac</href><br/>
+<b>Lat</b> : 44.443436<br/>
+<b>Lon</b> : 1.77775<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen de Peyre Gagès" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_703">
+                <coordinates>1.77775,44.443436,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_709">
+            <name>Dolmens du Mas-del-Duc Dolmen A</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Calvignac" target="_blank">Calvignac</href><br/>
+<b>Lieu</b> : autres noms <brDolmen de Peyrelevade (n° 1) <br Dolmen du Pech Gayral (n° 2)<br/>
+<b>Lat</b> : 44.42306<br/>
+<b>Lon</b> : 1.78361<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_704">
+                <coordinates>1.78361,44.42306,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_710">
+            <name>Dolmens du Mas-del-Duc Dolmen B</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Calvignac" target="_blank">Calvignac</href><br/>
+<b>Lieu</b> : autres noms <brDolmen de Peyrelevade (n° 1) <br Dolmen du Pech Gayral (n° 2)<br/>
+<b>Lat</b> : 44.42289<br/>
+<b>Lon</b> : 1.7849<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_705">
+                <coordinates>1.7849,44.42289,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_711">
+            <name>Dolmen de Pierre Levée </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cambes (Lot)" target="_blank">Cambes (Lot)</href><br/>
+<b>Lat</b> : 44.6262<br/>
+<b>Lon</b> : 1.9044<br/>
+<b>Classement</b> : Inscrit MH 2012<br/>
+<b>Remarques</b> : Base Mérimée PA46000051<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen de Pierre Levée" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_706">
+                <coordinates>1.9044,44.6262,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_712">
+            <name>Le Communal </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cambes (Lot)" target="_blank">Cambes (Lot)</href><br/>
+<b>Lat</b> : 44.62769<br/>
+<b>Lon</b> : 1.90291<br/>
+<b>Remarques</b> : Clottes p74;  - <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_707">
+                <coordinates>1.90291,44.62769,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_713">
+            <name>Le Ruscou </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cambes (Lot)" target="_blank">Cambes (Lot)</href><br/>
+<b>Lat</b> : 44.629<br/>
+<b>Lon</b> : 1.89859<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_708">
+                <coordinates>1.89859,44.629,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_714">
+            <name>Le Pournel </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cambes (Lot)" target="_blank">Cambes (Lot)</href><br/>
+<b>Lat</b> : 44.62616<br/>
+<b>Lon</b> : 1.91076<br/>
+<b>Remarques</b> : Clottes p74;  - <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_709">
+                <coordinates>1.91076,44.62616,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_715">
+            <name>Dolmen de Planagrèze </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Caniac-du-Causse" target="_blank">Caniac-du-Causse</href><br/>
+<b>Lat</b> : 44.63444<br/>
+<b>Lon</b> : 1.66333<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_710">
+                <coordinates>1.66333,44.63444,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_716">
+            <name>Dolmen de Cavarroc </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Carayac" target="_blank">Carayac</href><br/>
+<b>Lat</b> : 44.54194444444444<br/>
+<b>Lon</b> : 1.9158333333333333<br/>
+<b>Remarques</b> : Clottes p75;  - <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_711">
+                <coordinates>1.9158333333333333,44.54194444444444,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_717">
+            <name>Dolmen du Pech de la Curado </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Carayac" target="_blank">Carayac</href><br/>
+<b>Lat</b> : 44.530277777777776<br/>
+<b>Lon</b> : 1.9241666666666666<br/>
+<b>Remarques</b> : Clottes p75;  - <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_712">
+                <coordinates>1.9241666666666666,44.530277777777776,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_718">
+            <name>Dolmen des Igues de Magnagues </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Carennac" target="_blank">Carennac</href><br/>
+<b>Lat</b> : 44.887225<br/>
+<b>Lon</b> : 1.73139<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_713">
+                <coordinates>1.73139,44.887225,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_719">
+            <name>Dolmens du Noutary Dolmen A</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Carennac" target="_blank">Carennac</href><br/>
+<b>Lieu</b> : 8 dolmens<br/>
+<b>Lat</b> : 44.9025<br/>
+<b>Lon</b> : 1.70861<br/>
+<b>Classement</b> : 3 détruits, 1 ruiné<br/>
+<b>Remarques</b> : Clottes 1977 p=77-79 <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_714">
+                <coordinates>1.70861,44.9025,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_720">
+            <name>Dolmens du Noutary Dolmen B</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Carennac" target="_blank">Carennac</href><br/>
+<b>Lieu</b> : 8 dolmens<br/>
+<b>Lat</b> : 44.90639<br/>
+<b>Lon</b> : 1.70639<br/>
+<b>Classement</b> : 3 détruits, 1 ruiné<br/>
+<b>Remarques</b> : Clottes 1977 p=77-79 <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_715">
+                <coordinates>1.70639,44.90639,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_721">
+            <name>Dolmen de Los-Très-Peyros </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Castelfranc" target="_blank">Castelfranc</href><br/>
+<b>Lieu</b> : autre nom Dolmen du Causse de Cousis<br/>
+<b>Lat</b> : 44.5111<br/>
+<b>Lon</b> : 1.21528<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_716">
+                <coordinates>1.21528,44.5111,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_722">
+            <name>Dolmen du Pech de Roquebert </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Castelfranc" target="_blank">Castelfranc</href><br/>
+<b>Lat</b> : 44.51417<br/>
+<b>Lon</b> : 1.21889<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_717">
+                <coordinates>1.21889,44.51417,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_723">
+            <name>Dolmens du Mas de Labat </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cénevières" target="_blank">Cénevières</href><br/>
+<b>Lieu</b> : 2 dolmens<br/>
+<b>Lat</b> : 44.4436<br/>
+<b>Lon</b> : 1.731<br/>
+<b>Classement</b> : Dolmen n° 2<brInscrit MH 1959<br/>
+<b>Remarques</b> : Base Mérimée PA00095057<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmens du Mas de Labat" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_718">
+                <coordinates>1.731,44.4436,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_724">
+            <name>Dolmen de Peyrelongue </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Corn" target="_blank">Corn</href><br/>
+<b>Lat</b> : 44.61714<br/>
+<b>Lon</b> : 1.89968<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_719">
+                <coordinates>1.89968,44.61714,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_725">
+            <name>Dolmen du Pech dArsou </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Corn" target="_blank">Corn</href><br/>
+<b>Lat</b> : 44.61094<br/>
+<b>Lon</b> : 1.87918<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen du Pech d'Arsou" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_720">
+                <coordinates>1.87918,44.61094,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_726">
+            <name>Dolmens dAuriac Dolmen n° 1</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Corn" target="_blank">Corn</href><br/>
+<b>Lieu</b> : 3 dolmens, dolmen n° 3 incertainClottes p86 <br/>
+<b>Lat</b> : 44.59371<br/>
+<b>Lon</b> : 1.88469<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmens d'Auriac" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_721">
+                <coordinates>1.88469,44.59371,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_727">
+            <name>Dolmens dAuriac Dolmen n° 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Corn" target="_blank">Corn</href><br/>
+<b>Lieu</b> : 3 dolmens, dolmen n° 3 incertainClottes p86 <br/>
+<b>Lat</b> : 44.59178<br/>
+<b>Lon</b> : 1.88104<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmens d'Auriac" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_722">
+                <coordinates>1.88104,44.59178,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_728">
+            <name>Dolmens dAuriac Dolmen n° 3?</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Corn" target="_blank">Corn</href><br/>
+<b>Lieu</b> : 3 dolmens, dolmen n° 3 incertainClottes p86 <br/>
+<b>Lat</b> : 44.59318<br/>
+<b>Lon</b> : 1.88194<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmens d'Auriac" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_723">
+                <coordinates>1.88194,44.59318,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_729">
+            <name>Menhirs du Suquet </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Corn" target="_blank">Corn</href><br/>
+<b>Lieu</b> : 2 menhirs douteuxClottes p89>Clottes 1977 p=89 <br/>
+<b>Lat</b> : 44.60589<br/>
+<b>Lon</b> : 1.87256<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_724">
+                <coordinates>1.87256,44.60589,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_730">
+            <name>Dolmen du Mas de Para </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Crégols" target="_blank">Crégols</href><br/>
+<b>Lieu</b> : autres noms Dolmen de Pech Sec, Tombeau du GéantClottes p89 <br/>
+<b>Lat</b> : 44.43167<br/>
+<b>Lon</b> : 1.7083<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_725">
+                <coordinates>1.7083,44.43167,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_731">
+            <name>Dolmen de La Borie Grande </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Durbans" target="_blank">Durbans</href><br/>
+<b>Lat</b> : 44.68361<br/>
+<b>Lon</b> : 1.74639<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_726">
+                <coordinates>1.74639,44.68361,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_732">
+            <name>Dolmen de Peyre de lHomme </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Durbans" target="_blank">Durbans</href><br/>
+<b>Lieu</b> : autre nom Dolmen des Combarols<br/>
+<b>Lat</b> : 44.6916<br/>
+<b>Lon</b> : 1.7864<br/>
+<b>Classement</b> : Inscrit MH 2011<br/>
+<b>Remarques</b> : Base Mérimée PA46000048<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_727">
+                <coordinates>1.7864,44.6916,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_733">
+            <name>Dolmens des Roques Dolmen n° 1</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Durbans" target="_blank">Durbans</href><br/>
+<b>Lieu</b> : 2 dolmens<br/>
+<b>Lat</b> : 44.6918<br/>
+<b>Lon</b> : 1.7978<br/>
+<b>Classement</b> : Dolmen n° 2 <brInscrit MH 2012<br/>
+<b>Remarques</b> : Base Mérimée PA46000053<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_728">
+                <coordinates>1.7978,44.6918,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_734">
+            <name>Dolmens des Roques Dolmen n° 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Durbans" target="_blank">Durbans</href><br/>
+<b>Lieu</b> : 2 dolmens<br/>
+<b>Lat</b> : 44.692<br/>
+<b>Lon</b> : 1.7984<br/>
+<b>Classement</b> : Dolmen n° 2 <brInscrit MH 2012<br/>
+<b>Remarques</b> : Base Mérimée PA46000053<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_729">
+                <coordinates>1.7984,44.692,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_735">
+            <name>Dolmen de Verdier-Petit </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Durbans" target="_blank">Durbans</href><br/>
+<b>Lieu</b> : autre nom Dolmen de Ladignac<br/>
+<b>Lat</b> : 44.6769<br/>
+<b>Lon</b> : 1.782852<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_730">
+                <coordinates>1.782852,44.6769,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_736">
+            <name>Dolmen de Coste Pialade </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Espagnac-Sainte-Eulalie" target="_blank">Espagnac-Sainte-Eulalie</href><br/>
+<b>Lieu</b> : autre nom Tombe de César<br/>
+<b>Lat</b> : 44.59662<br/>
+<b>Lon</b> : 1.86745<br/>
+<b>Classement</b> :  <br/>
+<b>Remarques</b> : Clottes 1977 p=93 ;  - <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_731">
+                <coordinates>1.86745,44.59662,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_737">
+            <name>Dolmen de lArtillou </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Espédaillac" target="_blank">Espédaillac</href><br/>
+<b>Lat</b> : 44.61639<br/>
+<b>Lon</b> : 1.78694<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_732">
+                <coordinates>1.78694,44.61639,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_738">
+            <name>Dolmen de Peyrefit </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Espédaillac" target="_blank">Espédaillac</href><br/>
+<b>Lat</b> : 44.62167<br/>
+<b>Lon</b> : 1.79111<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_733">
+                <coordinates>1.79111,44.62167,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_739">
+            <name>Dolmen du Pech Ventoux </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Espédaillac" target="_blank">Espédaillac</href><br/>
+<b>Lat</b> : 44.63639<br/>
+<b>Lon</b> : 1.80083<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_734">
+                <coordinates>1.80083,44.63639,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_740">
+            <name>Dolmens de Ginouillac </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Espédaillac" target="_blank">Espédaillac</href><br/>
+<b>Lieu</b> : 2 dolmens<br/>
+<b>Lat</b> : 44.59667<br/>
+<b>Lon</b> : 1.77417<br/>
+<b>Classement</b> : 1 détruit<br/>
+<b>Remarques</b> : Clottes p93<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_735">
+                <coordinates>1.77417,44.59667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_741">
+            <name>Dolmen de Ferrières </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Faycelles" target="_blank">Faycelles</href><br/>
+<b>Lat</b> : 44.57409<br/>
+<b>Lon</b> : 1.99389<br/>
+<b>Remarques</b> : Clottes 1977 p=95 ;  - <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_736">
+                <coordinates>1.99389,44.57409,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_742">
+            <name>Dolmen du Mas de Bessières </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Faycelles" target="_blank">Faycelles</href><br/>
+<b>Lat</b> : 44.55694444444444<br/>
+<b>Lon</b> : 1.9700000000000002<br/>
+<b>Remarques</b> : Clottes p95;  - <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_737">
+                <coordinates>1.9700000000000002,44.55694444444444,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_743">
+            <name>Pierre Levée </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Faycelles" target="_blank">Faycelles</href><br/>
+<b>Lieu</b> : dolmen<br/>
+<b>Lat</b> : 44.55383<br/>
+<b>Lon</b> : 1.98159<br/>
+<b>Remarques</b> : Clottes p95;  - <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_738">
+                <coordinates>1.98159,44.55383,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_744">
+            <name>Dolmens des Escabasses </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Flaujac-Gare" target="_blank">Flaujac-Gare</href><br/>
+<b>Lieu</b> : 3 dolmensClottes p97 <br/>
+<b>Lat</b> : 44.71718<br/>
+<b>Lon</b> : 1.79571<br/>
+<b>Classement</b> : 1 détruit<br/>
+<b>Remarques</b> : :28<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_739">
+                <coordinates>1.79571,44.71718,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_745">
+            <name>Dolmen de Camp del Prieu </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac_(Lot)" target="_blank">Floirac_(Lot)</href><br/>
+<b>Lieu</b> : autre nom Peyrelevade<br/>
+<b>Lat</b> : 44.91306<br/>
+<b>Lon</b> : 1.68167<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_740">
+                <coordinates>1.68167,44.91306,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_746">
+            <name>Dolmens de Candare Dolmen A</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac_(Lot)" target="_blank">Floirac_(Lot)</href><br/>
+<b>Lieu</b> : 2 dolmens<br/>
+<b>Lat</b> : 44.891772<br/>
+<b>Lon</b> : 1.682733<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_741">
+                <coordinates>1.682733,44.891772,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_747">
+            <name>Dolmens de Candare Dolmen B</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac_(Lot)" target="_blank">Floirac_(Lot)</href><br/>
+<b>Lieu</b> : 2 dolmens<br/>
+<b>Lat</b> : 44.891208<br/>
+<b>Lon</b> : 1.681262<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_742">
+                <coordinates>1.681262,44.891208,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_748">
+            <name>Dolmen de la Combe de Xey </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac_(Lot)" target="_blank">Floirac_(Lot)</href><br/>
+<b>Lat</b> : 44.90694<br/>
+<b>Lon</b> : 1.68389<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_743">
+                <coordinates>1.68389,44.90694,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_749">
+            <name>Dolmen de Cloup de Roual </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac_(Lot)" target="_blank">Floirac_(Lot)</href><br/>
+<b>Lat</b> : 44.892982<br/>
+<b>Lon</b> : 1.695793<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_744">
+                <coordinates>1.695793,44.892982,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_750">
+            <name>Dolmen dUffande </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac_(Lot)" target="_blank">Floirac_(Lot)</href><br/>
+<b>Lat</b> : 44.917442<br/>
+<b>Lon</b> : 1.681151<br/>
+<b>Remarques</b> : Clottes 1977 p=103 ;  - <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_745">
+                <coordinates>1.681151,44.917442,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_751">
+            <name>Dolmen du Pech-Cayrou </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac_(Lot)" target="_blank">Floirac_(Lot)</href><br/>
+<b>Lat</b> : 44.904991<br/>
+<b>Lon</b> : 1.673401<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_746">
+                <coordinates>1.673401,44.904991,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_752">
+            <name>Dolmens des Barthes Dolmen A</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac_(Lot)" target="_blank">Floirac_(Lot)</href><br/>
+<b>Lieu</b> : 2 dolmens<br/>
+<b>Lat</b> : 44.895847<br/>
+<b>Lon</b> : 1.673565<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_747">
+                <coordinates>1.673565,44.895847,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_753">
+            <name>Dolmens des Barthes Dolmen B</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac_(Lot)" target="_blank">Floirac_(Lot)</href><br/>
+<b>Lieu</b> : 2 dolmens<br/>
+<b>Lat</b> : 44.8934<br/>
+<b>Lon</b> : 1.6752<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_748">
+                <coordinates>1.6752,44.8934,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_754">
+            <name>Dolmen de Combescure </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Fontanes-du-Causse" target="_blank">Fontanes-du-Causse</href><br/>
+<b>Lieu</b> : autre nom Dolmen du Douyounet<br/>
+<b>Lat</b> : 44.67139<br/>
+<b>Lon</b> : 1.63944<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_749">
+                <coordinates>1.63944,44.67139,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_755">
+            <name>Pierre Levée de Nougayrac </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Fontanes-du-Causse" target="_blank">Fontanes-du-Causse</href><br/>
+<b>Lat</b> : 44.6633<br/>
+<b>Lon</b> : 1.697<br/>
+<b>Classement</b> : Classé MH 1989<br/>
+<b>Remarques</b> : Base Mérimée PA00095091<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_750">
+                <coordinates>1.697,44.6633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_756">
+            <name>Dolmen du Cayrou de LHomme Mort </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gintrac" target="_blank">Gintrac</href><br/>
+<b>Lat</b> : 44.87318<br/>
+<b>Lon</b> : 1.7591<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_751">
+                <coordinates>1.7591,44.87318,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_757">
+            <name>Dolmen des Cloups </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Ginouillac" target="_blank">Ginouillac</href><br/>
+<b>Lat</b> : 44.7239<br/>
+<b>Lon</b> : 1.5367<br/>
+<b>Classement</b> : Classé MH 1973<br/>
+<b>Remarques</b> : Base Mérimée PA00095097<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen des Cloups" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_752">
+                <coordinates>1.5367,44.7239,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_758">
+            <name>Dolmen de Costeraste </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gourdon_(Lot)" target="_blank">Gourdon_(Lot)</href><br/>
+<b>Lat</b> : 44.706029<br/>
+<b>Lon</b> : 1.343571<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_753">
+                <coordinates>1.343571,44.706029,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_759">
+            <name>Dolmen de Bouyé </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gramat" target="_blank">Gramat</href><br/>
+<b>Lieu</b> : autre nom Dolmen des RougièresClottes p107>Clottes 1977 p=107 <br/>
+<b>Lat</b> : 44.77315<br/>
+<b>Lon</b> : 1.744304<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_754">
+                <coordinates>1.744304,44.77315,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_760">
+            <name>Dolmen de Saint-Chignes </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gramat" target="_blank">Gramat</href><br/>
+<b>Lat</b> : 44.749287<br/>
+<b>Lon</b> : 1.760402<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_755">
+                <coordinates>1.760402,44.749287,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_761">
+            <name>Dolmen des Plassous </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gramat" target="_blank">Gramat</href><br/>
+<b>Lieu</b> : autres noms Dolmen des Aspes, Dolmen de Pissebas<br/>
+<b>Lat</b> : 44.7729<br/>
+<b>Lon</b> : 1.6896<br/>
+<b>Classement</b> : Classé MH 1889<br/>
+<b>Remarques</b> : Base Mérimée PA00095104<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen des Plassous" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_756">
+                <coordinates>1.6896,44.7729,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_762">
+            <name>Dolmen du Terrou </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gramat" target="_blank">Gramat</href><br/>
+<b>Lat</b> : 44.77417<br/>
+<b>Lon</b> : 1.76194<br/>
+<b>Remarques</b> : Clottes 1977 p=110 ;  - <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_757">
+                <coordinates>1.76194,44.77417,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_763">
+            <name>Dolmen du Pech de Grammont </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gramat" target="_blank">Gramat</href><br/>
+<b>Lat</b> : 44.7848<br/>
+<b>Lon</b> : 1.6727<br/>
+<b>Classement</b> : Inscrit MH 2012<br/>
+<b>Remarques</b> : Base Mérimée PA46000055<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen du Pech de Grammont" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_758">
+                <coordinates>1.6727,44.7848,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_764">
+            <name>Dolmen de Ganil </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gréalou" target="_blank">Gréalou</href><br/>
+<b>Lat</b> : 44.5351<br/>
+<b>Lon</b> : 1.903741<br/>
+<b>Classement</b> : Inscrit MH 2011<br/>
+<b>Remarques</b> : Base Mérimée PA46000049<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen de Ganil" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_759">
+                <coordinates>1.903741,44.5351,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_765">
+            <name>Dolmen des Aguals </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gréalou" target="_blank">Gréalou</href><br/>
+<b>Lieu</b> : autre nom Dolmen de la Combe de lOurs<br/>
+<b>Lat</b> : 44.5288<br/>
+<b>Lon</b> : 1.8944<br/>
+<b>Classement</b> : Inscrit MH 2001<br/>
+<b>Remarques</b> : Base Mérimée PA46000021; Base Mérimée PA46000022<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen des Aguals" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_760">
+                <coordinates>1.8944,44.5288,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_766">
+            <name>Dolmen des Vandourgues </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gréalou" target="_blank">Gréalou</href><br/>
+<b>Lieu</b> : autre nom Dolmen du Mas-Mondieu<br/>
+<b>Lat</b> : 44.52773<br/>
+<b>Lon</b> : 1.85436<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_761">
+                <coordinates>1.85436,44.52773,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_767">
+            <name>Dolmens de Pech Laglaire Dolmen n° 1</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gréalou" target="_blank">Gréalou</href><br/>
+<b>Lieu</b> : 3 dolmens <br autre nom Dolmens du Mas-de-Pégouriès<br/>
+<b>Lat</b> : 44.5346<br/>
+<b>Lon</b> : 1.8626<br/>
+<b>Classement</b> : Dolmens n° 1 et 2 <brClassé MH 1978<br/>
+<b>Remarques</b> : Base Mérimée PA00095105<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmens de Pech Laglaire" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_762">
+                <coordinates>1.8626,44.5346,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_768">
+            <name>Dolmens de Pech Laglaire Dolmen n° 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gréalou" target="_blank">Gréalou</href><br/>
+<b>Lieu</b> : 3 dolmens <br autre nom Dolmens du Mas-de-Pégouriès<br/>
+<b>Lat</b> : 44.534726<br/>
+<b>Lon</b> : 1.865461<br/>
+<b>Classement</b> : Dolmens n° 1 et 2 <brClassé MH 1978<br/>
+<b>Remarques</b> : Base Mérimée PA00095105<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmens de Pech Laglaire" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_763">
+                <coordinates>1.865461,44.534726,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_769">
+            <name>Dolmens de Pech Laglaire Dolmen n° 3</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gréalou" target="_blank">Gréalou</href><br/>
+<b>Lieu</b> : 3 dolmens <br autre nom Dolmens du Mas-de-Pégouriès<br/>
+<b>Lat</b> : 44.532843<br/>
+<b>Lon</b> : 1.866712<br/>
+<b>Classement</b> : Dolmens n° 1 et 2 <brClassé MH 1978<br/>
+<b>Remarques</b> : Base Mérimée PA00095105<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmens de Pech Laglaire" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_764">
+                <coordinates>1.866712,44.532843,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_770">
+            <name>Dolmen de Custalou </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Grèzes (Lot)" target="_blank">Grèzes (Lot)</href><br/>
+<b>Lat</b> : 44.6249<br/>
+<b>Lon</b> : 1.8137<br/>
+<b>Classement</b> : Classé MH 1965<br/>
+<b>Remarques</b> : Base Mérimée PA00095108<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen de Custalou" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_765">
+                <coordinates>1.8137,44.6249,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_771">
+            <name>Dolmen de Ligoussou </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Grèzes (Lot)" target="_blank">Grèzes (Lot)</href><br/>
+<b>Lieu</b> : autre nom Dolmen du Champ des Granges<br/>
+<b>Lat</b> : 44.609781<br/>
+<b>Lon</b> : 1.851021<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_766">
+                <coordinates>1.851021,44.609781,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_772">
+            <name>Dolmen du Cloup-de-Périès </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Grèzes (Lot)" target="_blank">Grèzes (Lot)</href><br/>
+<b>Lieu</b> : autre nom Dolmen des Ramades<br/>
+<b>Lat</b> : 44.616967<br/>
+<b>Lon</b> : 1.827679<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_767">
+                <coordinates>1.827679,44.616967,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_773">
+            <name>Dolmen du Lac de Lapeyre </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Grèzes (Lot)" target="_blank">Grèzes (Lot)</href><br/>
+<b>Lat</b> : 44.60202<br/>
+<b>Lon</b> : 1.82204<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_768">
+                <coordinates>1.82204,44.60202,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_774">
+            <name>Dolmen de Gary </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Issendolus" target="_blank">Issendolus</href><br/>
+<b>Lieu</b> : autre nom Dolmen des Combes<br/>
+<b>Lat</b> : 44.747337<br/>
+<b>Lon</b> : 1.76817<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_769">
+                <coordinates>1.76817,44.747337,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_775">
+            <name>Dolmen de la Baune </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Issendolus" target="_blank">Issendolus</href><br/>
+<b>Lieu</b> : autre nom Pierre Levée<br/>
+<b>Lat</b> : 44.74158<br/>
+<b>Lon</b> : 1.80499<br/>
+<b>Classement</b> : Classé MH 1988<br/>
+<b>Remarques</b> : Base Mérimée PA00095110<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_770">
+                <coordinates>1.80499,44.74158,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_776">
+            <name>Dolmen de la Pierre-Levée de Lacoste </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Issendolus" target="_blank">Issendolus</href><br/>
+<b>Lat</b> : 44.751459<br/>
+<b>Lon</b> : 1.764131<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_771">
+                <coordinates>1.764131,44.751459,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_777">
+            <name>Dolmen de Souilhol </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Issendolus" target="_blank">Issendolus</href><br/>
+<b>Lat</b> : 44.741<br/>
+<b>Lon</b> : 1.7645<br/>
+<b>Remarques</b> : Clottes 1977 p=117 ;  - <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_772">
+                <coordinates>1.7645,44.741,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_778">
+            <name>Dolmens de Gabaudet Dolmen n° 1</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Issendolus" target="_blank">Issendolus</href><br/>
+<b>Lieu</b> : 2 dolmens<br/>
+<b>Lat</b> : 44.71487<br/>
+<b>Lon</b> : 1.75141<br/>
+<b>Classement</b> : Classé MH 1934<br/>
+<b>Remarques</b> : Base Mérimée PA00095109<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmens de Gabaudet" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_773">
+                <coordinates>1.75141,44.71487,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_779">
+            <name>Dolmens de Gabaudet Dolmen n° 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Issendolus" target="_blank">Issendolus</href><br/>
+<b>Lieu</b> : 2 dolmens<br/>
+<b>Lat</b> : 44.71392<br/>
+<b>Lon</b> : 1.75299<br/>
+<b>Classement</b> : Classé MH 1934<br/>
+<b>Remarques</b> : Base Mérimée PA00095109<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmens de Gabaudet" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_774">
+                <coordinates>1.75299,44.71392,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_780">
+            <name>Dolmen des Jasses </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Labastide-Marnhac" target="_blank">Labastide-Marnhac</href><br/>
+<b>Lieu</b> : autre nom Dolmen de Peyre Levade<br/>
+<b>Lat</b> : 44.378129<br/>
+<b>Lon</b> : 1.361078<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen des Jasses" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_775">
+                <coordinates>1.361078,44.378129,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_781">
+            <name>Dolmen de la Croix Blanche </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Lachapelle-Auzac" target="_blank">Lachapelle-Auzac</href><br/>
+<b>Lat</b> : 44.92361<br/>
+<b>Lon</b> : 1.49028<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen de la Croix Blanche" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_776">
+                <coordinates>1.49028,44.92361,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_782">
+            <name>Dolmen de la Pierre-Levée </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Lalbenque" target="_blank">Lalbenque</href><br/>
+<b>Lat</b> : 44.325189<br/>
+<b>Lon</b> : 1.575974<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_777">
+                <coordinates>1.575974,44.325189,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_783">
+            <name>Dolmen des Cartayroux </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Lanzac" target="_blank">Lanzac</href><br/>
+<b>Lieu</b> : autre nom Dolmen de Cieurac<br/>
+<b>Lat</b> : 44.88677<br/>
+<b>Lon</b> : 1.45867<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_778">
+                <coordinates>1.45867,44.88677,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_784">
+            <name>Dolmens de la Borie du Bois </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Laramière" target="_blank">Laramière</href><br/>
+<b>Lieu</b> : 2 dolmens <brautre nom <brDolmen de Peyro Levado (dolmen n° 1)<br/>
+<b>Lat</b> : 44.3503<br/>
+<b>Lon</b> : 1.8443<br/>
+<b>Classement</b> : Classé MH 1984<br/>
+<b>Remarques</b> : Base Mérimée PA00095123<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_779">
+                <coordinates>1.8443,44.3503,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_785">
+            <name>Dolmens de Marcigaliet  Dolmen A</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Laramière" target="_blank">Laramière</href><br/>
+<b>Lieu</b> : 6 dolmens<br/>
+<b>Lat</b> : 44.3641<br/>
+<b>Lon</b> : 1.8528<br/>
+<b>Classement</b> : Dolmen n° 1 <brClassé MH 1989<br/>
+<b>Remarques</b> : Base Mérimée PA00095124<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmens de Marcigaliet " target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_780">
+                <coordinates>1.8528,44.3641,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_786">
+            <name>Dolmens de Marcigaliet  Dolmen B</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Laramière" target="_blank">Laramière</href><br/>
+<b>Lieu</b> : 6 dolmens<br/>
+<b>Lat</b> : 44.360311<br/>
+<b>Lon</b> : 1.852119<br/>
+<b>Classement</b> : Dolmen n° 1 <brClassé MH 1989<br/>
+<b>Remarques</b> : Base Mérimée PA00095124<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmens de Marcigaliet " target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_781">
+                <coordinates>1.852119,44.360311,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_787">
+            <name>Dolmens du Mas de Jantou Dolmen A</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Larnagol" target="_blank">Larnagol</href><br/>
+<b>Lieu</b> : 2 dolmens<br autre nom Peyro Levado et Peyro Clabado<br/>
+<b>Lat</b> : 44.4922558<br/>
+<b>Lon</b> : 1.75139<br/>
+<b>Classement</b> : Dolmen n° 2 <brClassé MH 1989<br/>
+<b>Remarques</b> : Base Mérimée PA00095126<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_782">
+                <coordinates>1.75139,44.4922558,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_788">
+            <name>Dolmens du Mas de Jantou Dolmen B</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Larnagol" target="_blank">Larnagol</href><br/>
+<b>Lieu</b> : 2 dolmens<br autre nom Peyro Levado et Peyro Clabado<br/>
+<b>Lat</b> : 44.92033<br/>
+<b>Lon</b> : 1.751389<br/>
+<b>Classement</b> : Dolmen n° 2 <brClassé MH 1989<br/>
+<b>Remarques</b> : Base Mérimée PA00095126<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_783">
+                <coordinates>1.751389,44.92033,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_789">
+            <name>Dolmen de Surgès </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Lavercantière" target="_blank">Lavercantière</href><br/>
+<b>Lat</b> : 44.6203<br/>
+<b>Lon</b> : 1.3047<br/>
+<b>Classement</b> : Inscrit MH 2014<br/>
+<b>Remarques</b> : Base Mérimée PA46000063<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen de Surgès" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_784">
+                <coordinates>1.3047,44.6203,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_790">
+            <name>Dolmen de la Pierre Levée (Lentillac-du-Causse) </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Lentillac-du-Causse" target="_blank">Lentillac-du-Causse</href><br/>
+<b>Lieu</b> : autre nom <brDolmen de Peyrelevade<br/>
+<b>Lat</b> : 44.553162<br/>
+<b>Lon</b> : 1.647689<br/>
+<b>Classement</b> : Classé MH 1989<br/>
+<b>Remarques</b> : Base Mérimée PA00095133<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen de la Pierre Levée (Lentillac-du-Causse)" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_785">
+                <coordinates>1.647689,44.553162,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_791">
+            <name>Dolmen des Bouygues </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Lentillac-du-Causse" target="_blank">Lentillac-du-Causse</href><br/>
+<b>Lat</b> : 44.55028<br/>
+<b>Lon</b> : 1.64528<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_786">
+                <coordinates>1.64528,44.55028,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_792">
+            <name>Les Trois Pierres </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Les Junies" target="_blank">Les Junies</href><br/>
+<b>Lieu</b> : dolmen<brautre nom Dolmen de QuettyClottes p118 <br/>
+<b>Lat</b> : 44.532575<br/>
+<b>Lon</b> : 1.217111<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_787">
+                <coordinates>1.217111,44.532575,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_793">
+            <name>Menhirs de Roquebert </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Les Junies" target="_blank">Les Junies</href><br/>
+<b>Lieu</b> : authenticité douteuseClottes p117 <br/>
+<b>Lat</b> : 44.5225<br/>
+<b>Lon</b> : 1.22306<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_788">
+                <coordinates>1.22306,44.5225,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_794">
+            <name>Dolmen dAgranel </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Limogne-en-Quercy" target="_blank">Limogne-en-Quercy</href><br/>
+<b>Lat</b> : 44.4161<br/>
+<b>Lon</b> : 1.7847<br/>
+<b>Classement</b> : Classé MH 1959<br/>
+<b>Remarques</b> : Base Mérimée PA00095137<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen d'Agranel" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_789">
+                <coordinates>1.7847,44.4161,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_795">
+            <name>Dolmen de Ferrières-Haut </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Limogne-en-Quercy" target="_blank">Limogne-en-Quercy</href><br/>
+<b>Lat</b> : 44.381586<br/>
+<b>Lon</b> : 1.740562<br/>
+<b>Classement</b> : Classé MH 1959<br/>
+<b>Remarques</b> : Base Mérimée PA00095138<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen de Ferrières-Haut" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_790">
+                <coordinates>1.740562,44.381586,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_796">
+            <name>Dolmen de Joncas </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Limogne-en-Quercy" target="_blank">Limogne-en-Quercy</href><br/>
+<b>Lat</b> : 44.39<br/>
+<b>Lon</b> : 1.7519<br/>
+<b>Classement</b> : Inscrit MH 1959<br/>
+<b>Remarques</b> : Base Mérimée PA00095139<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen de Joncas" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_791">
+                <coordinates>1.7519,44.39,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_797">
+            <name>Dolmen de Pajot </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Limogne-en-Quercy" target="_blank">Limogne-en-Quercy</href><br/>
+<b>Lat</b> : 44.3877<br/>
+<b>Lon</b> : 1.7799<br/>
+<b>Classement</b> : Classé MH 1959<br/>
+<b>Remarques</b> : Base Mérimée PA00095140<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen de Pajot" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_792">
+                <coordinates>1.7799,44.3877,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_798">
+            <name>Dolmen de Pech-Lapeyre </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Limogne-en-Quercy" target="_blank">Limogne-en-Quercy</href><br/>
+<b>Lieu</b> : autre nom Dolmen du Lac dAurié<br/>
+<b>Lat</b> : 44.4019<br/>
+<b>Lon</b> : 1.7523<br/>
+<b>Classement</b> : Classé MH 1889<br/>
+<b>Remarques</b> : Base Mérimée PA00095141<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen de Pech-Lapeyre" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_793">
+                <coordinates>1.7523,44.4019,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_799">
+            <name>Dolmen de la Croze </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Lieu</b> : autre nom Dolmen de Pech Mage<br/>
+<b>Lat</b> : 44.634522<br/>
+<b>Lon</b> : 1.869945<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_794">
+                <coordinates>1.869945,44.634522,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_800">
+            <name>Dolmen de la Cun </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Lat</b> : 44.63557<br/>
+<b>Lon</b> : 1.87695<br/>
+<b>Remarques</b> : Clottes 1977 p = 141 ;  - <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_795">
+                <coordinates>1.87695,44.63557,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_801">
+            <name>Dolmen de la Pierre Martine </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Lat</b> : 44.6608<br/>
+<b>Lon</b> : 1.8209<br/>
+<b>Classement</b> : Inscrit MH 1889<br/>
+<b>Remarques</b> : :6;  - Base Mérimée PA00095143<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen de la Pierre Martine" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_796">
+                <coordinates>1.8209,44.6608,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_802">
+            <name>Dolmen de Peych Peyroux </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Lieu</b> : autre nom Dolmen des Pouzats<br/>
+<b>Lat</b> : 44.621088<br/>
+<b>Lon</b> : 1.870117<br/>
+<b>Classement</b> : Inscrit MH 1980<br/>
+<b>Remarques</b> : :6;  - Base Mérimée PA00095142<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_797">
+                <coordinates>1.870117,44.621088,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_803">
+            <name>Dolmen de Rougié </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Lat</b> : 44.66147<br/>
+<b>Lon</b> : 1.82055<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_798">
+                <coordinates>1.82055,44.66147,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_804">
+            <name>Dolmen du Mas de Tourelle </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Lat</b> : 44.62885<br/>
+<b>Lon</b> : 1.85263<br/>
+<b>Remarques</b> : :6;  - <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_799">
+                <coordinates>1.85263,44.62885,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_805">
+            <name>Dolmens de la Terre Dolmen A</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Lieu</b> : 2 dolmens<br/>
+<b>Lat</b> : 44.63267<br/>
+<b>Lon</b> : 1.88947<br/>
+<b>Remarques</b> : :6;  - <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_800">
+                <coordinates>1.88947,44.63267,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_806">
+            <name>Dolmens de la Terre Dolmen B</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Lieu</b> : 2 dolmens<br/>
+<b>Lat</b> : 44.63781<br/>
+<b>Lon</b> : 1.88961<br/>
+<b>Remarques</b> : :6;  - <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_801">
+                <coordinates>1.88961,44.63781,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_807">
+            <name>Dolmens de Vichelle </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Lieu</b> : 3 dolmens, n° 2 sur Espédaillac:7>Clottes 1977 p = 142 <br/>
+<b>Lat</b> : 44.64494<br/>
+<b>Lon</b> : 1.81033<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_802">
+                <coordinates>1.81033,44.64494,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_808">
+            <name>Dolmens du Cloup Caoud  Dolmen A</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Lieu</b> : 2 dolmens<br/>
+<b>Lat</b> : 44.63432<br/>
+<b>Lon</b> : 1.87741<br/>
+<b>Classement</b> :  <br/>
+<b>Remarques</b> : :5;  - <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_803">
+                <coordinates>1.87741,44.63432,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_809">
+            <name>Dolmens du Cloup Caoud  Dolmen B</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Lieu</b> : 2 dolmens<br/>
+<b>Lat</b> : 44.63376<br/>
+<b>Lon</b> : 1.87786<br/>
+<b>Classement</b> :  <br/>
+<b>Remarques</b> : :5;  - <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_804">
+                <coordinates>1.87786,44.63376,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_810">
+            <name>Menhir de Bélinac </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
+<b>Lat</b> : 44.6352<br/>
+<b>Lon</b> : 1.859<br/>
+<b>Classement</b> : Classé MH 1978<br/>
+<b>Remarques</b> : :5;  - Base Mérimée PA00095146<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_805">
+                <coordinates>1.859,44.6352,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_811">
+            <name>Dolmen dHoraste </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Loubressac" target="_blank">Loubressac</href><br/>
+<b>Lat</b> : 44.851867<br/>
+<b>Lon</b> : 1.80386<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_806">
+                <coordinates>1.80386,44.851867,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_812">
+            <name>Dolmen de Croix Hélène </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Loubressac" target="_blank">Loubressac</href><br/>
+<b>Lieu</b> : autre nom Dolmen des Breilles<br/>
+<b>Lat</b> : 44.86028<br/>
+<b>Lon</b> : 1.7657<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_807">
+                <coordinates>1.7657,44.86028,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_813">
+            <name>Dolmens de Pech Plumet Pech Plumet A</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Loubressac" target="_blank">Loubressac</href><br/>
+<b>Lieu</b> : 2 dolmens<br/>
+<b>Lat</b> : 44.8542<br/>
+<b>Lon</b> : 1.769771<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_808">
+                <coordinates>1.769771,44.8542,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_814">
+            <name>Dolmens de Pech Plumet Pech Plumet B</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Loubressac" target="_blank">Loubressac</href><br/>
+<b>Lieu</b> : 2 dolmens<br/>
+<b>Lat</b> : 44.85445<br/>
+<b>Lon</b> : 1.774736<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_809">
+                <coordinates>1.774736,44.85445,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_815">
+            <name>Dolmen de la Terre de Lacoste </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Loubressac" target="_blank">Loubressac</href><br/>
+<b>Lat</b> : 44.86237<br/>
+<b>Lon</b> : 1.75773<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_810">
+                <coordinates>1.75773,44.86237,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_816">
+            <name>Dolmen des Combes Nègres </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Lugagnac" target="_blank">Lugagnac</href><br/>
+<b>Lat</b> : 44.412386<br/>
+<b>Lon</b> : 1.707243<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_811">
+                <coordinates>1.707243,44.412386,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_817">
+            <name>Dolmen du Mas de Rastouillet </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Lugagnac" target="_blank">Lugagnac</href><br/>
+<b>Lieu</b> : autre nom Grezo-de-Pouèto<br/>
+<b>Lat</b> : 44.422709<br/>
+<b>Lon</b> : 1.738342<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_812">
+                <coordinates>1.738342,44.422709,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_818">
+            <name>Dolmen de la Devèze </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac-sur-Célé" target="_blank">Marcilhac-sur-Célé</href><br/>
+<b>Lat</b> : 44.5411<br/>
+<b>Lon</b> : 1.752<br/>
+<b>Classement</b> : Inscrit MH 1997<br/>
+<b>Remarques</b> : Base Mérimée PA46000006<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen de la Devèze" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_813">
+                <coordinates>1.752,44.5411,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_819">
+            <name>Dolmen de Majourals </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac-sur-Célé" target="_blank">Marcilhac-sur-Célé</href><br/>
+<b>Lat</b> : 44.536933<br/>
+<b>Lon</b> : 1.813248<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_814">
+                <coordinates>1.813248,44.536933,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_820">
+            <name>Dolmen des Combes-Hautes </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac-sur-Célé" target="_blank">Marcilhac-sur-Célé</href><br/>
+<b>Lieu</b> : autre nom Dolmen de Pailhès-Nord<br/>
+<b>Lat</b> : 44.5675<br/>
+<b>Lon</b> : 1.76194<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_815">
+                <coordinates>1.76194,44.5675,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_821">
+            <name>Dolmen Mas Jean-Blanc </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac-sur-Célé" target="_blank">Marcilhac-sur-Célé</href><br/>
+<b>Lieu</b> : autre nom Dolmen de la Borie-Haute<br/>
+<b>Lat</b> : 44.551561<br/>
+<b>Lon</b> : 1.802579<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_816">
+                <coordinates>1.802579,44.551561,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_822">
+            <name>Dolmens de la Combe de Saule Dolmen n° 1</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac-sur-Célé" target="_blank">Marcilhac-sur-Célé</href><br/>
+<b>Lieu</b> : 3 dolmens<br/>
+<b>Lat</b> : 44.538542<br/>
+<b>Lon</b> : 1.815138<br/>
+<b>Classement</b> : Dolmen n° 2<br Inscrit MH 2012<br/>
+<b>Remarques</b> : Base Mérimée PA46000056<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmens de la Combe de Saule" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_817">
+                <coordinates>1.815138,44.538542,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_823">
+            <name>Dolmens de la Combe de Saule Dolmen n° 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac-sur-Célé" target="_blank">Marcilhac-sur-Célé</href><br/>
+<b>Lieu</b> : 3 dolmens<br/>
+<b>Lat</b> : 44.539894<br/>
+<b>Lon</b> : 1.814594<br/>
+<b>Classement</b> : Dolmen n° 2<br Inscrit MH 2012<br/>
+<b>Remarques</b> : Base Mérimée PA46000056<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmens de la Combe de Saule" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_818">
+                <coordinates>1.814594,44.539894,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_824">
+            <name>Dolmens de la Combe de Saule Dolmen n° 3</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac-sur-Célé" target="_blank">Marcilhac-sur-Célé</href><br/>
+<b>Lieu</b> : 3 dolmens<br/>
+<b>Lat</b> : 44.541877<br/>
+<b>Lon</b> : 1.813557<br/>
+<b>Classement</b> : Dolmen n° 2<br Inscrit MH 2012<br/>
+<b>Remarques</b> : Base Mérimée PA46000056<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmens de la Combe de Saule" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_819">
+                <coordinates>1.813557,44.541877,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_825">
+            <name>Dolmen de Gniars </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Miers" target="_blank">Miers</href><br/>
+<b>Lieu</b> : autre nom Dolmen de Ferrières<br/>
+<b>Lat</b> : 44.87694<br/>
+<b>Lon</b> : 1.70361<br/>
+<b>Classement</b> :  <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_820">
+                <coordinates>1.70361,44.87694,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_826">
+            <name>Dolmen de la Carture </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Miers" target="_blank">Miers</href><br/>
+<b>Lat</b> : 44.86139<br/>
+<b>Lon</b> : 1.6875<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_821">
+                <coordinates>1.6875,44.86139,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_827">
+            <name>Dolmen de Peyrebru </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Miers" target="_blank">Miers</href><br/>
+<b>Lat</b> : 44.883409<br/>
+<b>Lon</b> : 1.69596<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_822">
+                <coordinates>1.69596,44.883409,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_828">
+            <name>Dolmen du Pech des Auques </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Miers" target="_blank">Miers</href><br/>
+<b>Lat</b> : 44.87389<br/>
+<b>Lon</b> : 1.6722<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen du Pech des Auques" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_823">
+                <coordinates>1.6722,44.87389,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_829">
+            <name>Dolmens des Barrières Dolmen n° 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Miers" target="_blank">Miers</href><br/>
+<b>Lieu</b> : 3 dolmens<br autre nom Dolmen de la Pierre-Levée (dolmen n° 3)<br/>
+<b>Lat</b> : 44.869971<br/>
+<b>Lon</b> : 1.689734<br/>
+<b>Classement</b> : Dolmen n° 3 <brInscrit MH 2012<br/>
+<b>Remarques</b> : Base Mérimée PA46000057<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmens des Barrières" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_824">
+                <coordinates>1.689734,44.869971,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_830">
+            <name>Dolmens des Barrières Dolmen n° 3</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Miers" target="_blank">Miers</href><br/>
+<b>Lieu</b> : 3 dolmens<br autre nom Dolmen de la Pierre-Levée (dolmen n° 3)<br/>
+<b>Lat</b> : 44.8688<br/>
+<b>Lon</b> : 1.6838<br/>
+<b>Classement</b> : Dolmen n° 3 <brInscrit MH 2012<br/>
+<b>Remarques</b> : Base Mérimée PA46000057<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmens des Barrières" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_825">
+                <coordinates>1.6838,44.8688,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_831">
+            <name>Dolmens des Fieux </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Miers" target="_blank">Miers</href><br/>
+<b>Lieu</b> : 2 dolmens:8 <br/>
+<b>Lat</b> : 44.87972<br/>
+<b>Lon</b> : 1.69333<br/>
+<b>Classement</b> :  <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_826">
+                <coordinates>1.69333,44.87972,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_832">
+            <name>Dolmen de Roland </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montcuq" target="_blank">Montcuq</href><br/>
+<b>Lieu</b> : autre nom Dolmen de Font Auda:9 <br/>
+<b>Lat</b> : 44.367667<br/>
+<b>Lon</b> : 1.189744<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_827">
+                <coordinates>1.189744,44.367667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_833">
+            <name>Dolmen du Pech Nadal </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montcuq" target="_blank">Montcuq</href><br/>
+<b>Lieu</b> : autre nom Dolmen de Tartugier:9 <br/>
+<b>Lat</b> : 44.316278<br/>
+<b>Lon</b> : 1.251944<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_828">
+                <coordinates>1.251944,44.316278,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_834">
+            <name>Dolmen de Cambajou </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montfaucon_(Lot)" target="_blank">Montfaucon_(Lot)</href><br/>
+<b>Lat</b> : 44.67167<br/>
+<b>Lon</b> : 1.6194<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_829">
+                <coordinates>1.6194,44.67167,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_835">
+            <name>Dolmen de la Pechette </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montfaucon_(Lot)" target="_blank">Montfaucon_(Lot)</href><br/>
+<b>Lat</b> : 44.685<br/>
+<b>Lon</b> : 1.56083<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_830">
+                <coordinates>1.56083,44.685,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_836">
+            <name>Dolmen de la Pierre Basse </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montfaucon_(Lot)" target="_blank">Montfaucon_(Lot)</href><br/>
+<b>Lat</b> : 44.67444<br/>
+<b>Lon</b> : 1.60722<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_831">
+                <coordinates>1.60722,44.67444,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_837">
+            <name>Pierre levée du Pech des Lèbres </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montfaucon_(Lot)" target="_blank">Montfaucon_(Lot)</href><br/>
+<b>Lieu</b> : menhir probable:mnh probable>Article langue =  auteur1 = Guy Maynard titre = Nouvelles pierres dressées, possibles menhirs périodique = Bulletin de la Société des Études du Lot numéro = 3e fascicule jour =  mois =  année = 1998 issn = 0755-2483 lire en ligne =  pages =  volume = CXIX<br/>
+<b>Lat</b> : 44.69556<br/>
+<b>Lon</b> : 1.62833<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_832">
+                <coordinates>1.62833,44.69556,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_838">
+            <name>Menhir de Courtis </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montgesty" target="_blank">Montgesty</href><br/>
+<b>Lat</b> : 44.56889<br/>
+<b>Lon</b> : 1.30333<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_833">
+                <coordinates>1.30333,44.56889,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_839">
+            <name>Dolmen de Barrade </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montvalent" target="_blank">Montvalent</href><br/>
+<b>Lat</b> : 44.876587<br/>
+<b>Lon</b> : 1.656326<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_834">
+                <coordinates>1.656326,44.876587,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_840">
+            <name>Dolmen de Barthe Soubronne </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montvalent" target="_blank">Montvalent</href><br/>
+<b>Lat</b> : 44.86367<br/>
+<b>Lon</b> : 1.66004<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_835">
+                <coordinates>1.66004,44.86367,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_841">
+            <name>Dolmen de la Pélasse </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montvalent" target="_blank">Montvalent</href><br/>
+<b>Lat</b> : 44.86119<br/>
+<b>Lon</b> : 1.63391<br/>
+<b>Remarques</b> : Clottes 1977 p = 164 ;  - <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_836">
+                <coordinates>1.63391,44.86119,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_842">
+            <name>Dolmen de la Salardie </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montvalent" target="_blank">Montvalent</href><br/>
+<b>Lat</b> : 44.85508<br/>
+<b>Lon</b> : 1.63709<br/>
+<b>Remarques</b> : :11;  - <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_837">
+                <coordinates>1.63709,44.85508,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_843">
+            <name>Dolmen de Liade </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montvalent" target="_blank">Montvalent</href><br/>
+<b>Lat</b> : 44.872336<br/>
+<b>Lon</b> : 1.642781<br/>
+<b>Classement</b> : ruiné<br/>
+<b>Remarques</b> : Clottes 1977 p = 162 <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_838">
+                <coordinates>1.642781,44.872336,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_844">
+            <name>Dolmen des Placels </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montvalent" target="_blank">Montvalent</href><br/>
+<b>Lat</b> : 44.8499<br/>
+<b>Lon</b> : 1.6454<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_839">
+                <coordinates>1.6454,44.8499,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_845">
+            <name>Dolmen dAndrieu </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Padirac" target="_blank">Padirac</href><br/>
+<b>Lieu</b> : autre nom Dolmen du Champ de Monsieur<br/>
+<b>Lat</b> : 44.85611<br/>
+<b>Lon</b> : 1.74139<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_840">
+                <coordinates>1.74139,44.85611,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_846">
+            <name>Dolmen dEscurettes </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Padirac" target="_blank">Padirac</href><br/>
+<b>Lat</b> : 44.855<br/>
+<b>Lon</b> : 1.74389<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_841">
+                <coordinates>1.74389,44.855,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_847">
+            <name>Dolmen de Bougoulat </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Padirac" target="_blank">Padirac</href><br/>
+<b>Lat</b> : 44.865<br/>
+<b>Lon</b> : 1.783<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_842">
+                <coordinates>1.783,44.865,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_848">
+            <name>Dolmen des Calcas </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Padirac" target="_blank">Padirac</href><br/>
+<b>Lat</b> : 44.85111<br/>
+<b>Lon</b> : 1.75917<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_843">
+                <coordinates>1.75917,44.85111,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_849">
+            <name>Dolmen des Claouzelles </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Padirac" target="_blank">Padirac</href><br/>
+<b>Lat</b> : 44.84194<br/>
+<b>Lon</b> : 1.7528<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_844">
+                <coordinates>1.7528,44.84194,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_850">
+            <name>Dolmens des Pendus   Dolmen 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Padirac" target="_blank">Padirac</href><br/>
+<b>Lieu</b> : 3 dolmens<br/>
+<b>Lat</b> : 44.8556<br/>
+<b>Lon</b> : 1.75667<br/>
+<b>Classement</b> : 1 détruit<br/>
+<b>Remarques</b> : Clottes 1977 p = 166 <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_845">
+                <coordinates>1.75667,44.8556,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_851">
+            <name>Dolmens des Pendus Dolmen 3</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Padirac" target="_blank">Padirac</href><br/>
+<b>Lieu</b> : 3 dolmens<br/>
+<b>Lat</b> : 44.85417<br/>
+<b>Lon</b> : 1.75528<br/>
+<b>Classement</b> : 1 détruit<br/>
+<b>Remarques</b> : Clottes 1977 p = 166 <br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_846">
+                <coordinates>1.75528,44.85417,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_852">
+            <name>Dolmen de la Bertrandoune </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Prayssac" target="_blank">Prayssac</href><br/>
+<b>Lat</b> : 44.52842<br/>
+<b>Lon</b> : 1.21846<br/>
+<b>Classement</b> : Inscrit MH 1988<br/>
+<b>Remarques</b> : Base Mérimée PA00095184<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen de la Bertrandoune" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_847">
+                <coordinates>1.21846,44.52842,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_853">
+            <name>Dolmen du Champ de Cuzer </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Reyrevignes" target="_blank">Reyrevignes</href><br/>
+<b>Lat</b> : 44.63583<br/>
+<b>Lon</b> : 1.89889<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_848">
+                <coordinates>1.89889,44.63583,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_854">
+            <name>Dolmens des Causses Hauts </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Reyrevignes" target="_blank">Reyrevignes</href><br/>
+<b>Lieu</b> : 2 dolmens<br/>
+<b>Lat</b> : 44.65498<br/>
+<b>Lon</b> : 1.89927<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_849">
+                <coordinates>1.89927,44.65498,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_855">
+            <name>Dolmen de la Rue </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Rocamadour" target="_blank">Rocamadour</href><br/>
+<b>Lieu</b> : autre nom Dolmen Les Plantoux:17 <br/>
+<b>Lat</b> : 44.829222<br/>
+<b>Lon</b> : 1.651256<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_850">
+                <coordinates>1.651256,44.829222,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_856">
+            <name>Dolmen de Lacalm </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Rocamadour" target="_blank">Rocamadour</href><br/>
+<b>Lat</b> : 44.84831<br/>
+<b>Lon</b> : 1.65386<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_851">
+                <coordinates>1.65386,44.84831,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_857">
+            <name>Dolmen de Magès </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Rocamadour" target="_blank">Rocamadour</href><br/>
+<b>Lieu</b> : autre nom Pierre-Levée de La Pannonie<br/>
+<b>Lat</b> : 44.78667<br/>
+<b>Lon</b> : 1.61333<br/>
+<b>Classement</b> : Classé MH 1971<br/>
+<b>Remarques</b> : Base Mérimée PA00095197<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_852">
+                <coordinates>1.61333,44.78667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_858">
+            <name>Dolmen du Pouget </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Rocamadour" target="_blank">Rocamadour</href><br/>
+<b>Lat</b> : 44.828247<br/>
+<b>Lon</b> : 1.626928<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_853">
+                <coordinates>1.626928,44.828247,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_859">
+            <name>Dolmens dEn Caminou </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Rocamadour" target="_blank">Rocamadour</href><br/>
+<b>Lieu</b> : 2 dolmens<br/>
+<b>Lat</b> : 44.79958<br/>
+<b>Lon</b> : 1.66535<br/>
+<b>Classement</b> : 1 ruiné<br/>
+<b>Remarques</b> : :16<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_854">
+                <coordinates>1.66535,44.79958,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_860">
+            <name>Dolmens du Pech de Gourbière </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Rocamadour" target="_blank">Rocamadour</href><br/>
+<b>Lieu</b> : 2 dolmens<br/>
+<b>Lat</b> : 44.82723<br/>
+<b>Lon</b> : 1.59711<br/>
+<b>Classement</b> :   1 ruiné<br/>
+<b>Remarques</b> : :17<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_855">
+                <coordinates>1.59711,44.82723,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_861">
+            <name>Dolmen des Clos Grands </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saillac (Lot)" target="_blank">Saillac (Lot)</href><br/>
+<b>Lat</b> : 44.3257<br/>
+<b>Lon</b> : 1.7021<br/>
+<b>Classement</b> : Inscrit MH 1959<br/>
+<b>Remarques</b> : Base Mérimée PA00095213<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen des Clos Grands" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_856">
+                <coordinates>1.7021,44.3257,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_862">
+            <name>Menhir de Saillac </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saillac (Lot)" target="_blank">Saillac (Lot)</href><br/>
+<b>Lat</b> : 44.331808<br/>
+<b>Lon</b> : 1.757306<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_857">
+                <coordinates>1.757306,44.331808,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_863">
+            <name>Dolmen dAubin </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Chels" target="_blank">Saint-Chels</href><br/>
+<b>Lat</b> : 44.5468<br/>
+<b>Lon</b> : 1.8132<br/>
+<b>Classement</b> : Classé MH 1989<br/>
+<b>Remarques</b> : Base Mérimée PA00095224<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen d'Aubin" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_858">
+                <coordinates>1.8132,44.5468,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_864">
+            <name>Dolmen des Agars </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Chels" target="_blank">Saint-Chels</href><br/>
+<b>Lat</b> : 44.5475<br/>
+<b>Lon</b> : 1.8176<br/>
+<b>Classement</b> : Classé MH 1989<br/>
+<b>Remarques</b> : Base Mérimée PA00095223<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen des Agars" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_859">
+                <coordinates>1.8176,44.5475,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_865">
+            <name>Dolmen du Mas de Pezet </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Chels" target="_blank">Saint-Chels</href><br/>
+<b>Lat</b> : 44.509<br/>
+<b>Lon</b> : 1.8015<br/>
+<b>Classement</b> : Inscrit MH 1988<br/>
+<b>Remarques</b> : Base Mérimée PA00095225<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen du Mas de Pezet" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_860">
+                <coordinates>1.8015,44.509,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_866">
+            <name>Dolmen du Pech dAgaïo </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Chels" target="_blank">Saint-Chels</href><br/>
+<b>Lat</b> : 44.544167<br/>
+<b>Lon</b> : 1.816667<br/>
+<b>Classement</b> : Classé MH 1989<br/>
+<b>Remarques</b> : Base Mérimée PA00095226<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen du Pech d'Agaïo" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_861">
+                <coordinates>1.816667,44.544167,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_867">
+            <name>Dolmens de Pech-Seret Dolmen A</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Jean-de-Laur" target="_blank">Saint-Jean-de-Laur</href><br/>
+<b>Lieu</b> : 4 dolmens <br autre nom Dolmens des Bories<br/>
+<b>Lat</b> : 44.42194<br/>
+<b>Lon</b> : 1.80639<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_862">
+                <coordinates>1.80639,44.42194,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_868">
+            <name>Dolmens de Pech-Seret Dolmen B</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Jean-de-Laur" target="_blank">Saint-Jean-de-Laur</href><br/>
+<b>Lieu</b> : 4 dolmens <br autre nom Dolmens des Bories<br/>
+<b>Lat</b> : 44.41917<br/>
+<b>Lon</b> : 1.80444<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_863">
+                <coordinates>1.80444,44.41917,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_869">
+            <name>Menhir de Peyreficade </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Jean-Lagineste" target="_blank">Saint-Jean-Lagineste</href><br/>
+<b>Lieu</b> : autre nom Menhir de Peyrusse:mnh probable <br/>
+<b>Lat</b> : 44.822354<br/>
+<b>Lon</b> : 1.867919<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_864">
+                <coordinates>1.867919,44.822354,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_870">
+            <name>Cromlech de Peyrebrune </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Projet (Lot)" target="_blank">Saint-Projet (Lot)</href><br/>
+<b>Lat</b> : 44.73194<br/>
+<b>Lon</b> : 1.49861<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_865">
+                <coordinates>1.49861,44.73194,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_871">
+            <name>Dolmen du Rat </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Sulpice (Lot)" target="_blank">Saint-Sulpice (Lot)</href><br/>
+<b>Lat</b> : 44.581134<br/>
+<b>Lon</b> : 1.782111<br/>
+<b>Classement</b> : Inscrit MH 2011<br/>
+<b>Remarques</b> : Base Mérimée PA46000050<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen du Rat" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_866">
+                <coordinates>1.782111,44.581134,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_872">
+            <name>Menhir de la Pierre-Levée </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Vincent-Rive-d'Olt" target="_blank">Saint-Vincent-Rive-d'Olt</href><br/>
+<b>Lat</b> : 44.449988<br/>
+<b>Lon</b> : 1.279792<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_867">
+                <coordinates>1.279792,44.449988,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_873">
+            <name>Dolmen du Pech Curet </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Salviac" target="_blank">Salviac</href><br/>
+<b>Lat</b> : 44.69583<br/>
+<b>Lon</b> : 1.286942<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_868">
+                <coordinates>1.286942,44.69583,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_874">
+            <name>Dolmen du Cloup Prioun </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Sauliac-sur-Célé" target="_blank">Sauliac-sur-Célé</href><br/>
+<b>Lat</b> : 44.5047<br/>
+<b>Lon</b> : 1.6878<br/>
+<b>Classement</b> : Inscrit MH 2012<br/>
+<b>Remarques</b> : Base Mérimée PA46000058<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_869">
+                <coordinates>1.6878,44.5047,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_875">
+            <name>Dolmen du Mas de Galdot </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Sauliac-sur-Célé" target="_blank">Sauliac-sur-Célé</href><br/>
+<b>Lat</b> : 44.52806<br/>
+<b>Lon</b> : 1.724167<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_870">
+                <coordinates>1.724167,44.52806,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_876">
+            <name>Dolmen de Bartassou </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Sérignac_(Lot)" target="_blank">Sérignac_(Lot)</href><br/>
+<b>Lat</b> : 44.4472<br/>
+<b>Lon</b> : 1.07556<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_871">
+                <coordinates>1.07556,44.4472,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_877">
+            <name>Dolmen des Garroustes </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Sérignac_(Lot)" target="_blank">Sérignac_(Lot)</href><br/>
+<b>Lat</b> : 44.43861<br/>
+<b>Lon</b> : 1.10667<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_872">
+                <coordinates>1.10667,44.43861,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_878">
+            <name>Dolmen des Fosses </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Soucirac" target="_blank">Soucirac</href><br/>
+<b>Lat</b> : 44.70281<br/>
+<b>Lon</b> : 1.49333<br/>
+<b>Classement</b> : Classé MH 1989<br/>
+<b>Remarques</b> : Base Mérimée PA00095261<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen des Fosses" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_873">
+                <coordinates>1.49333,44.70281,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_879">
+            <name>Dolmen Laval </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Souillac" target="_blank">Souillac</href><br/>
+<b>Lat</b> : 44.91583<br/>
+<b>Lon</b> : 1.45472<br/>
+<b>Classement</b> : Classé MH 1984<br/>
+<b>Remarques</b> : Base Mérimée PA00095264<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_874">
+                <coordinates>1.45472,44.91583,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_880">
+            <name>Dolmen de Surgès </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Thédirac" target="_blank">Thédirac</href><br/>
+<b>Lat</b> : 44.6203<br/>
+<b>Lon</b> : 1.3047<br/>
+<b>Classement</b> : Inscrit MH 2013<br/>
+<b>Remarques</b> : PA46000063<br/>
+<b>Pages Web</b> : <a href="https://fr.wikipedia.org/wiki/Dolmen de Surgès" target="_blank">Infos WEB</href><br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_875">
+                <coordinates>1.3047,44.6203,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_881">
+            <name>Dolmen de Salers Dolmen</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Théminettes" target="_blank">Théminettes</href><br/>
+<b>Lieu</b> : dolmens adjacents, avec 2 tumulus-satellites:33 <brautre nom Dolmen des Places<br/>
+<b>Lat</b> : 44.72147<br/>
+<b>Lon</b> : 1.84203<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_876">
+                <coordinates>1.84203,44.72147,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_882">
+            <name>Dolmen de Salers Tumulus n° 1</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Théminettes" target="_blank">Théminettes</href><br/>
+<b>Lieu</b> : dolmens adjacents, avec 2 tumulus-satellites:33 <brautre nom Dolmen des Places<br/>
+<b>Lat</b> : 44.72119<br/>
+<b>Lon</b> : 1.84169<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_877">
+                <coordinates>1.84169,44.72119,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_883">
+            <name>Dolmen de Salers Tumulus n° 2</name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Théminettes" target="_blank">Théminettes</href><br/>
+<b>Lieu</b> : dolmens adjacents, avec 2 tumulus-satellites:33 <brautre nom Dolmen des Places<br/>
+<b>Lat</b> : 44.72141<br/>
+<b>Lon</b> : 1.8409<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_878">
+                <coordinates>1.8409,44.72141,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_884">
+            <name>Dolmen du Mas de Gobi </name>
+            <description>
+<![CDATA[<h1>Informations</h1>
+<b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Varaire" target="_blank">Varaire</href><br/>
+<b>Lieu</b> : autre nom Dolmen du Mas de Coti<br/>
+<b>Lat</b> : 44.35889<br/>
+<b>Lon</b> : 1.73222<br/>
+]]>                
+
+            </description>
+            <styleUrl>#stylesel_3</styleUrl>
+            <Point id="geom_879">
+                <coordinates>1.73222,44.35889,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

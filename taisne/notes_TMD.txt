@@ -1,0 +1,42 @@
+TMD - 11/11/2017
+
+Traitement du livre de Jean Taisne :
+Contribution à un inventaire spéléologique du département du Lot.
+Version livre : mars 2006
+Repertoire : /Users/thierry/Documents/informatique/developpement/python/exemple_py_tmd/table2kml/taisne
+
+1 Extraction des infos avec pdfminer :
+====================================
+Ref : http://www.unixuser.org/~euske/python/pdfminer/index.html
+Compatible avec python 2 seulement
+su - thierrymaillard
+sudo python -m pip install pdfminer
+pdf2txt.py -o taisne.txt taisne.pdf 795 Ko
+OK, extrait :
+====================
+ABBAYE NOUVELLE, exsurgence temporaire de l' - Commune de Léobard
+
+518,22 - 268,03 - 135m (IGN 2037 E)
+Au cimetière de l'Abbaye nouvelle (8km ESE de Gourdon par la D 673), suivre le chemin qui longe la base du coteau direction
+SE. L'émergence se trouve à 220m, juste sous le chemin, derrière un gros bouquet de ronces : orifice busé de 1m de diamètre, en
+tête d'un petit fossé d'écoulement rejoignant le Céou.
+====================
+- exploitation facile par regexp.
+- coordonnées LAMBERT III à convertir.
+ http://geodesie.ign.fr/contenu/fichiers/documentation/pedagogiques/TransformationsCoordonneesGeodesiques.pdf
+chap 3 : 3.3 : Lambert -> coordonnées géographique
+Difficultés : écart pour longitude
+
+Utilisation du package pyproj :
+sudo python3.6 -m pip install pyproj
+https://rcomman.de/conversion-de-coordonnees-geographiques-en-python.html
+pyproj
+
+WGS 84 (EPSG:4326)
+Lambert :Projection conique conforme de Lambert
+
+++++++++++++
+pdf2txt.py -o taisne.xml -t xml taisne.pdf
+https://georezo.net/forum/viewtopic.php?id=60346
+Donne trop de détail : pour chaque lettre, sa localisation dans un tag XML
+58 Mo

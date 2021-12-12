@@ -16,14 +16,14 @@
                 <scale>1</scale>
             </LabelStyle>
         </Style>
-        <name>Dolmens Adrien 04/11/17</name>
+        <name>Dolmens Adrien 05/11/17</name>
         <Placemark id="feat_2">
             <name>D. Mons 3</name>
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
-<b>Lat. N (°)</b> : 44.68373<br/>
-<b>Long. E (°)</b> : 1.85826<br/>
+<b>Lat. N (°)</b> : 44.683730<br/>
+<b>Long. E (°)</b> : 1.858260<br/>
 <b>Tumulus</b> : oui<br/>
 <b>Orthostats</b> : oui<br/>
 <b>Table</b> : oui<br/>
@@ -41,8 +41,8 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
-<b>Lat. N (°)</b> : 44.682<br/>
-<b>Long. E (°)</b> : 1.856<br/>
+<b>Lat. N (°)</b> : 44.6820<br/>
+<b>Long. E (°)</b> : 1.8560<br/>
 <b>Tumulus</b> : oui<br/>
 <b>Orthostats</b> : oui<br/>
 <b>Table</b> : oui<br/>
@@ -60,8 +60,8 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
-<b>Lat. N (°)</b> : 44.679<br/>
-<b>Long. E (°)</b> : 1.867<br/>
+<b>Lat. N (°)</b> : 44.67900<br/>
+<b>Long. E (°)</b> : 1.8670<br/>
 <b>Tumulus</b> : ?<br/>
 <b>Table</b> : ?<br/>
 ]]>                
@@ -78,8 +78,8 @@
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
 <b>Lieu, autres noms</b> : Champ de bel Air<br/>
-<b>Lat. N (°)</b> : 44.6789<br/>
-<b>Long. E (°)</b> : 1.8617<br/>
+<b>Lat. N (°)</b> : 44.67890<br/>
+<b>Long. E (°)</b> : 1.86170<br/>
 <b>Tumulus</b> : oui<br/>
 <b>Orthostats</b> : oui<br/>
 <b>Table</b> : oui<br/>
@@ -97,14 +97,14 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
-<b>Lat. N (°)</b> : 44.6774<br/>
-<b>Long. E (°)</b> : 1.8562<br/>
+<b>Lat. N (°)</b> : 44.67740<br/>
+<b>Long. E (°)</b> : 1.85620<br/>
 <b>Classement</b> : classé MH<br/>
 <b>Tumulus</b> : oui<br/>
 <b>Orthostats</b> : oui<br/>
 <b>Table</b> : oui<br/>
 <b>OSM</b> : +<br/>
-<b>Pages Web</b> : <a href="Garivals" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="https://www.lieux-insolites.fr/lot/garivals/garivals.htm" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -119,8 +119,8 @@
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
 <b>Lieu, autres noms</b> : D. Chemin des combals<br/>
-<b>Lat. N (°)</b> : 44.6757<br/>
-<b>Long. E (°)</b> : 1.8544<br/>
+<b>Lat. N (°)</b> : 44.67570<br/>
+<b>Long. E (°)</b> : 1.85440<br/>
 <b>Tumulus</b> : oui<br/>
 <b>Orthostats</b> : oui<br/>
 <b>Table</b> : oui<br/>
@@ -139,13 +139,13 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Assier" target="_blank">Assier</href><br/>
-<b>Lat. N (°)</b> : 44.669<br/>
-<b>Long. E (°)</b> : 1.858<br/>
+<b>Lat. N (°)</b> : 44.6690<br/>
+<b>Long. E (°)</b> : 1.8580<br/>
 <b>Tumulus</b> : non<br/>
 <b>Orthostats</b> : oui<br/>
 <b>Table</b> : oui<br/>
 <b>OSM</b> : +<br/>
-<b>Pages Web</b> : <a href="Roux" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="https://www.lieux-insolites.fr/lot/roux/roux.htm" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -228,7 +228,7 @@
             </Point>
         </Placemark>
         <Placemark id="feat_13">
-            <name>D. de Martignes </name>
+            <name>D. de Martignes</name>
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
@@ -239,7 +239,7 @@
 <b>Orthostats</b> : oui<br/>
 <b>Table</b> : oui<br/>
 <b>OSM</b> : +<br/>
-<b>Pages Web</b> : <a href="Martignes" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="http://www.lot-46.com/beduer-le-dolmen-de-martignes/" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -269,7 +269,7 @@
             </Point>
         </Placemark>
         <Placemark id="feat_15">
-            <name>D. les Justices 2 </name>
+            <name>D. les Justices 2</name>
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
@@ -315,13 +315,13 @@
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
 <b>Lieu, autres noms</b> : Peyres Grèzes (Clottes n°3)<br/>
-<b>Lat. N (°)</b> : 44.5622<br/>
-<b>Long. E (°)</b> : 1.9235<br/>
+<b>Lat. N (°)</b> : 44.56220<br/>
+<b>Long. E (°)</b> : 1.92350<br/>
 <b>Tumulus</b> : restes<br/>
 <b>Orthostats</b> : 2<br/>
 <b>Table</b> : non<br/>
 <b>OSM</b> : +<br/>
-<b>Pages Web</b> : <a href="Clottes" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="http://www.persee.fr/doc/bspf_0249-7638_1969_num_66_8_10417" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -331,13 +331,13 @@
             </Point>
         </Placemark>
         <Placemark id="feat_18">
-            <name>D. du Pech Roussille </name>
+            <name>D. du Pech Roussille</name>
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
 <b>Lieu, autres noms</b> : (Clottes n°11)<br/>
 <b>Lat. N (°)</b> : 44.56175<br/>
-<b>Long. E (°)</b> : 1.9136<br/>
+<b>Long. E (°)</b> : 1.91360<br/>
 <b>Tumulus</b> : non<br/>
 <b>Orthostats</b> : oui<br/>
 <b>Table</b> : oui<br/>
@@ -368,7 +368,7 @@
             </Point>
         </Placemark>
         <Placemark id="feat_20">
-            <name>D. les Justices 1 </name>
+            <name>D. les Justices 1</name>
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
@@ -377,7 +377,7 @@
 <b>Long. E (°)</b> : 1.92909<br/>
 <b>Remarques</b> : Bord de chemin<br/>
 <b>Tumulus</b> : restes<br/>
-<b>Orthostats</b> : 1<br/>
+<b>Orthostats</b> : 1.0<br/>
 <b>Table</b> : non<br/>
 <b>OSM</b> : +<br/>
 ]]>                
@@ -389,7 +389,7 @@
             </Point>
         </Placemark>
         <Placemark id="feat_21">
-            <name>D. Lei Barto </name>
+            <name>D. Lei Barto</name>
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
@@ -409,7 +409,7 @@
             </Point>
         </Placemark>
         <Placemark id="feat_22">
-            <name>D. des Garrigues </name>
+            <name>D. des Garrigues</name>
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
@@ -430,12 +430,12 @@
             </Point>
         </Placemark>
         <Placemark id="feat_23">
-            <name>D. mas Perdut </name>
+            <name>D. mas Perdut</name>
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
 <b>Lieu, autres noms</b> : (Clottes n°10)<br/>
-<b>Lat. N (°)</b> : 44.5597<br/>
+<b>Lat. N (°)</b> : 44.55970<br/>
 <b>Long. E (°)</b> : 1.92718<br/>
 <b>Remarques</b> : Bord de route ?<br/>
 <b>Tumulus</b> : non<br/>
@@ -450,7 +450,7 @@
             </Point>
         </Placemark>
         <Placemark id="feat_24">
-            <name>D. des Baillères </name>
+            <name>D. des Baillères</name>
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Béduer" target="_blank">Béduer</href><br/>
@@ -470,11 +470,11 @@
             </Point>
         </Placemark>
         <Placemark id="feat_25">
-            <name>D. du Pouget (Bullac 1) </name>
+            <name>D. du Pouget (Bullac 1)</name>
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Boussac" target="_blank">Boussac</href><br/>
-<b>Lieu, autres noms</b> : Les Pouzets <br/>
+<b>Lieu, autres noms</b> : Les Pouzets<br/>
 <b>Lat. N (°)</b> : 44.59485<br/>
 <b>Long. E (°)</b> : 1.90322<br/>
 <b>Remarques</b> : Dans murette<br/>
@@ -496,8 +496,8 @@
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Boussac" target="_blank">Boussac</href><br/>
 <b>Lieu, autres noms</b> : Champ de Palabre<br/>
-<b>Lat. N (°)</b> : 44.5815<br/>
-<b>Long. E (°)</b> : 1.9139<br/>
+<b>Lat. N (°)</b> : 44.58150<br/>
+<b>Long. E (°)</b> : 1.91390<br/>
 <b>Tumulus</b> : non<br/>
 <b>Orthostats</b> : oui<br/>
 <b>Table</b> : oui<br/>
@@ -516,7 +516,7 @@
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Boussac" target="_blank">Boussac</href><br/>
 <b>Lat. N (°)</b> : 44.5845<br/>
-<b>Long. E (°)</b> : 1.912<br/>
+<b>Long. E (°)</b> : 1.9120<br/>
 <b>Remarques</b> : Table cassée ?<br/>
 <b>Tumulus</b> : restes<br/>
 <b>Orthostats</b> : 2 inégaux<br/>
@@ -554,8 +554,8 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Brengues" target="_blank">Brengues</href><br/>
-<b>Lat. N (°)</b> : 44.6018<br/>
-<b>Long. E (°)</b> : 1.8218<br/>
+<b>Lat. N (°)</b> : 44.60180<br/>
+<b>Long. E (°)</b> : 1.82180<br/>
 <b>Tumulus</b> : oui<br/>
 <b>Orthostats</b> : oui<br/>
 <b>Table</b> : oui<br/>
@@ -573,13 +573,13 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Brengues" target="_blank">Brengues</href><br/>
-<b>Lat. N (°)</b> : 44.5923<br/>
-<b>Long. E (°)</b> : 1.8218<br/>
+<b>Lat. N (°)</b> : 44.592300<br/>
+<b>Long. E (°)</b> : 1.821800<br/>
 <b>Tumulus</b> : non<br/>
 <b>Orthostats</b> : oui<br/>
 <b>Table</b> : oui<br/>
 <b>OSM</b> : +<br/>
-<b>Pages Web</b> : <a href="Clottes" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="http://www.persee.fr/doc/bspf_0249-7638_1963_num_60_7_3929" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -813,7 +813,7 @@
             </Point>
         </Placemark>
         <Placemark id="feat_44">
-            <name>D.de pech Perdit </name>
+            <name>D.de pech Perdit</name>
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
@@ -839,7 +839,7 @@
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
 <b>Lat. N (°)</b> : 44.51039<br/>
 <b>Long. E (°)</b> : 1.85152<br/>
-<b>Pages Web</b> : <a href="Clottes Lorblanchet" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="http://www.persee.fr/doc/bspf_0249-7638_1968_hos_65_2_4167" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -854,7 +854,7 @@
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
 <b>Lieu, autres noms</b> : La Deille<br/>
-<b>Lat. N (°)</b> : 44.5033<br/>
+<b>Lat. N (°)</b> : 44.50330<br/>
 <b>Long. E (°)</b> : 1.831789<br/>
 <b>Remarques</b> : ruine<br/>
 <b>Tumulus</b> : restes<br/>
@@ -898,7 +898,7 @@
 <b>Long. E (°)</b> : 1.86383<br/>
 <b>Remarques</b> : ruine<br/>
 <b>Tumulus</b> : oui<br/>
-<b>Orthostats</b> : 1<br/>
+<b>Orthostats</b> : 1.0<br/>
 <b>Table</b> : non<br/>
 ]]>                
 
@@ -960,7 +960,7 @@
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cajarc" target="_blank">Cajarc</href><br/>
 <b>Lat. N (°)</b> : 44.48763<br/>
-<b>Long. E (°)</b> : 1.8304<br/>
+<b>Long. E (°)</b> : 1.83040<br/>
 <b>Remarques</b> : gariotte<br/>
 <b>Tumulus</b> : non<br/>
 <b>Orthostats</b> : oui<br/>
@@ -986,7 +986,7 @@
 <b>Orthostats</b> : 2, 1 visible<br/>
 <b>Table</b> : non<br/>
 <b>OSM</b> : +<br/>
-<b>Pages Web</b> : <a href="Puy-Blanc" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="https://www.puyblanc.info/categories/patrimoine/archeologie" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -1001,14 +1001,14 @@
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Cambes" target="_blank">Cambes</href><br/>
 <b>Lieu, autres noms</b> : Ruscou<br/>
-<b>Lat. N (°)</b> : 44.6277<br/>
+<b>Lat. N (°)</b> : 44.62770<br/>
 <b>Long. E (°)</b> : 1.90291<br/>
 <b>Remarques</b> : Murette au chevet<br/>
 <b>Tumulus</b> : oui<br/>
 <b>Orthostats</b> : 1 visible<br/>
 <b>Table</b> : non<br/>
 <b>OSM</b> : +<br/>
-<b>Pages Web</b> : <a href="Puy-Blanc" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="https://www.puyblanc.info/categories/patrimoine/archeologie" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -1029,7 +1029,7 @@
 <b>Orthostats</b> : 2<br/>
 <b>Table</b> : non<br/>
 <b>OSM</b> : +<br/>
-<b>Pages Web</b> : <a href="Puy-Blanc" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="https://www.puyblanc.info/categories/patrimoine/archeologie" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -1052,7 +1052,7 @@
 <b>Orthostats</b> : 1 visible<br/>
 <b>Table</b> : non<br/>
 <b>OSM</b> : +<br/>
-<b>Pages Web</b> : <a href="Puy-Blanc" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="https://www.puyblanc.info/categories/patrimoine/archeologie" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -1233,7 +1233,7 @@
 <b>Orthostats</b> : oui<br/>
 <b>Table</b> : oui<br/>
 <b>OSM</b> : +<br/>
-<b>Pages Web</b> : <a href="Clottes" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="http://www.persee.fr/doc/bspf_0249-7638_1963_num_60_7_3929" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -1247,14 +1247,14 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Corn" target="_blank">Corn</href><br/>
-<b>Lat. N (°)</b> : 44.611<br/>
+<b>Lat. N (°)</b> : 44.61100<br/>
 <b>Long. E (°)</b> : 1.87867<br/>
 <b>Remarques</b> : ruine<br/>
 <b>Tumulus</b> : petit<br/>
 <b>Orthostats</b> : dégradés<br/>
 <b>Table</b> : non<br/>
 <b>OSM</b> : +<br/>
-<b>Pages Web</b> : <a href="Clottes" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="http://www.persee.fr/doc/galip_0016-4127_1966_num_9_2_1266" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -1288,7 +1288,7 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Corn" target="_blank">Corn</href><br/>
-<b>Lat. N (°)</b> : 44.5935<br/>
+<b>Lat. N (°)</b> : 44.59350<br/>
 <b>Long. E (°)</b> : 1.88498<br/>
 <b>Tumulus</b> : oui<br/>
 <b>Orthostats</b> : oui<br/>
@@ -1344,7 +1344,7 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Durbans" target="_blank">Durbans</href><br/>
-<b>Lieu, autres noms</b> :  Peyre de l'Homme<br/>
+<b>Lieu, autres noms</b> : Peyre de l'Homme<br/>
 <b>Lat. N (°)</b> : 44.69175<br/>
 <b>Long. E (°)</b> : 1.78795<br/>
 <b>Classement</b> : inscrit MH<br/>
@@ -1411,7 +1411,7 @@
 <b>Orthostats</b> : oui<br/>
 <b>Table</b> : oui<br/>
 <b>OSM</b> : +<br/>
-<b>Pages Web</b> : <a href="Clottes" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="http://www.persee.fr/doc/bspf_0249-7638_1963_num_60_7_3929" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -1454,7 +1454,7 @@
             </Point>
         </Placemark>
         <Placemark id="feat_78">
-            <name>D. de Coste Pialade </name>
+            <name>D. de Coste Pialade</name>
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Espagnac" target="_blank">Espagnac</href><br/>
@@ -1479,8 +1479,8 @@
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Espédaillac" target="_blank">Espédaillac</href><br/>
 <b>Lieu, autres noms</b> : Cabanes<br/>
-<b>Lat. N (°)</b> : 44.6451<br/>
-<b>Long. E (°)</b> : 1.8117<br/>
+<b>Lat. N (°)</b> : 44.64510<br/>
+<b>Long. E (°)</b> : 1.81170<br/>
 <b>OSM</b> : +<br/>
 ]]>                
 
@@ -1502,7 +1502,7 @@
 <b>Orthostats</b> : oui<br/>
 <b>Table</b> : oui<br/>
 <b>OSM</b> : +<br/>
-<b>Pages Web</b> : <a href="Clottes" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="http://www.persee.fr/doc/bspf_0249-7638_1963_num_60_7_3929" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -1516,8 +1516,8 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Espédaillac" target="_blank">Espédaillac</href><br/>
-<b>Lat. N (°)</b> : 44.6364<br/>
-<b>Long. E (°)</b> : 1.8009<br/>
+<b>Lat. N (°)</b> : 44.63640<br/>
+<b>Long. E (°)</b> : 1.80090<br/>
 <b>Remarques</b> : Dolmen double<br/>
 <b>Orthostats</b> : oui<br/>
 <b>OSM</b> : +<br/>
@@ -1534,13 +1534,13 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Espédaillac" target="_blank">Espédaillac</href><br/>
-<b>Lat. N (°)</b> : 44.6218<br/>
-<b>Long. E (°)</b> : 1.7911<br/>
+<b>Lat. N (°)</b> : 44.62180<br/>
+<b>Long. E (°)</b> : 1.79110<br/>
 <b>Tumulus</b> : non<br/>
 <b>Orthostats</b> : oui<br/>
 <b>Table</b> : oui<br/>
 <b>OSM</b> : +<br/>
-<b>Pages Web</b> : <a href="Clottes" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="http://www.persee.fr/doc/bspf_0249-7638_1963_num_60_7_3929" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -1554,8 +1554,8 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Espédaillac" target="_blank">Espédaillac</href><br/>
-<b>Lat. N (°)</b> : 44.621<br/>
-<b>Long. E (°)</b> : 1.791<br/>
+<b>Lat. N (°)</b> : 44.6210<br/>
+<b>Long. E (°)</b> : 1.79100<br/>
 <b>Remarques</b> : ?<br/>
 <b>Tumulus</b> : non<br/>
 <b>Orthostats</b> : oui<br/>
@@ -1573,8 +1573,8 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Espédaillac" target="_blank">Espédaillac</href><br/>
-<b>Lat. N (°)</b> : 44.616<br/>
-<b>Long. E (°)</b> : 1.787<br/>
+<b>Lat. N (°)</b> : 44.6160<br/>
+<b>Long. E (°)</b> : 1.7870<br/>
 ]]>                
 
             </description>
@@ -1731,8 +1731,8 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac" target="_blank">Floirac</href><br/>
-<b>Lat. N (°)</b> : 44.9175<br/>
-<b>Long. E (°)</b> : 1.681111111111111<br/>
+<b>Lat. N (°)</b> : 44°55'03"<br/>
+<b>Long. E (°)</b> : 1°40'52"<br/>
 ]]>                
 
             </description>
@@ -1763,8 +1763,8 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac" target="_blank">Floirac</href><br/>
-<b>Lat. N (°)</b> : 44.90694444444444<br/>
-<b>Long. E (°)</b> : 1.683888888888889<br/>
+<b>Lat. N (°)</b> : 44°54'25"<br/>
+<b>Long. E (°)</b> : 1°41'02"<br/>
 ]]>                
 
             </description>
@@ -1809,8 +1809,8 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac" target="_blank">Floirac</href><br/>
-<b>Lat. N (°)</b> : 44.895833333333336<br/>
-<b>Long. E (°)</b> : 1.673611111111111<br/>
+<b>Lat. N (°)</b> : 44°53'45"<br/>
+<b>Long. E (°)</b> : 1°40'25"<br/>
 ]]>                
 
             </description>
@@ -1824,8 +1824,8 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac" target="_blank">Floirac</href><br/>
-<b>Lat. N (°)</b> : 44.89333333333333<br/>
-<b>Long. E (°)</b> : 1.6752777777777776<br/>
+<b>Lat. N (°)</b> : 44°53'36"<br/>
+<b>Long. E (°)</b> : 1°40'31"<br/>
 <b>Remarques</b> : 2 Dol.<br/>
 ]]>                
 
@@ -1840,8 +1840,8 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Floirac" target="_blank">Floirac</href><br/>
-<b>Lat. N (°)</b> : 44.8925<br/>
-<b>Long. E (°)</b> : 1.696388888888889<br/>
+<b>Lat. N (°)</b> : 44°53'33"<br/>
+<b>Long. E (°)</b> : 1°41'47"<br/>
 ]]>                
 
             </description>
@@ -2000,7 +2000,7 @@
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gramat" target="_blank">Gramat</href><br/>
 <b>Lieu, autres noms</b> : cayrou gros<br/>
 <b>Lat. N (°)</b> : 44.75012<br/>
-<b>Long. E (°)</b> : 1.7602<br/>
+<b>Long. E (°)</b> : 1.76020<br/>
 <b>Tumulus</b> : oui<br/>
 <b>Orthostats</b> : oui<br/>
 <b>Table</b> : oui<br/>
@@ -2067,7 +2067,7 @@
             </Point>
         </Placemark>
         <Placemark id="feat_113">
-            <name>D. du Moulin </name>
+            <name>D. du Moulin</name>
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gréalou" target="_blank">Gréalou</href><br/>
@@ -2076,7 +2076,7 @@
 <b>Long. E (°)</b> : 1.87762<br/>
 <b>Remarques</b> : Restes en bord de route<br/>
 <b>Tumulus</b> : non<br/>
-<b>Orthostats</b> : 1<br/>
+<b>Orthostats</b> : 1.0<br/>
 <b>Table</b> : non<br/>
 <b>OSM</b> : +<br/>
 ]]>                
@@ -2120,7 +2120,7 @@
 <b>Orthostats</b> : oui<br/>
 <b>Table</b> : oui<br/>
 <b>OSM</b> : +<br/>
-<b>Pages Web</b> : <a href="Laglaire" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="http://www.lot-46.com/grealou-les-3-dolmens-du-pech-laglayre/" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -2141,7 +2141,7 @@
 <b>Orthostats</b> : oui<br/>
 <b>Table</b> : oui<br/>
 <b>OSM</b> : +<br/>
-<b>Pages Web</b> : <a href="Laglaire" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="http://www.lot-46.com/grealou-les-3-dolmens-du-pech-laglayre/" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -2181,7 +2181,7 @@
 <b>Orthostats</b> : 2<br/>
 <b>Table</b> : morceau<br/>
 <b>OSM</b> : +<br/>
-<b>Pages Web</b> : <a href="Laglaire" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="http://www.lot-46.com/grealou-les-3-dolmens-du-pech-laglayre/" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -2225,7 +2225,7 @@
             </Point>
         </Placemark>
         <Placemark id="feat_121">
-            <name>D. de Sénil </name>
+            <name>D. de Sénil</name>
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Gréalou" target="_blank">Gréalou</href><br/>
@@ -2289,8 +2289,8 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Grèzes" target="_blank">Grèzes</href><br/>
-<b>Lat. N (°)</b> : 44.625<br/>
-<b>Long. E (°)</b> : 1.814<br/>
+<b>Lat. N (°)</b> : 44.6250<br/>
+<b>Long. E (°)</b> : 1.8140<br/>
 <b>Classement</b> : classé MH<br/>
 <b>Tumulus</b> : non<br/>
 <b>Orthostats</b> : oui<br/>
@@ -2310,12 +2310,12 @@
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Grèzes" target="_blank">Grèzes</href><br/>
 <b>Lieu, autres noms</b> : D. des Ramades<br/>
-<b>Lat. N (°)</b> : 44.6169<br/>
-<b>Long. E (°)</b> : 1.8277<br/>
+<b>Lat. N (°)</b> : 44.61690<br/>
+<b>Long. E (°)</b> : 1.82770<br/>
 <b>Tumulus</b> : non<br/>
 <b>Orthostats</b> : oui<br/>
 <b>Table</b> : oui<br/>
-<b>Pages Web</b> : <a href="Clottes" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="http://www.persee.fr/doc/bspf_0249-7638_1963_num_60_7_3929" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -2330,7 +2330,7 @@
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Grèzes" target="_blank">Grèzes</href><br/>
 <b>Lieu, autres noms</b> : Ligoussou<br/>
-<b>Lat. N (°)</b> : 44.61<br/>
+<b>Lat. N (°)</b> : 44.61000<br/>
 <b>Long. E (°)</b> : 1.84883<br/>
 <b>Tumulus</b> : oui<br/>
 <b>OSM</b> : +<br/>
@@ -2349,7 +2349,7 @@
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Grèzes" target="_blank">Grèzes</href><br/>
 <b>Lieu, autres noms</b> : champ des Granges<br/>
 <b>Lat. N (°)</b> : 44.60994<br/>
-<b>Long. E (°)</b> : 1.8507<br/>
+<b>Long. E (°)</b> : 1.85070<br/>
 <b>Tumulus</b> : oui<br/>
 <b>Orthostats</b> : oui<br/>
 <b>Table</b> : oui<br/>
@@ -2368,8 +2368,8 @@
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Grèzes" target="_blank">Grèzes</href><br/>
 <b>Lieu, autres noms</b> : Ligoussou<br/>
-<b>Lat. N (°)</b> : 44.6099<br/>
-<b>Long. E (°)</b> : 1.8549<br/>
+<b>Lat. N (°)</b> : 44.60990<br/>
+<b>Long. E (°)</b> : 1.85490<br/>
 <b>Tumulus</b> : oui<br/>
 ]]>                
 
@@ -2384,8 +2384,8 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Grèzes" target="_blank">Grèzes</href><br/>
-<b>Lat. N (°)</b> : 44.60611111111111<br/>
-<b>Long. E (°)</b> : 1.8097222222222222<br/>
+<b>Lat. N (°)</b> : 44°36'22"<br/>
+<b>Long. E (°)</b> : 1°48'35"<br/>
 ]]>                
 
             </description>
@@ -2448,7 +2448,7 @@
 <b>Orthostats</b> : oui<br/>
 <b>Table</b> : oui<br/>
 <b>OSM</b> : +<br/>
-<b>Pages Web</b> : <a href="Gary" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="http://thierry.maillard.pagesperso-orange.fr/fr/services/issendolus/dolmen_des_combes/dolmen_des_combes.html" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -2463,12 +2463,12 @@
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Issendolus" target="_blank">Issendolus</href><br/>
 <b>Lieu, autres noms</b> : D. du Causse<br/>
-<b>Lat. N (°)</b> : 44.741<br/>
+<b>Lat. N (°)</b> : 44.74100<br/>
 <b>Long. E (°)</b> : 1.76125<br/>
 <b>Tumulus</b> : non<br/>
-<b>Orthostats</b> : 1<br/>
+<b>Orthostats</b> : 1.0<br/>
 <b>Table</b> : non<br/>
-<b>Pages Web</b> : <a href="Beaupendu" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="http://thierry.maillard.pagesperso-orange.fr/fr/services/issendolus/dolmen_du_causse/dolmen_du_Causse_Beaupendu.html" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -2482,12 +2482,12 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Issendolus" target="_blank">Issendolus</href><br/>
-<b>Lat. N (°)</b> : 44.741<br/>
+<b>Lat. N (°)</b> : 44.7410<br/>
 <b>Long. E (°)</b> : 1.7645<br/>
 <b>Tumulus</b> : non<br/>
 <b>Orthostats</b> : 1 au Sud<br/>
 <b>Table</b> : non<br/>
-<b>Pages Web</b> : <a href="Souilhol" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="http://thierry.maillard.pagesperso-orange.fr/fr/services/issendolus/dolmen_souilhol/dolmen_Souilhol.html" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -2772,7 +2772,7 @@
 <b>Tumulus</b> : non<br/>
 <b>Orthostats</b> : oui<br/>
 <b>Table</b> : oui<br/>
-<b>Pages Web</b> : <a href="joncas" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="https://www.lieux-insolites.fr/lot/joncas/joncas.htm" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -2786,8 +2786,8 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Limogne" target="_blank">Limogne</href><br/>
-<b>Lat. N (°)</b> : 44.38777777777778<br/>
-<b>Long. E (°)</b> : 1.78<br/>
+<b>Lat. N (°)</b> : 44°23'16"<br/>
+<b>Long. E (°)</b> : 1°46'48"<br/>
 <b>Classement</b> : classé MH<br/>
 <b>Tumulus</b> : non<br/>
 <b>Orthostats</b> : oui<br/>
@@ -2811,7 +2811,7 @@
 <b>Tumulus</b> : non<br/>
 <b>Orthostats</b> : oui<br/>
 <b>Table</b> : oui<br/>
-<b>Pages Web</b> : <a href="joncas" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="https://www.lieux-insolites.fr/lot/joncas/joncas.htm" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -2868,7 +2868,7 @@
 <b>Orthostats</b> : oui<br/>
 <b>Table</b> : oui<br/>
 <b>OSM</b> : +<br/>
-<b>Pages Web</b> : <a href="pierre-martine" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="http://www.lot-46.com/livernon-dolmen-de-la-pierre-martine/" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -2948,7 +2948,7 @@
 <b>Long. E (°)</b> : 1.85888<br/>
 <b>Classement</b> : classé MH<br/>
 <b>OSM</b> : +<br/>
-<b>Pages Web</b> : <a href="bélinac" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="https://www.lieux-insolites.fr/lot/belinac/belinac.htm" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -2985,7 +2985,7 @@
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
 <b>Lieu, autres noms</b> : Le Cun<br/>
 <b>Lat. N (°)</b> : 44.63433<br/>
-<b>Long. E (°)</b> : 1.8775<br/>
+<b>Long. E (°)</b> : 1.87750<br/>
 <b>Remarques</b> : Dans murette<br/>
 <b>Tumulus</b> : non<br/>
 <b>Orthostats</b> : 2<br/>
@@ -3060,8 +3060,8 @@
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Livernon" target="_blank">Livernon</href><br/>
 <b>Lieu, autres noms</b> : Pech Peyrou<br/>
-<b>Lat. N (°)</b> : 44.6211<br/>
-<b>Long. E (°)</b> : 1.8701<br/>
+<b>Lat. N (°)</b> : 44.62110<br/>
+<b>Long. E (°)</b> : 1.87010<br/>
 <b>Classement</b> : inscrit MH<br/>
 <b>Tumulus</b> : non<br/>
 <b>Orthostats</b> : oui<br/>
@@ -3250,7 +3250,7 @@
 <b>Long. E (°)</b> : 1.75537<br/>
 <b>Classement</b> : inscrit MH<br/>
 <b>OSM</b> : +<br/>
-<b>Pages Web</b> : <a href="Clottes" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="http://www.persee.fr/doc/bspf_0249-7638_1964_hos_61_2_3991" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -3286,7 +3286,7 @@
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac" target="_blank">Marcilhac</href><br/>
 <b>Lat. N (°)</b> : 44.54031<br/>
-<b>Long. E (°)</b> : 1.8145<br/>
+<b>Long. E (°)</b> : 1.81450<br/>
 <b>Classement</b> : inscrit MH<br/>
 <b>Remarques</b> : grand dolmen<br/>
 <b>Tumulus</b> : oui<br/>
@@ -3347,8 +3347,8 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Marcilhac" target="_blank">Marcilhac</href><br/>
-<b>Lat. N (°)</b> : 44.53666666666666<br/>
-<b>Long. E (°)</b> : 1.8130555555555556<br/>
+<b>Lat. N (°)</b> : 44°32'12"<br/>
+<b>Long. E (°)</b> : 1°48'47"<br/>
 <b>Tumulus</b> : non<br/>
 <b>Orthostats</b> : oui<br/>
 <b>Table</b> : oui<br/>
@@ -3422,8 +3422,8 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Miers" target="_blank">Miers</href><br/>
-<b>Lat. N (°)</b> : 44.87388888888889<br/>
-<b>Long. E (°)</b> : 1.672222222222222<br/>
+<b>Lat. N (°)</b> : 44°52'26"<br/>
+<b>Long. E (°)</b> : 1°40'20"<br/>
 ]]>                
 
             </description>
@@ -3562,7 +3562,7 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montbrun" target="_blank">Montbrun</href><br/>
-<b>Lat. N (°)</b> : 44.5226<br/>
+<b>Lat. N (°)</b> : 44.52260<br/>
 <b>Long. E (°)</b> : 1.90772<br/>
 <b>Tumulus</b> : non<br/>
 <b>Orthostats</b> : oui<br/>
@@ -3618,10 +3618,10 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Montbrun" target="_blank">Montbrun</href><br/>
-<b>Lat. N (°)</b> : 44.5139<br/>
+<b>Lat. N (°)</b> : 44.51390<br/>
 <b>Long. E (°)</b> : 1.89006<br/>
 <b>Tumulus</b> : oui<br/>
-<b>Orthostats</b> : 4<br/>
+<b>Orthostats</b> : 4.0<br/>
 <b>Table</b> : déplacée<br/>
 <b>OSM</b> : +<br/>
 ]]>                
@@ -3848,8 +3848,8 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Reyrevignes" target="_blank">Reyrevignes</href><br/>
-<b>Lat. N (°)</b> : 44.6543<br/>
-<b>Long. E (°)</b> : 1.9004<br/>
+<b>Lat. N (°)</b> : 44.65430<br/>
+<b>Long. E (°)</b> : 1.90040<br/>
 <b>Tumulus</b> : non<br/>
 <b>Orthostats</b> : oui<br/>
 <b>Table</b> : oui<br/>
@@ -3867,8 +3867,8 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Reyrevignes" target="_blank">Reyrevignes</href><br/>
-<b>Lat. N (°)</b> : 44.651<br/>
-<b>Long. E (°)</b> : 1.8958<br/>
+<b>Lat. N (°)</b> : 44.65100<br/>
+<b>Long. E (°)</b> : 1.89580<br/>
 <b>Tumulus</b> : non<br/>
 <b>Orthostats</b> : oui<br/>
 <b>Table</b> : oui<br/>
@@ -3907,8 +3907,8 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Rocamadour" target="_blank">Rocamadour</href><br/>
-<b>Lat. N (°)</b> : 44.848333333333336<br/>
-<b>Long. E (°)</b> : 1.6538888888888887<br/>
+<b>Lat. N (°)</b> : 44°50'54"<br/>
+<b>Long. E (°)</b> : 1°39'14"<br/>
 ]]>                
 
             </description>
@@ -3986,8 +3986,8 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Rocamadour" target="_blank">Rocamadour</href><br/>
-<b>Lat. N (°)</b> : 44.82805555555556<br/>
-<b>Long. E (°)</b> : 1.6263888888888889<br/>
+<b>Lat. N (°)</b> : 44°49'41"<br/>
+<b>Long. E (°)</b> : 1°37'35"<br/>
 ]]>                
 
             </description>
@@ -4001,8 +4001,8 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Rocamadour" target="_blank">Rocamadour</href><br/>
-<b>Lat. N (°)</b> : 44.79944444444444<br/>
-<b>Long. E (°)</b> : 1.6652777777777776<br/>
+<b>Lat. N (°)</b> : 44°47'58"<br/>
+<b>Long. E (°)</b> : 1°39'55"<br/>
 ]]>                
 
             </description>
@@ -4036,8 +4036,8 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint Chels" target="_blank">Saint Chels</href><br/>
-<b>Lat. N (°)</b> : 44.54735<br/>
-<b>Long. E (°)</b> : 1.81769<br/>
+<b>Lat. N (°)</b> : 44.547350<br/>
+<b>Long. E (°)</b> : 1.817690<br/>
 <b>Classement</b> : classé MH<br/>
 <b>Tumulus</b> : non<br/>
 <b>Table</b> : oui<br/>
@@ -4138,7 +4138,7 @@
 <b>Classement</b> : inscrit MH<br/>
 <b>Tumulus</b> : non<br/>
 <b>Table</b> : oui<br/>
-<b>Pages Web</b> : <a href="mas des pezet" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="http://www.lot-46.com/saint-chels-le-dolmen-du-mas-des-pezet/" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -4186,8 +4186,8 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Saint-Projet" target="_blank">Saint-Projet</href><br/>
-<b>Lat. N (°)</b> : 44.731944444444444<br/>
-<b>Long. E (°)</b> : 1.4986111111111111<br/>
+<b>Lat. N (°)</b> : 44°43'55"<br/>
+<b>Long. E (°)</b> : 1°29'55"<br/>
 ]]>                
 
             </description>
@@ -4356,7 +4356,7 @@
 <b>Tumulus</b> : oui<br/>
 <b>Table</b> : oui<br/>
 <b>OSM</b> : +<br/>
-<b>Pages Web</b> : <a href="Clottes" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="http://www.persee.fr/doc/galip_0016-4127_1966_num_9_2_1266" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -4373,7 +4373,7 @@
 <b>Lieu, autres noms</b> : D. des Places<br/>
 <b>Lat. N (°)</b> : 44.72146<br/>
 <b>Long. E (°)</b> : 1.84203<br/>
-<b>Pages Web</b> : <a href="niederlender" target="_blank">Infos WEB</href><br/>
+<b>Pages Web</b> : <a href="http://www.persee.fr/doc/bspf_0249-7638_1959_num_56_7_3597" target="_blank">Infos WEB</href><br/>
 ]]>                
 
             </description>
@@ -4387,7 +4387,7 @@
             <description>
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Théminettes" target="_blank">Théminettes</href><br/>
-<b>Lat. N (°)</b> : 44.7214<br/>
+<b>Lat. N (°)</b> : 44.72140<br/>
 <b>Long. E (°)</b> : 1.84096<br/>
 <b>Tumulus</b> : oui<br/>
 ]]>                
@@ -4404,7 +4404,7 @@
 <![CDATA[<h1>Informations</h1>
 <b>Commune</b> : <a href="https://fr.wikipedia.org/wiki/Théminettes" target="_blank">Théminettes</href><br/>
 <b>Lat. N (°)</b> : 44.72116<br/>
-<b>Long. E (°)</b> : 1.8417<br/>
+<b>Long. E (°)</b> : 1.84170<br/>
 <b>Tumulus</b> : oui<br/>
 ]]>                
 
